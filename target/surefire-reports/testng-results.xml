@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-02T15:37:49 IST" name="Valid Login Scenario" finished-at="2020-07-02T15:42:02 IST" duration-ms="252934">
+    <groups>
+    </groups>
+    <test started-at="2020-07-02T15:37:49 IST" name="Check login and logout successfully" finished-at="2020-07-02T15:42:02 IST" duration-ms="252934">
+      <class name="pages.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.LoginPageTest@12abdfb]" started-at="2020-07-02T15:37:13 IST" name="setUp" finished-at="2020-07-02T15:37:49 IST" duration-ms="36031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="waitForLoad()[pri:0, instance:pages.LoginPageTest@12abdfb]" started-at="2020-07-02T15:37:49 IST" name="waitForLoad" finished-at="2020-07-02T15:37:49 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForLoad -->
+        <test-method signature="signIn(java.util.Map)[pri:0, instance:pages.LoginPageTest@12abdfb]" started-at="2020-07-02T15:37:52 IST" name="signIn" data-provider="ValidLogin" finished-at="2020-07-02T15:37:56 IST" duration-ms="4104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, Message=, Password=Test12345, UserName=surekha.jadhav@ram.co.za}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method is-config="true" signature="tearBrowser()[pri:0, instance:pages.LoginPageTest@12abdfb]" started-at="2020-07-02T15:42:02 IST" name="tearBrowser" finished-at="2020-07-02T15:42:07 IST" duration-ms="4897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearBrowser -->
+      </class> <!-- pages.LoginPageTest -->
+      <class name="pages.TestPageConsinment">
+        <test-method is-config="true" signature="waitForLoad()[pri:0, instance:pages.TestPageConsinment@b0e5507]" started-at="2020-07-02T15:37:59 IST" name="waitForLoad" finished-at="2020-07-02T15:37:59 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForLoad -->
+        <test-method signature="clickOnConsignment()[pri:0, instance:pages.TestPageConsinment@b0e5507]" started-at="2020-07-02T15:37:59 IST" name="clickOnConsignment" finished-at="2020-07-02T15:38:18 IST" duration-ms="18709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnConsignment -->
+        <test-method signature="doStarted(java.util.Map)[pri:0, instance:pages.TestPageConsinment@b0e5507]" started-at="2020-07-02T15:38:21 IST" name="doStarted" data-provider="consignment" finished-at="2020-07-02T15:40:23 IST" duration-ms="121294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092125}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doStarted -->
+        <test-method signature="doStarted(java.util.Map)[pri:0, instance:pages.TestPageConsinment@b0e5507]" started-at="2020-07-02T15:40:23 IST" name="doStarted" data-provider="consignment" finished-at="2020-07-02T15:42:01 IST" duration-ms="98216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092135}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doStarted -->
+      </class> <!-- pages.TestPageConsinment -->
+    </test> <!-- Check login and logout successfully -->
+  </suite> <!-- Valid Login Scenario -->
+  <suite started-at="2020-07-02T15:42:12 IST" name="CCS Functional and Regression Testing" finished-at="2020-07-02T15:42:12 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- CCS Functional and Regression Testing -->
+</testng-results>

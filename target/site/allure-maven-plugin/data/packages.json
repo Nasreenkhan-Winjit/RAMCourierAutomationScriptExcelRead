@@ -1,0 +1,65 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "pages",
+    "children" : [ {
+      "name" : "LoginPageTest",
+      "children" : [ {
+        "name" : "signIn",
+        "uid" : "51dc8977354f65d",
+        "parentUid" : "15a3cee46dfdbedbef129c0f4df8f621",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593684472802,
+          "stop" : 1593684476759,
+          "duration" : 3957
+        },
+        "flaky" : false,
+        "parameters" : [ "{Status=, Message=, Password=Test12345, UserName=surekha.jadhav@ram.co.za}" ]
+      } ],
+      "uid" : "15a3cee46dfdbedbef129c0f4df8f621"
+    }, {
+      "name" : "TestPageConsinment",
+      "children" : [ {
+        "name" : "clickOnConsignment",
+        "uid" : "a56849c4dbb420e1",
+        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593684479951,
+          "stop" : 1593684498609,
+          "duration" : 18658
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "doStarted",
+        "uid" : "382c6c981c8d5cee",
+        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593684501785,
+          "stop" : 1593684623068,
+          "duration" : 121283
+        },
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092125}" ]
+      }, {
+        "name" : "doStarted",
+        "uid" : "d9d288399e1f61b5",
+        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593684623552,
+          "stop" : 1593684721764,
+          "duration" : 98212
+        },
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092135}" ]
+      } ],
+      "uid" : "ed2b2b17049a2e53f2ab69a8d84e55e0"
+    } ],
+    "uid" : "70caf6064fb3fc471be2b1abb3da28e1"
+  } ]
+}

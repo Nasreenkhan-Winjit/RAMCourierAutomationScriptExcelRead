@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","pages.TestPageConsinment.doStarted","98212",""
+"passed","pages.TestPageConsinment.clickOnConsignment","18658","Verify valid user are allowed to access"
+"passed","pages.LoginPageTest.signIn","3957","Verify valid user are allowed to access"
+"passed","pages.TestPageConsinment.doStarted","121283",""

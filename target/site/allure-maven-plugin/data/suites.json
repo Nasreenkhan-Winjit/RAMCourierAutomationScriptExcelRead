@@ -1,0 +1,69 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Valid Login Scenario",
+    "children" : [ {
+      "name" : "Check login and logout successfully",
+      "children" : [ {
+        "name" : "pages.LoginPageTest",
+        "children" : [ {
+          "name" : "signIn",
+          "uid" : "51dc8977354f65d",
+          "parentUid" : "f234588c9b3788bf4c30680f4f069d94",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593684472802,
+            "stop" : 1593684476759,
+            "duration" : 3957
+          },
+          "flaky" : false,
+          "parameters" : [ "{Status=, Message=, Password=Test12345, UserName=surekha.jadhav@ram.co.za}" ]
+        } ],
+        "uid" : "f234588c9b3788bf4c30680f4f069d94"
+      }, {
+        "name" : "pages.TestPageConsinment",
+        "children" : [ {
+          "name" : "clickOnConsignment",
+          "uid" : "a56849c4dbb420e1",
+          "parentUid" : "f8502666326e07f6f7e89a7db8e68f28",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593684479951,
+            "stop" : 1593684498609,
+            "duration" : 18658
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "doStarted",
+          "uid" : "382c6c981c8d5cee",
+          "parentUid" : "f8502666326e07f6f7e89a7db8e68f28",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593684501785,
+            "stop" : 1593684623068,
+            "duration" : 121283
+          },
+          "flaky" : false,
+          "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092125}" ]
+        }, {
+          "name" : "doStarted",
+          "uid" : "d9d288399e1f61b5",
+          "parentUid" : "f8502666326e07f6f7e89a7db8e68f28",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593684623552,
+            "stop" : 1593684721764,
+            "duration" : 98212
+          },
+          "flaky" : false,
+          "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092135}" ]
+        } ],
+        "uid" : "f8502666326e07f6f7e89a7db8e68f28"
+      } ],
+      "uid" : "f6bcb0d98f188bcfb354b39525a88164"
+    } ],
+    "uid" : "fe4d95c12e534531b8e7bd33717318fb"
+  } ]
+}

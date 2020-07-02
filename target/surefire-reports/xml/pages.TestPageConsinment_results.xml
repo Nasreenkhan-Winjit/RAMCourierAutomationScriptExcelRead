@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Check login and logout successfully"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="238.219">
+    <properties></properties>
+
+
+
+            <testcase
+                name="doStarted"
+                time="121.294"
+                classname="pages.TestPageConsinment">
+            </testcase>
+            <testcase
+                name="clickOnConsignment"
+                time="18.709"
+                classname="pages.TestPageConsinment">
+            </testcase>
+            <testcase
+                name="doStarted"
+                time="98.216"
+                classname="pages.TestPageConsinment">
+            </testcase>
+</testsuite>
