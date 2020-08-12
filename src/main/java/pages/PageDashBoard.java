@@ -13,14 +13,18 @@ import pages.commonmodule.Login;
 
 public class PageDashBoard extends BasePage{
 
-    @FindBy(how = How.XPATH, using = "//div[@class='navbar-right']")
+//    @FindBy(how = How.XPATH, using = "//div[@class='navbar-right']")
+//    //div[@class='navbar-right']//img
+    @FindBy(how = How.XPATH, using = "//div[@class='navbar-right']//img")
     private WebElement elementNavBar;
 
     @CacheLookup
     @FindBy(how = How.XPATH, using="//ul[contains(@class,'v-expansion-panel')]/li[5]")
     private WebElement elementAvailableAccordion;
 
-    @FindBy(how = How.XPATH,using = "//ul[contains(@class,'v-expansion-panel')]/li[5]/../..//label[normalize-space(text())='Consign']")
+    @CacheLookup
+    //@FindBy(how = How.XPATH,using = "//ul[contains(@class,'v-expansion-panel')]/li[5]/../..//label[normalize-space(text())='Consign']")
+    @FindBy(how = How.XPATH, using = "//ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]")
     private WebElement elementConsignAccordion;
 
     public PageDashBoard(WebDriver webDriver) {

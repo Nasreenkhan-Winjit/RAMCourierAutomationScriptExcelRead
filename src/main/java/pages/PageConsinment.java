@@ -113,11 +113,11 @@ public class PageConsinment extends BasePage {
     private WebElement elementbuttonEditContact;
 
     @CacheLookup
-    @FindBy(how = How.XPATH, using= "//div[contains(text(),'Save')]")
+    @FindBy(how = How.XPATH, using= "// button[@id='save_sendercontactaddedit']//div[contains(text(),'Save')]")
     private WebElement elementbuttonSAVE;
 
     @CacheLookup
-    @FindBy(how= How.XPATH, using = "//div[contains(text(),'Cancel')]")
+    @FindBy(how= How.XPATH, using = "// button[@id='Cancel_sendercontactaddedit']//div[contains(text(),'Cancel')]")
     private WebElement elementbuttonCancelEditContact;
 
     // Step third receiver
@@ -341,60 +341,63 @@ public class PageConsinment extends BasePage {
         elementbuttonNewContact.click();
     }
 
-
+    @Step("Click On button Cancel button")
     public void clickOnCancelButton(){
         webDriverWait.until(ExpectedConditions.visibilityOf(elementbuttonCancel));
         elementbuttonCancel.click();
 
 
     }
-
+    @Step("Click On button Edit Contact")
     public void clickOnbuttonEditContact(){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementbuttonEditContact));
         elementbuttonEditContact.click();
 
-        webDriverWait.until(ExpectedConditions.visibilityOf(elementbuttonSAVE));
-        elementbuttonSAVE.click();
+//        webDriverWait.until(ExpectedConditions.visibilityOf(elementbuttonSAVE));
+//        elementbuttonSAVE.click();
 
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementbuttonCancelEditContact));
         elementbuttonCancelEditContact.click();
     }
 
+    @Step("Click On Step Receiver")
     public void clickOnStepReciever() {
         webDriverWait.until(ExpectedConditions.visibilityOf(elementThirdStepReciever));
         elementThirdStepReciever.click();
         scrollToElement(elementThirdStepReciever);
     }
 
+    @Step("Click On button New Receiver")
     public void clickOnbuttonNewReceiver(){
         webDriverWait.until(ExpectedConditions.visibilityOf(elementbuttonNewReceiver));
         elementbuttonNewReceiver.click();
 
     }
-
+    @Step("Click On button Cancel on New Customer")
     public void clickonCancelbuttonNewCustomer(){
         webDriverWait.until(ExpectedConditions.visibilityOf(elementbuttonCancelNewReceiverDetails));
         elementbuttonCancelNewReceiverDetails.click();
 
     }
-
+    @Step("Enter text Receiver Name")
     public void entertxtRecieverName(String txt) {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementRecieverName));
         elementRecieverName.sendKeys(txt);
         elementRecieverName.click();
     }
-
+    @Step("Select Receiver Name from dropdown list")
     public void selectMenuRecieverName() {
         elementMenuRecieverName.click();
     }
 
+    @Step("Click On button New Contact on Receiver Contact ]")
     public void clickOnbuttonNewContactReceiverContact(){
 
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementbuttonNewContactReceiverContact));
         elementbuttonNewContactReceiverContact.click();
 
     }
-
+    @Step("Click On button Save New Contact")
     public void clickonSavebuttonNewContact(){
 
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementbuttonSaveNewConntact));
@@ -406,26 +409,31 @@ public class PageConsinment extends BasePage {
     }
 
 
-
+    @Step("Click On Stepper Step Value")
     public void clickOnStepValue() {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementStepValue));
         elementStepValue.click();
 
     }
-
+    @Step("Enter Text Step Value")
     public void entertxtStepValue(String txt) {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementtxtValueForCarriage));
         elementtxtValueForCarriage.sendKeys(txt);
     }
+
+    @Step("Check on Check box of Full Liability")
     public void clickOnCheckBox(){
 
         elementFullLiabilityCheckBox.click();
 
     }
+    @Step("Click on Stepper Requirment")
     public void clickOnStepRequirement(){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementRequirements));
         elementRequirements.click();
     }
+
+    @Step("Enter Text for Shipper Reference")
     public void entertxtShipperReference(String txt){
         webDriverWait.until(ExpectedConditions.visibilityOf(elementtxtShipperReference));
         elementtxtShipperReference.sendKeys(txt,Keys.ENTER);
@@ -433,12 +441,14 @@ public class PageConsinment extends BasePage {
         elementtxtShipperReference.sendKeys(txt);
     }
 
+    @Step("Click On button New Contact")
     public void clickOnDropdownProofOfDelivery(Keys tab) {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementProofOfDelivery));
         elementProofOfDelivery.click();
         webDriverWait.until(ExpectedConditions.visibilityOf(elemnetMenuProofOfDelivery));
         elemnetMenuProofOfDelivery.click();
     }
+    @Step("Select Standard Instruction type from dropdown")
     public void ClickonDropDownStandardInstructionType() {
 
         webDriverWait.until(ExpectedConditions.visibilityOf(elementStandardInstructionType));
@@ -446,6 +456,7 @@ public class PageConsinment extends BasePage {
         elementMenuStandardInstructionType.click();
     }
 
+    @Step("Check On NonDeliverableDays from list")
     public void clickonDropdownNonDeliverablesDays(Keys tab){
         webDriverWait.until(ExpectedConditions.visibilityOf(elementNonDeliverableDates));
         elementNonDeliverableDates.click();
@@ -465,6 +476,7 @@ public class PageConsinment extends BasePage {
         elementsecondStandardInstructionType5.click();
     }
 
+    @Step("Click On stepper Services")
     public void clickonstepServices(){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementStepServices));
         elementStepServices.click();
@@ -472,24 +484,28 @@ public class PageConsinment extends BasePage {
         elementButtonSelectSurcharge.click();
     }
 
+    @Step("Click On stepper Parcel")
     public void clickonStepParcel(){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementStepParcel));
         elementStepParcel.click();
 
     }
+
+    @Step("Enter text Number of parcel")
     public void entertxtNumberOfParcel(String txt ){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementNumberOfParcel));
         elementNumberOfParcel.sendKeys(txt, Keys.ENTER);
         //actions.sendKeys(Keys.TAB);
     }
 
-
+    @Step("Click on Security Pack")
     public void clickOnSecurityPack(String txt){
         webDriverWait.until(ExpectedConditions.visibilityOf(elementSecurityPack));
         elementSecurityPack.sendKeys(txt,Keys.TAB);
 
     }
 
+    @Step("Enter text weight ")
     public void entertxtweight(String txt){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementweight));
         elementweight.sendKeys(txt);
@@ -503,7 +519,7 @@ public class PageConsinment extends BasePage {
         elementMenuPackageType.click();
 
     }
-
+    @Step("Click On Finalise Button and close the POPUP")
     public  void clickOnFinaliseConsignment(){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementbuttonFinaliseConsignment));
         elementbuttonFinaliseConsignment.click();
@@ -522,7 +538,7 @@ public class PageConsinment extends BasePage {
         elementdeleteicon.click();
     }
 
-
+    @Step("Click On Commodity Select Jwellary")
     public void isCommoditySelected(){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCommodityText));
         elementCommodityText.click();
@@ -531,6 +547,7 @@ public class PageConsinment extends BasePage {
         elementMenuCommodity.click();
     }
 
+    @Step("Click On commodity select Document")
     public void clickoncommudity(){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementcommudity));
         elementcommudity.click();
@@ -538,12 +555,12 @@ public class PageConsinment extends BasePage {
         webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuCommudityDocument));
         elementMenuCommudityDocument.click();
     }
-
+    @Step("Click On Commudity Continue Popup")
     public void clickOnCommudityContinuePopup(){
         webDriverWait.until(ExpectedConditions.visibilityOf(elementPopCommudityContinue));
         elementPopCommudityContinue.click();
     }
-
+    @Step("Select Jwellary Commudity ")
     public void clickOnCommudityJwellery(){
         webDriverWait.until(ExpectedConditions.visibilityOf(elementCommudityJwelleryStep));
         elementCommudityJwelleryStep.click();

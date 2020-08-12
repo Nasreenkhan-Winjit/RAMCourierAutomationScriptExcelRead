@@ -9,14 +9,66 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Valid Login Scenario</th></tr>
-<tr><td><a href="#t0">Check login and logout successfully</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">252,934</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Check login and logout successfully</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">204,485</td><td></td><td></td></tr>
 <tr><th colspan="8">CCS Functional and Regression Testing</th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Valid Login Scenario</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Check login and logout successfully &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">pages.LoginPageTest</td><td><a href="#m0">signIn</a></td><td rowspan="1">1593684472642</td><td rowspan="1">4104</td></tr><tr class="passedodd"><td rowspan="3">pages.TestPageConsinment</td><td><a href="#m1">clickOnConsignment</a></td><td rowspan="1">1593684479899</td><td rowspan="1">18709</td></tr><tr class="passedodd"><td><a href="#m2">doStarted</a></td><td rowspan="2">1593684501773</td><td rowspan="2">121294</td></tr><tr class="passedodd"><td><a href="#m3">doStarted</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Valid Login Scenario</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Check login and logout successfully &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">pages.TestPageConsinment</td><td><a href="#m0">doStarted</a></td><td rowspan="2">1597231542624</td><td rowspan="2">128166</td></tr><tr class="failedeven"><td><a href="#m1">doStarted</a></td></tr><tr><th colspan="4">Check login and logout successfully &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">pages.LoginPageTest</td><td><a href="#m2">signIn</a></td><td rowspan="1">1597231509343</td><td rowspan="1">4164</td></tr><tr class="passedodd"><td rowspan="1">pages.TestPageConsinment</td><td><a href="#m3">clickOnConsignment</a></td><td rowspan="1">1597231516122</td><td rowspan="1">23454</td></tr></tbody>
 <tbody><tr><th colspan="4">CCS Functional and Regression Testing</th></tr></tbody></table>
-<h2>Check login and logout successfully</h2><h3 id="m0">pages.LoginPageTest#signIn</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Status=, Message=, Password=Test12345, UserName=surekha.jadhav@ram.co.za}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">pages.TestPageConsinment#clickOnConsignment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">pages.TestPageConsinment#doStarted</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092125}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">pages.TestPageConsinment#doStarted</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092135}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Check login and logout successfully</h2><h3 id="m0">pages.TestPageConsinment#doStarted</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092136}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator &apos;By.xpath: // button[@id=&apos;Cancel_sendercontactaddedit&apos;]//div[contains(text(),&apos;Cancel&apos;)]&apos; (tried for 40 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at pages.PageConsinment.clickOnbuttonEditContact(PageConsinment.java:359)
+	at pages.TestPageConsinment.doStarted(TestPageConsinment.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 40 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 35 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;// button[@id=&apos;Cancel_sendercontactaddedit&apos;]//div[contains(text(),&apos;Cancel&apos;)]&quot;}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;WJLP-1098&apos;, ip: &apos;192.168.65.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\nasreenk\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 93e9e2831dd076ae70f107116af8ac24
+*** Element info: {Using=xpath, value=// button[@id=&apos;Cancel_sendercontactaddedit&apos;]//div[contains(text(),&apos;Cancel&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy13.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
+	... 44 more
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">pages.TestPageConsinment#doStarted</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092137}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at pages.BasePage.convertWebElementToBy(BasePage.java:40)
+	at pages.commonmodule.Loader.waitForLoaderToDispose(Loader.java:27)
+	at pages.PageConsinment.enterTxtConsignmentID(PageConsinment.java:259)
+	at pages.TestPageConsinment.doStarted(TestPageConsinment.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">pages.LoginPageTest#signIn</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Status=, Message=, Password=Surekha@123, UserName=surekha.jadhav@ram.co.za}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">pages.TestPageConsinment#clickOnConsignment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

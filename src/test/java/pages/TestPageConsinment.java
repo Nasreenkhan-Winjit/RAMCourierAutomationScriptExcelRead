@@ -38,7 +38,7 @@ public class TestPageConsinment extends TestBase {
 //    public void doStarted() throws InterruptedException {
 
         pageConsignment = new PageConsinment(eventFiringWebDriver);
-
+//        Thread.sleep(8000);
         pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"),Keys.ENTER);
 //        pageConsignment.enterTxtConsignmentID("UAT92092901", Keys.ENTER);
 
@@ -84,7 +84,7 @@ public class TestPageConsinment extends TestBase {
         pageConsignment.clickOnStepReciever();
 
         pageConsignment.entertxtRecieverName(testDataSet.get("ReceiverName"));
-        pageConsignment.entertxtRecieverName("Surekh");
+//        pageConsignment.entertxtRecieverName("Surekh");
 
         pageConsignment.clickOnbuttonNewReceiver();
 
@@ -122,15 +122,16 @@ public class TestPageConsinment extends TestBase {
 //
 //        Thread.sleep(9000);
         pageConsignment.ClickonDropDownStandardInstructionType();
-//        Thread.sleep(5000);
+        Thread.sleep(5000);
 //
         pageConsignment.clickonDropdownNonDeliverablesDays(Keys.TAB);
-//        Thread.sleep(11000);
+       Thread.sleep(11000);
 //
 //        pageConsignment.clickOnAddAnotherInstruction();
 //       // Thread.sleep(8000);
 //
         pageConsignment.clickonstepServices();
+
         Thread.sleep(6000);
 
         pageConsignment.clickonStepParcel();

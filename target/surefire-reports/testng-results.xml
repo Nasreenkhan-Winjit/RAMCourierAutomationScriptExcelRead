@@ -1,71 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+<testng-results ignored="2" total="6" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-02T15:37:49 IST" name="Valid Login Scenario" finished-at="2020-07-02T15:42:02 IST" duration-ms="252934">
+  <suite started-at="2020-08-12T16:55:06 IST" name="Valid Login Scenario" finished-at="2020-08-12T16:58:31 IST" duration-ms="204485">
     <groups>
     </groups>
-    <test started-at="2020-07-02T15:37:49 IST" name="Check login and logout successfully" finished-at="2020-07-02T15:42:02 IST" duration-ms="252934">
+    <test started-at="2020-08-12T16:55:06 IST" name="Check login and logout successfully" finished-at="2020-08-12T16:58:31 IST" duration-ms="204485">
       <class name="pages.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.LoginPageTest@12abdfb]" started-at="2020-07-02T15:37:13 IST" name="setUp" finished-at="2020-07-02T15:37:49 IST" duration-ms="36031" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.LoginPageTest@3c46dcbe]" started-at="2020-08-12T16:54:27 IST" name="setUp" finished-at="2020-08-12T16:55:06 IST" duration-ms="39444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="waitForLoad()[pri:0, instance:pages.LoginPageTest@12abdfb]" started-at="2020-07-02T15:37:49 IST" name="waitForLoad" finished-at="2020-07-02T15:37:49 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="waitForLoad()[pri:0, instance:pages.LoginPageTest@3c46dcbe]" started-at="2020-08-12T16:55:06 IST" name="waitForLoad" finished-at="2020-08-12T16:55:06 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitForLoad -->
-        <test-method signature="signIn(java.util.Map)[pri:0, instance:pages.LoginPageTest@12abdfb]" started-at="2020-07-02T15:37:52 IST" name="signIn" data-provider="ValidLogin" finished-at="2020-07-02T15:37:56 IST" duration-ms="4104" status="PASS">
+        <test-method signature="signIn(java.util.Map)[pri:0, instance:pages.LoginPageTest@3c46dcbe]" started-at="2020-08-12T16:55:09 IST" name="signIn" data-provider="ValidLogin" finished-at="2020-08-12T16:55:13 IST" duration-ms="4164" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Status=, Message=, Password=Test12345, UserName=surekha.jadhav@ram.co.za}]]>
+                <![CDATA[{Status=, Message=, Password=Surekha@123, UserName=surekha.jadhav@ram.co.za}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method is-config="true" signature="tearBrowser()[pri:0, instance:pages.LoginPageTest@12abdfb]" started-at="2020-07-02T15:42:02 IST" name="tearBrowser" finished-at="2020-07-02T15:42:07 IST" duration-ms="4897" status="PASS">
+        <test-method is-config="true" signature="tearBrowser()[pri:0, instance:pages.LoginPageTest@3c46dcbe]" started-at="2020-08-12T16:58:31 IST" name="tearBrowser" finished-at="2020-08-12T16:58:35 IST" duration-ms="4774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearBrowser -->
       </class> <!-- pages.LoginPageTest -->
       <class name="pages.TestPageConsinment">
-        <test-method is-config="true" signature="waitForLoad()[pri:0, instance:pages.TestPageConsinment@b0e5507]" started-at="2020-07-02T15:37:59 IST" name="waitForLoad" finished-at="2020-07-02T15:37:59 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="waitForLoad()[pri:0, instance:pages.TestPageConsinment@68577ba8]" started-at="2020-08-12T16:55:16 IST" name="waitForLoad" finished-at="2020-08-12T16:55:16 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waitForLoad -->
-        <test-method signature="clickOnConsignment()[pri:0, instance:pages.TestPageConsinment@b0e5507]" started-at="2020-07-02T15:37:59 IST" name="clickOnConsignment" finished-at="2020-07-02T15:38:18 IST" duration-ms="18709" status="PASS">
+        <test-method signature="clickOnConsignment()[pri:0, instance:pages.TestPageConsinment@68577ba8]" started-at="2020-08-12T16:55:16 IST" name="clickOnConsignment" finished-at="2020-08-12T16:55:39 IST" duration-ms="23454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnConsignment -->
-        <test-method signature="doStarted(java.util.Map)[pri:0, instance:pages.TestPageConsinment@b0e5507]" started-at="2020-07-02T15:38:21 IST" name="doStarted" data-provider="consignment" finished-at="2020-07-02T15:40:23 IST" duration-ms="121294" status="PASS">
+        <test-method signature="doStarted(java.util.Map)[pri:0, instance:pages.TestPageConsinment@68577ba8]" started-at="2020-08-12T16:55:42 IST" name="doStarted" data-provider="consignment" finished-at="2020-08-12T16:57:50 IST" duration-ms="128166" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092125}]]>
+                <![CDATA[{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092136}]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: // button[@id='Cancel_sendercontactaddedit']//div[contains(text(),'Cancel')]' (tried for 40 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: // button[@id='Cancel_sendercontactaddedit']//div[contains(text(),'Cancel')]' (tried for 40 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.PageConsinment.clickOnbuttonEditContact(PageConsinment.java:359)
+at pages.TestPageConsinment.doStarted(TestPageConsinment.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1182)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 40 seconds. Unable to locate the element
+at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 35 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"// button[@id='Cancel_sendercontactaddedit']//div[contains(text(),'Cancel')]"}
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\nasreenk\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 93e9e2831dd076ae70f107116af8ac24
+*** Element info: {Using=xpath, value=// button[@id='Cancel_sendercontactaddedit']//div[contains(text(),'Cancel')]}
+at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy13.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
+at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
+at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
+at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
+... 44 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doStarted -->
-        <test-method signature="doStarted(java.util.Map)[pri:0, instance:pages.TestPageConsinment@b0e5507]" started-at="2020-07-02T15:40:23 IST" name="doStarted" data-provider="consignment" finished-at="2020-07-02T15:42:01 IST" duration-ms="98216" status="PASS">
+        <test-method signature="doStarted(java.util.Map)[pri:0, instance:pages.TestPageConsinment@68577ba8]" started-at="2020-08-12T16:57:50 IST" name="doStarted" data-provider="consignment" finished-at="2020-08-12T16:58:30 IST" duration-ms="40115" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092135}]]>
+                <![CDATA[{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092137}]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index 1 out of bounds for length 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+at pages.BasePage.convertWebElementToBy(BasePage.java:40)
+at pages.commonmodule.Loader.waitForLoaderToDispose(Loader.java:27)
+at pages.PageConsinment.enterTxtConsignmentID(PageConsinment.java:259)
+at pages.TestPageConsinment.doStarted(TestPageConsinment.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1182)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doStarted -->
       </class> <!-- pages.TestPageConsinment -->
     </test> <!-- Check login and logout successfully -->
   </suite> <!-- Valid Login Scenario -->
-  <suite started-at="2020-07-02T15:42:12 IST" name="CCS Functional and Regression Testing" finished-at="2020-07-02T15:42:12 IST" duration-ms="0">
+  <suite started-at="2020-08-12T16:58:38 IST" name="CCS Functional and Regression Testing" finished-at="2020-08-12T16:58:38 IST" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- CCS Functional and Regression Testing -->

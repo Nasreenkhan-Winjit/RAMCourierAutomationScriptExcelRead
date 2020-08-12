@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.104">
+           time="4.164">
     <properties></properties>
 
 
 
             <testcase
                 name="signIn"
-                time="4.104"
+                time="4.164"
                 classname="pages.LoginPageTest">
             </testcase>
 </testsuite>

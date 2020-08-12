@@ -7,6 +7,7 @@ pages\PageConsinment.class
 browsers\browserType\FirefoxBrowser.class
 browsers\EnumBrowserType.class
 common\GenericFunction.class
+pages\PageCosignFunctionalityTest.class
 pages\commonmodule\Loader.class
 browsers\DriverManagerWeb.class
 browsers\browserType\ChromeBrowser.class
