@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "207a60230cf8869c",
+      "uid" : "a92b5ac9f759e667",
       "status" : "passed",
       "time" : {
         "start" : 1598446455035,
@@ -28,7 +28,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ea93625c6fc8aa3a",
+      "uid" : "2b14647090056154",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)",
       "time" : {
@@ -48,7 +48,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9ccf2c0bc70265e2",
+      "uid" : "28344ae2bbbadf80",
       "status" : "broken",
       "statusDetails" : "Index 1 out of bounds for length 1",
       "time" : {
@@ -61,19 +61,20 @@
   "8110b7a3f924c22bbc1b35239d71460e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "129dbbb584ab08b3",
-      "status" : "passed",
+      "uid" : "ec355c8d66823473",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=84.0.4147.135)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 7754ce4e7ad84936a1637584f5409325\n*** Element info: {Using=xpath, value=//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]}",
       "time" : {
-        "start" : 1598511421756,
-        "stop" : 1598511548857,
-        "duration" : 127101
+        "start" : 1598611536916,
+        "stop" : 1598611584299,
+        "duration" : 47383
       }
     } ]
   },
@@ -87,13 +88,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f51d069824bc3555",
+      "uid" : "a9d4c18eb36264cd",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: // button[@id='save_sendercontactaddedit']//div[contains(text(),'Save')]' (tried for 40 second(s) with 500 milliseconds interval)",
       "time" : {
         "start" : 1597225686541,
         "stop" : 1597225835827,
         "duration" : 149286
+      }
+    } ]
+  },
+  "572c810c3a22115f8a6e5b237e944ac3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de4f6d332cc36b32",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=84.0.4147.135)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 7754ce4e7ad84936a1637584f5409325\n*** Element info: {Using=xpath, value=//div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]}",
+      "time" : {
+        "start" : 1598611584318,
+        "stop" : 1598611596575,
+        "duration" : 12257
       }
     } ]
   },
@@ -107,7 +128,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7e0880afa2f9cdef",
+      "uid" : "2d8b9ee8d491a3a",
       "status" : "passed",
       "time" : {
         "start" : 1598503507755,
@@ -126,7 +147,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fca8ac6bc2b7d8ce",
+      "uid" : "7f100a166db84b0e",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: //div[@class='v-dialog v-dialog--active']//div[@class='v-btn__content'][contains(text(),'Close')]' (tried for 40 second(s) with 500 milliseconds interval)",
       "time" : {
@@ -146,7 +167,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8c37819bf9301da5",
+      "uid" : "8496395fe9a55d54",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@1b317e7d (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 795d5ac0f097fbe248756c0b2e736de0",
       "time" : {
@@ -166,7 +187,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bda544c33556f1a3",
+      "uid" : "b91f76f7b569e0af",
       "status" : "skipped",
       "statusDetails" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@1b317e7d (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 795d5ac0f097fbe248756c0b2e736de0",
       "time" : {
@@ -186,12 +207,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6d40fe26bffe4211",
+      "uid" : "a3b92af629cd9405",
       "status" : "passed",
       "time" : {
-        "start" : 1598511396508,
-        "stop" : 1598511421311,
-        "duration" : 24803
+        "start" : 1598611511712,
+        "stop" : 1598611536313,
+        "duration" : 24601
       }
     } ]
   },
@@ -205,7 +226,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d860b700118527c6",
+      "uid" : "5261c2fb4611cfa4",
       "status" : "broken",
       "statusDetails" : "Timed out after 40 seconds. Unable to locate the element",
       "time" : {
@@ -225,12 +246,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "14beafe2fdf4c7d9",
+      "uid" : "58a1cd38dbc1be3d",
       "status" : "passed",
       "time" : {
-        "start" : 1598511390533,
-        "stop" : 1598511395759,
-        "duration" : 5226
+        "start" : 1598611505437,
+        "stop" : 1598611510734,
+        "duration" : 5297
       }
     } ]
   },
@@ -244,7 +265,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8a21a64d8c05511e",
+      "uid" : "80b9659f9fc38e19",
       "status" : "skipped",
       "statusDetails" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@1b317e7d (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 795d5ac0f097fbe248756c0b2e736de0",
       "time" : {

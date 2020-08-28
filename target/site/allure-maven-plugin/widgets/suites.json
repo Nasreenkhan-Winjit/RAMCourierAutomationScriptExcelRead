@@ -5,11 +5,11 @@
     "name" : "Valid Login Scenario",
     "statistic" : {
       "failed" : 0,
-      "broken" : 6,
+      "broken" : 8,
       "skipped" : 2,
-      "passed" : 5,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     }
   } ]
 }
