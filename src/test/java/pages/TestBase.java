@@ -28,7 +28,7 @@ public class TestBase {
     protected static EventFiringWebDriver eventFiringWebDriver;
     protected WebEventListener eventListener;
     private boolean IS_BROWSER_OPENED = false;
-    private ReadProperties readProperties = new ReadProperties();
+    protected ReadProperties readProperties = new ReadProperties(System.getProperty("user.dir")+"\\project.properties");
 
     private void openBrowser(){
         IS_BROWSER_OPENED = true;

@@ -33,8 +33,9 @@ public class PageConsinment extends BasePage {
 //    @FindBy(how=How.XPATH, using = "//div[@class='toast toast-error animated zoomInUp']")
 //    private WebElement elementToasterAlreadycosigned;
 
-    @CacheLookup
-    @FindBy(how = How.XPATH, using = "//input[@id='BilledTo']")
+//    @FindBy(how = How.XPATH, using = "//input[@id='BilledTo']")
+    @FindBy(how = How.CSS, using = "#BilledTo")
+//    @FindBy(how = How.ID, using = "BilledTo")
     private WebElement elementtxtBilledTo;
 
     @CacheLookup
@@ -264,9 +265,9 @@ public class PageConsinment extends BasePage {
 
 
     public void enterTxtBilledTo(String txt) {
-        loader.waitForLoaderToDispose();
+//        loader.waitForLoaderToDispose();
 //        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementtxtBilledTo));
-        elementtxtBilledTo.click();
+//        elementtxtBilledTo.click();
         elementtxtBilledTo.sendKeys(txt);
         elementtxtBilledTo.click();
     }

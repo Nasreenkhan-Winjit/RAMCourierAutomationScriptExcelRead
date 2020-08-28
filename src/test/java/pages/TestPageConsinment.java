@@ -4,6 +4,7 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 import pages.commonmodule.Loader;
 
@@ -20,7 +21,8 @@ public class TestPageConsinment extends TestBase {
 
     @Test
     public void clickOnConsignment() throws InterruptedException {
-        Thread.sleep(6000);
+        Thread.sleep(20000);
+//     loader.waitForLoaderToDispose();
         pageDashBoard = new PageDashBoard(eventFiringWebDriver);
         pageDashBoard.clickOnNavBar();
         pageDashBoard.clickOnConsignViaAccordion();
@@ -40,12 +42,11 @@ public class TestPageConsinment extends TestBase {
         pageConsignment = new PageConsinment(eventFiringWebDriver);
 //        Thread.sleep(8000);
         pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"),Keys.ENTER);
-//        pageConsignment.enterTxtConsignmentID("UAT92092901", Keys.ENTER);
-
+//        pageConsignment.enterTxtConsignmentID("UAT92095901", Keys.ENTER);
+                Thread.sleep(8000);
         pageConsignment.enterTxtBilledTo(testDataSet.get("BilledTo"));
 //        pageConsignment.enterTxtBilledTo("CELW01");
         pageConsignment.selectMenuBilledTo();
-
 
         pageConsignment.isCommoditySelected();
         pageConsignment.clickoncommudity();

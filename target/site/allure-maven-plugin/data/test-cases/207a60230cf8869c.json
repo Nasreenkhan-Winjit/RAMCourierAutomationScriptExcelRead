@@ -1,0 +1,794 @@
+{
+  "uid" : "207a60230cf8869c",
+  "name" : "doStarted",
+  "fullName" : "pages.TestPageConsinment.doStarted",
+  "historyId" : "8a7bc92de956dba794e564c9cf022b9d",
+  "time" : {
+    "start" : 1598446455035,
+    "stop" : 1598446571973,
+    "duration" : 116938
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1598446429041,
+      "stop" : 1598446429042,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1598446378043,
+      "stop" : 1598446418288,
+      "duration" : 40245
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter txt consignment : \"UAT42092141\"",
+      "time" : {
+        "start" : 1598446455141,
+        "stop" : 1598446463336,
+        "duration" : 8195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "UAT42092141"
+      }, {
+        "name" : "keys",
+        "value" : ""
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Commodity Select Jwellary",
+      "time" : {
+        "start" : 1598446477087,
+        "stop" : 1598446481858,
+        "duration" : 4771
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On commodity select Document",
+      "time" : {
+        "start" : 1598446481859,
+        "stop" : 1598446482600,
+        "duration" : 741
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Commudity Continue Popup",
+      "time" : {
+        "start" : 1598446482601,
+        "stop" : 1598446483086,
+        "duration" : 485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Select Jwellary Commudity ",
+      "time" : {
+        "start" : 1598446488086,
+        "stop" : 1598446489474,
+        "duration" : 1388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Second Stepper",
+      "time" : {
+        "start" : 1598446494474,
+        "stop" : 1598446494759,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Validate Reset Button",
+      "time" : {
+        "start" : 1598446496759,
+        "stop" : 1598446497117,
+        "duration" : 358
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Sender Name",
+      "time" : {
+        "start" : 1598446497118,
+        "stop" : 1598446497665,
+        "duration" : 547
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Cell"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Select from Menu Sender Name ",
+      "time" : {
+        "start" : 1598446497665,
+        "stop" : 1598446498802,
+        "duration" : 1137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On button New Contact",
+      "time" : {
+        "start" : 1598446498803,
+        "stop" : 1598446504559,
+        "duration" : 5756
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On button Cancel button",
+      "time" : {
+        "start" : 1598446504559,
+        "stop" : 1598446504988,
+        "duration" : 429
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On button Edit Contact",
+      "time" : {
+        "start" : 1598446504988,
+        "stop" : 1598446508789,
+        "duration" : 3801
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Step Receiver",
+      "time" : {
+        "start" : 1598446508790,
+        "stop" : 1598446509108,
+        "duration" : 318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter text Receiver Name",
+      "time" : {
+        "start" : 1598446509108,
+        "stop" : 1598446510134,
+        "duration" : 1026
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "S"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On button New Receiver",
+      "time" : {
+        "start" : 1598446510134,
+        "stop" : 1598446510626,
+        "duration" : 492
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On button Cancel on New Customer",
+      "time" : {
+        "start" : 1598446510627,
+        "stop" : 1598446511055,
+        "duration" : 428
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter text Receiver Name",
+      "time" : {
+        "start" : 1598446511055,
+        "stop" : 1598446511648,
+        "duration" : 593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Surekha"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Select Receiver Name from dropdown list",
+      "time" : {
+        "start" : 1598446511648,
+        "stop" : 1598446514296,
+        "duration" : 2648
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On button New Contact on Receiver Contact ]",
+      "time" : {
+        "start" : 1598446514297,
+        "stop" : 1598446515978,
+        "duration" : 1681
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On button Save New Contact",
+      "time" : {
+        "start" : 1598446519979,
+        "stop" : 1598446520475,
+        "duration" : 496
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Stepper Step Value",
+      "time" : {
+        "start" : 1598446523475,
+        "stop" : 1598446523674,
+        "duration" : 199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Text Step Value",
+      "time" : {
+        "start" : 1598446523675,
+        "stop" : 1598446524724,
+        "duration" : 1049
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "123"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Check on Check box of Full Liability",
+      "time" : {
+        "start" : 1598446524724,
+        "stop" : 1598446524889,
+        "duration" : 165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Stepper Requirment",
+      "time" : {
+        "start" : 1598446524889,
+        "stop" : 1598446525170,
+        "duration" : 281
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Text for Shipper Reference",
+      "time" : {
+        "start" : 1598446525171,
+        "stop" : 1598446526488,
+        "duration" : 1317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "aaaaaa"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Text for Shipper Reference",
+      "time" : {
+        "start" : 1598446526489,
+        "stop" : 1598446527031,
+        "duration" : 542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "qqqqqqq"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On button New Contact",
+      "time" : {
+        "start" : 1598446527032,
+        "stop" : 1598446527508,
+        "duration" : 476
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tab",
+        "value" : ""
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Select Standard Instruction type from dropdown",
+      "time" : {
+        "start" : 1598446527508,
+        "stop" : 1598446527973,
+        "duration" : 465
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Check On NonDeliverableDays from list",
+      "time" : {
+        "start" : 1598446532973,
+        "stop" : 1598446533426,
+        "duration" : 453
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tab",
+        "value" : ""
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On stepper Services",
+      "time" : {
+        "start" : 1598446544427,
+        "stop" : 1598446546160,
+        "duration" : 1733
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On stepper Parcel",
+      "time" : {
+        "start" : 1598446552160,
+        "stop" : 1598446552443,
+        "duration" : 283
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter text Number of parcel",
+      "time" : {
+        "start" : 1598446552444,
+        "stop" : 1598446553755,
+        "duration" : 1311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "1"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Security Pack",
+      "time" : {
+        "start" : 1598446561756,
+        "stop" : 1598446562902,
+        "duration" : 1146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "SP12345678"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter text weight ",
+      "time" : {
+        "start" : 1598446562903,
+        "stop" : 1598446563521,
+        "duration" : 618
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "0.1"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Finalise Button and close the POPUP",
+      "time" : {
+        "start" : 1598446563522,
+        "stop" : 1598446571951,
+        "duration" : 8429
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 35,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1598446573213,
+      "stop" : 1598446578108,
+      "duration" : 4895
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "testMethod",
+    "value" : "doStarted"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Valid Login Scenario"
+  }, {
+    "name" : "suite",
+    "value" : "Check login and logout successfully"
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1098"
+  }, {
+    "name" : "thread",
+    "value" : "16480@WJLP-1098.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092141}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9bc28c9d5e495a5a",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598445949492,
+        "stop" : 1598446037762,
+        "duration" : 88270
+      }
+    }, {
+      "uid" : "15cd9ecd18233bd7",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598445398189,
+        "stop" : 1598445460922,
+        "duration" : 62733
+      }
+    }, {
+      "uid" : "4a7e5f9aadd0f3e7",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598444517237,
+        "stop" : 1598444606086,
+        "duration" : 88849
+      }
+    }, {
+      "uid" : "e72e6ab61564a386",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598441956512,
+        "stop" : 1598442038346,
+        "duration" : 81834
+      }
+    }, {
+      "uid" : "b0e2bab9c2a0b950",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1598441490718,
+        "stop" : 1598441530446,
+        "duration" : 39728
+      }
+    }, {
+      "uid" : "1b862c0b0b43624f",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598441230443,
+        "stop" : 1598441310425,
+        "duration" : 79982
+      }
+    }, {
+      "uid" : "a817417aff1f4f32",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598441011964,
+        "stop" : 1598441092917,
+        "duration" : 80953
+      }
+    }, {
+      "uid" : "c9419983e1c241f1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1598440752523,
+        "stop" : 1598440791101,
+        "duration" : 38578
+      }
+    }, {
+      "uid" : "290688e3f93c0cee",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598440454048,
+        "stop" : 1598440531206,
+        "duration" : 77158
+      }
+    }, {
+      "uid" : "cad7781caf32fde9",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598440145958,
+        "stop" : 1598440223930,
+        "duration" : 77972
+      }
+    }, {
+      "uid" : "b6e38cfdfb8d6e78",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598439904262,
+        "stop" : 1598439994216,
+        "duration" : 89954
+      }
+    }, {
+      "uid" : "2f931347620bc01",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598439386276,
+        "stop" : 1598439473952,
+        "duration" : 87676
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "207a60230cf8869c.json",
+  "parameterValues" : [ "{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092141}" ]
+}

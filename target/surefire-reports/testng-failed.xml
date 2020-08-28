@@ -9,8 +9,9 @@
       <class name="pages.TestPageConsinment">
         <methods>
           <include name="setUp"/>
+          <include name="clickOnConsignment"/>
           <include name="tearBrowser"/>
-          <include name="doStarted" invocation-numbers="0 1"/>
+          <include name="doStarted" invocation-numbers="0"/>
           <include name="waitForLoad"/>
         </methods>
       </class> <!-- pages.TestPageConsinment -->

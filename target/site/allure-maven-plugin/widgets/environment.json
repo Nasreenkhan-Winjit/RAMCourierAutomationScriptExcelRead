@@ -2,7 +2,7 @@
   "values" : [ "Windows 10 64 bit" ],
   "name" : "Platform"
 }, {
-  "values" : [ "84.0.4147.105" ],
+  "values" : [ "84.0.4147.135" ],
   "name" : "Browser\\u0020Version"
 }, {
   "values" : [ "opt" ],

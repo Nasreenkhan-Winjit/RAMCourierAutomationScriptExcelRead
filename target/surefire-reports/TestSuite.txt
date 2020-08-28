@@ -1,25 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 256.624 s <<< FAILURE! - in TestSuite
-pages.TestPageConsinment.doStarted  Time elapsed: 128.221 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: // button[@id='Cancel_sendercontactaddedit']//div[contains(text(),'Cancel')]' (tried for 40 second(s) with 500 milliseconds interval)
-	at pages.TestPageConsinment.doStarted(TestPageConsinment.java:79)
-Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 40 seconds. Unable to locate the element
-	at pages.TestPageConsinment.doStarted(TestPageConsinment.java:79)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"// button[@id='Cancel_sendercontactaddedit']//div[contains(text(),'Cancel')]"}
-  (Session info: chrome=84.0.4147.105)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\nasreenk\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 93e9e2831dd076ae70f107116af8ac24
-*** Element info: {Using=xpath, value=// button[@id='Cancel_sendercontactaddedit']//div[contains(text(),'Cancel')]}
-	at pages.TestPageConsinment.doStarted(TestPageConsinment.java:79)
-
-pages.TestPageConsinment.doStarted  Time elapsed: 40.132 s  <<< FAILURE!
-java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-	at pages.TestPageConsinment.doStarted(TestPageConsinment.java:42)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 242.581 s - in TestSuite

@@ -63,5 +63,18 @@ public class ReadProperties {
             keyValueslist = props.getProperty(key).trim().toLowerCase();
         }
         return new ArrayList<>(Arrays.asList(keyValueslist.split(",")));
+
     }
-}
+    public ReadProperties(String filePath) {
+        try {
+            FileInputStream inputStream = new FileInputStream(filePath);
+            props = new Properties();
+            props.load(inputStream);
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
+            ioException.getCause();
+            ioException.getMessage();
+        }
+
+
+    }}

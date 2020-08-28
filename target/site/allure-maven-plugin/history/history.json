@@ -1,4 +1,43 @@
 {
+  "8a7bc92de956dba794e564c9cf022b9d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "207a60230cf8869c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598446455035,
+        "stop" : 1598446571973,
+        "duration" : 116938
+      }
+    } ]
+  },
+  "1df5ca7b5470cc3dc73054c2194a8238" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea93625c6fc8aa3a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1598250193184,
+        "stop" : 1598250239635,
+        "duration" : 46451
+      }
+    } ]
+  },
   "8d9fd7f4554d673480a27f9adf13b66e" : {
     "statistic" : {
       "failed" : 0,
@@ -9,13 +48,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1b1a175a5b07c336",
+      "uid" : "9ccf2c0bc70265e2",
       "status" : "broken",
       "statusDetails" : "Index 1 out of bounds for length 1",
       "time" : {
-        "start" : 1597231670879,
-        "stop" : 1597231711008,
-        "duration" : 40129
+        "start" : 1597992028807,
+        "stop" : 1597992068935,
+        "duration" : 40128
+      }
+    } ]
+  },
+  "8110b7a3f924c22bbc1b35239d71460e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "129dbbb584ab08b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598511421756,
+        "stop" : 1598511548857,
+        "duration" : 127101
       }
     } ]
   },
@@ -29,7 +87,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "56301a0b00cc1ce2",
+      "uid" : "f51d069824bc3555",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: // button[@id='save_sendercontactaddedit']//div[contains(text(),'Save')]' (tried for 40 second(s) with 500 milliseconds interval)",
       "time" : {
@@ -39,7 +97,7 @@
       }
     } ]
   },
-  "ad90d920d26119b2c7f84369133d7a0a" : {
+  "31f77fdb0769ce385f90ec999dd6fffb" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -49,51 +107,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4f71447e3d4a2afd",
+      "uid" : "7e0880afa2f9cdef",
       "status" : "passed",
       "time" : {
-        "start" : 1597231516316,
-        "stop" : 1597231542004,
-        "duration" : 25688
-      }
-    } ]
-  },
-  "d9aa179fceceeff6d2788fa90d42b12e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9c7d1b041c0911f2",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: // button[@id='Cancel_sendercontactaddedit']//div[contains(text(),'Cancel')]' (tried for 40 second(s) with 500 milliseconds interval)",
-      "time" : {
-        "start" : 1597231542650,
-        "stop" : 1597231670854,
-        "duration" : 128204
-      }
-    } ]
-  },
-  "262f3e553b4864853a3934f98cdbb988" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f77575a6822da6ec",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597231509537,
-        "stop" : 1597231515647,
-        "duration" : 6110
+        "start" : 1598503507755,
+        "stop" : 1598503633236,
+        "duration" : 125481
       }
     } ]
   },
@@ -107,13 +126,131 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "186dbfc4f324354a",
+      "uid" : "fca8ac6bc2b7d8ce",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: //div[@class='v-dialog v-dialog--active']//div[@class='v-btn__content'][contains(text(),'Close')]' (tried for 40 second(s) with 500 milliseconds interval)",
       "time" : {
         "start" : 1597224717096,
         "stop" : 1597224913014,
         "duration" : 195918
+      }
+    } ]
+  },
+  "49f2bb86174c871707c30bde9ee5a3bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c37819bf9301da5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@1b317e7d (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 795d5ac0f097fbe248756c0b2e736de0",
+      "time" : {
+        "start" : 1598448224910,
+        "stop" : 1598448224919,
+        "duration" : 9
+      }
+    } ]
+  },
+  "9da3b2783e58f1943e1e9f8362a5effb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bda544c33556f1a3",
+      "status" : "skipped",
+      "statusDetails" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@1b317e7d (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 795d5ac0f097fbe248756c0b2e736de0",
+      "time" : {
+        "start" : 1598448228821,
+        "stop" : 1598448228830,
+        "duration" : 9
+      }
+    } ]
+  },
+  "ad90d920d26119b2c7f84369133d7a0a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d40fe26bffe4211",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598511396508,
+        "stop" : 1598511421311,
+        "duration" : 24803
+      }
+    } ]
+  },
+  "d9aa179fceceeff6d2788fa90d42b12e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d860b700118527c6",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 40 seconds. Unable to locate the element",
+      "time" : {
+        "start" : 1597991984809,
+        "stop" : 1597992028790,
+        "duration" : 43981
+      }
+    } ]
+  },
+  "262f3e553b4864853a3934f98cdbb988" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14beafe2fdf4c7d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598511390533,
+        "stop" : 1598511395759,
+        "duration" : 5226
+      }
+    } ]
+  },
+  "775e0fabc15113bd852a999b5874b987" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a21a64d8c05511e",
+      "status" : "skipped",
+      "statusDetails" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@1b317e7d (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 795d5ac0f097fbe248756c0b2e736de0",
+      "time" : {
+        "start" : 1598448229360,
+        "stop" : 1598448229362,
+        "duration" : 2
       }
     } ]
   }

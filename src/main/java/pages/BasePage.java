@@ -22,9 +22,9 @@ public class BasePage {
 
     protected BasePage(WebDriver webDriver) {
         this.driver = webDriver;
-        webDriverWait = new WebDriverWait(driver, 40);
+        webDriverWait = new WebDriverWait(driver, 60);
         actions = new Actions(webDriver);
-        PageFactory.initElements(new AjaxElementLocatorFactory(driver, 40), this);
+        PageFactory.initElements(new AjaxElementLocatorFactory(driver, 60), this);
     }
 
     @Step("Enter webelement {0} value {0}")

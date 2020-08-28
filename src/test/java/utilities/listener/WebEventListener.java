@@ -6,6 +6,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 import pages.TestBase;
 import utilities.common.ScreenShots;
+import utilities.filereading.files.properties.ReadProperties;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -88,14 +89,19 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 
     @Override
     public void afterFindBy(By by, WebElement element, WebDriver driver) {
-        try {
-            JavascriptExecutor js = (JavascriptExecutor) eventFiringWebDriver;
-            js.executeScript("arguments[0].setAttribute('style','outline: dashed 2px red;');", element);
-            if (element.getAttribute("style") != null) {
-                Thread.sleep(200);
+
+
+
+        if (readProperties.getPropertyValue("HIGHLIGHT_ELEMENT").equalsIgnoreCase("true")){
+            try {
+                JavascriptExecutor js = eventFiringWebDriver;
+                js.executeScript("arguments[0].setAttribute('style','outline: dashed 2px red;');", element);
+                if (element.getAttribute("style") != null) {
+                    Thread.sleep(200);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        } catch (Exception e) {
-            e.printStackTrace();
         }
         logger.info("Element Found and highlighted: " + element.toString());
     }

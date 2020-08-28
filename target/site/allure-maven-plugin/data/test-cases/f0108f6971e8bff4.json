@@ -1,0 +1,234 @@
+{
+  "uid" : "f0108f6971e8bff4",
+  "name" : "signIn",
+  "fullName" : "pages.LoginPageTest.signIn",
+  "historyId" : "262f3e553b4864853a3934f98cdbb988",
+  "time" : {
+    "start" : 1598248464641,
+    "stop" : 1598248466961,
+    "duration" : 2320
+  },
+  "description" : "Verify valid user are allowed to access",
+  "descriptionHtml" : "<p>Verify valid user are allowed to access</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1598248461851,
+      "stop" : 1598248461851,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1598248398841,
+      "stop" : 1598248461802,
+      "duration" : 62961
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify valid user are allowed to access",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter UserName: \"surekha.jadhav@ram.co.za\"",
+      "time" : {
+        "start" : 1598248464775,
+        "stop" : 1598248465707,
+        "duration" : 932
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter webelement [[[[ChromeDriver: chrome on WINDOWS (0bd82efc21297d6b12d5c34e196dcac2)] -> xpath: //form[1]]] -> xpath: //child::input[@type='email' or @type='text']] value [[[[ChromeDriver: chrome on WINDOWS (0bd82efc21297d6b12d5c34e196dcac2)] -> xpath: //form[1]]] -> xpath: //child::input[@type='email' or @type='text']]",
+        "time" : {
+          "start" : 1598248464911,
+          "stop" : 1598248465707,
+          "duration" : 796
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "webElement",
+          "value" : "[[[[ChromeDriver: chrome on WINDOWS (0bd82efc21297d6b12d5c34e196dcac2)] -> xpath: //form[1]]] -> xpath: //child::input[@type='email' or @type='text']]"
+        }, {
+          "name" : "inputTxt",
+          "value" : "surekha.jadhav@ram.co.za"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userName",
+        "value" : "surekha.jadhav@ram.co.za"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click Login button",
+      "time" : {
+        "start" : 1598248465708,
+        "stop" : 1598248465882,
+        "duration" : 174
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Password: \"Surekha@123\"",
+      "time" : {
+        "start" : 1598248465883,
+        "stop" : 1598248466830,
+        "duration" : 947
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter webelement [[[[ChromeDriver: chrome on WINDOWS (0bd82efc21297d6b12d5c34e196dcac2)] -> xpath: //form[1]]] -> xpath: //child::input[@type='password']] value [[[[ChromeDriver: chrome on WINDOWS (0bd82efc21297d6b12d5c34e196dcac2)] -> xpath: //form[1]]] -> xpath: //child::input[@type='password']]",
+        "time" : {
+          "start" : 1598248466027,
+          "stop" : 1598248466830,
+          "duration" : 803
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "webElement",
+          "value" : "[[[[ChromeDriver: chrome on WINDOWS (0bd82efc21297d6b12d5c34e196dcac2)] -> xpath: //form[1]]] -> xpath: //child::input[@type='password']]"
+        }, {
+          "name" : "inputTxt",
+          "value" : "Surekha@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "Surekha@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click Login button",
+      "time" : {
+        "start" : 1598248466831,
+        "stop" : 1598248466943,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1598248565603,
+      "stop" : 1598248570161,
+      "duration" : 4558
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "signIn"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Valid Login Scenario"
+  }, {
+    "name" : "suite",
+    "value" : "Check login and logout successfully"
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.LoginPageTest"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1098"
+  }, {
+    "name" : "thread",
+    "value" : "12872@WJLP-1098.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Status=, Message=, Password=Surekha@123, UserName=surekha.jadhav@ram.co.za}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0108f6971e8bff4.json",
+  "parameterValues" : [ "{Status=, Message=, Password=Surekha@123, UserName=surekha.jadhav@ram.co.za}" ]
+}
