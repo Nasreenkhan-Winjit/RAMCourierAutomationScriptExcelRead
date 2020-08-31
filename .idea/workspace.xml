@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b918235-46b0-4872-abd2-0e65a336e031" name="Default Changelist" comment="POM path changed">
+    <list default="true" id="6b918235-46b0-4872-abd2-0e65a336e031" name="Default Changelist" comment="POM path changed to new to old">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageDashBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageDashBoard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598862266563</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="POM path changed to new to old">
+      <created>1598862937805</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598862937805</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +225,8 @@
     <MESSAGE value="Handled spinner and Billet To" />
     <MESSAGE value="Handled spinner and Billet To updated ID" />
     <MESSAGE value="POM path changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="POM path changed" />
+    <MESSAGE value="POM path changed to new to old" />
+    <option name="LAST_COMMIT_MESSAGE" value="POM path changed to new to old" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598004838083">
@@ -303,11 +311,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="315" y="199" key="SignInWindow/0.0.1280.680@0.0.1280.680" timestamp="1592318464099" />
-    <state x="249" y="80" key="Vcs.Push.Dialog.v2" timestamp="1598862289563">
+    <state x="249" y="80" key="Vcs.Push.Dialog.v2" timestamp="1598863026194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1592364734452" />
-    <state x="249" y="80" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598862289563" />
+    <state x="249" y="80" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598863026194" />
     <state x="374" y="265" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597316596912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
