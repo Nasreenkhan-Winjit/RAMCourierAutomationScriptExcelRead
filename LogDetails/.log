@@ -1,328 +1,287 @@
-2020-08-28/16:13:58.926  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
-2020-08-28/16:13:59.020  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
-2020-08-28/16:14:14.135  INFO: wdm.WebDriverManager - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
-2020-08-28/16:14:14.333  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe
-2020-08-28/16:14:33.180  INFO: listener.WebEventListener - Before Navigated to URL: data:,
-2020-08-28/16:14:34.048  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
-2020-08-28/16:15:05.726  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
-2020-08-28/16:15:05.820  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //form[1]]
-2020-08-28/16:15:05.838  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
-2020-08-28/16:15:05.893  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //form[1]]
-2020-08-28/16:15:06.157  INFO: listener.WebEventListener - Default Value :
-2020-08-28/16:15:06.415  INFO: listener.WebEventListener - Entered Value :
-2020-08-28/16:15:06.512  INFO: listener.WebEventListener - Default Value :
-2020-08-28/16:15:06.980  INFO: listener.WebEventListener - Entered Value :surekha.jadhav@ram.co.za
-2020-08-28/16:15:06.986  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
-2020-08-28/16:15:07.005  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //form[1]]
-2020-08-28/16:15:07.006  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
-2020-08-28/16:15:07.044  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //form[1]]
-2020-08-28/16:15:07.068  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
-2020-08-28/16:15:07.250  INFO: listener.WebEventListener - after click on
-2020-08-28/16:15:07.253  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
-2020-08-28/16:15:07.289  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //form[1]]
-2020-08-28/16:15:07.290  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
-2020-08-28/16:15:07.331  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //form[1]]
-2020-08-28/16:15:07.546  INFO: listener.WebEventListener - Default Value :
-2020-08-28/16:15:07.739  INFO: listener.WebEventListener - Entered Value :
-2020-08-28/16:15:07.851  INFO: listener.WebEventListener - Default Value :
-2020-08-28/16:15:08.125  INFO: listener.WebEventListener - Entered Value :Surekha@123
-2020-08-28/16:15:08.128  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
-2020-08-28/16:15:08.147  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //form[1]]
-2020-08-28/16:15:08.152  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
-2020-08-28/16:15:08.184  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //form[1]]
-2020-08-28/16:15:08.199  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
-2020-08-28/16:15:08.274  INFO: listener.WebEventListener - after click on
-2020-08-28/16:15:31.730  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
-2020-08-28/16:15:31.767  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='flex xs1 md1']]
-2020-08-28/16:15:32.006  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='flex xs1 md1']]
-2020-08-28/16:15:32.264  INFO: listener.WebEventListener - after click on
-2020-08-28/16:15:32.265  INFO: listener.WebEventListener - Before Finding element: By.xpath: /html/body/div[1]/div[43]/div/div/div[2]/div/ul/li[5]/div[1]/div[1]
-2020-08-28/16:15:32.315  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: /html/body/div[1]/div[43]/div/div/div[2]/div/ul/li[5]/div[1]/div[1]]
-2020-08-28/16:15:32.938  INFO: listener.WebEventListener - beforeClickOn xpath: /html/body/div[1]/div[43]/div/div/div[2]/div/ul/li[5]/div[1]/div[1]]
-2020-08-28/16:15:33.170  INFO: listener.WebEventListener - after click on
-2020-08-28/16:15:33.171  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]
-2020-08-28/16:15:33.247  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]]
-2020-08-28/16:15:33.911  INFO: listener.WebEventListener - After Switch to Window
-2020-08-28/16:15:36.984  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:37.041  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:37.350  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:37.627  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:37.908  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:38.181  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:38.449  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:38.717  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:38.983  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:39.261  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:39.530  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:39.805  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:40.071  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:40.338  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:40.607  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:40.917  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:41.186  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:41.571  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:41.836  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:42.107  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:42.373  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:42.639  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:42.911  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:43.178  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:43.448  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:43.712  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:43.978  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:44.245  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:44.512  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:44.785  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:45.051  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:45.316  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:45.637  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:45.908  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:46.173  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:46.438  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:48.697  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:49.801  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:49.822  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:49.881  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:50.429  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:50.674  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:50.758  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:50.805  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:50.809  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:50.850  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:51.409  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:51.477  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:52.199  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:52.293  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:53.215  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:53.487  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:54.103  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:54.120  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ConsignmentID']
-2020-08-28/16:15:54.146  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //input[@id='ConsignmentID']]
-2020-08-28/16:15:54.205  INFO: listener.WebEventListener - Default Value :
-2020-08-28/16:15:55.116  INFO: listener.WebEventListener - Entered Value :UAT42092142
-2020-08-28/16:16:03.118  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
-2020-08-28/16:16:03.140  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> css selector: #BilledTo]
-2020-08-28/16:16:03.193  INFO: listener.WebEventListener - Default Value :
-2020-08-28/16:16:03.532  INFO: listener.WebEventListener - Entered Value :
-2020-08-28/16:16:03.532  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
-2020-08-28/16:16:03.560  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> css selector: #BilledTo]
-2020-08-28/16:16:03.561  INFO: listener.WebEventListener - beforeClickOn css selector: #BilledTo]
-2020-08-28/16:16:03.691  INFO: listener.WebEventListener - after click on
-2020-08-28/16:16:03.692  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:03.734  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:04.010  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:04.280  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:04.550  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:04.826  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:05.158  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:05.428  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:05.695  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:05.971  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:06.246  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:06.518  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:06.788  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:07.057  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:07.326  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:07.596  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:07.872  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:08.142  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:08.418  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:08.743  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:09.016  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:09.294  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:09.570  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:09.840  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:10.124  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:10.407  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:10.677  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:10.946  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:11.231  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:11.501  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:24.325  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:18:45.636  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
-2020-08-28/16:18:45.667  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
-2020-08-28/16:18:47.664  INFO: wdm.WebDriverManager - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
-2020-08-28/16:18:47.771  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe
-2020-08-28/16:18:56.617  INFO: listener.WebEventListener - Before Navigated to URL: data:,
-2020-08-28/16:18:57.222  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
-2020-08-28/16:19:25.270  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
-2020-08-28/16:19:25.350  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //form[1]]
-2020-08-28/16:19:25.369  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
-2020-08-28/16:19:25.412  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //form[1]]
-2020-08-28/16:19:25.557  INFO: listener.WebEventListener - Default Value :
-2020-08-28/16:19:25.743  INFO: listener.WebEventListener - Entered Value :
-2020-08-28/16:19:25.852  INFO: listener.WebEventListener - Default Value :
-2020-08-28/16:19:26.252  INFO: listener.WebEventListener - Entered Value :surekha.jadhav@ram.co.za
-2020-08-28/16:19:26.259  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
-2020-08-28/16:19:26.278  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //form[1]]
-2020-08-28/16:19:26.279  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
-2020-08-28/16:19:26.317  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //form[1]]
-2020-08-28/16:19:26.339  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
-2020-08-28/16:19:26.496  INFO: listener.WebEventListener - after click on
-2020-08-28/16:19:26.498  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
-2020-08-28/16:19:26.557  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //form[1]]
-2020-08-28/16:19:26.558  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
-2020-08-28/16:19:26.648  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //form[1]]
-2020-08-28/16:19:27.028  INFO: listener.WebEventListener - Default Value :
-2020-08-28/16:19:27.272  INFO: listener.WebEventListener - Entered Value :
-2020-08-28/16:19:27.400  INFO: listener.WebEventListener - Default Value :
-2020-08-28/16:19:27.733  INFO: listener.WebEventListener - Entered Value :Surekha@123
-2020-08-28/16:19:27.736  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
-2020-08-28/16:19:27.764  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //form[1]]
-2020-08-28/16:19:27.765  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
-2020-08-28/16:19:27.785  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //form[1]]
-2020-08-28/16:19:27.806  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
-2020-08-28/16:19:27.908  INFO: listener.WebEventListener - after click on
-2020-08-28/16:19:28.620 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
-2020-08-28/16:19:30.830 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
-2020-08-28/16:19:51.163  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
-2020-08-28/16:19:51.206  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='flex xs1 md1']]
-2020-08-28/16:19:51.447  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='flex xs1 md1']]
-2020-08-28/16:19:51.683  INFO: listener.WebEventListener - after click on
-2020-08-28/16:19:51.683  INFO: listener.WebEventListener - Before Finding element: By.xpath: /html/body/div[1]/div[43]/div/div/div[2]/div/ul/li[5]/div[1]/div[1]
-2020-08-28/16:19:51.719  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: /html/body/div[1]/div[43]/div/div/div[2]/div/ul/li[5]/div[1]/div[1]]
-2020-08-28/16:19:52.363  INFO: listener.WebEventListener - beforeClickOn xpath: /html/body/div[1]/div[43]/div/div/div[2]/div/ul/li[5]/div[1]/div[1]]
-2020-08-28/16:19:52.690  INFO: listener.WebEventListener - after click on
-2020-08-28/16:19:52.691  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]
-2020-08-28/16:19:52.798  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]]
-2020-08-28/16:19:53.730  INFO: listener.WebEventListener - After Switch to Window
-2020-08-28/16:19:53.743 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
-2020-08-28/16:19:56.202 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
-2020-08-28/16:19:57.574  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:19:57.660  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:19:57.958  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:19:58.227  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:19:58.507  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:19:58.774  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:19:59.044  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:19:59.316  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:19:59.587  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:19:59.860  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:00.130  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:00.399  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:00.666  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:00.938  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:01.206  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:01.475  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:01.751  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:02.031  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:02.302  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:02.568  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:02.835  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:03.104  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:03.372  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:03.641  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:03.910  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:04.176  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:04.448  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:04.731  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:05.025  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:05.298  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:05.569  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:05.842  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:06.109  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:06.379  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:06.716  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:06.986  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:07.268  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:07.537  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:07.806  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:08.090  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:08.368  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:08.645  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:08.919  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:09.190  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:09.455  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:11.757  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:12.161  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:13.130  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:20:13.163  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:13.230  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:20:14.293  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:14.327  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:20:14.407  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:14.459  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:20:14.463  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:14.746  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:20:16.066  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:17.142  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:20:17.726  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:17.755  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:20:18.361  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:18.697  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:20:19.250  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:20:19.270  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ConsignmentID']
-2020-08-28/16:20:19.303  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //input[@id='ConsignmentID']]
-2020-08-28/16:20:19.382  INFO: listener.WebEventListener - Default Value :
-2020-08-28/16:20:20.401  INFO: listener.WebEventListener - Entered Value :UAT42092143
-2020-08-28/16:20:28.402  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
-2020-08-28/16:20:28.430  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> css selector: #BilledTo]
-2020-08-28/16:20:28.487  INFO: listener.WebEventListener - Default Value :
-2020-08-28/16:20:28.727  INFO: listener.WebEventListener - Entered Value :CELW01
-2020-08-28/16:20:28.728  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
-2020-08-28/16:20:28.746  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> css selector: #BilledTo]
-2020-08-28/16:20:28.747  INFO: listener.WebEventListener - beforeClickOn css selector: #BilledTo]
-2020-08-28/16:20:28.882  INFO: listener.WebEventListener - after click on
-2020-08-28/16:20:28.883  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:20:28.923  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:20:29.200  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:20:29.474  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:20:29.768  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:20:30.066  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:20:30.343  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:20:30.622  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:20:30.895  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:20:31.170  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:20:31.189  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
-2020-08-28/16:20:31.248  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
-2020-08-28/16:20:31.486  INFO: listener.WebEventListener - after click on
-2020-08-28/16:20:31.487  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:31.544  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:31.821  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:32.157  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:32.433  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:32.701  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:32.983  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:33.520  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:33.831  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:34.107  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:34.377  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:34.647  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:34.918  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:35.186  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:35.458  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:35.731  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
-2020-08-28/16:20:36.282  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //label[text()='Commodity']/parent::*/div[1]/div]
-2020-08-28/16:20:36.421  INFO: listener.WebEventListener - beforeClickOn xpath: //label[text()='Commodity']/parent::*/div[1]/div]
-2020-08-28/16:20:36.624  INFO: listener.WebEventListener - after click on
-2020-08-28/16:20:36.625  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem' and @class='primary--text']
-2020-08-28/16:20:36.730  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem' and @class='primary--text']
-2020-08-28/16:20:37.095  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem' and @class='primary--text']
-2020-08-28/16:20:37.395  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem' and @class='primary--text']
-2020-08-28/16:20:37.415  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem' and @class='primary--text']]
-2020-08-28/16:20:37.459  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem' and @class='primary--text']]
-2020-08-28/16:20:37.561  INFO: listener.WebEventListener - after click on
-2020-08-28/16:20:37.562  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-select__selections']/div[contains(text(),'Cellular Equipment')]
-2020-08-28/16:20:37.636  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='v-select__selections']/div[contains(text(),'Cellular Equipment')]]
-2020-08-28/16:20:37.752  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-select__selections']/div[contains(text(),'Cellular Equipment')]]
-2020-08-28/16:20:37.888  INFO: listener.WebEventListener - after click on
-2020-08-28/16:20:37.889  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-list__tile__content']/div[contains(text(),'Documentation')]
-2020-08-28/16:20:37.931  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='v-list__tile__content']/div[contains(text(),'Documentation')]]
-2020-08-28/16:20:38.536  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-list__tile__content']/div[contains(text(),'Documentation')]]
-2020-08-28/16:20:38.802  INFO: listener.WebEventListener - after click on
-2020-08-28/16:20:38.804  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CommodityContinue']
-2020-08-28/16:20:38.849  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //button[@id='CommodityContinue']]
-2020-08-28/16:20:38.947  INFO: listener.WebEventListener - beforeClickOn xpath: //button[@id='CommodityContinue']]
-2020-08-28/16:20:39.443  INFO: listener.WebEventListener - after click on
-2020-08-28/16:20:44.444  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-select__selections']/div[contains(text(),'Documentation')]
-2020-08-28/16:20:44.474  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='v-select__selections']/div[contains(text(),'Documentation')]]
-2020-08-28/16:20:44.524  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-select__selections']/div[contains(text(),'Documentation')]]
-2020-08-28/16:20:44.610  INFO: listener.WebEventListener - after click on
-2020-08-28/16:20:44.610  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-list__tile__content']/div[contains(text(),'Jewellery')]
-2020-08-28/16:20:44.675  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //div[@class='v-list__tile__content']/div[contains(text(),'Jewellery')]]
-2020-08-28/16:20:45.261  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-list__tile__content']/div[contains(text(),'Jewellery')]]
-2020-08-28/16:20:45.512  INFO: listener.WebEventListener - after click on
-2020-08-28/16:20:45.513  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@class='v-btn v-btn--outline v-btn--depressed theme--light primary--text']/div[contains(text(),'Continue')]
-2020-08-28/16:20:45.566  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (0b776065235e3857e35af2ac5fbba391)] -> xpath: //button[@class='v-btn v-btn--outline v-btn--depressed theme--light primary--text']/div[contains(text(),'Continue')]]
-2020-08-28/16:20:45.641  INFO: listener.WebEventListener - beforeClickOn xpath: //button[@class='v-btn v-btn--outline v-btn--depressed theme--light primary--text']/div[contains(text(),'Continue')]]
-2020-08-28/16:20:46.109  INFO: listener.WebEventListener - after click on
+2020-08-31/12:45:55.739  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-31/12:45:55.774  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2020-08-31/12:45:59.314  INFO: wdm.WebDriverManager - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-31/12:45:59.485  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-08-31/12:46:14.294  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2020-08-31/12:46:14.939  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
+2020-08-31/12:48:10.833  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-31/12:48:10.850  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2020-08-31/12:48:11.825  INFO: wdm.WebDriverManager - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-31/12:48:11.923  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-08-31/12:48:18.669  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2020-08-31/12:48:19.291  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
+2020-08-31/12:49:04.517  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:49:04.629  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (211b7403459f3b4b0e1491116b4f2cad)] -> xpath: //form[1]]
+2020-08-31/12:49:04.642  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2020-08-31/12:49:04.730  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (211b7403459f3b4b0e1491116b4f2cad)] -> xpath: //form[1]]
+2020-08-31/12:49:04.927  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:49:05.108  INFO: listener.WebEventListener - Entered Value :
+2020-08-31/12:49:05.180  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:49:05.620  INFO: listener.WebEventListener - Entered Value :surekha.jadhav@ram.co.za
+2020-08-31/12:49:05.624  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:49:05.640  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (211b7403459f3b4b0e1491116b4f2cad)] -> xpath: //form[1]]
+2020-08-31/12:49:05.641  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2020-08-31/12:49:05.666  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (211b7403459f3b4b0e1491116b4f2cad)] -> xpath: //form[1]]
+2020-08-31/12:49:05.678  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2020-08-31/12:49:05.824  INFO: listener.WebEventListener - after click on
+2020-08-31/12:49:05.827  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:49:05.862  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (211b7403459f3b4b0e1491116b4f2cad)] -> xpath: //form[1]]
+2020-08-31/12:49:05.863  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2020-08-31/12:49:05.940  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (211b7403459f3b4b0e1491116b4f2cad)] -> xpath: //form[1]]
+2020-08-31/12:49:06.073  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:49:06.301  INFO: listener.WebEventListener - Entered Value :
+2020-08-31/12:49:06.406  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:49:06.695  INFO: listener.WebEventListener - Entered Value :Surekha@123
+2020-08-31/12:49:06.697  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:49:06.728  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (211b7403459f3b4b0e1491116b4f2cad)] -> xpath: //form[1]]
+2020-08-31/12:49:06.729  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2020-08-31/12:49:06.755  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (211b7403459f3b4b0e1491116b4f2cad)] -> xpath: //form[1]]
+2020-08-31/12:49:06.771  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2020-08-31/12:49:06.848  INFO: listener.WebEventListener - after click on
+2020-08-31/12:50:49.967  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-31/12:50:50.010  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2020-08-31/12:50:50.951  INFO: wdm.WebDriverManager - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-31/12:50:51.023  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-08-31/12:50:57.570  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2020-08-31/12:50:58.173  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
+2020-08-31/12:51:45.649  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:51:45.701  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (63fc04cbc9a6fed1816c674fa93a27bc)] -> xpath: //form[1]]
+2020-08-31/12:51:45.716  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2020-08-31/12:51:45.748  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (63fc04cbc9a6fed1816c674fa93a27bc)] -> xpath: //form[1]]
+2020-08-31/12:51:45.875  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:51:46.052  INFO: listener.WebEventListener - Entered Value :
+2020-08-31/12:51:46.136  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:51:46.447  INFO: listener.WebEventListener - Entered Value :surekha.jadhav@ram.co.za
+2020-08-31/12:51:46.451  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:51:46.467  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (63fc04cbc9a6fed1816c674fa93a27bc)] -> xpath: //form[1]]
+2020-08-31/12:51:46.468  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2020-08-31/12:51:46.492  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (63fc04cbc9a6fed1816c674fa93a27bc)] -> xpath: //form[1]]
+2020-08-31/12:51:46.508  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2020-08-31/12:51:46.593  INFO: listener.WebEventListener - after click on
+2020-08-31/12:51:46.595  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:51:46.617  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (63fc04cbc9a6fed1816c674fa93a27bc)] -> xpath: //form[1]]
+2020-08-31/12:51:46.617  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2020-08-31/12:51:46.660  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (63fc04cbc9a6fed1816c674fa93a27bc)] -> xpath: //form[1]]
+2020-08-31/12:51:46.846  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:51:47.005  INFO: listener.WebEventListener - Entered Value :
+2020-08-31/12:51:47.074  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:51:47.283  INFO: listener.WebEventListener - Entered Value :Surekha@123
+2020-08-31/12:51:47.286  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:51:47.305  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (63fc04cbc9a6fed1816c674fa93a27bc)] -> xpath: //form[1]]
+2020-08-31/12:51:47.306  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2020-08-31/12:51:47.323  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (63fc04cbc9a6fed1816c674fa93a27bc)] -> xpath: //form[1]]
+2020-08-31/12:51:47.335  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2020-08-31/12:51:47.418  INFO: listener.WebEventListener - after click on
+2020-08-31/12:53:25.951  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-31/12:53:25.973  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2020-08-31/12:53:27.106  INFO: wdm.WebDriverManager - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-31/12:53:27.232  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-08-31/12:53:33.723  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2020-08-31/12:53:35.176  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
+2020-08-31/12:54:34.928  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:54:34.957  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //form[1]]
+2020-08-31/12:54:34.971  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2020-08-31/12:54:35.013  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //form[1]]
+2020-08-31/12:54:35.169  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:54:35.318  INFO: listener.WebEventListener - Entered Value :
+2020-08-31/12:54:35.392  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:54:35.704  INFO: listener.WebEventListener - Entered Value :surekha.jadhav@ram.co.za
+2020-08-31/12:54:35.709  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:54:35.724  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //form[1]]
+2020-08-31/12:54:35.725  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2020-08-31/12:54:35.750  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //form[1]]
+2020-08-31/12:54:35.763  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2020-08-31/12:54:35.849  INFO: listener.WebEventListener - after click on
+2020-08-31/12:54:35.851  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:54:35.878  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //form[1]]
+2020-08-31/12:54:35.879  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2020-08-31/12:54:35.921  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //form[1]]
+2020-08-31/12:54:36.067  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:54:36.193  INFO: listener.WebEventListener - Entered Value :
+2020-08-31/12:54:36.262  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:54:36.472  INFO: listener.WebEventListener - Entered Value :Surekha@123
+2020-08-31/12:54:36.475  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:54:36.492  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //form[1]]
+2020-08-31/12:54:36.493  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2020-08-31/12:54:36.511  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //form[1]]
+2020-08-31/12:54:36.536  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2020-08-31/12:54:36.612  INFO: listener.WebEventListener - after click on
+2020-08-31/12:54:37.320 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2020-08-31/12:54:38.846 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2020-08-31/12:54:59.078  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2020-08-31/12:54:59.113  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //div[@class='flex xs1 md1']]
+2020-08-31/12:54:59.469  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='flex xs1 md1']]
+2020-08-31/12:54:59.717  INFO: listener.WebEventListener - after click on
+2020-08-31/12:54:59.718  INFO: listener.WebEventListener - Before Finding element: By.xpath: /html/body/div[1]/div[43]/div/div/div[2]/div/ul/li[5]/div[1]/div[1]
+2020-08-31/12:54:59.761  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: /html/body/div[1]/div[43]/div/div/div[2]/div/ul/li[5]/div[1]/div[1]]
+2020-08-31/12:55:00.389  INFO: listener.WebEventListener - beforeClickOn xpath: /html/body/div[1]/div[43]/div/div/div[2]/div/ul/li[5]/div[1]/div[1]]
+2020-08-31/12:55:00.609  INFO: listener.WebEventListener - after click on
+2020-08-31/12:55:00.610  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]
+2020-08-31/12:55:00.638  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]]
+2020-08-31/12:55:01.210  INFO: listener.WebEventListener - After Switch to Window
+2020-08-31/12:55:01.236 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2020-08-31/12:55:03.718 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2020-08-31/12:55:04.850  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:04.921  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:05.202  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:05.469  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:05.773  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:06.064  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:06.333  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:06.602  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:06.889  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:07.159  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:07.433  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:07.701  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:07.990  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:08.301  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:08.568  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:08.874  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:09.147  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:09.416  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:09.689  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:09.968  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:10.235  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:10.511  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:10.783  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:11.054  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:11.323  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:11.589  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:11.854  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:12.126  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:12.407  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:12.675  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:12.939  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:13.203  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:13.469  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:13.732  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:14.001  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:14.268  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:14.535  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:14.803  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:15.068  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:15.334  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:15.597  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:15.863  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:16.133  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:16.401  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:16.666  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:16.932  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:17.201  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:17.467  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:17.730  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:17.999  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:20.003  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:20.925  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
+2020-08-31/12:55:20.934  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:20.996  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
+2020-08-31/12:55:21.559  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:21.593  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
+2020-08-31/12:55:21.651  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:21.671  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
+2020-08-31/12:55:21.673  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:21.697  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
+2020-08-31/12:55:22.261  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:22.460  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
+2020-08-31/12:55:23.820  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:23.838  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
+2020-08-31/12:55:24.373  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:24.597  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
+2020-08-31/12:55:25.147  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2020-08-31/12:55:25.166  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ConsignmentID']
+2020-08-31/12:55:25.191  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //input[@id='ConsignmentID']]
+2020-08-31/12:55:25.268  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:55:26.301  INFO: listener.WebEventListener - Entered Value :UAT42092143
+2020-08-31/12:55:34.303  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2020-08-31/12:55:34.334  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> css selector: #BilledTo]
+2020-08-31/12:55:34.439  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:55:34.685  INFO: listener.WebEventListener - Entered Value :CELW01
+2020-08-31/12:55:34.686  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2020-08-31/12:55:34.717  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> css selector: #BilledTo]
+2020-08-31/12:55:34.718  INFO: listener.WebEventListener - beforeClickOn css selector: #BilledTo]
+2020-08-31/12:55:34.822  INFO: listener.WebEventListener - after click on
+2020-08-31/12:55:34.823  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2020-08-31/12:55:34.859  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2020-08-31/12:55:35.127  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2020-08-31/12:55:35.393  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2020-08-31/12:55:35.665  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2020-08-31/12:55:35.932  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2020-08-31/12:55:36.202  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2020-08-31/12:55:36.475  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2020-08-31/12:55:36.544  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
+2020-08-31/12:55:36.606  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
+2020-08-31/12:55:36.787  INFO: listener.WebEventListener - after click on
+2020-08-31/12:55:36.788  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:36.830  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:37.100  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:37.378  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:37.649  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:37.980  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:38.246  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:38.516  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:38.785  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:39.207  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:39.477  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:39.746  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:40.014  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:40.295  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:40.564  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2020-08-31/12:55:40.674  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //label[text()='Commodity']/parent::*/div[1]/div]
+2020-08-31/12:55:40.749  INFO: listener.WebEventListener - beforeClickOn xpath: //label[text()='Commodity']/parent::*/div[1]/div]
+2020-08-31/12:55:41.092  INFO: listener.WebEventListener - after click on
+2020-08-31/12:55:41.093  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem' and @class='primary--text']
+2020-08-31/12:55:41.198  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem' and @class='primary--text']
+2020-08-31/12:55:41.482  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem' and @class='primary--text']
+2020-08-31/12:55:41.762  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem' and @class='primary--text']
+2020-08-31/12:55:41.791  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem' and @class='primary--text']]
+2020-08-31/12:55:41.823  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem' and @class='primary--text']]
+2020-08-31/12:55:41.905  INFO: listener.WebEventListener - after click on
+2020-08-31/12:55:41.907  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-select__selections']/div[contains(text(),'Cellular Equipment')]
+2020-08-31/12:55:41.962  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //div[@class='v-select__selections']/div[contains(text(),'Cellular Equipment')]]
+2020-08-31/12:55:42.049  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-select__selections']/div[contains(text(),'Cellular Equipment')]]
+2020-08-31/12:55:42.139  INFO: listener.WebEventListener - after click on
+2020-08-31/12:55:42.140  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-list__tile__content']/div[contains(text(),'Documentation')]
+2020-08-31/12:55:42.192  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //div[@class='v-list__tile__content']/div[contains(text(),'Documentation')]]
+2020-08-31/12:55:42.231  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-list__tile__content']/div[contains(text(),'Documentation')]]
+2020-08-31/12:55:42.439  INFO: listener.WebEventListener - after click on
+2020-08-31/12:55:42.440  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CommodityContinue']
+2020-08-31/12:55:42.484  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (c76e6670660d9b67be61a4c217b784d6)] -> xpath: //button[@id='CommodityContinue']]
+2020-08-31/12:55:42.535  INFO: listener.WebEventListener - beforeClickOn xpath: //button[@id='CommodityContinue']]
+2020-08-31/12:55:42.778  INFO: listener.WebEventListener - after click on
+2020-08-31/12:55:47.784  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-select__selections']/div[contains(text(),'Documentation')]
+2020-08-31/12:56:50.177  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2020-08-31/12:56:50.200  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2020-08-31/12:56:51.215  INFO: wdm.WebDriverManager - Using chromedriver 84.0.4147.30 (since Chrome 84 is installed in your machine)
+2020-08-31/12:56:51.274  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe
+2020-08-31/12:57:00.474  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2020-08-31/12:57:02.565  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
+2020-08-31/12:57:32.038  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:57:32.114  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (e6972a323b806b0201bdce65ccdf0130)] -> xpath: //form[1]]
+2020-08-31/12:57:32.132  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2020-08-31/12:57:32.214  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (e6972a323b806b0201bdce65ccdf0130)] -> xpath: //form[1]]
+2020-08-31/12:57:32.398  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:57:32.620  INFO: listener.WebEventListener - Entered Value :
+2020-08-31/12:57:32.717  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:57:33.073  INFO: listener.WebEventListener - Entered Value :surekha.jadhav@ram.co.za
+2020-08-31/12:57:33.079  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:57:33.095  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (e6972a323b806b0201bdce65ccdf0130)] -> xpath: //form[1]]
+2020-08-31/12:57:33.096  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2020-08-31/12:57:33.122  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (e6972a323b806b0201bdce65ccdf0130)] -> xpath: //form[1]]
+2020-08-31/12:57:33.147  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2020-08-31/12:57:33.266  INFO: listener.WebEventListener - after click on
+2020-08-31/12:57:33.268  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:57:33.300  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (e6972a323b806b0201bdce65ccdf0130)] -> xpath: //form[1]]
+2020-08-31/12:57:33.301  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2020-08-31/12:57:33.398  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (e6972a323b806b0201bdce65ccdf0130)] -> xpath: //form[1]]
+2020-08-31/12:57:33.513  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:57:33.729  INFO: listener.WebEventListener - Entered Value :
+2020-08-31/12:57:33.790  INFO: listener.WebEventListener - Default Value :
+2020-08-31/12:57:34.003  INFO: listener.WebEventListener - Entered Value :Surekha@123
+2020-08-31/12:57:34.004  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2020-08-31/12:57:34.025  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (e6972a323b806b0201bdce65ccdf0130)] -> xpath: //form[1]]
+2020-08-31/12:57:34.026  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2020-08-31/12:57:34.043  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (e6972a323b806b0201bdce65ccdf0130)] -> xpath: //form[1]]
+2020-08-31/12:57:34.055  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2020-08-31/12:57:34.122  INFO: listener.WebEventListener - after click on
+2020-08-31/12:57:35.329 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2020-08-31/12:57:35.865 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running

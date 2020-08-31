@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="181.028" tests="4" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="64.362" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin"/>
-    <property name="sun.java.command" value="C:\Users\nasreenk\AppData\Local\Temp\surefire7712216611537182545\surefirebooter8888289998558523064.jar C:\Users\nasreenk\AppData\Local\Temp\surefire7712216611537182545 2020-08-28T16-13-35_163-jvmRun1 surefire848264647811538970tmp surefire_014320098204325901299tmp"/>
+    <property name="sun.java.command" value="C:\Users\nasreenk\AppData\Local\Temp\surefire6864275508761853201\surefirebooter18241058131849457326.jar C:\Users\nasreenk\AppData\Local\Temp\surefire6864275508761853201 2020-08-31T12-56-41_099-jvmRun1 surefire11612477827539720228tmp surefire_05049852946133723682tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\InelliJ\SeleniumTestJavaArtifact2july\SeleniumTestJavaArtifact\target\test-classes;E:\InelliJ\SeleniumTestJavaArtifact2july\SeleniumTestJavaArtifact\target\classes;C:\Users\nasreenk\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\nasreenk\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\nasreenk\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\nasreenk\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\nasreenk\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\nasreenk\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\nasreenk\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\nasreenk\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\nasreenk\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\nasreenk\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\nasreenk\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\nasreenk\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\nasreenk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\nasreenk\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\nasreenk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\nasreenk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\nasreenk\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\nasreenk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\nasreenk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\nasreenk\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\nasreenk\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\nasreenk\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nasreenk\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\nasreenk\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nasreenk\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nasreenk\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nasreenk\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nasreenk\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\nasreenk\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\nasreenk\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\nasreenk\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nasreenk\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\nasreenk\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\nasreenk\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\nasreenk\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\nasreenk\.m2\repository\com\codoid\products\fillo\1.21\fillo-1.21.jar;C:\Users\nasreenk\.m2\repository\org\testng\reportng\1.2.2\reportng-1.2.2.jar;C:\Users\nasreenk\.m2\repository\org\freemarker\freemarker\2.3.28\freemarker-2.3.28.jar;C:\Users\nasreenk\.m2\repository\com\google\inject\guice\4.2.0\guice-4.2.0.jar;C:\Users\nasreenk\.m2\repository\io\qameta\allure\allure-testng\2.13.2\allure-testng-2.13.2.jar;C:\Users\nasreenk\.m2\repository\io\qameta\allure\allure-java-commons\2.13.2\allure-java-commons-2.13.2.jar;C:\Users\nasreenk\.m2\repository\io\qameta\allure\allure-model\2.13.2\allure-model-2.13.2.jar;C:\Users\nasreenk\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\nasreenk\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\nasreenk\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\nasreenk\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\nasreenk\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\nasreenk\.m2\repository\com\aventstack\extentreports\4.1.3\extentreports-4.1.3.jar;C:\Users\nasreenk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\nasreenk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\nasreenk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nasreenk\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\nasreenk\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\nasreenk\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\nasreenk\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\nasreenk\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\nasreenk\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\nasreenk\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\nasreenk\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\nasreenk\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\nasreenk\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\nasreenk\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\nasreenk\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.2\log4j-core-2.13.2.jar;C:\Users\nasreenk\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.2\log4j-api-2.13.2.jar;C:\Users\nasreenk\.m2\repository\net\sourceforge\csvjdbc\csvjdbc\1.0.36\csvjdbc-1.0.36.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -36,7 +36,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="idea.version2020.1.1" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\nasreenk\AppData\Local\Temp\surefire7712216611537182545\surefirebooter8888289998558523064.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nasreenk\AppData\Local\Temp\surefire6864275508761853201\surefirebooter18241058131849457326.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.7+8-LTS"/>
@@ -63,237 +63,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="signIn" classname="pages.LoginPageTest" time="3.744"/>
-  <testcase name="clickOnConsignment" classname="pages.TestPageConsinment" time="22.735"/>
-  <testcase name="doStarted" classname="pages.TestPageConsinment" time="47.378">
-    <failure message="chrome not reachable&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WJLP-1098&apos;, ip: &apos;192.168.65.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\nasreenk\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 7754ce4e7ad84936a1637584f5409325&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;v-menu__content theme--light menuable__content__active v-autocomplete__content&apos;]//div[@role=&apos;listitem&apos;][1]}" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-chrome not reachable
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\nasreenk\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 7754ce4e7ad84936a1637584f5409325
-*** Element info: {Using=xpath, value=//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]}
-	at pages.TestPageConsinment.doStarted(TestPageConsinment.java:49)
-]]></failure>
-    <system-out><![CDATA[I am in onTestStart method doStarted start
-2020-08-28/16:15:36.984  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-98058 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:37.041  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-98115 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:37.350  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-98424 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:37.627  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-98701 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:37.908  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-98982 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:38.181  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-99255 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:38.449  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-99523 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:38.717  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-99791 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:38.983  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-100057 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:39.261  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-100335 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:39.530  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-100604 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:39.805  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-100879 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:40.071  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-101145 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:40.338  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-101412 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:40.607  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-101681 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:40.917  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-101991 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:41.186  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-102260 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:41.571  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-102645 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:41.836  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-102910 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:42.107  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-103181 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:42.373  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-103447 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:42.639  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-103713 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:42.911  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-103985 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:43.178  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-104252 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:43.448  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-104522 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:43.712  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-104786 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:43.978  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-105052 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:44.245  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-105319 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:44.512  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-105586 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:44.785  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-105859 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:45.051  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-106125 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:45.316  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-106390 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:45.637  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-106711 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:45.908  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-106982 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:46.173  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-107247 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:46.438  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-107512 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:48.697  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-109771 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:49.801  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-110875 [main] INFO utilities.listener.WebEventListener  - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-xpath locatorType
-//div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] locatorPath
-2020-08-28/16:15:49.822  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-110896 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:49.881  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-110955 [main] INFO utilities.listener.WebEventListener  - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:50.429  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-111503 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:50.674  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-111748 [main] INFO utilities.listener.WebEventListener  - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:50.758  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-111832 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:50.805  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-111879 [main] INFO utilities.listener.WebEventListener  - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-xpath locatorType
-//div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] locatorPath
-2020-08-28/16:15:50.809  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-111883 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:50.850  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-111924 [main] INFO utilities.listener.WebEventListener  - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:51.409  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-112483 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:51.477  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-112551 [main] INFO utilities.listener.WebEventListener  - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:52.199  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-113273 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:52.293  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-113367 [main] INFO utilities.listener.WebEventListener  - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:53.215  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-114289 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:53.487  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-114561 [main] INFO utilities.listener.WebEventListener  - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]]
-2020-08-28/16:15:54.103  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-115177 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-2020-08-28/16:15:54.120  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ConsignmentID']
-115194 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //input[@id='ConsignmentID']
-2020-08-28/16:15:54.146  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //input[@id='ConsignmentID']]
-115220 [main] INFO utilities.listener.WebEventListener  - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> xpath: //input[@id='ConsignmentID']]
-2020-08-28/16:15:54.205  INFO: listener.WebEventListener - Default Value :
-115279 [main] INFO utilities.listener.WebEventListener  - Default Value :
-2020-08-28/16:15:55.116  INFO: listener.WebEventListener - Entered Value :UAT42092142
-116190 [main] INFO utilities.listener.WebEventListener  - Entered Value :UAT42092142
-2020-08-28/16:16:03.118  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
-124192 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.cssSelector: #BilledTo
-2020-08-28/16:16:03.140  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> css selector: #BilledTo]
-124214 [main] INFO utilities.listener.WebEventListener  - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> css selector: #BilledTo]
-2020-08-28/16:16:03.193  INFO: listener.WebEventListener - Default Value :
-124267 [main] INFO utilities.listener.WebEventListener  - Default Value :
-2020-08-28/16:16:03.532  INFO: listener.WebEventListener - Entered Value :
-124606 [main] INFO utilities.listener.WebEventListener  - Entered Value :
-2020-08-28/16:16:03.532  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
-124606 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.cssSelector: #BilledTo
-2020-08-28/16:16:03.560  INFO: listener.WebEventListener - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> css selector: #BilledTo]
-124634 [main] INFO utilities.listener.WebEventListener  - Element Found and highlighted: [[ChromeDriver: chrome on WINDOWS (7754ce4e7ad84936a1637584f5409325)] -> css selector: #BilledTo]
-2020-08-28/16:16:03.561  INFO: listener.WebEventListener - beforeClickOn css selector: #BilledTo]
-124635 [main] INFO utilities.listener.WebEventListener  - beforeClickOn css selector: #BilledTo]
-2020-08-28/16:16:03.691  INFO: listener.WebEventListener - after click on
-124765 [main] INFO utilities.listener.WebEventListener  - after click on
-2020-08-28/16:16:03.692  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-124766 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:03.734  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-124808 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:04.010  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-125084 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:04.280  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-125354 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:04.550  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-125624 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:04.826  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-125900 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:05.158  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-126232 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:05.428  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-126502 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:05.695  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-126769 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:05.971  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-127045 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:06.246  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-127320 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:06.518  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-127592 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:06.788  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-127862 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:07.057  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-128131 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:07.326  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-128400 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:07.596  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-128670 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:07.872  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-128946 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:08.142  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-129216 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:08.418  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-129492 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:08.743  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-129817 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:09.016  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-130090 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:09.294  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-130368 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:09.570  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-130644 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:09.840  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-130914 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:10.124  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-131198 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:10.407  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-131481 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:10.677  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-131751 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:10.946  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-132020 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:11.231  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-132305 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-2020-08-28/16:16:11.501  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-132575 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
-]]></system-out>
-    <system-err><![CDATA[[1598611575.526][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="doStarted" classname="pages.TestPageConsinment" time="12.264">
-    <failure message="chrome not reachable&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;WJLP-1098&apos;, ip: &apos;192.168.65.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\nasreenk\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 7754ce4e7ad84936a1637584f5409325&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;spinner-inner&apos;]/parent::*/parent::div[contains(@class,&apos;active&apos;)]}" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-chrome not reachable
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\nasreenk\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 7754ce4e7ad84936a1637584f5409325
-*** Element info: {Using=xpath, value=//div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]}
-	at pages.TestPageConsinment.doStarted(TestPageConsinment.java:44)
-]]></failure>
-    <system-out><![CDATA[I am in onTestFailure method doStarted failed
-I am in onTestStart method doStarted start
-2020-08-28/16:16:24.325  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-145399 [main] INFO utilities.listener.WebEventListener  - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
-]]></system-out>
-    <system-err><![CDATA[[1598611588.335][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
+  <testcase name="signIn" classname="pages.LoginPageTest" time="4.244"/>
 </testsuite>

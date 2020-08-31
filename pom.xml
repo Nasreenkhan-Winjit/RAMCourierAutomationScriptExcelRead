@@ -65,7 +65,7 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${project.basedir}\src\test\resources\suites\MainSuite.xml</suiteXmlFile>
+                        <suiteXmlFile>${project.basedir}\Testsuites\MainSuite.xml</suiteXmlFile>
                     </suiteXmlFiles>
 <!--                    <reportsDirectory>${project.basedir}\allure-report </reportsDirectory>-->
                 </configuration>
