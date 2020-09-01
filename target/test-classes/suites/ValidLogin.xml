@@ -7,7 +7,17 @@
     <test name="Check login and logout successfully">
         <classes>
             <class name="pages.LoginPageTest"/>
-            <class name="pages.TestPageConsinment"/>
+        </classes>
+    </test>
+    <test name="Test Consignment">
+        <classes>
+            <class name="pages.TestPageConsinment">
+                <methods>
+                    <include name="clickOnConsignment"></include>
+                    <include name="clickOnAccordian"></include>
+                    <include name="doStarted"></include>
+                </methods>
+            </class>
         </classes>
     </test>
 

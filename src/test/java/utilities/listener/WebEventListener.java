@@ -99,11 +99,15 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
                 if (element.getAttribute("style") != null) {
                     Thread.sleep(200);
                 }
+
             } catch (Exception e) {
+
                 e.printStackTrace();
+
             }
+            logger.info("Element Found and highlighted: " + element.toString());
         }
-        logger.info("Element Found and highlighted: " + element.toString());
+
     }
 
     @Override

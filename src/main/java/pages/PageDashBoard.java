@@ -18,14 +18,17 @@ public class PageDashBoard extends BasePage{
 //    //div[@class='navbar-right']//img
     @CacheLookup
     @FindBy(how = How.XPATH, using = "//div[@class='flex xs1 md1']")
+
+
 //    @FindBy(how = How.CSS, using ="div.application.theme--light:nth-child(1) div.application--wrap:nth-child(44) div.app-horizontal-layout:nth-child(1) nav.Vuely-toolbar.v-toolbar.v-toolbar--fixed.theme--light.light div.v-toolbar__content div.container:nth-child(1) div.layout.row div.flex.xs1.md1:nth-child(1) div.layout.d-custom-flex.align-items-center.navbar-left div.navbar-right > img:nth-child(1)")
     private WebElement elementNavBar;
 
     @CacheLookup
 //    @FindBy(how = How.XPATH, using="//ul[contains(@class,'v-expansion-panel')]/li[5]")
-    @FindBy(how = How.XPATH, using="//div[contains(text(),'Available Applications')]")
+//    @FindBy(how = How.XPATH, using="//div[contains(text(),'Available Applications')]")
+//    @FindBy(how = How.XPATH, using="//div[contains(text(),'Available Applications')]/parent::*")
 //    @FindBy(how = How.XPATH, using = "/html/body/div[1]/div[43]/div/div/div[2]/div/ul/li[5]/div[1]/div[1]")
-
+    @FindBy(how = How.CSS, using = ".v-expansion-panel__container:nth-child(5) .panel-header")
     private WebElement elementAvailableAccordion;
 
     @CacheLookup
@@ -38,6 +41,11 @@ public class PageDashBoard extends BasePage{
 
     @FindBy(how = How.XPATH, using ="//div[@class='v-dialog v-dialog--active v-dialog--persistent']//div[@class='spinner-inner']")
     private WebElement elementSpinner;
+
+
+    @FindBy(how = How.XPATH, using = "//*[@id=\"inspire\"]/div[43][not(contains(@style,'display: none'))]")
+    private WebElement elementApplauncher;
+
 
 
     public PageDashBoard(WebDriver webDriver) {
@@ -56,9 +64,17 @@ public class PageDashBoard extends BasePage{
 //        ((JavascriptExecutor)driver).executeScript("arguments[0].click();",elementNavBar);
         elementNavBar.click();
 
+
+
     }
 
+
     public void clickOnConsignViaAccordion() throws InterruptedException {
+//        System.out.println("Applauncher before"+ elementApplauncher.isDisplayed());
+//        webDriverWait.until(ExpectedConditions.visibilityOf(elementApplauncher));
+////        elementApplauncher.isDisplayed();
+        System.out.println("Applauncher displayed"+ elementApplauncher.isDisplayed());
+
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementAvailableAccordion));
 
         elementAvailableAccordion.click();

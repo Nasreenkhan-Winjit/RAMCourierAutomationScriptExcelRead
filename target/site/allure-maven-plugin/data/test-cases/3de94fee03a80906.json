@@ -1,0 +1,1352 @@
+{
+  "uid" : "3de94fee03a80906",
+  "name" : "doStarted",
+  "fullName" : "pages.TestPageConsinment.doStarted",
+  "historyId" : "31f77fdb0769ce385f90ec999dd6fffb",
+  "time" : {
+    "start" : 1598503507755,
+    "stop" : 1598503633236,
+    "duration" : 125481
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1598503482682,
+      "stop" : 1598503482684,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1598503427925,
+      "stop" : 1598503474249,
+      "duration" : 46324
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter txt consignment : \"UAT42092140\"",
+      "time" : {
+        "start" : 1598503507796,
+        "stop" : 1598503527025,
+        "duration" : 19229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "UAT42092140"
+      }, {
+        "name" : "keys",
+        "value" : ""
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click On Commodity Select Jwellary",
+      "time" : {
+        "start" : 1598503537762,
+        "stop" : 1598503547382,
+        "duration" : 9620
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click On commodity select Document",
+      "time" : {
+        "start" : 1598503547382,
+        "stop" : 1598503548079,
+        "duration" : 697
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click On Commudity Continue Popup",
+      "time" : {
+        "start" : 1598503548079,
+        "stop" : 1598503548435,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Select Jwellary Commudity ",
+      "time" : {
+        "start" : 1598503553436,
+        "stop" : 1598503554907,
+        "duration" : 1471
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click On Second Stepper",
+      "time" : {
+        "start" : 1598503559908,
+        "stop" : 1598503560209,
+        "duration" : 301
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Validate Reset Button",
+      "time" : {
+        "start" : 1598503562210,
+        "stop" : 1598503562546,
+        "duration" : 336
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click On Sender Name",
+      "time" : {
+        "start" : 1598503562547,
+        "stop" : 1598503563064,
+        "duration" : 517
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Cell"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Select from Menu Sender Name ",
+      "time" : {
+        "start" : 1598503563065,
+        "stop" : 1598503564087,
+        "duration" : 1022
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click On button New Contact",
+      "time" : {
+        "start" : 1598503564088,
+        "stop" : 1598503566957,
+        "duration" : 2869
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click On button Cancel button",
+      "time" : {
+        "start" : 1598503566957,
+        "stop" : 1598503567280,
+        "duration" : 323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click On button Edit Contact",
+      "time" : {
+        "start" : 1598503567281,
+        "stop" : 1598503569340,
+        "duration" : 2059
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click On Step Receiver",
+      "time" : {
+        "start" : 1598503569341,
+        "stop" : 1598503569617,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter text Receiver Name",
+      "time" : {
+        "start" : 1598503569617,
+        "stop" : 1598503570662,
+        "duration" : 1045
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "A"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click On button New Receiver",
+      "time" : {
+        "start" : 1598503570662,
+        "stop" : 1598503571121,
+        "duration" : 459
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click On button Cancel on New Customer",
+      "time" : {
+        "start" : 1598503571121,
+        "stop" : 1598503571678,
+        "duration" : 557
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter text Receiver Name",
+      "time" : {
+        "start" : 1598503571678,
+        "stop" : 1598503572228,
+        "duration" : 550
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Anand"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Select Receiver Name from dropdown list",
+      "time" : {
+        "start" : 1598503572228,
+        "stop" : 1598503575198,
+        "duration" : 2970
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click On button New Contact on Receiver Contact ]",
+      "time" : {
+        "start" : 1598503575199,
+        "stop" : 1598503577090,
+        "duration" : 1891
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click On button Save New Contact",
+      "time" : {
+        "start" : 1598503581090,
+        "stop" : 1598503581683,
+        "duration" : 593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click On Stepper Step Value",
+      "time" : {
+        "start" : 1598503584683,
+        "stop" : 1598503584955,
+        "duration" : 272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter Text Step Value",
+      "time" : {
+        "start" : 1598503584955,
+        "stop" : 1598503586000,
+        "duration" : 1045
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "456"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Check on Check box of Full Liability",
+      "time" : {
+        "start" : 1598503586000,
+        "stop" : 1598503586213,
+        "duration" : 213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on Stepper Requirment",
+      "time" : {
+        "start" : 1598503586213,
+        "stop" : 1598503586553,
+        "duration" : 340
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter Text for Shipper Reference",
+      "time" : {
+        "start" : 1598503586554,
+        "stop" : 1598503587843,
+        "duration" : 1289
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "wwww"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter Text for Shipper Reference",
+      "time" : {
+        "start" : 1598503587843,
+        "stop" : 1598503588477,
+        "duration" : 634
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "eeeeeee"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click On button New Contact",
+      "time" : {
+        "start" : 1598503588477,
+        "stop" : 1598503589451,
+        "duration" : 974
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tab",
+        "value" : ""
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Select Standard Instruction type from dropdown",
+      "time" : {
+        "start" : 1598503589452,
+        "stop" : 1598503589943,
+        "duration" : 491
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check On NonDeliverableDays from list",
+      "time" : {
+        "start" : 1598503594945,
+        "stop" : 1598503595437,
+        "duration" : 492
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tab",
+        "value" : ""
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click On stepper Services",
+      "time" : {
+        "start" : 1598503606437,
+        "stop" : 1598503607853,
+        "duration" : 1416
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click On stepper Parcel",
+      "time" : {
+        "start" : 1598503613855,
+        "stop" : 1598503614195,
+        "duration" : 340
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter text Number of parcel",
+      "time" : {
+        "start" : 1598503614195,
+        "stop" : 1598503615641,
+        "duration" : 1446
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click on Security Pack",
+      "time" : {
+        "start" : 1598503623641,
+        "stop" : 1598503624408,
+        "duration" : 767
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "SP12345678"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter text weight ",
+      "time" : {
+        "start" : 1598503624408,
+        "stop" : 1598503625273,
+        "duration" : 865
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "0.1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click On Finalise Button and close the POPUP",
+      "time" : {
+        "start" : 1598503625274,
+        "stop" : 1598503633189,
+        "duration" : 7915
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 35,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1598503634196,
+      "stop" : 1598503639253,
+      "duration" : 5057
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "testMethod",
+    "value" : "doStarted"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Valid Login Scenario"
+  }, {
+    "name" : "suite",
+    "value" : "Check login and logout successfully"
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1098"
+  }, {
+    "name" : "thread",
+    "value" : "5336@WJLP-1098.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092140}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "177c2cc2e2db9cef",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=84.0.4147.135)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53672}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c8627f6d5ff93f30064551fe5fba7f64\n*** Element info: {Using=xpath, value=//input[@id='ConsignmentID']}",
+      "time" : {
+        "start" : 1598503197596,
+        "stop" : 1598503269492,
+        "duration" : 71896
+      }
+    }, {
+      "uid" : "53e80ebd53b8a526",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=84.0.4147.135)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: de07445a59a9bb33dd19e73ddbe13a68\n*** Element info: {Using=xpath, value=//div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]}",
+      "time" : {
+        "start" : 1598448013617,
+        "stop" : 1598448025693,
+        "duration" : 12076
+      }
+    }, {
+      "uid" : "fcf51a1cb93629f8",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598447495668,
+        "stop" : 1598447572649,
+        "duration" : 76981
+      }
+    }, {
+      "uid" : "a6bc0b7216899fb8",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1598447291179,
+        "stop" : 1598447325021,
+        "duration" : 33842
+      }
+    }, {
+      "uid" : "cb75db84704b3323",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1598447029684,
+        "stop" : 1598447069607,
+        "duration" : 39923
+      }
+    }, {
+      "uid" : "eb8b0ba787016b5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1598446815211,
+        "stop" : 1598446860031,
+        "duration" : 44820
+      }
+    }, {
+      "uid" : "d9faccf642f39bf6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1598439054909,
+        "stop" : 1598439095445,
+        "duration" : 40536
+      }
+    }, {
+      "uid" : "d668b0894db856d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]' (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1598438762947,
+        "stop" : 1598438894514,
+        "duration" : 131567
+      }
+    }, {
+      "uid" : "76cd97d5cae007ca",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 60 seconds. Unable to locate the element",
+      "time" : {
+        "start" : 1598438544399,
+        "stop" : 1598438619470,
+        "duration" : 75071
+      }
+    }, {
+      "uid" : "22dad6236686dd0b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1598438339551,
+        "stop" : 1598438379975,
+        "duration" : 40424
+      }
+    }, {
+      "uid" : "f0aa073d069403fa",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1598438052176,
+        "stop" : 1598438098102,
+        "duration" : 45926
+      }
+    }, {
+      "uid" : "8ee898dfa1ae39e1",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598437718934,
+        "stop" : 1598437779443,
+        "duration" : 60509
+      }
+    }, {
+      "uid" : "91fb077747daa8cc",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598437074085,
+        "stop" : 1598437134397,
+        "duration" : 60312
+      }
+    }, {
+      "uid" : "b80fcafd069131de",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598434556837,
+        "stop" : 1598434617040,
+        "duration" : 60203
+      }
+    }, {
+      "uid" : "d2e1342106f7121e",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598433866908,
+        "stop" : 1598433927231,
+        "duration" : 60323
+      }
+    }, {
+      "uid" : "64aacae850def4ca",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598433534880,
+        "stop" : 1598433595208,
+        "duration" : 60328
+      }
+    }, {
+      "uid" : "1132ccd4ee2f5f30",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598433334237,
+        "stop" : 1598433394539,
+        "duration" : 60302
+      }
+    }, {
+      "uid" : "a7a798ca588db058",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=84.0.4147.135)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 72e524f184bb31e4884ff0f35de35d6e\n*** Element info: {Using=xpath, value=//div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]}",
+      "time" : {
+        "start" : 1598430088209,
+        "stop" : 1598430100329,
+        "duration" : 12120
+      }
+    }, {
+      "uid" : "8ea7a37288e0a28c",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598429755748,
+        "stop" : 1598429795936,
+        "duration" : 40188
+      }
+    }, {
+      "uid" : "de8cbf0e98825ec9",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598428131225,
+        "stop" : 1598428171570,
+        "duration" : 40345
+      }
+    }, {
+      "uid" : "6afa5ecc23c75569",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598422970202,
+        "stop" : 1598423030586,
+        "duration" : 60384
+      }
+    }, {
+      "uid" : "5d1d6c65870f2216",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598420765467,
+        "stop" : 1598420805777,
+        "duration" : 40310
+      }
+    }, {
+      "uid" : "50036d320ee2bc4b",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598420531422,
+        "stop" : 1598420571735,
+        "duration" : 40313
+      }
+    }, {
+      "uid" : "33d6bb2853e601",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598420280614,
+        "stop" : 1598420324924,
+        "duration" : 44310
+      }
+    }, {
+      "uid" : "d267a68b7b0fd260",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598420007746,
+        "stop" : 1598420048037,
+        "duration" : 40291
+      }
+    }, {
+      "uid" : "8b152ee2346716d0",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598358976052,
+        "stop" : 1598359016248,
+        "duration" : 40196
+      }
+    }, {
+      "uid" : "e02e57590d0e9996",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598357460202,
+        "stop" : 1598357500368,
+        "duration" : 40166
+      }
+    }, {
+      "uid" : "ee91f1f2a93473fd",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 40 seconds. Unable to locate the element",
+      "time" : {
+        "start" : 1598357112701,
+        "stop" : 1598357159459,
+        "duration" : 46758
+      }
+    }, {
+      "uid" : "818cd7aaaa123221",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598356184619,
+        "stop" : 1598356224978,
+        "duration" : 40359
+      }
+    }, {
+      "uid" : "e0dc6298b6206b64",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598355776010,
+        "stop" : 1598355816716,
+        "duration" : 40706
+      }
+    }, {
+      "uid" : "937a876131bed2ae",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 40 seconds. Unable to locate the element",
+      "time" : {
+        "start" : 1598355416747,
+        "stop" : 1598355462553,
+        "duration" : 45806
+      }
+    }, {
+      "uid" : "a85537769fc107e9",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598355213129,
+        "stop" : 1598355253323,
+        "duration" : 40194
+      }
+    }, {
+      "uid" : "96567842a4a11d26",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598329759477,
+        "stop" : 1598329799784,
+        "duration" : 40307
+      }
+    }, {
+      "uid" : "62e3f0757cf3ead",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 40 seconds. Unable to locate the element",
+      "time" : {
+        "start" : 1598253262986,
+        "stop" : 1598253306944,
+        "duration" : 43958
+      }
+    }, {
+      "uid" : "82ff439b52e80916",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 40 seconds. Unable to locate the element",
+      "time" : {
+        "start" : 1598253102788,
+        "stop" : 1598253146350,
+        "duration" : 43562
+      }
+    }, {
+      "uid" : "8ca7071c830d5136",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 40 seconds. Unable to locate the element",
+      "time" : {
+        "start" : 1598252541978,
+        "stop" : 1598252586020,
+        "duration" : 44042
+      }
+    }, {
+      "uid" : "9818454509eebb74",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 40 seconds. Unable to locate the element",
+      "time" : {
+        "start" : 1598252175155,
+        "stop" : 1598252222392,
+        "duration" : 47237
+      }
+    }, {
+      "uid" : "a50aa759bd3908c",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 40 seconds. Unable to locate the element",
+      "time" : {
+        "start" : 1598251979787,
+        "stop" : 1598252042347,
+        "duration" : 62560
+      }
+    }, {
+      "uid" : "343a87dc45c3210d",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 40 seconds. Unable to locate the element",
+      "time" : {
+        "start" : 1598251782869,
+        "stop" : 1598251827394,
+        "duration" : 44525
+      }
+    }, {
+      "uid" : "efbfa967122f6429",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 40 seconds. Unable to locate the element",
+      "time" : {
+        "start" : 1598251605856,
+        "stop" : 1598251654527,
+        "duration" : 48671
+      }
+    }, {
+      "uid" : "1e7593493dd0f5bf",
+      "status" : "broken",
+      "statusDetails" : "Timed out after 40 seconds. Unable to locate the element",
+      "time" : {
+        "start" : 1598251188890,
+        "stop" : 1598251231829,
+        "duration" : 42939
+      }
+    }, {
+      "uid" : "4339ef8c5f003064",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=84.0.4147.135)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:60598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3c1c3d7985c9d84a780e804a2a6020e8\n*** Element info: {Using=xpath, value=//input[@id='ConsignmentID']}",
+      "time" : {
+        "start" : 1598251025811,
+        "stop" : 1598251083748,
+        "duration" : 57937
+      }
+    }, {
+      "uid" : "55533a63d1296e56",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1598250239673,
+        "stop" : 1598250280574,
+        "duration" : 40901
+      }
+    }, {
+      "uid" : "f47da18241ac2800",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598249546403,
+        "stop" : 1598249586854,
+        "duration" : 40451
+      }
+    }, {
+      "uid" : "c19754cd4018d65",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598248525115,
+        "stop" : 1598248565455,
+        "duration" : 40340
+      }
+    }, {
+      "uid" : "83e52611a8956789",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598248281335,
+        "stop" : 1598248321431,
+        "duration" : 40096
+      }
+    }, {
+      "uid" : "4b772a9289113770",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598246284932,
+        "stop" : 1598246325271,
+        "duration" : 40339
+      }
+    }, {
+      "uid" : "107682781e531525",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598245652794,
+        "stop" : 1598245693082,
+        "duration" : 40288
+      }
+    }, {
+      "uid" : "6cb6a24bcf1dd137",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598245354551,
+        "stop" : 1598245395421,
+        "duration" : 40870
+      }
+    }, {
+      "uid" : "228e4a4379971b20",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598243803651,
+        "stop" : 1598243843729,
+        "duration" : 40078
+      }
+    }, {
+      "uid" : "90156a1f4596c2bf",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598243521877,
+        "stop" : 1598243562404,
+        "duration" : 40527
+      }
+    }, {
+      "uid" : "5d42409a065fbca6",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=84.0.4147.135)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 56786bc23963f270d8ae48d09d5857bc\n*** Element info: {Using=xpath, value=//div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]}",
+      "time" : {
+        "start" : 1598012091658,
+        "stop" : 1598012109529,
+        "duration" : 17871
+      }
+    }, {
+      "uid" : "382a527e8039c986",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598011901252,
+        "stop" : 1598011941338,
+        "duration" : 40086
+      }
+    }, {
+      "uid" : "8a60d1a416621206",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=84.0.4147.135)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 42171b79d751da40174080d7d408ad3e\n*** Element info: {Using=xpath, value=//div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]}",
+      "time" : {
+        "start" : 1598009768489,
+        "stop" : 1598009780545,
+        "duration" : 12056
+      }
+    }, {
+      "uid" : "e9479c586331c01e",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598009432852,
+        "stop" : 1598009472984,
+        "duration" : 40132
+      }
+    }, {
+      "uid" : "3106a702eeb33322",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598008976737,
+        "stop" : 1598009016996,
+        "duration" : 40259
+      }
+    }, {
+      "uid" : "e3c56b3cb6ef6cba",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598008561299,
+        "stop" : 1598008601444,
+        "duration" : 40145
+      }
+    }, {
+      "uid" : "8be0a9cb01a7154f",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598005452982,
+        "stop" : 1598005493187,
+        "duration" : 40205
+      }
+    }, {
+      "uid" : "510bbca3e44330a2",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598005196122,
+        "stop" : 1598005236325,
+        "duration" : 40203
+      }
+    }, {
+      "uid" : "d22e7b95a4b006e0",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598004923671,
+        "stop" : 1598004963946,
+        "duration" : 40275
+      }
+    }, {
+      "uid" : "fe7cc6377175d4e2",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598004341465,
+        "stop" : 1598004381591,
+        "duration" : 40126
+      }
+    }, {
+      "uid" : "5a8db495c7d2ab23",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598003680857,
+        "stop" : 1598003721000,
+        "duration" : 40143
+      }
+    }, {
+      "uid" : "c7d837e0e397a19a",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=84.0.4147.135)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 164b248725bea0f5656a1f32588b2ff1\n*** Element info: {Using=xpath, value=//div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]}",
+      "time" : {
+        "start" : 1598002752836,
+        "stop" : 1598002764931,
+        "duration" : 12095
+      }
+    }, {
+      "uid" : "2fd3459da90476a3",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598002252750,
+        "stop" : 1598002292964,
+        "duration" : 40214
+      }
+    }, {
+      "uid" : "5a3ffe7a6af35d1b",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=84.0.4147.135)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:50732}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 09ef28061f8ff159540674d61f05b61e\n*** Element info: {Using=xpath, value=//div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]}",
+      "time" : {
+        "start" : 1598001508949,
+        "stop" : 1598001521007,
+        "duration" : 12058
+      }
+    }, {
+      "uid" : "58746039943ae5c7",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598001224916,
+        "stop" : 1598001265216,
+        "duration" : 40300
+      }
+    }, {
+      "uid" : "52969c5a5498a9d1",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598000550320,
+        "stop" : 1598000590490,
+        "duration" : 40170
+      }
+    }, {
+      "uid" : "53f934e8038a0ce",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1598000352316,
+        "stop" : 1598000392419,
+        "duration" : 40103
+      }
+    }, {
+      "uid" : "c603c017feadcc3c",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1597999658772,
+        "stop" : 1597999699039,
+        "duration" : 40267
+      }
+    }, {
+      "uid" : "ff376676dabcd6ea",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1597999292751,
+        "stop" : 1597999333028,
+        "duration" : 40277
+      }
+    }, {
+      "uid" : "1a2684ea0b4adf48",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1597998950906,
+        "stop" : 1597998991086,
+        "duration" : 40180
+      }
+    }, {
+      "uid" : "462da36bc618cd2a",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1597993429629,
+        "stop" : 1597993469702,
+        "duration" : 40073
+      }
+    }, {
+      "uid" : "b61606e4472480d1",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1597993074913,
+        "stop" : 1597993115150,
+        "duration" : 40237
+      }
+    }, {
+      "uid" : "d6221f11d9c0efa3",
+      "status" : "broken",
+      "statusDetails" : "Index 1 out of bounds for length 1",
+      "time" : {
+        "start" : 1597992414466,
+        "stop" : 1597992454835,
+        "duration" : 40369
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3de94fee03a80906.json",
+  "parameterValues" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092140}" ]
+}

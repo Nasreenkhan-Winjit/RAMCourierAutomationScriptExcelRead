@@ -21,10 +21,25 @@ public class ChromeBrowser extends DriverManagerWeb {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.setPageLoadStrategy(PageLoadStrategy.NONE);
 //        chromeOptions.addArguments("start-maximized");
+//        chromeOptions.addArguments("--headless");
+//        chromeOptions.addArguments("--window-size=1920,1080","--disable-gpu");
+        chromeOptions.addArguments("--window-size=1349,728.5");
+//        chromeOptions.addArguments("--window-size=1296,696");
+
+        chromeOptions.addArguments("--disable-extensions");
+        chromeOptions.addArguments("--proxy-server='direct://");
+        chromeOptions.addArguments("--proxy-bypass-list=*");
+//        chromeOptions.addArguments("--start-maximized");
         chromeOptions.addArguments("--headless");
-        chromeOptions.addArguments("--window-size=1920,1080","--disable-gpu");
+        chromeOptions.addArguments("--disable-gpu");
+        chromeOptions.addArguments("--disable-dev-shm-usage");
+        chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--ignore-certificate-errors");
         webDriver = new ChromeDriver(chromeOptions);
         capabilities = ((RemoteWebDriver) webDriver).getCapabilities();
+
+
+
 
 
     }

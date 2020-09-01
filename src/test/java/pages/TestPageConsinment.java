@@ -25,6 +25,22 @@ public class TestPageConsinment extends TestBase {
 //     loader.waitForLoaderToDispose();
         pageDashBoard = new PageDashBoard(eventFiringWebDriver);
         pageDashBoard.clickOnNavBar();
+
+//        Thread.sleep(20000);
+//        pageDashBoard.clickOnConsignViaAccordion();
+//        ArrayList<String> tabsCount = new ArrayList<>(eventFiringWebDriver.getWindowHandles());
+//        eventFiringWebDriver.switchTo().window(tabsCount.get(1));
+    }
+
+
+    @Test
+    public void clickOnAccordian() throws InterruptedException {
+//        Thread.sleep(21000);
+////     loader.waitForLoaderToDispose();
+//        pageDashBoard = new PageDashBoard(eventFiringWebDriver);
+//        pageDashBoard.clickOnNavBar();
+
+        Thread.sleep(20000);
         pageDashBoard.clickOnConsignViaAccordion();
         ArrayList<String> tabsCount = new ArrayList<>(eventFiringWebDriver.getWindowHandles());
         eventFiringWebDriver.switchTo().window(tabsCount.get(1));
