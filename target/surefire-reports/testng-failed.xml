@@ -6,14 +6,14 @@
   </listeners>
   <test thread-count="5" name="Check login and logout successfully(failed)" verbose="0">
     <classes>
-      <class name="pages.LoginPageTest">
+      <class name="pages.TestPageConsinment">
         <methods>
           <include name="setUp"/>
           <include name="tearBrowser"/>
-          <include name="signIn"/>
+          <include name="doStarted" invocation-numbers="0 1"/>
           <include name="waitForLoad"/>
         </methods>
-      </class> <!-- pages.LoginPageTest -->
+      </class> <!-- pages.TestPageConsinment -->
     </classes>
   </test> <!-- Check login and logout successfully(failed) -->
 </suite> <!-- Failed suite [Valid Login Scenario] -->

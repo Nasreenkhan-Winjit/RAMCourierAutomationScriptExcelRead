@@ -21,7 +21,7 @@ public class TestPageConsinment extends TestBase {
 
     @Test
     public void clickOnConsignment() throws InterruptedException {
-        Thread.sleep(20000);
+        Thread.sleep(21000);
 //     loader.waitForLoaderToDispose();
         pageDashBoard = new PageDashBoard(eventFiringWebDriver);
         pageDashBoard.clickOnNavBar();
@@ -123,7 +123,7 @@ public class TestPageConsinment extends TestBase {
 //
 //        Thread.sleep(9000);
         pageConsignment.ClickonDropDownStandardInstructionType();
-        Thread.sleep(5000);
+        Thread.sleep(10000);
 //
         pageConsignment.clickonDropdownNonDeliverablesDays(Keys.TAB);
        Thread.sleep(11000);

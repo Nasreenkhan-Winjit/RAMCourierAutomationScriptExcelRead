@@ -1,9 +1,5 @@
 <qa:environment xmlns:qa="urn:model.commons.qatools.yandex.ru">
   <parameter>
-    <key>Browser\u0020Version</key>
-    <value>84.0.4147.135</value>
-  </parameter>
-  <parameter>
     <key>Environment</key>
     <value>opt</value>
   </parameter>
@@ -18,5 +14,9 @@
   <parameter>
     <key>Browser\u0020Name</key>
     <value>chrome</value>
+  </parameter>
+  <parameter>
+    <key>Browser\u0020Version</key>
+    <value>84.0.4147.135</value>
   </parameter>
 </qa:environment>

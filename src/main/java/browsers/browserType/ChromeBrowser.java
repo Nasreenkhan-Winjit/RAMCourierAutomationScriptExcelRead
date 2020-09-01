@@ -20,9 +20,13 @@ public class ChromeBrowser extends DriverManagerWeb {
     protected void createDriver()  {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.setPageLoadStrategy(PageLoadStrategy.NONE);
-        chromeOptions.addArguments("start-maximized");
+//        chromeOptions.addArguments("start-maximized");
+        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--window-size=1920,1080","--disable-gpu");
         webDriver = new ChromeDriver(chromeOptions);
         capabilities = ((RemoteWebDriver) webDriver).getCapabilities();
+
+
     }
 
     @Override

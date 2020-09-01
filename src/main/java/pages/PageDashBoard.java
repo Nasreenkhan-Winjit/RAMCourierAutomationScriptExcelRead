@@ -13,11 +13,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import pages.commonmodule.Login;
 
 public class PageDashBoard extends BasePage{
-    @CacheLookup
-    @FindBy(how = How.XPATH, using = "//div[@class='navbar-right']")
-//    //div[@class='navbar-right']//img
 
-//    @FindBy(how = How.XPATH, using = "//div[@class='flex xs1 md1']")
+//    @FindBy(how = How.XPATH, using = "//div[@class='navbar-right']")
+//    //div[@class='navbar-right']//img
+    @CacheLookup
+    @FindBy(how = How.XPATH, using = "//div[@class='flex xs1 md1']")
 //    @FindBy(how = How.CSS, using ="div.application.theme--light:nth-child(1) div.application--wrap:nth-child(44) div.app-horizontal-layout:nth-child(1) nav.Vuely-toolbar.v-toolbar.v-toolbar--fixed.theme--light.light div.v-toolbar__content div.container:nth-child(1) div.layout.row div.flex.xs1.md1:nth-child(1) div.layout.d-custom-flex.align-items-center.navbar-left div.navbar-right > img:nth-child(1)")
     private WebElement elementNavBar;
 
