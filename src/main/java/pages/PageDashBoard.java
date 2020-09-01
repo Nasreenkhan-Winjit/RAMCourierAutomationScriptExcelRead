@@ -23,8 +23,8 @@ public class PageDashBoard extends BasePage{
 
     @CacheLookup
 //    @FindBy(how = How.XPATH, using="//ul[contains(@class,'v-expansion-panel')]/li[5]")
-//    @FindBy(how = How.XPATH, using="//div[contains(text(),'Available Applications')]")
-    @FindBy(how = How.XPATH, using = "/html/body/div[1]/div[43]/div/div/div[2]/div/ul/li[5]/div[1]/div[1]")
+    @FindBy(how = How.XPATH, using="//div[contains(text(),'Available Applications')]")
+//    @FindBy(how = How.XPATH, using = "/html/body/div[1]/div[43]/div/div/div[2]/div/ul/li[5]/div[1]/div[1]")
 
     private WebElement elementAvailableAccordion;
 
