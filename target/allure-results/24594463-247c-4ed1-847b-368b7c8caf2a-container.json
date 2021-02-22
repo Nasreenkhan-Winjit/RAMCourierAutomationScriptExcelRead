@@ -1,1 +1,0 @@
-{"uuid":"24594463-247c-4ed1-847b-368b7c8caf2a","name":"pages.TestPageConsinment","children":["f63ea816-8945-495e-94b6-24f2a508e192"],"befores":[{"name":"waitForLoad","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1598944247082,"stop":1598944247082}],"afters":[],"links":[],"start":1598944247080,"stop":1598944409585}

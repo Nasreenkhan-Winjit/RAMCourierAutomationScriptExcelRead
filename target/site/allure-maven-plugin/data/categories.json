@@ -2,155 +2,114 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Passed test",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: //div[@class='v-dialog v-dialog--active']//div[@class='v-btn__content'][contains(text(),'Close')]' (tried for 40 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "doStarted",
-        "uid" : "7c4c15c4e26a4576",
-        "parentUid" : "adff094dc5c2b80850ce6e58e2a48969",
-        "status" : "broken",
+        "uid" : "c7f4970273e82840",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
         "time" : {
-          "start" : 1597224717096,
-          "stop" : 1597224913014,
-          "duration" : 195918
+          "start" : 1610601349719,
+          "stop" : 1610601433477,
+          "duration" : 83758
         },
         "flaky" : false,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092134}" ]
-      } ],
-      "uid" : "adff094dc5c2b80850ce6e58e2a48969"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: // button[@id='save_sendercontactaddedit']//div[contains(text(),'Save')]' (tried for 40 second(s) with 500 milliseconds interval)",
-      "children" : [ {
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Surekha, SenderName=Sure, NumberOfParcel=1, ConsignmentID=UAT42092179}" ]
+      }, {
         "name" : "doStarted",
-        "uid" : "880920a245c396a7",
-        "parentUid" : "f27ffb13e06d2ca31f7392bf3f3fdfdb",
-        "status" : "broken",
+        "uid" : "a4815c82869e32e0",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
         "time" : {
-          "start" : 1597225686541,
-          "stop" : 1597225835827,
-          "duration" : 149286
+          "start" : 1610601970957,
+          "stop" : 1610602037841,
+          "duration" : 66884
         },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092135}" ]
-      } ],
-      "uid" : "f27ffb13e06d2ca31f7392bf3f3fdfdb"
-    }, {
-      "name" : "Timed out after 40 seconds. Unable to locate the element",
-      "children" : [ {
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=INTT02, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Surekha, SenderName=Sure, NumberOfParcel=1, ConsignmentID=UAT42092180}" ]
+      }, {
+        "name" : "signIn",
+        "uid" : "ade43f23af958085",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612176919937,
+          "stop" : 1612176922004,
+          "duration" : 2067
+        },
+        "flaky" : false,
+        "parameters" : [ "{Status=, Message=, Password=Nasreen@1235, UserName=Nasreen.khan@ram.co.za}" ]
+      }, {
         "name" : "doStarted",
-        "uid" : "d2694ed6702d4e1c",
-        "parentUid" : "922d8ceb975c8460ecccb4a9051ebce1",
-        "status" : "broken",
+        "uid" : "f6078a96532da269",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
         "time" : {
-          "start" : 1597991984809,
-          "stop" : 1597992028790,
-          "duration" : 43981
+          "start" : 1612177026485,
+          "stop" : 1612177105958,
+          "duration" : 79473
         },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092136}" ]
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=DIGI20, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=CELL, SenderName=Sure, NumberOfParcel=1, ConsignmentID=UAT42092181}" ]
       } ],
-      "uid" : "922d8ceb975c8460ecccb4a9051ebce1"
-    }, {
-      "name" : "Index 1 out of bounds for length 1",
-      "children" : [ {
-        "name" : "doStarted",
-        "uid" : "70a594bb85aec6fd",
-        "parentUid" : "9d417e3bac78e5fe6d1a4832206dbf0e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1597992028807,
-          "stop" : 1597992068935,
-          "duration" : 40128
-        },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092137}" ]
-      } ],
-      "uid" : "9d417e3bac78e5fe6d1a4832206dbf0e"
-    }, {
-      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')] (tried for 30 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "doStarted",
-        "uid" : "804a6eb17796dee0",
-        "parentUid" : "b0f06aa92499b22b79b64972c69e30ad",
-        "status" : "broken",
-        "time" : {
-          "start" : 1598250193184,
-          "stop" : 1598250239635,
-          "duration" : 46451
-        },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092138}" ]
-      } ],
-      "uid" : "b0f06aa92499b22b79b64972c69e30ad"
-    }, {
-      "name" : "chrome not reachable\n  (Session info: chrome=84.0.4147.135)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 7754ce4e7ad84936a1637584f5409325\n*** Element info: {Using=xpath, value=//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]}",
-      "children" : [ {
-        "name" : "doStarted",
-        "uid" : "ddbee8d2f763b9b",
-        "parentUid" : "87bdbb4fcfd572c42115a98c067f8e4a",
-        "status" : "broken",
-        "time" : {
-          "start" : 1598611536916,
-          "stop" : 1598611584299,
-          "duration" : 47383
-        },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092142}" ]
-      } ],
-      "uid" : "87bdbb4fcfd572c42115a98c067f8e4a"
-    }, {
-      "name" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@14239223 (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: f76670d39e57b8bc4b424ab5c905c2b3",
+      "uid" : "5644821434bb5bc31e9f7dfe5983ddf1"
+    } ],
+    "uid" : "81b1a73de11cbf9edd37b9ae15430a89"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: ChromeDriver",
       "children" : [ {
         "name" : "setUp",
-        "uid" : "e44ebc989df1b71e",
-        "parentUid" : "081a2d08cfd56eb33d9148ed20226355",
+        "uid" : "7ee79b0d43e254a4",
+        "parentUid" : "40087043481ff27e21e784b7dd9928cc",
         "status" : "broken",
         "time" : {
-          "start" : 1598858236652,
-          "stop" : 1598858236655,
-          "duration" : 3
+          "start" : 1612175065909,
+          "stop" : 1612175065921,
+          "duration" : 12
         },
-        "flaky" : true,
+        "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "081a2d08cfd56eb33d9148ed20226355"
+      "uid" : "40087043481ff27e21e784b7dd9928cc"
+    }, {
+      "name" : "Timed out after 60 seconds. Unable to locate the element",
+      "children" : [ {
+        "name" : "doStarted",
+        "uid" : "dfb6c67a5f927aa8",
+        "parentUid" : "d6ddc20dce5cccc1c49d6ac3fd65ad69",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612175825386,
+          "stop" : 1612175918804,
+          "duration" : 93418
+        },
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=DIGI20, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Surekha, SenderName=Sure, NumberOfParcel=1, ConsignmentID=UAT42092181}" ]
+      } ],
+      "uid" : "d6ddc20dce5cccc1c49d6ac3fd65ad69"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   }, {
     "name" : "Skipped tests",
     "children" : [ {
-      "name" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@1b317e7d (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 795d5ac0f097fbe248756c0b2e736de0",
+      "name" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: ChromeDriver",
       "children" : [ {
         "name" : "doStarted",
-        "uid" : "3d30f2828f1e9528",
-        "parentUid" : "3f9f63345b248857ca4789c1e8977dad",
+        "uid" : "1e67b52fb8ceb9fb",
+        "parentUid" : "4f9f21639cbb95e6f418ca2f9b23e2cf",
         "status" : "skipped",
         "time" : {
-          "start" : 1598448229360,
-          "stop" : 1598448229362,
+          "start" : 1612175088286,
+          "stop" : 1612175088288,
           "duration" : 2
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3f9f63345b248857ca4789c1e8977dad"
-    }, {
-      "name" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@14239223 (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: f76670d39e57b8bc4b424ab5c905c2b3",
-      "children" : [ {
-        "name" : "signIn",
-        "uid" : "cb5c8387900f09c8",
-        "parentUid" : "ea8a3dd63d02cd6201bc97c08c42ccde",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1598858242817,
-          "stop" : 1598858242825,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ea8a3dd63d02cd6201bc97c08c42ccde"
+      "uid" : "4f9f21639cbb95e6f418ca2f9b23e2cf"
     } ],
     "uid" : "c125badd1841297a9701a15a8082ec24"
   } ]

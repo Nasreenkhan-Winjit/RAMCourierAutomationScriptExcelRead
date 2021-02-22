@@ -1,0 +1,745 @@
+2021-01-06/09:50:15.533  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-01-06/09:50:15.587  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2021-01-06/09:50:20.036  INFO: wdm.WebDriverManager - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+2021-01-06/09:50:20.183  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\87.0.4280.88\chromedriver.exe
+2021-01-06/09:50:34.275  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2021-01-06/09:50:36.118  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
+2021-01-06/09:51:05.429  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-01-06/09:51:06.133  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2021-01-06/09:51:06.519  INFO: listener.WebEventListener - Default Value :
+2021-01-06/09:51:06.784  INFO: listener.WebEventListener - Entered Value :
+2021-01-06/09:51:06.856  INFO: listener.WebEventListener - Default Value :
+2021-01-06/09:51:07.290  INFO: listener.WebEventListener - Entered Value :Nasreen.khan@ram.co.za
+2021-01-06/09:51:07.295  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-01-06/09:51:07.314  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2021-01-06/09:51:07.413  INFO: listener.WebEventListener - Default Value :
+2021-01-06/09:51:07.550  INFO: listener.WebEventListener - Entered Value :
+2021-01-06/09:51:07.615  INFO: listener.WebEventListener - Default Value :
+2021-01-06/09:51:07.835  INFO: listener.WebEventListener - Entered Value :Nasreen@1235
+2021-01-06/09:51:07.838  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-01-06/09:51:07.860  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2021-01-06/09:51:07.942  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2021-01-06/09:51:08.119  INFO: listener.WebEventListener - after click on
+2021-01-06/09:51:54.661  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-01-06/09:51:55.308  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='flex xs1 md1']]
+2021-01-06/09:51:55.504  INFO: listener.WebEventListener - after click on
+2021-01-06/09:52:01.257  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header
+2021-01-06/09:52:01.352  INFO: listener.WebEventListener - beforeClickOn css selector: .v-expansion-panel__container:nth-child(5) .panel-header]
+2021-01-06/09:52:01.599  INFO: listener.WebEventListener - after click on
+2021-01-06/09:52:01.599  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]
+2021-01-06/09:52:02.171  INFO: listener.WebEventListener - After Switch to Window
+2021-01-06/09:52:06.236  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:52:06.338  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:52:06.653  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:52:08.358  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:52:08.391  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:52:08.478  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:52:08.513  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:52:09.076  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:52:09.679  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:52:10.237  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:52:10.501  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Create Consignment')]
+2021-01-06/09:52:10.566  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Create Consignment')]
+2021-01-06/09:52:10.597  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Create Consignment')]
+2021-01-06/09:52:10.613  INFO: listener.WebEventListener - beforeClickOn xpath: //div[contains(text(),'Create Consignment')]]
+2021-01-06/09:52:10.922  INFO: listener.WebEventListener - after click on
+2021-01-06/09:52:18.953  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ConsignmentID']
+2021-01-06/09:52:19.087  INFO: listener.WebEventListener - Default Value :
+2021-01-06/09:52:19.887  INFO: listener.WebEventListener - Entered Value :U
+2021-01-06/09:52:27.889  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2021-01-06/09:52:28.011  INFO: listener.WebEventListener - Default Value :
+2021-01-06/09:52:28.492  INFO: listener.WebEventListener - Entered Value :AIBT01
+2021-01-06/09:52:28.492  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2021-01-06/09:52:28.529  INFO: listener.WebEventListener - beforeClickOn css selector: #BilledTo]
+2021-01-06/09:52:28.673  INFO: listener.WebEventListener - after click on
+2021-01-06/09:52:28.674  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:52:28.825  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:52:29.114  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:52:29.393  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:52:29.665  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:52:29.948  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:52:30.218  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:52:30.490  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:52:30.769  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:52:30.843  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
+2021-01-06/09:52:30.997  INFO: listener.WebEventListener - after click on
+2021-01-06/09:52:35.000  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/../div
+2021-01-06/09:52:35.044  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/09:52:35.108  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/09:52:35.141  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/09:52:35.157  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='LogisticType']/..]
+2021-01-06/09:52:35.327  INFO: listener.WebEventListener - after click on
+2021-01-06/09:52:37.328  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[text()='Outbound - Domestic']
+2021-01-06/09:52:37.375  INFO: listener.WebEventListener - beforeClickOn xpath: //div[text()='Outbound - Domestic']]
+2021-01-06/09:52:37.615  INFO: listener.WebEventListener - after click on
+2021-01-06/09:52:41.617  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:41.664  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:41.942  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:42.221  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:42.503  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:42.772  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:43.038  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:43.321  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:43.587  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:43.855  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:44.131  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:44.398  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:44.675  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:44.942  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:45.209  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:45.487  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:45.757  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:46.038  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:46.318  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:46.599  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:46.882  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:47.162  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:47.427  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:47.704  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:47.984  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:48.256  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:48.546  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:48.810  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:49.089  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:49.360  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:49.656  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:49.936  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:50.217  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:50.496  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:50.760  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:51.041  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:51.319  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:51.602  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:51.870  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:52.137  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:52.405  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:52.669  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:52.941  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:53.220  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:53.499  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:53.772  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:54.040  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:54.307  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:54.579  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:54.879  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:55.148  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:55.419  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:55.697  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:55.963  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:56.233  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:56.502  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:56.773  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:57.046  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:57.313  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:57.579  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:57.844  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:58.113  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:58.380  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:58.655  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:58.934  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:59.201  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:59.467  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:52:59.734  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:00.019  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:00.295  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:00.574  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:00.866  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:01.147  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:01.431  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:01.696  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:01.974  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:02.277  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:02.558  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:02.835  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:03.116  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:03.394  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:03.677  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:03.955  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:04.234  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:04.511  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:04.789  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:05.069  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:05.345  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:05.625  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:05.906  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:06.182  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:06.447  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:06.715  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:06.985  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:07.263  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:07.545  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:07.823  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:08.101  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:08.386  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:08.663  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:08.943  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:09.220  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:09.501  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:09.780  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:10.056  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:10.321  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:10.587  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:10.865  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:11.148  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:11.430  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:11.704  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:11.985  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:12.265  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:12.544  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:12.807  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:13.085  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:13.366  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:13.645  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:13.922  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:14.201  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:14.468  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:14.734  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:15.006  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:15.284  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:15.563  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:15.841  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:16.120  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:16.400  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:16.680  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:16.961  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:17.237  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:17.518  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:17.795  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:18.063  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:18.341  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:18.606  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:18.885  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:19.163  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:19.440  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:19.705  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:20.004  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:20.272  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:20.539  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:20.819  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:21.097  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:21.381  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:21.660  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:21.929  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:22.197  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:22.463  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:22.731  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:22.998  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:23.276  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:23.551  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:23.818  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:24.096  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:24.379  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:24.657  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:24.936  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:25.219  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:25.486  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:25.751  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:26.022  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:26.306  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:26.585  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:26.852  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:27.120  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:27.399  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:27.681  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:27.948  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:28.226  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:28.503  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:28.784  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:29.050  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:29.328  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:29.608  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:29.887  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:30.164  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:30.442  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:30.705  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:30.983  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:31.256  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:31.522  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:31.799  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:32.064  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:32.327  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:32.591  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:32.860  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:33.134  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:33.397  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:33.662  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:33.940  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:34.216  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:34.495  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:34.762  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:35.039  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:35.317  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:35.598  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:35.874  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:36.143  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:36.412  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:36.691  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:36.969  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:37.239  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:37.511  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:37.777  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:38.066  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:38.331  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:38.600  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:38.879  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:39.148  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:39.421  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:39.710  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:39.989  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:40.271  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:40.535  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:40.816  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:41.087  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:41.357  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:41.624  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:41.903  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:41.935  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:41.952  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:42.219  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:42.485  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:42.752  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:43.024  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:43.293  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:43.595  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:43.888  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:44.156  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:44.428  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:44.692  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:44.955  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:45.231  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:45.508  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:45.775  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:46.040  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:46.305  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:46.599  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:46.883  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:47.149  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:47.415  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:47.690  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:47.968  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:48.236  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:48.512  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:48.780  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:49.057  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:49.324  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:49.601  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:49.868  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:50.147  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:50.423  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:50.689  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:50.966  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:51.241  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:51.519  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:51.787  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:52.087  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:52.364  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:52.651  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:52.930  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:53.210  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:53.490  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:53.763  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:54.040  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:54.316  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:54.592  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:54.869  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:55.147  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:55.410  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:55.693  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:55.972  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:56.253  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:56.537  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:56.804  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:57.074  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:57.354  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:57.634  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:57.907  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:58.176  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:58.442  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:58.712  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:58.992  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:59.271  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:59.536  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:53:59.810  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:00.077  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:00.344  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:00.622  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:00.904  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:01.177  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:01.459  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:01.740  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:02.018  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:02.297  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:02.565  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:02.843  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:03.120  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:03.403  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:03.665  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:03.937  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:04.201  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:04.466  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:04.735  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:05.007  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:05.283  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:05.560  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:05.824  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:06.101  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:06.376  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:06.659  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:06.924  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:07.191  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:07.455  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:07.720  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:07.985  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:08.263  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:08.539  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:08.813  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:09.088  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:09.363  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:09.640  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:09.908  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:10.184  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:10.462  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:10.728  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:11.005  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:11.279  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:11.556  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:11.836  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:12.112  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:12.375  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:12.654  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:12.928  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:13.203  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:13.479  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:13.742  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:14.019  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:14.302  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:14.581  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:14.861  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:15.126  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:15.404  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:15.686  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:15.963  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:16.243  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:16.518  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:16.785  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:17.064  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:17.342  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:17.625  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:17.905  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:18.182  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:18.461  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:18.728  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:19.006  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:19.283  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:19.559  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:19.841  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:20.120  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:20.397  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:20.676  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:20.960  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:21.238  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:21.514  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:21.778  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:22.043  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:22.311  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:22.578  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:22.846  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:23.111  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:23.376  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:23.641  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:23.911  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:24.177  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:24.443  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:24.708  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:24.973  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:25.242  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:25.508  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:25.775  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:26.039  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:26.305  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:26.569  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:26.833  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:27.099  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:27.375  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:27.652  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:27.930  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:28.230  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:28.506  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:28.784  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:29.061  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:29.338  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:29.614  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:29.892  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:30.168  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:30.446  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:30.713  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:30.989  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:31.265  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:31.535  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:31.803  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:32.067  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:32.332  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:32.598  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:32.874  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:33.150  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:33.434  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:33.711  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:33.988  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:34.268  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:34.546  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:34.827  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:35.103  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:35.380  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:35.657  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:35.933  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:36.212  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:36.489  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:36.757  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:37.033  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:37.310  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:37.587  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:37.866  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:38.133  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:38.414  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:38.688  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:38.968  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:39.249  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:39.525  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:39.802  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:40.068  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:40.377  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:40.643  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:40.920  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:41.185  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:41.461  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:41.729  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:54:42.006  INFO: listener.WebEventListener - Before Finding element: By.xpath: //label[text()='Commodity']/parent::*/div[1]/div
+2021-01-06/09:56:59.941  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-01-06/09:56:59.971  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2021-01-06/09:57:01.788  INFO: wdm.WebDriverManager - Using chromedriver 87.0.4280.88 (since Chrome 87 is installed in your machine)
+2021-01-06/09:57:01.873  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\87.0.4280.88\chromedriver.exe
+2021-01-06/09:57:08.684  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2021-01-06/09:57:09.189  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
+2021-01-06/09:57:50.045  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-01-06/09:57:50.161  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2021-01-06/09:57:50.434  INFO: listener.WebEventListener - Default Value :
+2021-01-06/09:57:50.635  INFO: listener.WebEventListener - Entered Value :
+2021-01-06/09:57:50.701  INFO: listener.WebEventListener - Default Value :
+2021-01-06/09:57:50.984  INFO: listener.WebEventListener - Entered Value :Nasreen.khan@ram.co.za
+2021-01-06/09:57:50.989  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-01-06/09:57:51.003  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2021-01-06/09:57:51.097  INFO: listener.WebEventListener - Default Value :
+2021-01-06/09:57:51.248  INFO: listener.WebEventListener - Entered Value :
+2021-01-06/09:57:51.309  INFO: listener.WebEventListener - Default Value :
+2021-01-06/09:57:51.538  INFO: listener.WebEventListener - Entered Value :Nasreen@1235
+2021-01-06/09:57:51.540  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-01-06/09:57:51.558  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2021-01-06/09:57:51.597  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2021-01-06/09:57:51.750  INFO: listener.WebEventListener - after click on
+2021-01-06/09:57:52.942 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-01-06/09:57:54.863 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-01-06/09:58:35.839  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-01-06/09:58:36.445  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='flex xs1 md1']]
+2021-01-06/09:58:36.665  INFO: listener.WebEventListener - after click on
+2021-01-06/09:58:36.817 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-01-06/09:58:37.678 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-01-06/09:58:42.796  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header
+2021-01-06/09:58:42.892  INFO: listener.WebEventListener - beforeClickOn css selector: .v-expansion-panel__container:nth-child(5) .panel-header]
+2021-01-06/09:58:43.165  INFO: listener.WebEventListener - after click on
+2021-01-06/09:58:43.166  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]
+2021-01-06/09:58:44.113  INFO: listener.WebEventListener - After Switch to Window
+2021-01-06/09:58:44.150 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-01-06/09:58:46.552 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-01-06/09:58:47.476  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:47.646  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:47.936  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:48.203  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:48.479  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:48.748  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:50.963  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:50.987  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:51.051  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:51.081  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:51.652  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:52.246  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:52.793  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:53.514  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='spinner-inner']/parent::*/parent::div[contains(@class,'active')]
+2021-01-06/09:58:53.533  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Create Consignment')]
+2021-01-06/09:58:53.601  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Create Consignment')]
+2021-01-06/09:58:53.658  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Create Consignment')]
+2021-01-06/09:58:53.680  INFO: listener.WebEventListener - beforeClickOn xpath: //div[contains(text(),'Create Consignment')]]
+2021-01-06/09:58:54.046  INFO: listener.WebEventListener - after click on
+2021-01-06/09:59:02.087  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ConsignmentID']
+2021-01-06/09:59:02.204  INFO: listener.WebEventListener - Default Value :
+2021-01-06/09:59:02.636  INFO: listener.WebEventListener - Entered Value :U
+2021-01-06/09:59:10.638  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2021-01-06/09:59:10.725  INFO: listener.WebEventListener - Default Value :
+2021-01-06/09:59:11.021  INFO: listener.WebEventListener - Entered Value :AIBT01
+2021-01-06/09:59:11.022  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2021-01-06/09:59:11.106  INFO: listener.WebEventListener - beforeClickOn css selector: #BilledTo]
+2021-01-06/09:59:11.236  INFO: listener.WebEventListener - after click on
+2021-01-06/09:59:11.237  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:11.289  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:11.641  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:11.933  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:12.296  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:12.565  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:12.852  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:13.120  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:13.396  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:13.692  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:13.973  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:14.251  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:14.534  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:14.817  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:15.103  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:15.386  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:15.669  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:15.955  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:16.222  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:16.491  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:16.768  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:17.042  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:17.312  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:17.584  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:17.867  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:18.139  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:18.407  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:18.682  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:18.950  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:19.221  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:19.503  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:19.875  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:20.158  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:20.451  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:20.886  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:21.159  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:21.426  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:21.694  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:21.968  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:22.253  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-01-06/09:59:52.783  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
+2021-01-06/09:59:53.019  INFO: listener.WebEventListener - after click on
+2021-01-06/09:59:57.019  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/../div
+2021-01-06/09:59:57.069  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/09:59:57.177  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/09:59:57.694  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/09:59:58.201  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/09:59:58.712  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/09:59:59.226  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/09:59:59.737  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:00.249  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:00.782  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:01.297  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:01.808  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:02.321  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:02.828  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:03.334  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:03.845  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:04.357  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:04.862  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:05.370  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:05.875  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:06.386  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:06.892  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:07.406  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:07.916  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:08.428  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:08.946  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:09.462  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:09.969  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:10.480  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:10.990  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:11.495  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:12.014  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:12.519  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:13.028  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:13.540  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:14.050  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:14.555  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:15.064  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:15.571  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:16.082  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:16.592  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:17.099  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:17.608  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:18.114  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:18.620  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:19.130  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:19.636  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:20.149  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:20.672  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:21.178  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:21.687  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:22.194  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:22.704  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:23.218  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:23.729  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:24.241  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:24.750  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:25.261  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:25.769  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:26.276  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:26.791  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:27.303  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:27.811  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:28.321  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:28.828  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:29.337  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:29.882  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:30.388  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:30.893  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:31.400  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:31.912  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:32.425  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:32.936  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:33.442  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:33.955  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:34.466  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:34.972  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:35.480  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:35.987  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:36.494  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:37.001  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:37.507  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:38.019  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:38.525  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:39.030  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:39.570  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:40.076  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:40.587  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:41.098  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:41.605  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:42.113  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:42.625  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:43.137  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:43.645  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:44.151  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:44.658  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:45.164  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:45.675  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:46.195  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:46.704  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:47.211  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:47.719  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:48.239  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:48.746  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:49.252  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:49.758  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:50.277  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:50.788  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:51.301  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:51.808  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:52.315  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:52.851  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:53.358  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:53.867  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:54.373  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:54.890  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:55.397  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:55.910  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:56.422  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:56.928  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:57.437  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:57.454  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-01-06/10:00:57.684 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running

@@ -1,15 +1,26 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
     "uid" : "bdbf199525818fae7a8651db9eafe741",
     "name" : "Test defects",
     "statistic" : {
       "failed" : 0,
-      "broken" : 7,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 7
+      "total" : 2
+    }
+  }, {
+    "uid" : "81b1a73de11cbf9edd37b9ae15430a89",
+    "name" : "Passed test",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
     }
   }, {
     "uid" : "c125badd1841297a9701a15a8082ec24",
@@ -17,10 +28,10 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     }
   } ]
 }

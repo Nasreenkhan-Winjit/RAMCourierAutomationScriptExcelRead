@@ -7,200 +7,140 @@
       "name" : "TestPageConsinment",
       "children" : [ {
         "name" : "doStarted",
-        "uid" : "7c4c15c4e26a4576",
-        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1597224717096,
-          "stop" : 1597224913014,
-          "duration" : 195918
-        },
-        "flaky" : false,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092134}" ]
-      }, {
-        "name" : "doStarted",
-        "uid" : "880920a245c396a7",
-        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1597225686541,
-          "stop" : 1597225835827,
-          "duration" : 149286
-        },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092135}" ]
-      }, {
-        "name" : "doStarted",
-        "uid" : "d2694ed6702d4e1c",
-        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1597991984809,
-          "stop" : 1597992028790,
-          "duration" : 43981
-        },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092136}" ]
-      }, {
-        "name" : "doStarted",
-        "uid" : "70a594bb85aec6fd",
-        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1597992028807,
-          "stop" : 1597992068935,
-          "duration" : 40128
-        },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092137}" ]
-      }, {
-        "name" : "doStarted",
-        "uid" : "804a6eb17796dee0",
-        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1598250193184,
-          "stop" : 1598250239635,
-          "duration" : 46451
-        },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092138}" ]
-      }, {
-        "name" : "doStarted",
-        "uid" : "20484642feee1a55",
+        "uid" : "c7f4970273e82840",
         "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
         "status" : "passed",
         "time" : {
-          "start" : 1598446455035,
-          "stop" : 1598446571973,
-          "duration" : 116938
+          "start" : 1610601349719,
+          "stop" : 1610601433477,
+          "duration" : 83758
         },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092141}" ]
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Surekha, SenderName=Sure, NumberOfParcel=1, ConsignmentID=UAT42092179}" ]
       }, {
         "name" : "doStarted",
-        "uid" : "3d30f2828f1e9528",
+        "uid" : "a4815c82869e32e0",
+        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610601970957,
+          "stop" : 1610602037841,
+          "duration" : 66884
+        },
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=INTT02, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Surekha, SenderName=Sure, NumberOfParcel=1, ConsignmentID=UAT42092180}" ]
+      }, {
+        "name" : "setUp",
+        "uid" : "7ee79b0d43e254a4",
+        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612175065909,
+          "stop" : 1612175065921,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "doStarted",
+        "uid" : "1e67b52fb8ceb9fb",
         "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
         "status" : "skipped",
         "time" : {
-          "start" : 1598448229360,
-          "stop" : 1598448229362,
+          "start" : 1612175088286,
+          "stop" : 1612175088288,
           "duration" : 2
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "doStarted",
-        "uid" : "3de94fee03a80906",
-        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1598503507755,
-          "stop" : 1598503633236,
-          "duration" : 125481
-        },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092140}" ]
-      }, {
-        "name" : "doStarted",
-        "uid" : "ddbee8d2f763b9b",
+        "uid" : "dfb6c67a5f927aa8",
         "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
         "status" : "broken",
         "time" : {
-          "start" : 1598611536916,
-          "stop" : 1598611584299,
-          "duration" : 47383
+          "start" : 1612175825386,
+          "stop" : 1612175918804,
+          "duration" : 93418
         },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092142}" ]
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=DIGI20, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Surekha, SenderName=Sure, NumberOfParcel=1, ConsignmentID=UAT42092181}" ]
       }, {
         "name" : "clickOnConsignment",
-        "uid" : "a007f88f4deaa512",
+        "uid" : "822f3a0ea8722bc2",
         "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
         "status" : "passed",
         "time" : {
-          "start" : 1598957163918,
-          "stop" : 1598957186606,
-          "duration" : 22688
+          "start" : 1612176925218,
+          "stop" : 1612176965777,
+          "duration" : 40559
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "clickOnAccordian",
-        "uid" : "1041ce8b5ba7ccfc",
+        "uid" : "e2730be0466a248b",
         "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
         "status" : "passed",
         "time" : {
-          "start" : 1598957186688,
-          "stop" : 1598957211018,
-          "duration" : 24330
+          "start" : 1612176966534,
+          "stop" : 1612176972416,
+          "duration" : 5882
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyValueStepperIsNotPresentOnSelectionOfDoc",
+        "uid" : "6ed8fc60bce4d680",
+        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612176973391,
+          "stop" : 1612177025582,
+          "duration" : 52191
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "doStarted",
-        "uid" : "62438937a9dc8c01",
+        "uid" : "f6078a96532da269",
         "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
         "status" : "passed",
         "time" : {
-          "start" : 1598957212341,
-          "stop" : 1598957333801,
-          "duration" : 121460
+          "start" : 1612177026485,
+          "stop" : 1612177105958,
+          "duration" : 79473
         },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=123, ReceiverName=S, BilledTo=CELW01, ValidShipperReference=qqqqqqq, InvalidShipperReference=aaaaaa, ReceiverName2=Surekha, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092143}" ]
-      }, {
-        "name" : "doStarted",
-        "uid" : "22da6c2f32cbd019",
-        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1598957333822,
-          "stop" : 1598957448041,
-          "duration" : 114219
-        },
-        "flaky" : true,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Anand, SenderName=Cell, NumberOfParcel=1, ConsignmentID=UAT42092144}" ]
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=DIGI20, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=CELL, SenderName=Sure, NumberOfParcel=1, ConsignmentID=UAT42092181}" ]
       } ],
       "uid" : "ed2b2b17049a2e53f2ab69a8d84e55e0"
     }, {
       "name" : "LoginPageTest",
       "children" : [ {
-        "name" : "setUp",
-        "uid" : "e44ebc989df1b71e",
-        "parentUid" : "15a3cee46dfdbedbef129c0f4df8f621",
-        "status" : "broken",
-        "time" : {
-          "start" : 1598858236652,
-          "stop" : 1598858236655,
-          "duration" : 3
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
         "name" : "signIn",
-        "uid" : "cb5c8387900f09c8",
+        "uid" : "49c436731159a0bc",
         "parentUid" : "15a3cee46dfdbedbef129c0f4df8f621",
         "status" : "skipped",
         "time" : {
-          "start" : 1598858242817,
-          "stop" : 1598858242825,
-          "duration" : 8
+          "start" : 1612175086648,
+          "stop" : 1612175086688,
+          "duration" : 40
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "signIn",
-        "uid" : "e8007a8149907f21",
+        "uid" : "ade43f23af958085",
         "parentUid" : "15a3cee46dfdbedbef129c0f4df8f621",
         "status" : "passed",
         "time" : {
-          "start" : 1598957158561,
-          "stop" : 1598957163152,
-          "duration" : 4591
+          "start" : 1612176919937,
+          "stop" : 1612176922004,
+          "duration" : 2067
         },
-        "flaky" : true,
-        "parameters" : [ "{Status=, Message=, Password=Surekha@123, UserName=surekha.jadhav@ram.co.za}" ]
+        "flaky" : false,
+        "parameters" : [ "{Status=, Message=, Password=Nasreen@1235, UserName=Nasreen.khan@ram.co.za}" ]
       } ],
       "uid" : "15a3cee46dfdbedbef129c0f4df8f621"
     } ],

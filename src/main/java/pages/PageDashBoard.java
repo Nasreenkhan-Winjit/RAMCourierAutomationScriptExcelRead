@@ -73,7 +73,10 @@ public class PageDashBoard extends BasePage{
 //        System.out.println("Applauncher before"+ elementApplauncher.isDisplayed());
 //        webDriverWait.until(ExpectedConditions.visibilityOf(elementApplauncher));
 ////        elementApplauncher.isDisplayed();
-        System.out.println("Applauncher displayed"+ elementApplauncher.isDisplayed());
+
+
+        // new change Inbound
+//        System.out.println("Applauncher displayed"+ elementApplauncher.isDisplayed());
 
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementAvailableAccordion));
 
