@@ -53,7 +53,7 @@ public class TestPageConsinment extends TestBase {
         pageConsignment.clickOnConsignmentDropdown();
         Thread.sleep(9000);
         pageConsignment.enterTxtConsignmentID("UAT00010001", Keys.ENTER);
-        Thread.sleep(10000);
+        Thread.sleep(15000);
         pageConsignment.enterTxtBilledTo("CELW01");
         Thread.sleep(5000);
         pageConsignment.selectMenuBilledTo();
@@ -63,9 +63,9 @@ public class TestPageConsinment extends TestBase {
         pageConsignment.isCommoditySelected();
         pageConsignment.clickoncommudity();
         pageConsignment.clickOnCommudityContinuePopup();
-        Thread.sleep(5000);
-        pageConsignment.clickOnCommudityJwellery();
-        pageConsignment.clickOnCommudityContinuePopup();
+//        Thread.sleep(5000);
+//        pageConsignment.clickOnCommudityJwellery();
+//        pageConsignment.clickOnCommudityContinuePopup();
         Thread.sleep(7000);
 //        waitForLoad();
 //        webDriver.navigate().refresh();
@@ -88,7 +88,7 @@ public class TestPageConsinment extends TestBase {
 //        Thread.sleep(8000);
         pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"), Keys.ENTER);
 //        pageConsignment.enterTxtConsignmentID("UAT92095901", Keys.ENTER);
-        Thread.sleep(10000);
+        Thread.sleep(15000);
 //        pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"),Keys.ENTER);
 //        Thread.sleep(8000);
         pageConsignment.enterTxtBilledTo(testDataSet.get("BilledTo"));
@@ -134,7 +134,7 @@ public class TestPageConsinment extends TestBase {
 //            pageConsignment.clickOnCommudityJwellery();
 //            Thread.sleep(7000);
 
-//        Thread.sleep(4000);
+        Thread.sleep(4000);
         //<editor-fold desc="Commneted to check">
 
 //
