@@ -1,5 +1,5 @@
 {
-  "2ebc05e85d4aa7a32f17f5e80c9bf5ba" : {
+  "b4e9fa40f11ba0d1a361e1d3687d0716" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,73 +9,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c7f4970273e82840",
+      "uid" : "5dc8e87aa398d6a2",
       "status" : "passed",
       "time" : {
-        "start" : 1610601349719,
-        "stop" : 1610601433477,
-        "duration" : 83758
+        "start" : 1614325305625,
+        "stop" : 1614325317532,
+        "duration" : 11907
       }
     } ]
   },
-  "67abb52165e959b55afdd87bf11c02df" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a4815c82869e32e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610601970957,
-        "stop" : 1610602037841,
-        "duration" : 66884
-      }
-    } ]
-  },
-  "9da3b2783e58f1943e1e9f8362a5effb" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "49c436731159a0bc",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1612175086648,
-        "stop" : 1612175086688,
-        "duration" : 40
-      }
-    } ]
-  },
-  "97b25ec7ca5bbd7145a37d406bdf4049" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ade43f23af958085",
-      "status" : "passed",
-      "time" : {
-        "start" : 1612176919937,
-        "stop" : 1612176922004,
-        "duration" : 2067
-      }
-    } ]
-  },
-  "2d126bc5355961b73e0d1de019d653d5" : {
+  "185bd54701bacd882d4a1a3afdc87868" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -85,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dfb6c67a5f927aa8",
+      "uid" : "c6fbf52460070cfd",
       "status" : "broken",
-      "statusDetails" : "Timed out after 60 seconds. Unable to locate the element",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=88.0.4324.182)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:60455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b63401029888d8a053a35f1805d6021e\n*** Element info: {Using=xpath, value=//div[@class='v-dialog v-dialog--active']//div[@class='v-btn__content'][contains(text(),'Close')]}",
       "time" : {
-        "start" : 1612175825386,
-        "stop" : 1612175918804,
-        "duration" : 93418
+        "start" : 1614321395167,
+        "stop" : 1614321523659,
+        "duration" : 128492
       }
     } ]
   },
@@ -105,71 +48,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "822f3a0ea8722bc2",
+      "uid" : "8baaee9bfd6698f4",
       "status" : "passed",
       "time" : {
-        "start" : 1612176925218,
-        "stop" : 1612176965777,
-        "duration" : 40559
-      }
-    } ]
-  },
-  "7090c38812e8803aedd16572b6b21e91" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f6078a96532da269",
-      "status" : "passed",
-      "time" : {
-        "start" : 1612177026485,
-        "stop" : 1612177105958,
-        "duration" : 79473
-      }
-    } ]
-  },
-  "775e0fabc15113bd852a999b5874b987" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1e67b52fb8ceb9fb",
-      "status" : "skipped",
-      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: ChromeDriver",
-      "time" : {
-        "start" : 1612175088286,
-        "stop" : 1612175088288,
-        "duration" : 2
-      }
-    } ]
-  },
-  "b3c0ef244ec8fdb15360d7a8f458a780" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7ee79b0d43e254a4",
-      "status" : "broken",
-      "statusDetails" : "Timed out waiting for driver server to start.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: driver.version: ChromeDriver",
-      "time" : {
-        "start" : 1612175065909,
-        "stop" : 1612175065921,
-        "duration" : 12
+        "start" : 1614325319046,
+        "stop" : 1614325350275,
+        "duration" : 31229
       }
     } ]
   },
@@ -183,31 +67,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e2730be0466a248b",
+      "uid" : "f0f99bd326585095",
       "status" : "passed",
       "time" : {
-        "start" : 1612176966534,
-        "stop" : 1612176972416,
-        "duration" : 5882
+        "start" : 1614325350288,
+        "stop" : 1614325357141,
+        "duration" : 6853
       }
     } ]
   },
   "a05678d47615955a02d89c2808b75458" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6ed8fc60bce4d680",
-      "status" : "passed",
+      "uid" : "e01ea0829cc2b35b",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=88.0.4324.182)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3ed1d3c7d8720aa8497e2a0e3243b8d6",
       "time" : {
-        "start" : 1612176973391,
-        "stop" : 1612177025582,
-        "duration" : 52191
+        "start" : 1614325357153,
+        "stop" : 1614325413082,
+        "duration" : 55929
+      }
+    } ]
+  },
+  "79a5c33001baaf5aaff2d93e953bd7e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e11fa7a47c033fc5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: //div[@class='v-dialog v-dialog--active']//div[@class='v-btn__content'][contains(text(),'Close')]' (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1614325413745,
+        "stop" : 1614325597457,
+        "duration" : 183712
       }
     } ]
   }

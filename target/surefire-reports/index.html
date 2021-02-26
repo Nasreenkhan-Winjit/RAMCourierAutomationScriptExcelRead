@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">2 suites</span>
+      <span class="top-banner-font-1">2 suites, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Valid_Login_Scenario" class="navigator-link">
-              <span class="suite-name border-passed">Valid Login Scenario</span>
+              <span class="suite-name border-failed">Valid Login Scenario</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Valid_Login_Scenario" class="hide-methods failed suite-Valid_Login_Scenario"> (hide)</a> <!-- hide-methods failed suite-Valid_Login_Scenario -->
+                      <a href="#" panel-name="suite-Valid_Login_Scenario" class="show-methods failed suite-Valid_Login_Scenario"> (show)</a> <!-- show-methods failed suite-Valid_Login_Scenario -->
+                    </span>
+                    <div class="method-list-content failed suite-Valid_Login_Scenario">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Valid_Login_Scenario" title="pages.TestPageConsinment" class="method navigator-link" hash-for-method="doStarted({SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReferenc...)">doStarted({SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReferenc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Valid_Login_Scenario" title="pages.TestPageConsinment" class="method navigator-link" hash-for-method="verifyValueStepperIsNotPresentOnSelectionOfDoc">verifyValueStepperIsNotPresentOnSelectionOfDoc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Valid_Login_Scenario -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -112,17 +131,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Valid_Login_Scenario" title="pages.TestPageConsinment" class="method navigator-link" hash-for-method="doStarted({SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=DIGI20, ValidShipperReferenc...)">doStarted({SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=DIGI20, ValidShipperReferenc...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Valid_Login_Scenario" title="pages.LoginPageTest" class="method navigator-link" hash-for-method="signIn({Status=, Message=, Password=Nasreen@1235, UserName=Nasreen.khan@ram.co.za})">signIn({Status=, Message=, Password=Nasreen@1235, UserName=Nasreen.khan@ram.co.za})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Valid_Login_Scenario" title="pages.TestPageConsinment" class="method navigator-link" hash-for-method="verifyValueStepperIsNotPresentOnSelectionOfDoc">verifyValueStepperIsNotPresentOnSelectionOfDoc</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Valid_Login_Scenario" title="pages.LoginPageTest" class="method navigator-link" hash-for-method="signIn({Status=, Message=, Password=Nasreen@123, UserName=Nasreen.khan@ram.co.za})">signIn({Status=, Message=, Password=Nasreen@123, UserName=Nasreen.khan@ram.co.za})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Valid_Login_Scenario -->
@@ -137,6 +146,106 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Valid_Login_Scenario" class="panel Valid_Login_Scenario">
+          <div class="suite-Valid_Login_Scenario-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">pages.TestPageConsinment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doStarted({SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReferenc...)">
+                  </a> <!-- doStarted({SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReferenc...) -->
+                  <span class="method-name">doStarted</span>
+                  <span class="parameters">({SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Automation, SenderName=SCOIN, NumberOfParcel=1, ConsignmentID=UAT42092190})</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator &apos;By.xpath: //div[@class=&apos;v-dialog v-dialog--active&apos;]//div[@class=&apos;v-btn__content&apos;][contains(text(),&apos;Close&apos;)]&apos; (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at pages.PageConsinment.clickOnFinaliseConsignment(PageConsinment.java:895)
+	at pages.TestPageConsinment.doStarted(TestPageConsinment.java:348)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 60 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:99)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 35 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;v-dialog v-dialog--active&apos;]//div[@class=&apos;v-btn__content&apos;][contains(text(),&apos;Close&apos;)]&quot;}
+  (Session info: chrome=88.0.4324.182)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;WJLP-1098&apos;, ip: &apos;192.168.65.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\nasreenk\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ed1d3c7d8720aa8497e2a0e3243b8d6
+*** Element info: {Using=xpath, value=//div[@class=&apos;v-dialog v-dialog--active&apos;]//div[@class=&apos;v-btn__content&apos;][contains(text(),&apos;Close&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy13.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:39)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:165)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:72)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:95)
+	... 42 more
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValueStepperIsNotPresentOnSelectionOfDoc">
+                  </a> <!-- verifyValueStepperIsNotPresentOnSelectionOfDoc -->
+                  <span class="method-name">verifyValueStepperIsNotPresentOnSelectionOfDoc</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=88.0.4324.182)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;WJLP-1098&apos;, ip: &apos;192.168.65.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\nasreenk\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ed1d3c7d8720aa8497e2a0e3243b8d6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:470)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at pages.PageConsinment.clickOnCommudityContinuePopup(PageConsinment.java:941)
+	at pages.TestPageConsinment.verifyValueStepperIsNotPresentOnSelectionOfDoc(TestPageConsinment.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Valid_Login_Scenario-class-failed -->
           <div class="suite-Valid_Login_Scenario-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -145,10 +254,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="signIn({Status=, Message=, Password=Nasreen@1235, UserName=Nasreen.khan@ram.co.za})">
-                  </a> <!-- signIn({Status=, Message=, Password=Nasreen@1235, UserName=Nasreen.khan@ram.co.za}) -->
+                  <a name="signIn({Status=, Message=, Password=Nasreen@123, UserName=Nasreen.khan@ram.co.za})">
+                  </a> <!-- signIn({Status=, Message=, Password=Nasreen@123, UserName=Nasreen.khan@ram.co.za}) -->
                   <span class="method-name">signIn</span>
-                  <span class="parameters">({Status=, Message=, Password=Nasreen@1235, UserName=Nasreen.khan@ram.co.za})</span>
+                  <span class="parameters">({Status=, Message=, Password=Nasreen@123, UserName=Nasreen.khan@ram.co.za})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -171,21 +280,6 @@
                   <a name="clickOnConsignment">
                   </a> <!-- clickOnConsignment -->
                   <span class="method-name">clickOnConsignment</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="doStarted({SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=DIGI20, ValidShipperReferenc...)">
-                  </a> <!-- doStarted({SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=DIGI20, ValidShipperReferenc...) -->
-                  <span class="method-name">doStarted</span>
-                  <span class="parameters">({SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=DIGI20, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=CELL, SenderName=Sure, NumberOfParcel=1, ConsignmentID=UAT42092181})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyValueStepperIsNotPresentOnSelectionOfDoc">
-                  </a> <!-- verifyValueStepperIsNotPresentOnSelectionOfDoc -->
-                  <span class="method-name">verifyValueStepperIsNotPresentOnSelectionOfDoc</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -298,28 +392,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'doStarted')
 data.setCell(0, 2, 'pages.TestPageConsinment')
-data.setCell(0, 3, 79479);
+data.setCell(0, 3, 183708);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyValueStepperIsNotPresentOnSelectionOfDoc')
 data.setCell(1, 2, 'pages.TestPageConsinment')
-data.setCell(1, 3, 52198);
+data.setCell(1, 3, 55851);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'clickOnConsignment')
 data.setCell(2, 2, 'pages.TestPageConsinment')
-data.setCell(2, 3, 41088);
+data.setCell(2, 3, 30825);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'clickOnAccordian')
-data.setCell(3, 2, 'pages.TestPageConsinment')
-data.setCell(3, 3, 5887);
+data.setCell(3, 1, 'signIn')
+data.setCell(3, 2, 'pages.LoginPageTest')
+data.setCell(3, 3, 11081);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'signIn')
-data.setCell(4, 2, 'pages.LoginPageTest')
-data.setCell(4, 3, 2223);
+data.setCell(4, 1, 'clickOnAccordian')
+data.setCell(4, 2, 'pages.TestPageConsinment')
+data.setCell(4, 3, 5885);
 window.suiteTableData['Valid_Login_Scenario']= { tableData: data, tableDiv: 'times-div-Valid_Login_Scenario'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Valid_Login_Scenario">
               </div> <!-- times-div-Valid_Login_Scenario -->
             </div> <!-- times-div -->
@@ -394,38 +488,42 @@ return data;
               <div class="chronological-class-name">pages.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">waitForLoad</span>
-                <span class="method-start">49125 ms</span>
+                <span class="method-start">22226 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">signIn({Status=, Message=, Password=Nasreen@1235, UserName=Nasreen.khan@ram.co.za})</span>
-                <span class="method-start">52481 ms</span>
+                <span class="method-name">signIn({Status=, Message=, Password=Nasreen@123, UserName=Nasreen.khan@ram.co.za})</span>
+                <span class="method-start">27478 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">pages.TestPageConsinment</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">waitForLoad</span>
-                <span class="method-start">57401 ms</span>
+                <span class="method-start">41433 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">clickOnConsignment</span>
-                <span class="method-start">57404 ms</span>
+                <span class="method-start">41439 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickOnAccordian</span>
-                <span class="method-start">99244 ms</span>
+                <span class="method-start">73015 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyValueStepperIsNotPresentOnSelectionOfDoc</span>
-                <span class="method-start">106100 ms</span>
+                <span class="method-start">79881 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">doStarted({SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=DIGI20, ValidShipperReferenc...)</span>
-                <span class="method-start">159194 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">doStarted({SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReferenc...)</span>
+                <span class="method-start">136467 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearBrowser</span>
-                <span class="method-start">239283 ms</span>
+                <span class="method-start">320275 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

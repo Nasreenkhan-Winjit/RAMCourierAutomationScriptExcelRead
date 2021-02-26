@@ -7,140 +7,80 @@
       "name" : "TestPageConsinment",
       "children" : [ {
         "name" : "doStarted",
-        "uid" : "c7f4970273e82840",
-        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610601349719,
-          "stop" : 1610601433477,
-          "duration" : 83758
-        },
-        "flaky" : false,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=CELW01, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Surekha, SenderName=Sure, NumberOfParcel=1, ConsignmentID=UAT42092179}" ]
-      }, {
-        "name" : "doStarted",
-        "uid" : "a4815c82869e32e0",
-        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1610601970957,
-          "stop" : 1610602037841,
-          "duration" : 66884
-        },
-        "flaky" : false,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=INTT02, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Surekha, SenderName=Sure, NumberOfParcel=1, ConsignmentID=UAT42092180}" ]
-      }, {
-        "name" : "setUp",
-        "uid" : "7ee79b0d43e254a4",
+        "uid" : "c6fbf52460070cfd",
         "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
         "status" : "broken",
         "time" : {
-          "start" : 1612175065909,
-          "stop" : 1612175065921,
-          "duration" : 12
+          "start" : 1614321395167,
+          "stop" : 1614321523659,
+          "duration" : 128492
         },
         "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "doStarted",
-        "uid" : "1e67b52fb8ceb9fb",
-        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1612175088286,
-          "stop" : 1612175088288,
-          "duration" : 2
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "doStarted",
-        "uid" : "dfb6c67a5f927aa8",
-        "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
-        "status" : "broken",
-        "time" : {
-          "start" : 1612175825386,
-          "stop" : 1612175918804,
-          "duration" : 93418
-        },
-        "flaky" : false,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=DIGI20, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Surekha, SenderName=Sure, NumberOfParcel=1, ConsignmentID=UAT42092181}" ]
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Automation, SenderName=SCOIN, NumberOfParcel=1, ConsignmentID=UAT42092189}" ]
       }, {
         "name" : "clickOnConsignment",
-        "uid" : "822f3a0ea8722bc2",
+        "uid" : "8baaee9bfd6698f4",
         "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
         "status" : "passed",
         "time" : {
-          "start" : 1612176925218,
-          "stop" : 1612176965777,
-          "duration" : 40559
+          "start" : 1614325319046,
+          "stop" : 1614325350275,
+          "duration" : 31229
         },
-        "flaky" : true,
+        "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "clickOnAccordian",
-        "uid" : "e2730be0466a248b",
+        "uid" : "f0f99bd326585095",
         "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
         "status" : "passed",
         "time" : {
-          "start" : 1612176966534,
-          "stop" : 1612176972416,
-          "duration" : 5882
+          "start" : 1614325350288,
+          "stop" : 1614325357141,
+          "duration" : 6853
         },
-        "flaky" : true,
+        "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "verifyValueStepperIsNotPresentOnSelectionOfDoc",
-        "uid" : "6ed8fc60bce4d680",
+        "uid" : "e01ea0829cc2b35b",
         "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1612176973391,
-          "stop" : 1612177025582,
-          "duration" : 52191
+          "start" : 1614325357153,
+          "stop" : 1614325413082,
+          "duration" : 55929
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "doStarted",
-        "uid" : "f6078a96532da269",
+        "uid" : "e11fa7a47c033fc5",
         "parentUid" : "ed2b2b17049a2e53f2ab69a8d84e55e0",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1612177026485,
-          "stop" : 1612177105958,
-          "duration" : 79473
+          "start" : 1614325413745,
+          "stop" : 1614325597457,
+          "duration" : 183712
         },
-        "flaky" : false,
-        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=DIGI20, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=CELL, SenderName=Sure, NumberOfParcel=1, ConsignmentID=UAT42092181}" ]
+        "flaky" : true,
+        "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Automation, SenderName=SCOIN, NumberOfParcel=1, ConsignmentID=UAT42092190}" ]
       } ],
       "uid" : "ed2b2b17049a2e53f2ab69a8d84e55e0"
     }, {
       "name" : "LoginPageTest",
       "children" : [ {
         "name" : "signIn",
-        "uid" : "49c436731159a0bc",
-        "parentUid" : "15a3cee46dfdbedbef129c0f4df8f621",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1612175086648,
-          "stop" : 1612175086688,
-          "duration" : 40
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "signIn",
-        "uid" : "ade43f23af958085",
+        "uid" : "5dc8e87aa398d6a2",
         "parentUid" : "15a3cee46dfdbedbef129c0f4df8f621",
         "status" : "passed",
         "time" : {
-          "start" : 1612176919937,
-          "stop" : 1612176922004,
-          "duration" : 2067
+          "start" : 1614325305625,
+          "stop" : 1614325317532,
+          "duration" : 11907
         },
-        "flaky" : false,
-        "parameters" : [ "{Status=, Message=, Password=Nasreen@1235, UserName=Nasreen.khan@ram.co.za}" ]
+        "flaky" : true,
+        "parameters" : [ "{Status=, Message=, Password=Nasreen@123, UserName=Nasreen.khan@ram.co.za}" ]
       } ],
       "uid" : "15a3cee46dfdbedbef129c0f4df8f621"
     } ],

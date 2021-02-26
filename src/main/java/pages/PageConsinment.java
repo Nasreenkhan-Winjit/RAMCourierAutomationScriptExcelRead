@@ -66,7 +66,8 @@ public class PageConsinment extends BasePage {
     @CacheLookup
     // validate commodity scenerio
 //    @FindBy(how = How.XPATH, using = "//div[@class='v-select__selections']/div[contains(text(),'Cellular Equipment')]")
-    @FindBy(how = How.XPATH, using = "//div[@class='v-select__selections']/div[contains(text(),'General')]")
+//    @FindBy(how = How.XPATH, using = "//div[@class='v-select__selections']/div[contains(text(),'General')]")
+    @FindBy(how = How.XPATH, using = "//input[@id='Commodity']//..")
     private WebElement elementcommudity;
 
     @CacheLookup
@@ -86,7 +87,7 @@ public class PageConsinment extends BasePage {
 
     @CacheLookup
 //    @FindBy(how =How.XPATH,using = "//div[@class='v-list__tile__content']/div[contains(text(),'Jewellery')]")
-    @FindBy(how =How.XPATH,using = "//div[@class='v-list__tile__content']/div[contains(text(),'General')]")
+    @FindBy(how =How.XPATH,using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][1]")
     private WebElement elementMenuJwellery;
 
     @CacheLookup
@@ -114,7 +115,7 @@ public class PageConsinment extends BasePage {
 //    @FindBy(how = How.XPATH, using = "//div[contains(text(),'ASUREN NAIDOO, I1149777, 000 000 0000')]")
 //    @FindBy(how = How.XPATH, using = "//div[contains(text(),'CELLSURE (PTY) LTD, 000 000 0000')]")
 //    @FindBy(how = How.XPATH, using = "//div[contains(text(),'SURE WENHOLD - 074 460 7090')]")
-    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'] [2]")
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'] [1]")
     private WebElement elementMenuSenderName;
 
 //    @CacheLookup
@@ -162,7 +163,7 @@ public class PageConsinment extends BasePage {
     @CacheLookup
 //    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@class='v-list__tile__content'][1]")
 //    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[contains(text(),'Surekha Jadhav - 2412434324')]")
-    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][2]")
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]")
     private WebElement elementMenuRecieverName;
 
     @CacheLookup
@@ -726,18 +727,34 @@ public class PageConsinment extends BasePage {
         elementRICA.click();
 
             }
-    @Step("Verify Rica is select or not")
+    @Step("Verify Rica is selected or not")
     public boolean verifyRICA(){
-//      WebElement Rica = webDriver.findElement(By.xpath("//div[contains(text(),'RICA')]")) ;
-      WebElement Rica = webDriver.findElement(By.xpath("//button[@id='RICA']")) ;
-        System.out.println("Rica is selected"+ Rica.isEnabled());
-        return Rica.isEnabled();
+//
+//     WebElement Rica = webDriver.findElement(By.xpath("//div[contains(text(),'RICA')]")) ;
+
+
+            WebElement Rica = webDriver.findElement(By.xpath("//button[@id='RICA']")) ;
+            System.out.println("Rica is selected"+ Rica.isEnabled());
+            return Rica.isEnabled();
+        }
+
 //        List<WebElement> Rica = webDriver.findElement(By.xpath("//button[@id='RICA']")) ;//
 //       return Rica.size();
 //        List<WebElement> rica = webDriver.findElements(By.xpath("//button[@id='RICA']"));
 //        return rica.size();
-    }
 
+
+    @Step("Verify the Rica is not present")
+    public boolean verifyRicaIsNotPresent() {
+        try {
+            WebElement Rica = webDriver.findElement(By.xpath("//button[@id='RICA']"));
+            System.out.println("Rica is not preseent" + Rica.isDisplayed());
+            return Rica.isDisplayed();
+
+        } catch (Exception e) {
+            return false;
+        }
+    }
     @Step("Click on Idnetity type and select SA ID ")
     public void clickOnSAID(){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnIdentityType));
@@ -761,6 +778,33 @@ public class PageConsinment extends BasePage {
             return true;
         }
     }
+
+    @Step("Verify the parcel header is displayed")
+    public int verifyParcelHeaderIsDisplayed(){
+//       List<WebElement> parcelHeader = (List<WebElement>) webDriver.findElement(By.xpath("//div[@class='parcelHeader']"));
+////        System.out.println("Parcel header is displayed"+ parcelHeader.isDisplayed() );
+//        return parcelHeader.Size();
+
+
+        List<WebElement> parcelHeader = webDriver.findElements(By.xpath("//div[@class='parcelHeader']"));
+        return parcelHeader.size();
+
+    }
+    @Step("verify the Security pack error is displayed")
+    public boolean verifySecurityPack(){
+        WebElement SP = webDriver .findElement(By.xpath("//div[contains(text(),'Security pack is required')]"));
+        System.out.println("Security pack is required"+  SP.isDisplayed());
+        return SP.isDisplayed();
+
+    }
+    @Step("verify the Security pack error is displayed")
+    public boolean verifyWeightErrorIsDisplayed(){
+        WebElement Weight = webDriver .findElement(By.xpath("//div[contains(text(),'Weight must be between 0.01 and 1200')]"));
+        System.out.println("Security pack is required"+  Weight.isDisplayed());
+        return Weight.isDisplayed();
+
+    }
+
 
     @Step("Select FridgeLine hrs")
     public void clickOnFridgeLineAndSelectHrs(){
@@ -790,12 +834,22 @@ public class PageConsinment extends BasePage {
 
     }
 
+//    @Step("Enter the parcel package type details")
+//    public void parcelTypeCondition(String txt){
+//        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementNumberOfParcel));
+//        elementNumberOfParcel.sendKeys(txt, Keys.ENTER);
+//        switch (entertxtNumberOfParcel){
+//
+//        }
+//    }
+
     @Step("Enter text Number of parcel")
     public void entertxtNumberOfParcel(String txt ){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementNumberOfParcel));
         elementNumberOfParcel.sendKeys(txt, Keys.ENTER);
         //actions.sendKeys(Keys.TAB);
     }
+
 
     @Step("Click on Security Pack")
     public void clickOnSecurityPack(String txt){

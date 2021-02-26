@@ -10,7 +10,7 @@ import pages.commonmodule.Loader;
 
 import java.util.*;
 
-public class    TestPageConsinment extends TestBase {
+public class TestPageConsinment extends TestBase {
 
     PageDashBoard pageDashBoard;
     PageConsinment pageConsignment;
@@ -21,7 +21,7 @@ public class    TestPageConsinment extends TestBase {
 
     @Test
     public void clickOnConsignment() throws InterruptedException {
-        Thread.sleep(40000);
+        Thread.sleep(30000);
 //     loader.waitForLoaderToDispose();
         pageDashBoard = new PageDashBoard(eventFiringWebDriver);
         pageDashBoard.clickOnNavBar();
@@ -53,8 +53,9 @@ public class    TestPageConsinment extends TestBase {
         pageConsignment.clickOnConsignmentDropdown();
         Thread.sleep(9000);
         pageConsignment.enterTxtConsignmentID("UAT00010001", Keys.ENTER);
-        Thread.sleep(8000);
+        Thread.sleep(10000);
         pageConsignment.enterTxtBilledTo("CELW01");
+        Thread.sleep(5000);
         pageConsignment.selectMenuBilledTo();
         Thread.sleep(8000);
 //
@@ -64,11 +65,13 @@ public class    TestPageConsinment extends TestBase {
         pageConsignment.clickOnCommudityContinuePopup();
         Thread.sleep(5000);
         pageConsignment.clickOnCommudityJwellery();
+        pageConsignment.clickOnCommudityContinuePopup();
         Thread.sleep(7000);
 //        waitForLoad();
 //        webDriver.navigate().refresh();
 
     }
+
     @Test(dataProviderClass = DataProviderList.class, dataProvider = "consignment")
 //    @Test()
     public void doStarted(Map<String, String> testDataSet) throws InterruptedException {
@@ -85,7 +88,7 @@ public class    TestPageConsinment extends TestBase {
 //        Thread.sleep(8000);
         pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"), Keys.ENTER);
 //        pageConsignment.enterTxtConsignmentID("UAT92095901", Keys.ENTER);
-        Thread.sleep(8000);
+        Thread.sleep(10000);
 //        pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"),Keys.ENTER);
 //        Thread.sleep(8000);
         pageConsignment.enterTxtBilledTo(testDataSet.get("BilledTo"));
@@ -162,7 +165,7 @@ public class    TestPageConsinment extends TestBase {
 
         }
 //        (pageConsignment.verifySenderFieldNotRestricted())
-       if (pageConsignment.verifySenderFieldNotRestricted()) {
+        if (pageConsignment.verifySenderFieldNotRestricted()) {
             pageConsignment.clickOnSenderName(testDataSet.get("SenderName"));
 //        pageConsignment.clickOnSenderName("Cell");
             pageConsignment.SelectMenuSenderName();
@@ -182,23 +185,23 @@ public class    TestPageConsinment extends TestBase {
 //            Thread.sleep(6000);
         }
 
-    Thread.sleep(6000);
+        Thread.sleep(6000);
 
         pageConsignment.clickOnStepReciever();
 
-        if(pageConsignment.verifyReceiverAddress()!=0){
+        if (pageConsignment.verifyReceiverAddress() != 0) {
             //Click on fourth Stepper
             pageConsignment.clickOnStepValue();
         }
-        if(pageConsignment.verifyReceiverFieldIsRestricted()){
+        if (pageConsignment.verifyReceiverFieldIsRestricted()) {
 //            pageConsignment.clickOnStepReciever();
 
-           pageConsignment.entertxtRecieverNameRestricted();
+            pageConsignment.entertxtRecieverNameRestricted();
 
             pageConsignment.selectMenuRecieverName();
         }
 
-        if(pageConsignment.verifyReceiverFieldNotRestricted()) {
+        if (pageConsignment.verifyReceiverFieldNotRestricted()) {
 //            pageConsignment.clickOnStepReciever();
             pageConsignment.entertxtRecieverName(testDataSet.get("ReceiverName2"));
 //        pageConsignment.entertxtRecieverName("surekha");
@@ -242,7 +245,7 @@ public class    TestPageConsinment extends TestBase {
 //        pageConsignment.clickOnCheckBox();
 //        Thread.sleep(10000);
 //
-            //<editor-fold desc="FifthStepper">
+        //<editor-fold desc="FifthStepper">
         pageConsignment.clickOnStepRequirement();
 //        Thread.sleep(4000);
         pageConsignment.entertxtShipperReference(testDataSet.get("InvalidShipperReference"));
@@ -268,67 +271,85 @@ public class    TestPageConsinment extends TestBase {
         pageConsignment.clickonstepServices();
 //        pageConsignment.selectServiceType();
 
+        //For RICA
+//        if (pageConsignment.verifyRicaIsNotPresent()) {
 
-    if (pageConsignment.verifyRICA()) {
+            if (!pageConsignment.verifyRICA()) {
 
-        pageConsignment.selectServiceTypeAndSelectNextDay();
-        pageConsignment.clickOnSAID();
-        pageConsignment.enterTxtInSAIDField("1234567891234");
+                pageConsignment.selectServiceTypeAndSelectNextDay();
+                pageConsignment.clickOnSAID();
+                pageConsignment.enterTxtInSAIDField("1234567891234");
 
-        pageConsignment.clickonStepParcel();
+                pageConsignment.clickonStepParcel();
 //        Thread.sleep(6000);
 
-        pageConsignment.entertxtNumberOfParcel(testDataSet.get("NumberOfParcel"));
-        Thread.sleep(5000);
+                pageConsignment.entertxtNumberOfParcel(testDataSet.get("NumberOfParcel"));
+                Thread.sleep(5000);
 
-        pageConsignment.clickOnPackageType01();
+                pageConsignment.clickOnPackageType01();
 
-        pageConsignment.clickOnSecurityPack(testDataSet.get("SecurityPack"));
+                pageConsignment.clickOnSecurityPack(testDataSet.get("SecurityPack"));
 
-        pageConsignment.entertxtweight("0.1");
+                pageConsignment.entertxtweight("0.1");
 
-        pageConsignment.enterParcelReferenceTxt("NA");
+                pageConsignment.enterParcelReferenceTxt("NA");
 
-        pageConsignment.clickOnFinaliseConsignment();
+                pageConsignment.clickOnFinaliseConsignment();
 
-    }
-    else {
+            }
+//    if(pageConsignment.verifyRICA()){
+            else {
+                pageConsignment.selectServiceType();
+                Thread.sleep(2000);
+                pageConsignment.selectRICAOnSurcharge();
+                Thread.sleep(2000);
+                pageConsignment.clickOnSAID();
+                pageConsignment.enterTxtInSAIDField("1234567891234");
 
-        pageConsignment.selectServiceType();
-        Thread.sleep(2000);
-        pageConsignment.selectRICAOnSurcharge();
-        Thread.sleep(2000);
-        pageConsignment.clickOnSAID();
-        pageConsignment.enterTxtInSAIDField("1234567891234");
+                if (!pageConsignment.verifyFridgelineWindow()) {
 
-        if(!pageConsignment.verifyFridgelineWindow()){
+                    pageConsignment.clickOnFridgeLineAndSelectHrs();
+                } else {
+                    pageConsignment.clickonStepParcel();
+                }
 
-            pageConsignment.clickOnFridgeLineAndSelectHrs();
-        }
-        else {
+            }
+            //Step Seven and finalize the consignment
+//        Thread.sleep(6000);
+//        }
+//        else {
             pageConsignment.clickonStepParcel();
-        }
+//        }
 
-        //Step Seven and finalize the consignment
-
-
-//        Thread.sleep(6000);
 
         pageConsignment.entertxtNumberOfParcel(testDataSet.get("NumberOfParcel"));
-        Thread.sleep(8000);
-//
+//        Thread.sleep(8000);
+        System.out.println("ParcelHeader displayed" + pageConsignment.verifyParcelHeaderIsDisplayed());
+//        pageConsignment.clickOnFinaliseConsignment();
+//        if(pageConsignment.verifySecurityPack()) {
+            pageConsignment.clickOnSecurityPack(testDataSet.get("SecurityPack"));
+//        }
+//        if(pageConsignment.verifyWeightErrorIsDisplayed()) {
+            pageConsignment.entertxtweight("0.1");
+//        }
+
+
+
 ////        pageConsignment.clickOnDeleteIcon();
 //        Thread.sleep(10000);
 //
-        pageConsignment.clickOnSecurityPack(testDataSet.get("SecurityPack"));
+//        pageConsignment.clickOnSecurityPack(testDataSet.get("SecurityPack"));
+//
+//        pageConsignment.entertxtweight("0.1");
 
-        pageConsignment.entertxtweight("0.1");
-
-        //pageConsinment.clickOnPackageType();
+    //pageConsinment.clickOnPackageType();
 //        Thread.sleep(8000);
 //
         pageConsignment.clickOnFinaliseConsignment();
-    }
+
+
+
+
 
 
 
@@ -364,15 +385,6 @@ public class    TestPageConsinment extends TestBase {
 
 //
     }
-
-
-
-
-
-
-
-
-
 
 
 }
