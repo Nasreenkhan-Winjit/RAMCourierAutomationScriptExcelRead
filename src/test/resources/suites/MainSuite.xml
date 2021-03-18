@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="CCS Functional and Regression Testing">
    <suite-files>
-       <suite-file path="ValidLogin.xml"/>
-<!--       <suite-file path="Forgot.xml"/>-->
+       <suite-file path="ConsignmentOutbound.xml"/>
+       <suite-file path="ConsignmentInbound.xml"/>
    </suite-files>
 </suite> <!-- Default Suite -->

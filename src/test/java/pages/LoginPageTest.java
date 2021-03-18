@@ -28,5 +28,7 @@ public class LoginPageTest extends TestBase {
 //        waitForPageLoad();
 //        logout = new Logout(eventFiringWebDriver);
 //        logout.doLogout();
+
+
     }
 }

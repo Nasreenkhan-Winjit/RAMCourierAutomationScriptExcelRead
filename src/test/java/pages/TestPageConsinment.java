@@ -20,10 +20,21 @@ public class TestPageConsinment extends TestBase {
     @Description("Verify valid user are allowed to access")
 
     @Test
+    public void doStartPrinterSetup() throws InterruptedException {
+        Thread.sleep(30000);
+        pageConsignment.clickOnSettingsIcon();
+
+
+    }
+
+    @Test
     public void clickOnConsignment() throws InterruptedException {
         Thread.sleep(30000);
 //     loader.waitForLoaderToDispose();
+
         pageDashBoard = new PageDashBoard(eventFiringWebDriver);
+
+//        Thread.sleep(5000);
         pageDashBoard.clickOnNavBar();
 
 //        Thread.sleep(20000);
@@ -49,13 +60,24 @@ public class TestPageConsinment extends TestBase {
     @Test
     public void verifyValueStepperIsNotPresentOnSelectionOfDoc() throws InterruptedException {
         pageConsignment = new PageConsinment(eventFiringWebDriver);
-//        Thread.sleep(8000);
-        pageConsignment.clickOnConsignmentDropdown();
+
+        pageConsignment.clickOnSettingsIcon();
+        Thread.sleep(5000);
+       pageConsignment.clickOnPrinterSetupButton();
+
+
+       pageConsignment.enterTxtOnCompanyName("RAM Solutions");
+       pageConsignment.EnterHubIDAndSelectFromList("ISA");
+       pageConsignment.EnterDepartmentAndSelectFromList("IT");
+       pageConsignment.enterTxtPrinterID("35");
+
+//        Thread.sleep(5000);
+//        pageConsignment.clickOnConsignmentDropdown();
         Thread.sleep(9000);
         pageConsignment.enterTxtConsignmentID("UAT00010001", Keys.ENTER);
         Thread.sleep(15000);
         pageConsignment.enterTxtBilledTo("CELW01");
-        Thread.sleep(5000);
+        Thread.sleep(4000);
         pageConsignment.selectMenuBilledTo();
         Thread.sleep(8000);
 //
@@ -166,7 +188,15 @@ public class TestPageConsinment extends TestBase {
         }
 //        (pageConsignment.verifySenderFieldNotRestricted())
         if (pageConsignment.verifySenderFieldNotRestricted()) {
+            
             pageConsignment.clickOnSenderName(testDataSet.get("SenderName"));
+
+            pageConsignment.clickOnAdvancedSearchButton();
+            pageConsignment.verifyAdvancedSearchWindow();
+            pageConsignment.enterSenderCustomerName(testDataSet.get("InvalidSenderName"), Keys.TAB);
+            pageConsignment.enterSenderCustomerName(testDataSet.get("ValidSenderName"), Keys.TAB);
+
+            pageConsignment.clickOnSearchButton();
 //        pageConsignment.clickOnSenderName("Cell");
             pageConsignment.SelectMenuSenderName();
             Thread.sleep(3000);
@@ -272,7 +302,9 @@ public class TestPageConsinment extends TestBase {
 //        pageConsignment.selectServiceType();
 
         //For RICA
-//        if (pageConsignment.verifyRicaIsNotPresent()) {
+        if (pageConsignment.verifyRicaIsNotPresent()) {
+//            pageConsignment.selectServiceTypeAndSelectNextDay();
+//            pageConsignment.clickonStepParcel();
 
             if (!pageConsignment.verifyRICA()) {
 
@@ -316,23 +348,23 @@ public class TestPageConsinment extends TestBase {
             }
             //Step Seven and finalize the consignment
 //        Thread.sleep(6000);
-//        }
-//        else {
+        } else {
+            pageConsignment.selectServiceTypeAndSelectNextDay();
             pageConsignment.clickonStepParcel();
-//        }
+        }
 
 
         pageConsignment.entertxtNumberOfParcel(testDataSet.get("NumberOfParcel"));
 //        Thread.sleep(8000);
         System.out.println("ParcelHeader displayed" + pageConsignment.verifyParcelHeaderIsDisplayed());
-//        pageConsignment.clickOnFinaliseConsignment();
-//        if(pageConsignment.verifySecurityPack()) {
+        pageConsignment.clickOnFinaliseConsignment1();
+//        Thread.sleep(5000);
+        if (pageConsignment.verifySecurityPack()) {
             pageConsignment.clickOnSecurityPack(testDataSet.get("SecurityPack"));
-//        }
-//        if(pageConsignment.verifyWeightErrorIsDisplayed()) {
+        }
+        if (pageConsignment.verifyWeightErrorIsDisplayed()) {
             pageConsignment.entertxtweight("0.1");
-//        }
-
+        }
 
 
 ////        pageConsignment.clickOnDeleteIcon();
@@ -342,12 +374,12 @@ public class TestPageConsinment extends TestBase {
 //
 //        pageConsignment.entertxtweight("0.1");
 
-    //pageConsinment.clickOnPackageType();
+        //pageConsinment.clickOnPackageType();
 //        Thread.sleep(8000);
 //
         pageConsignment.clickOnFinaliseConsignment();
 
-
+        Thread.sleep(10000);
 
 
 
@@ -380,8 +412,8 @@ public class TestPageConsinment extends TestBase {
 //        Thread.sleep(8000);
 
 
-        waitForLoad();
-        webDriver.navigate().refresh();
+//        waitForLoad();
+//        webDriver.navigate().refresh();
 
 //
     }

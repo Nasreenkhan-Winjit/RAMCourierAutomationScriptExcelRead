@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Consignment"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="208.617">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verifyValueStepperIsNotPresentOnSelectionOfDoc"
+                time="84.287"
+                classname="pages.TestPageConsinment">
+            </testcase>
+            <testcase
+                name="doStarted"
+                time="86.179"
+                classname="pages.TestPageConsinment">
+            </testcase>
+            <testcase
+                name="clickOnConsignment"
+                time="31.714"
+                classname="pages.TestPageConsinment">
+            </testcase>
+            <testcase
+                name="clickOnAccordian"
+                time="6.437"
+                classname="pages.TestPageConsinment">
+            </testcase>
+</testsuite>

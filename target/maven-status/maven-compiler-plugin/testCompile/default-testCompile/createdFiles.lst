@@ -1,0 +1,15 @@
+utilities\filereading\io\FileLocation.class
+pages\DataProviderList.class
+utilities\listener\WebEventListener.class
+utilities\common\ScreenShots.class
+utilities\filereading\files\properties\ReadProperties.class
+utilities\filereading\files\xml\EnvironmentXml.class
+pages\TestBase.class
+pages\TestPageConsinment.class
+utilities\listener\TestListener.class
+pages\LoginPageTest.class
+utilities\filereading\files\csv\CSVRead.class
+utilities\filereading\files\excel\FilloExcelWrite.class
+utilities\filereading\files\excel\FilloExcelRead.class
+utilities\filereading\EnumFileType.class
+pages\TestPageConsignmentInbound.class

@@ -110,6 +110,9 @@ public class PageConsinment extends BasePage {
     @FindBy(how= How.XPATH, using = "//input[@id='SearchAutocomplete_Sender']")
     private WebElement elemnentFieldSenderName;
 
+    @FindBy(how = How.CSS, using = "  #SearchAutocomplete_Sender")
+    private WebElement elementCreateNewSenderTxt;
+
     @CacheLookup
 //    @FindBy(how = How.XPATH, using = "//div[contains(text(),'CELL C - COMPANY OWNED STORES, CELL C, 084 174 4000')]")
 //    @FindBy(how = How.XPATH, using = "//div[contains(text(),'ASUREN NAIDOO, I1149777, 000 000 0000')]")
@@ -194,7 +197,8 @@ public class PageConsinment extends BasePage {
 
     @CacheLookup
     //Step Five
-    @FindBy(how= How.XPATH, using = "//div[@id='stepRequirements']")
+//    @FindBy(how= How.XPATH, using = "//div[@id='stepRequirements']")
+    @FindBy(how= How.CSS, using = "#stepRequirements")
     private WebElement elementRequirements;
 
     @CacheLookup
@@ -202,7 +206,8 @@ public class PageConsinment extends BasePage {
     private WebElement elementtxtShipperReference;
 
     @CacheLookup
-    @FindBy(how=How.XPATH, using = "//div[@class='flex xs12 md12']//div[@class='v-select__selections']")
+//    @FindBy(how=How.XPATH, using = "//div[@class='flex xs12 md12']//div[@class='v-select__selections']")
+    @FindBy(how=How.XPATH, using = "//input[@id='ProofOfDelivery']//..")
     private WebElement elementProofOfDelivery;
 
     @CacheLookup
@@ -329,6 +334,822 @@ public class PageConsinment extends BasePage {
     @FindBy(how = How.XPATH, using = "//div[text()='Outbound - Domestic']")
     private  WebElement eleementSelectOutbondFromLogisticList;
 
+    @FindBy(how = How.XPATH, using = "//div[text()='Inbound - Domestic']")
+    private  WebElement elementSelectInbondFromLogisticList;
+
+    @FindBy(how= How.XPATH, using = "//button[@id='AdvanceSearch_Sender']//div")
+    private WebElement elementClickOnAdvancedSearchButton;
+
+
+    @FindBy(how= How.XPATH, using = "//input[@id='CustomerName_Sender']")
+    private WebElement elementEnterCustomerSenderName;
+
+
+    @FindBy(how= How.XPATH, using = "//button[@id='Search_Sender']//div")
+    private WebElement clickOnSearchButton;
+
+
+    @FindBy(how= How.XPATH, using = "//button[@id='SenderResetSearch']//div")
+    private WebElement clickOnResetButton;
+
+   @FindBy(how= How.XPATH, using = "//button[@id='CreateNew_Sender']//div")
+    private WebElement clickOnCreateNewSenderButton;
+
+   @FindBy(how= How.XPATH, using = "//button[@id='CreateNew_Receiver']//div")
+    private WebElement clickOnCreateNewSenderButtonRcv;
+
+
+   @FindBy(how= How.XPATH, using = "//input[@id='NewSenderType']//..")
+    private WebElement ClickOnSenderTypeField;
+
+   @FindBy(how= How.XPATH, using = "//div[contains(text(),'Individual')]")
+    private WebElement selectSenderTypeIndividual;
+
+   @FindBy(how= How.XPATH, using = "//div[contains(text(),'New Sender Address')]")
+    private WebElement clickOnNewSenderAddressStepper;
+
+   @FindBy(how= How.XPATH, using = "//input[@id='Individual_FirstName']")
+    private WebElement EnterTxtOnIndividualsFirstName;
+
+   @FindBy(how= How.XPATH, using = "//input[@id='Individual_LastName']")
+    private WebElement EnterTxtOnIndividualsLastName;
+
+   @FindBy(how= How.XPATH, using = "//input[@id='CustomerReference']")
+    private WebElement EnterTxtOnIndividualsYourReference;
+
+   @FindBy(how= How.XPATH, using = "//input[@id='NewAddressGroup_COA']//..")
+    private WebElement elementSelectDestinationGrp;
+
+   @FindBy(how= How.XPATH, using = "//input[@id='NewAddressType_COA']//..")
+    private WebElement elementSelectDestinationType;
+
+
+   @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Home')]")
+    private WebElement elementSelectDestinationTypeHome;
+
+   @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Home')]")
+    private WebElement elementSelectDestinationGrpHome;
+
+   @FindBy(how= How.XPATH, using = "//input[@id='SearchDeliveryAddress_COA']")
+    private WebElement elementEnterDeliveryAddress;
+
+
+   @FindBy(how= How.XPATH, using = "//span[contains(text(),'27 Wrench Road, Isando, Kempton Park, South Africa')]")
+    private WebElement elementSelectDeliveryAddress;
+
+  @FindBy(how= How.XPATH, using = "//div[contains(text(),'New Sender Contact')]")
+    private WebElement elementCLickOnNewSenderContact;
+
+  @FindBy(how= How.XPATH, using = "//input[@id='NewPrimaryNumberType']//..")
+    private WebElement elementCLickOnNewPrimaryNumberType;
+
+  @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]")
+    private WebElement elementSelectNewPrimaryNumberType;
+
+  @FindBy(how= How.XPATH, using = "//input[@id='NewPrimaryContact']")
+    private WebElement elementEnterPrimaryNumber;
+
+  @FindBy(how= How.XPATH, using = "//input[@id='NewEmailAddress']")
+    private WebElement elementEnterEmailAddress;
+
+  @FindBy(how= How.XPATH, using = "//button[@id='NewSubmitCustomer']")
+    private WebElement elementClickOnSubmitButton;
+
+  @FindBy(how= How.XPATH, using = "//input[@id='NewReceiverType']//..")
+    private WebElement elementCLickOnNewReceiverType;
+
+
+  @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Corporate - Business')]")
+    private WebElement elementSelectCorporateBusinessFromMenu;
+
+  @FindBy(how= How.XPATH, using = "//input[@id='Business_GroupName']")
+    private WebElement elementEnterBusinessGroupName;
+
+  @FindBy(how= How.XPATH, using = "//div[contains(text(),'RAM Hand to Hand Couriers')]")
+    private WebElement elementSelectBusinessGroupName;
+
+  @FindBy(how= How.XPATH, using = "//input[@id='Business_Name']")
+    private WebElement elementEnterBusinessName;
+
+//  @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[contains(text(),'RAM Business Office')]")
+  @FindBy(how= How.XPATH, using = "//span[contains(text(),'RAM Business Office')]")
+    private WebElement elementSelectBusinessName;
+
+  @FindBy(how= How.XPATH, using = "//div[contains(text(),'New Receiver Contact')]")
+    private WebElement elementClickOnNewReceiverContact;
+
+ @FindBy(how= How.XPATH, using = "//input[@id='NewContactType']//..")
+    private WebElement elementClickOnNewContactDetailsType;
+
+
+ @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Unknown Contact')]")
+    private WebElement elementSelectUnknownContactType;
+
+
+  @FindBy(how= How.XPATH, using = "//input[@id='NewPrimaryNumberType']//..")
+    private WebElement elementClickOnNumberType;
+
+
+  @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]")
+    private WebElement elementSelectNumberTypeMobile;
+
+  @FindBy(how= How.XPATH, using = "//button[@id='AddGoodsDescription']//div")
+    private WebElement elementClickOnADDGDButton;
+
+//  @FindBy(how= How.XPATH, using = "//input[@id='Field1_D_8c180d28-cfd8-443d-80a3-0ac4ab3c827f']")
+  @FindBy(how= How.XPATH, using = "//input[@placeholder='Enter IMEI']")
+    private WebElement elementEnterIMEINumber;
+
+//  @FindBy(how= How.XPATH, using = "//input[@id='Field2_D_8c180d28-cfd8-443d-80a3-0ac4ab3c827f']")
+  @FindBy(how= How.XPATH, using = "//input[@placeholder='Enter Description']")
+    private WebElement elementEnterDescriptionAtGD;
+
+
+  @FindBy(how= How.XPATH, using = "//input[@id='ContentType_O_2ac9f86e-9499-4d08-b439-b2e8283e1ad2']//..")
+    private WebElement elementClickOnContentType;
+
+  @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'ICCID')]")
+    private WebElement elementSelectContentTypeICCID;
+
+
+  @FindBy(how= How.XPATH, using = "//input[@id='Field1_O_2ac9f86e-9499-4d08-b439-b2e8283e1ad2']")
+    private WebElement elementEnterICCIDNumber;
+
+  @FindBy(how= How.XPATH, using = "//input[@id='Field2_O_2ac9f86e-9499-4d08-b439-b2e8283e1ad2']")
+    private WebElement elementEnterDescriptionICCID;
+
+
+  @FindBy(how= How.XPATH, using = "//button[@id='saveEmailConsignment']//div")
+    private WebElement elementClickOnEmailAndSavebutton;
+
+
+ @FindBy(how= How.XPATH, using = "//input[@placeholder='Email Waybill To']")
+    private WebElement elementEnterEmailWaybillTo;
+
+
+ @FindBy(how= How.XPATH, using = "//button[@id='save_emailcomposer']")
+    private WebElement elementClickOnSave;
+
+ @FindBy(how= How.XPATH, using = "//div[contains(text(),'Retail')]")
+    private WebElement elementSelectRetailFromSenderType;
+
+
+  @FindBy(how= How.XPATH, using = "//input[@id='Retail_ChainName']")
+    private WebElement elementEnterRetailChainName;
+
+
+
+  @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]")
+    private WebElement elementSelectRetailChainName;
+
+    @FindBy(how= How.XPATH, using = "//input[@id='Retail_StoreName']")
+    private WebElement elementEnterRetailStoreName;
+
+  @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]")
+    private WebElement elementSelectRetailStoreName;
+
+  @FindBy(how= How.XPATH, using = "//div[contains(text(),'New Sender Contact')]")
+    private WebElement elementClickOnNewSenderContactStepper;
+
+
+  @FindBy(how= How.XPATH, using = "//div[contains(text(),'Specific Contact Person')]")
+    private WebElement elementSelectSpecificContactPerson;
+
+  @FindBy(how= How.XPATH, using = "//input[@id='CustomerContactFirstName']")
+    private WebElement elementContactFirstName;
+
+  @FindBy(how= How.XPATH, using = "//input[@id='CustomerContactLastName']")
+    private WebElement elementContactLastName;
+
+
+  @FindBy(how= How.XPATH, using = "//button[@id='ReceiverResetSearch']//div")
+    private WebElement ReceiverResetButton;
+
+  @FindBy(how= How.XPATH, using = "//button[@id='ReceiverNewContact']//div")
+    private WebElement elementClickOnReceiversNewContact;
+
+
+   @FindBy(how= How.XPATH, using = "//input[@id='firstname_receivercontactaddedit']")
+    private WebElement elementEnterReceiversNewContactFirstName;
+
+   @FindBy(how= How.XPATH, using = "//input[@id='lastname_receivercontactaddedit']")
+    private WebElement elementEnterReceiversNewContactLastName;
+
+   @FindBy(how= How.XPATH, using = "//input[@id='primarytelephonenumber_receivercontactaddedit']")
+    private WebElement elementEnterReceiversNewContactPrimaryTelNum;
+
+   @FindBy(how= How.XPATH, using = "//input[@id='emailaddress_receivercontactaddedit']")
+    private WebElement elementEnterReceiversNewContactEmailAdd;
+
+  @FindBy(how= How.XPATH, using = "//button[@id='save_receivercontactaddedit']")
+    private WebElement elementClickOnSaveButtonOnNewContactPage;
+
+  @FindBy(how= How.XPATH, using = "//input[@placeholder='Select Standard Instruction Type']//..")
+    private WebElement elementClickOnSIT;
+
+ @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Future Delivery Date')]")
+    private WebElement elementClickOnSITWithFD;
+
+ @FindBy(how= How.XPATH, using = "//input[@id='FutureDate']//..")
+    private WebElement elementSelectFutureDate;
+
+ @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][2]")
+    private WebElement elementSelectFutureDatefromMenu;
+
+
+  @FindBy(how= How.XPATH, using = "//button[@id='AddAnotherInstruction']//div")
+    private WebElement clickOnAddAnotherInstruction;
+
+  @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Don’t Deliver On')]")
+    private WebElement clickOnDontDeleiverOn;
+
+
+  @FindBy(how= How.XPATH, using = "//input[@placeholder='Select Non-Deliverable Days']//..")
+    private WebElement clickOnNonDeliveryDaysField;
+
+  @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][3]")
+    private WebElement elementSelectNonDeliveryDay;
+
+  @FindBy(how= How.XPATH, using = "//input[@id='SpecialInstruction']")
+    private WebElement elementEnterSpecialInstruction;
+
+  @FindBy(how= How.XPATH, using = "//button[@id='FinaliseConsignment']//div")
+    private WebElement elementCLickOnSaveButton;
+
+
+//  @FindBy(how = How.XPATH, using = "//div[@class='v-menu v-menu--inline']//div//button[@id='no-background-hover']")
+//  @FindBy(how = How.XPATH, using = "//div[@class='v-menu v-menu--inline']")
+    @CacheLookup
+//  @FindBy(how = How.CSS, using = "div.application.theme--light:nth-child(2) div.application--wrap:nth-child(65) div.app-horizontal-layout:nth-child(1) nav.Vuely-toolbar.v-toolbar.v-toolbar--dense.v-toolbar--extended.v-toolbar--fixed.theme--light.light div.v-toolbar__content div.container:nth-child(1) div.layout.row div.flex.xs3.md3:nth-child(4) div.d-custom-flex.align-items-center.navbar-left div.d-custom-flex.align-items-center.navbar-left:nth-child(1) div:nth-child(1) div.v-menu.v-menu--inline div.v-menu__activator button.v-btn.v-btn--icon.theme--light > div.v-btn__content")
+  @FindBy(how = How.XPATH, using = "//div[@class='flex xs3 md3']//div[@class='v-menu v-menu--inline']")
+    private WebElement elementClickONSettingsICON;
+
+  @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active language-dropdown']//div[@role='listitem']")
+    private WebElement elementClickONPrinterSetup;
+
+
+  @FindBy(how = How.XPATH, using = "//body/div[@id='inspire']/div[@class='v-dialog__content v-dialog__content--active']/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]/div[1]")
+    private WebElement elementClickONPrinterSetupButton;
+
+ @FindBy(how = How.XPATH, using = "//input[@placeholder='Type to search company']")
+    private WebElement elementEnterTxtOnCompany;
+
+ @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]")
+    private WebElement elementSelectFromPrinterMenu;
+
+ @FindBy(how = How.XPATH, using = "//input[@placeholder='Type to search printer']")
+    private WebElement elementEnterTxtInSearchPrinter;
+
+ @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]")
+    private WebElement elementSelectFromPrinterList;
+
+ @FindBy(how = How.XPATH, using = "//div[contains(text(),'Save')]")
+    private WebElement elementClickOnSaveButton;
+
+// @FindBy(how = How.XPATH, using = "//div[@class='v-dialog__content v-dialog__content--active']")
+ @FindBy(how = How.XPATH, using = "//body/div[@id='inspire']/div[@class='v-dialog__content v-dialog__content--active']/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]/div[1]/button[1]/div[1]/i[1]")
+    private WebElement elementClickOnConsignAppWindow;
+
+ @FindBy(how = How.XPATH, using = "//input[@id='Hub']")
+    private WebElement elementEnterHub;
+
+
+
+ @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]")
+    private WebElement elementSelectISAHubFromList;
+
+    @FindBy(how = How.XPATH, using = "//input[@id='Department']")
+    private WebElement elementEnterDepartment;
+
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]")
+    private WebElement elementSelectITDepartmentFrom;
+
+
+
+
+
+
+
+
+
+
+    @Step(" Click on Settings icon and select printer ")
+    public void clickOnSettingsIcon() throws InterruptedException {
+        System.out.println(elementClickONSettingsICON.isDisplayed());
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickONSettingsICON));
+        actions.moveToElement(elementClickONSettingsICON).perform();
+
+
+        elementClickONSettingsICON.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickONPrinterSetup));
+        elementClickONPrinterSetup.click();
+
+
+    }
+    @Step("Click on PrinterSetup button")
+     public void clickOnPrinterSetupButton(){
+
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickONPrinterSetupButton));
+        elementClickONPrinterSetupButton.click();
+    }
+
+    @Step("Enter Hub/Office Name and select from list")
+     public void EnterHubIDAndSelectFromList(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterHub));
+        elementEnterHub.sendKeys(txt);
+        Thread.sleep(2000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectISAHubFromList));
+        elementSelectISAHubFromList.click();
+    }
+
+    @Step("Enter Department Name and select from list")
+     public void EnterDepartmentAndSelectFromList(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterDepartment));
+        elementEnterDepartment.sendKeys(txt);
+        Thread.sleep(2000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectITDepartmentFrom));
+        elementSelectITDepartmentFrom.click();
+
+    }
+
+
+    @Step("Enter txt in Company name")
+     public void enterTxtOnCompanyName(String txt){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterTxtOnCompany));
+        elementEnterTxtOnCompany.sendKeys(txt);
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectFromPrinterMenu));
+        elementSelectFromPrinterMenu.click();
+
+
+    }
+    @Step("Enter txt in printer ID in printer search field ")
+     public void enterTxtPrinterID(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterTxtInSearchPrinter));
+        elementEnterTxtInSearchPrinter.sendKeys(txt);
+        Thread.sleep(3000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectFromPrinterList));
+        elementSelectFromPrinterList.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnSaveButton));
+        elementClickOnSaveButton.click();
+        Thread.sleep(2000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnConsignAppWindow));
+        elementClickOnConsignAppWindow.click();
+        Thread.sleep(3000);
+
+    }
+
+
+
+
+    @Step(" Click on Standard INstruction Type and Select Do not deliver on date ")
+    public void clickOnSaveButton() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCLickOnSaveButton));
+        elementCLickOnSaveButton.click();
+    }
+
+    @Step(" Click on Standard INstruction Type and Select Do not deliver on date ")
+    public void enterSpecialInstructions(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterSpecialInstruction));
+        elementEnterSpecialInstruction.click();
+        elementEnterSpecialInstruction.sendKeys(txt);
+    }
+
+    @Step(" Select Do nott deliverr days ")
+    public void clickOnNonDeliverDaysFieldAndSelectDay() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(clickOnNonDeliveryDaysField));
+        clickOnNonDeliveryDaysField.click();
+
+         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectNonDeliveryDay));
+        elementSelectNonDeliveryDay.click();
+
+
+    }
+
+    @Step(" Click on Standard INstruction Type and Select Do not deliver on date ")
+    public void clickOnSITAndSelectDONOTDeliver() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnSIT));
+        elementClickOnSIT.click();
+
+         webDriverWait.until(ExpectedConditions.elementToBeClickable(clickOnDontDeleiverOn));
+        clickOnDontDeleiverOn.click();
+
+
+    }
+
+
+    @Step(" Click on Add Anoother Instruction ")
+    public void clickOnAddAnotherInstructionButton() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(clickOnAddAnotherInstruction));
+        clickOnAddAnotherInstruction.click();
+
+    }
+
+    @Step(" Click on Standard Instruction type and select Future Delivery")
+    public void clickOnStandardInstructionTypeAndSelectFD() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnSIT));
+        elementClickOnSIT.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnSITWithFD));
+        elementClickOnSITWithFD.click();
+    }
+
+    @Step(" Click on Standard Instruction type and select Future Date")
+    public void selectFutureDateFromMenu() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectFutureDate));
+        elementSelectFutureDate.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectFutureDatefromMenu));
+        elementSelectFutureDatefromMenu.click();
+
+    }
+
+    @Step(" Enter Receiver's New Contact Email Address")
+    public void enterRcvSaveButtonAtNewContact() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnSaveButtonOnNewContactPage));
+        elementClickOnSaveButtonOnNewContactPage.click();
+    }
+
+    @Step(" Enter Receiver's New Contact Email Address")
+    public void enterRcvNewContactEmailAddress(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterReceiversNewContactEmailAdd));
+        elementEnterReceiversNewContactEmailAdd.sendKeys(txt);
+    }
+
+    @Step(" Enter Receiver's New Contact Primary telephone number")
+    public void enterRcvNewContactPrimaryTelNumber(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterReceiversNewContactPrimaryTelNum));
+        elementEnterReceiversNewContactPrimaryTelNum.sendKeys(txt);
+    }
+
+
+    @Step(" Enter Receiver's New Contact Last name")
+    public void enterRcvNewContactLastName(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterReceiversNewContactLastName));
+        elementEnterReceiversNewContactLastName.sendKeys(txt);
+
+    }
+    @Step(" Enter Receiver's New Contact first name")
+    public void enterRcvNewContactFirstName(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterReceiversNewContactFirstName));
+        elementEnterReceiversNewContactFirstName.sendKeys(txt);
+
+    }
+
+    @Step(" Click on Receiver's New Contact button")
+    public void clickOnReceiverNewContactButton() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnReceiversNewContact));
+        elementClickOnReceiversNewContact.click();
+
+    }
+    @Step(" Click on Receiver reset button")
+    public void clickOnReceiverResetButton() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(ReceiverResetButton));
+        ReceiverResetButton.click();
+
+    }
+
+    @Step(" Enter First Name in New sender contact ")
+    public void enterNewSenderContactFirstName(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementContactFirstName));
+        elementContactFirstName.sendKeys(txt);
+
+    }
+
+    @Step(" Enter Last Name in new sender contact ")
+    public void enterNewSenderContactLastName(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementContactLastName));
+        elementContactLastName.sendKeys(txt);
+
+    }
+
+    @Step(" Enter Retail Store name ")
+    public void clickOnNewSenderContactStepper() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnNewSenderContactStepper));
+        elementClickOnNewSenderContactStepper.click();
+
+
+    }
+        @Step(" Enter Retail Store name ")
+    public void enterRetailStoreName(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterRetailStoreName));
+        elementEnterRetailStoreName.sendKeys(txt);
+        Thread.sleep(3000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectRetailChainName));
+        elementSelectRetailStoreName.click();
+
+    }
+
+
+    @Step(" Enter Retail chain name ")
+    public void enterRetailChainName(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterRetailChainName));
+        elementEnterRetailChainName.sendKeys(txt);
+        Thread.sleep(3000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectRetailChainName));
+        elementSelectRetailChainName.click();
+
+    }
+
+        @Step(" Select New sender type as retail")
+    public void clickOnNewSenderTypeAndSelectRetail() {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(ClickOnSenderTypeField));
+        ClickOnSenderTypeField.click();
+
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectRetailFromSenderType));
+        elementSelectRetailFromSenderType.click();
+
+    }
+    @Step(" Click on Email and save button")
+    public void updateEmailAddress(String txt) {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterEmailWaybillTo));
+        elementEnterEmailWaybillTo.sendKeys(Keys.CONTROL+"a");
+        elementEnterEmailWaybillTo.sendKeys(Keys.DELETE);
+
+        elementEnterEmailWaybillTo.sendKeys(txt);
+
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnSave));
+        elementClickOnSave.click();
+    }
+
+    @Step(" Click on Email and save button")
+    public void clickOnEmailAndSaveButton() {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnEmailAndSavebutton));
+        elementClickOnEmailAndSavebutton.click();
+
+    }
+
+    @Step(" Enter Description ICCID Number")
+    public void enterDescriptionICCIDNumber(String txt) {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterDescriptionICCID));
+        elementEnterDescriptionICCID.sendKeys(txt);
+
+    }
+
+    @Step("Enter ICCID Number")
+    public void enterICCIDNumber(String txt) {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterICCIDNumber));
+        elementEnterICCIDNumber.sendKeys(txt);
+
+    }
+
+
+@Step("Click on Content Type and select ICCID")
+    public void clickOnContentTypeFieldAndSelectICCID() {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnContentType));
+        elementClickOnContentType.click();
+
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectContentTypeICCID));
+        elementSelectContentTypeICCID.click();
+
+
+    }
+
+    @Step("Enter IMEI Number ")
+    public void enterIMEINumber(String txt) {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterIMEINumber));
+        elementEnterIMEINumber.sendKeys(txt);
+    }
+
+    @Step("Enter Goods Description   ")
+    public void enterDescription(String txt) {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterDescriptionAtGD));
+        elementEnterDescriptionAtGD.sendKeys(txt);
+
+    }
+    @Step("Click on ADD Goods Description Button  ")
+    public void clickOnAddGDButton() {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnADDGDButton));
+        elementClickOnADDGDButton.click();
+
+    }
+
+
+
+    @Step("Click on Number type and select mobile")
+    public void selectNewNumberTypeAsMobile() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnNumberType));
+        elementClickOnNumberType.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectNumberTypeMobile));
+        elementSelectNumberTypeMobile.click();
+
+    }
+
+    @Step("Click on Contact Details Type")
+    public void clickOnContactDetailsType() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnNewContactDetailsType));
+        elementClickOnNewContactDetailsType.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectUnknownContactType));
+        elementSelectUnknownContactType.click();
+
+    }
+
+    @Step("Click on Contact Details Type And Select Specific contact person")
+    public void clickOnContactDetailsTypeAndSPC() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnNewContactDetailsType));
+        elementClickOnNewContactDetailsType.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectSpecificContactPerson));
+        elementSelectSpecificContactPerson.click();
+
+    }
+
+    @Step("Click on New Receiver Contact  ")
+    public void clickOnNewReceiverContactStepper() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnNewReceiverContact));
+        elementClickOnNewReceiverContact.click();
+
+    }
+
+
+        @Step("Enter Existing  Business  Name ")
+    public void enterBusinessName(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterBusinessName));
+        elementEnterBusinessName.sendKeys(txt);
+        Thread.sleep(3000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectBusinessName));
+        elementSelectBusinessName.click();
+
+    }
+
+        @Step("Enter Business group name ")
+    public void enterNewBusinessGroup(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterBusinessGroupName));
+        elementEnterBusinessGroupName.sendKeys(txt);
+            Thread.sleep(3000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectBusinessGroupName));
+        elementSelectBusinessGroupName.click();
+    }
+
+    @Step("Select corporate business from menu ")
+    public void selectCorporateBusinessFromMenuAtNewRcv() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectCorporateBusinessFromMenu));
+        elementSelectCorporateBusinessFromMenu.click();
+
+    }
+
+    @Step("CLick on New Receiver type field")
+    public void clickOnNewReceiverType() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCLickOnNewReceiverType));
+        elementCLickOnNewReceiverType.click();
+
+    }
+
+    @Step("CLick on New sender number type and enter the number")
+    public void clickOnNewSubmitButton() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnSubmitButton));
+        elementClickOnSubmitButton.click();
+
+    }
+    @Step("CLick on New sender number type and enter the number")
+    public void clickOnNewPrimaryNummberType() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCLickOnNewPrimaryNumberType));
+        elementCLickOnNewPrimaryNumberType.click();
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectNewPrimaryNumberType));
+        elementSelectNewPrimaryNumberType.click();
+
+    }
+
+
+    @Step("Enter new primary number")
+    public void enterNewPrimaryNumber(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterPrimaryNumber));
+        elementEnterPrimaryNumber.sendKeys(txt);
+
+    }
+    @Step("Enter new email address")
+    public void enterNewEmailAddress(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterEmailAddress));
+        elementEnterEmailAddress.sendKeys(txt);
+
+    }
+    @Step("CLick on New sender contact stepper")
+    public void clickOnNewSenderContact() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCLickOnNewSenderContact));
+        elementCLickOnNewSenderContact.click();
+
+    }
+        @Step("Enter Delivery address and select from list")
+    public void enterSerachDeliverytxtAndSelectFrmList(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterDeliveryAddress));
+        elementEnterDeliveryAddress.sendKeys(txt);
+        Thread.sleep(10000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectDeliveryAddress));
+        elementSelectDeliveryAddress.click();
+
+    }
+    @Step("Select Home ass Destination group")
+    public void selectHomeDestinationGrp() {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectDestinationGrp));
+        elementSelectDestinationGrp.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectDestinationGrpHome));
+        elementSelectDestinationGrpHome.click();
+
+    }
+
+    @Step("Select Destination type home")
+    public void selectDestinationTypeHome() {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectDestinationType));
+        elementSelectDestinationType.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectDestinationTypeHome));
+        elementSelectDestinationTypeHome.click();
+
+    }
+
+
+    @Step("Enter the the individuals first name and last name")
+    public void enterIndividualsFirstName(String txt) {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(EnterTxtOnIndividualsFirstName));
+        EnterTxtOnIndividualsFirstName.sendKeys(txt);
+
+    }
+
+    @Step("Enter the the individuals last name")
+    public void enterIndividualsLastName(String txt) {
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(EnterTxtOnIndividualsLastName));
+        EnterTxtOnIndividualsLastName.sendKeys(txt);
+    }
+
+    @Step("Enter the the individuals your refrence")
+    public void enterIndividualsYourReference(String txt) {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(EnterTxtOnIndividualsYourReference));
+        EnterTxtOnIndividualsYourReference.sendKeys(txt);
+
+    }
+
+ @Step("Click on New Sender Stepper and verify the validation is displayed for Individual's First and Last Name field")
+ public void clickOnNewSenderStepperInCreateNewSender(){
+     webDriverWait.until(ExpectedConditions.elementToBeClickable(clickOnNewSenderAddressStepper));
+     clickOnNewSenderAddressStepper.click();
+ }
+
+    @Step("CLick on Sender type field")
+    public void clickOnSenderTypeFieldAndSelectIndividual(){
+    webDriverWait.until(ExpectedConditions.elementToBeClickable(ClickOnSenderTypeField));
+        ClickOnSenderTypeField.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(selectSenderTypeIndividual));
+        selectSenderTypeIndividual.click();
+
+    }
+
+    @Step("CLick on create new Button")
+    public void clickOnCreateNewSenderButton(String txt){
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCreateNewSenderTxt));
+
+        elementCreateNewSenderTxt.sendKeys(txt);
+
+    webDriverWait.until(ExpectedConditions.elementToBeClickable(clickOnCreateNewSenderButton));
+        clickOnCreateNewSenderButton.click();
+    }
+
+    @Step("CLick on create new Button")
+    public void clickOnCreateNewSenderButtonInRcvStepper(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(clickOnCreateNewSenderButtonRcv));
+        clickOnCreateNewSenderButtonRcv.click();
+    }
+
+
+    @Step("CLick on search button")
+    public void clickOnSearchButton(){
+    webDriverWait.until(ExpectedConditions.elementToBeClickable(clickOnSearchButton));
+        clickOnSearchButton.click();
+    }
+    @Step("CLick on reset button")
+    public void clickOnResetButton(){
+    webDriverWait.until(ExpectedConditions.elementToBeClickable(clickOnResetButton));
+        clickOnResetButton.click();
+    }
+
+    @Step("Enter  characters in customer sender name")
+    public void enterSenderCustomerName(String txt, Keys keys){
+    webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterCustomerSenderName));
+        elementEnterCustomerSenderName.sendKeys(txt, keys);
+    }
+
+    @Step("Click on Advanced search button")
+    public void clickOnAdvancedSearchButton(){
+    webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnAdvancedSearchButton));
+        elementClickOnAdvancedSearchButton.click();
+    }
+    @Step("Verify the Advanced Search window is displayed")
+    public void verifyAdvancedSearchWindow(){
+        WebElement advancedSearch = webDriver.findElement(By.xpath("//div[@id='autocompleteSearchSender']"));
+        System.out.println("Advanced Search Window"+ advancedSearch.isDisplayed());
+
+    }
 
 
     @Step("click on Logistic Type and verify If there is any value for that field")
@@ -350,6 +1171,16 @@ public class PageConsinment extends BasePage {
 
         eleementSelectOutbondFromLogisticList.click();
     }
+    @Step("Click on Logistic Type and select Inbound")
+    public void clickOnLogisticTypeAndSelectInbound() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnLogisticType));
+        elementClickOnLogisticType.click();
+
+        Thread.sleep(2000);
+
+        elementSelectInbondFromLogisticList.click();
+    }
+
 
     //    public void enterTxtConsignmentID(String txt,Keys keys) {
     @Step("Click on consignment DropDown")
@@ -520,12 +1351,16 @@ public class PageConsinment extends BasePage {
 
     @Step("Click On Sender Name")
     public void clickOnSenderName(String txt) {
-        webDriverWait.until(ExpectedConditions.elementToBeClickable(elemnentFieldSenderName));
+//        try {
+            webDriverWait.until(ExpectedConditions.elementToBeClickable(elemnentFieldSenderName));
 
-        elemnentFieldSenderName.sendKeys(txt);
-        webDriverWait.until(ExpectedConditions.visibilityOf(elemnentFieldSenderName));
-        elemnentFieldSenderName.click();
+            elemnentFieldSenderName.sendKeys(txt);
+            webDriverWait.until(ExpectedConditions.visibilityOf(elemnentFieldSenderName));
+            elemnentFieldSenderName.click();
 
+//        } catch (StaleElementReferenceException e) {
+//
+//        }
     }
     @Step("Click On Sender Name")
     public void clickOnSenderNameRestricted() {
@@ -660,10 +1495,11 @@ public class PageConsinment extends BasePage {
         elementtxtShipperReference.sendKeys(txt);
     }
 
-    @Step("Click On button New Contact")
+    @Step("Click on POD field and select from list ")
     public void clickOnDropdownProofOfDelivery(Keys tab) {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementProofOfDelivery));
         elementProofOfDelivery.click();
+
         webDriverWait.until(ExpectedConditions.visibilityOf(elemnetMenuProofOfDelivery));
         elemnetMenuProofOfDelivery.click();
     }
@@ -744,11 +1580,23 @@ public class PageConsinment extends BasePage {
 //        return rica.size();
 
 
+    @Step("Verify IMEI Field is Present")
+    public boolean verifyIMEIFieldIsPresent() {
+        try {
+            WebElement IMEIField = webDriver.findElement(By.xpath("//input[@id='Field1_D_8c180d28-cfd8-443d-80a3-0ac4ab3c827f']"));
+            System.out.println("IMEI field is present" + IMEIField.isEnabled());
+            return IMEIField.isEnabled();
+
+        } catch (Exception e) {
+            return false;
+
+        }
+    }
     @Step("Verify the Rica is not present")
     public boolean verifyRicaIsNotPresent() {
         try {
             WebElement Rica = webDriver.findElement(By.xpath("//button[@id='RICA']"));
-            System.out.println("Rica is not preseent" + Rica.isDisplayed());
+            System.out.println("Rica is not present" + Rica.isDisplayed());
             return Rica.isDisplayed();
 
         } catch (Exception e) {
@@ -889,12 +1737,22 @@ public class PageConsinment extends BasePage {
 
 
     @Step("Click On Finalise Button and close the POPUP")
+    public  void clickOnFinaliseConsignment1(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementbuttonFinaliseConsignment));
+        elementbuttonFinaliseConsignment.click();
+//        webDriverWait.until(ExpectedConditions.visibilityOf(elementPopUpClose));
+//        elementPopUpClose.click();
+//        driver.navigate().refresh();
+
+    }
+
+    @Step("Click On Finalise Button and close the POPUP")
     public  void clickOnFinaliseConsignment(){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementbuttonFinaliseConsignment));
         elementbuttonFinaliseConsignment.click();
-        webDriverWait.until(ExpectedConditions.visibilityOf(elementPopUpClose));
-        elementPopUpClose.click();
-        driver.navigate().refresh();
+//        webDriverWait.until(ExpectedConditions.visibilityOf(elementPopUpClose));
+//        elementPopUpClose.click();
+//        driver.navigate().refresh();
 
     }
 
