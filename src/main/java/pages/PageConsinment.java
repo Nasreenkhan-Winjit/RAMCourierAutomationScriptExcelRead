@@ -659,7 +659,7 @@ public class PageConsinment extends BasePage {
      public void EnterHubIDAndSelectFromList(String txt) throws InterruptedException {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterHub));
         elementEnterHub.sendKeys(txt);
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectISAHubFromList));
         elementSelectISAHubFromList.click();
     }
@@ -668,7 +668,7 @@ public class PageConsinment extends BasePage {
      public void EnterDepartmentAndSelectFromList(String txt) throws InterruptedException {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterDepartment));
         elementEnterDepartment.sendKeys(txt);
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectITDepartmentFrom));
         elementSelectITDepartmentFrom.click();
 

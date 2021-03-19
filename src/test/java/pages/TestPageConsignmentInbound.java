@@ -34,12 +34,12 @@ public class TestPageConsignmentInbound extends TestBase {
 
         @Test
         public void clickOnAccordian() throws InterruptedException {
-//        Thread.sleep(21000);
+        Thread.sleep(21000);
 ////     loader.waitForLoaderToDispose();
 //        pageDashBoard = new PageDashBoard(eventFiringWebDriver);
 //        pageDashBoard.clickOnNavBar();
 
-            Thread.sleep(5000);
+//            Thread.sleep(5000);
             pageDashBoard.clickOnConsignViaAccordion();
             ArrayList<String> tabsCount = new ArrayList<>(eventFiringWebDriver.getWindowHandles());
             eventFiringWebDriver.switchTo().window(tabsCount.get(1));

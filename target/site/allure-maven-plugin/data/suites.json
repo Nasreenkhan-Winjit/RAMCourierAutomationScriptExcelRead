@@ -8,44 +8,8 @@
       "children" : [ {
         "name" : "pages.TestPageConsinment",
         "children" : [ {
-          "name" : "clickOnConsignment",
-          "uid" : "b314479447b1f065",
-          "parentUid" : "bfc97813317cec9b8a0a9520db8fbdb8",
-          "status" : "passed",
-          "time" : {
-            "start" : 1615802950916,
-            "stop" : 1615802982213,
-            "duration" : 31297
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "clickOnAccordian",
-          "uid" : "52a353ef9d5ce618",
-          "parentUid" : "bfc97813317cec9b8a0a9520db8fbdb8",
-          "status" : "passed",
-          "time" : {
-            "start" : 1615802982230,
-            "stop" : 1615802989643,
-            "duration" : 7413
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "verifyValueStepperIsNotPresentOnSelectionOfDoc",
-          "uid" : "65b5e32e1c24c848",
-          "parentUid" : "bfc97813317cec9b8a0a9520db8fbdb8",
-          "status" : "passed",
-          "time" : {
-            "start" : 1615802989656,
-            "stop" : 1615803074341,
-            "duration" : 84685
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        }, {
           "name" : "doStarted",
-          "uid" : "95bfa79fb6261bd0",
+          "uid" : "87236370718a2c50",
           "parentUid" : "bfc97813317cec9b8a0a9520db8fbdb8",
           "status" : "passed",
           "time" : {
@@ -55,6 +19,78 @@
           },
           "flaky" : false,
           "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Automation, SenderName=GAMMATEK, NumberOfParcel=1, ConsignmentID=UAT42092198, InvalidSenderName=New, ValidSenderName=SCOIN}" ]
+        }, {
+          "name" : "doStarted",
+          "uid" : "647ec2d852d40549",
+          "parentUid" : "bfc97813317cec9b8a0a9520db8fbdb8",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616138024849,
+            "stop" : 1616138123824,
+            "duration" : 98975
+          },
+          "flaky" : true,
+          "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Automation, SenderName=GAMMATEK, NumberOfParcel=1, ConsignmentID=UAT42092201, InvalidSenderName=New, ValidSenderName=SCOIN}" ]
+        }, {
+          "name" : "doStarted",
+          "uid" : "f3ed6353def59bb2",
+          "parentUid" : "bfc97813317cec9b8a0a9520db8fbdb8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616139465074,
+            "stop" : 1616139551742,
+            "duration" : 86668
+          },
+          "flaky" : false,
+          "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Automation, SenderName=GAMMATEK, NumberOfParcel=1, ConsignmentID=UAT42092202, InvalidSenderName=New, ValidSenderName=SCOIN}" ]
+        }, {
+          "name" : "clickOnConsignment",
+          "uid" : "36097760b3d1fa59",
+          "parentUid" : "bfc97813317cec9b8a0a9520db8fbdb8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616140531090,
+            "stop" : 1616140562743,
+            "duration" : 31653
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "clickOnAccordian",
+          "uid" : "31d1558d0bdc447c",
+          "parentUid" : "bfc97813317cec9b8a0a9520db8fbdb8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616140562758,
+            "stop" : 1616140569496,
+            "duration" : 6738
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyValueStepperIsNotPresentOnSelectionOfDoc",
+          "uid" : "3a7a5cafcaba0db3",
+          "parentUid" : "bfc97813317cec9b8a0a9520db8fbdb8",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616140569506,
+            "stop" : 1616140585386,
+            "duration" : 15880
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "doStarted",
+          "uid" : "3b09889a80fcf6ca",
+          "parentUid" : "bfc97813317cec9b8a0a9520db8fbdb8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616140586437,
+            "stop" : 1616140678987,
+            "duration" : 92550
+          },
+          "flaky" : false,
+          "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Automation, SenderName=GAMMATEK, NumberOfParcel=1, ConsignmentID=UAT42092203, InvalidSenderName=New, ValidSenderName=SCOIN}" ]
         } ],
         "uid" : "bfc97813317cec9b8a0a9520db8fbdb8"
       } ],
@@ -64,56 +100,12 @@
   }, {
     "name" : "Valid Login Scenario (0)",
     "children" : [ {
-      "name" : "Check login and logout successfully",
-      "children" : [ {
-        "name" : "pages.LoginPageTest",
-        "children" : [ {
-          "name" : "signIn",
-          "uid" : "5cba7c8ee7c7f59d",
-          "parentUid" : "4c1b060f00be0e60fa0b963c97c3fa2c",
-          "status" : "passed",
-          "time" : {
-            "start" : 1615803186299,
-            "stop" : 1615803195896,
-            "duration" : 9597
-          },
-          "flaky" : false,
-          "parameters" : [ "{Status=, Message=, Password=Nasreen@123, UserName=Nasreen.khan@ram.co.za}" ]
-        } ],
-        "uid" : "4c1b060f00be0e60fa0b963c97c3fa2c"
-      } ],
-      "uid" : "36d3457fc22ce55a54543de06479a9e0"
-    }, {
       "name" : "Test Consignment Inbound",
       "children" : [ {
         "name" : "pages.TestPageConsignmentInbound",
         "children" : [ {
-          "name" : "clickOnConsignment",
-          "uid" : "318cbd8ee73a551a",
-          "parentUid" : "b0216fac57185d33e44d3499a190d27f",
-          "status" : "passed",
-          "time" : {
-            "start" : 1615803195979,
-            "stop" : 1615803227173,
-            "duration" : 31194
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "clickOnAccordian",
-          "uid" : "1f546aa245f40cae",
-          "parentUid" : "b0216fac57185d33e44d3499a190d27f",
-          "status" : "passed",
-          "time" : {
-            "start" : 1615803227185,
-            "stop" : 1615803234257,
-            "duration" : 7072
-          },
-          "flaky" : false,
-          "parameters" : [ ]
-        }, {
           "name" : "consignmentInboundEmailAndSave",
-          "uid" : "94aecf7b0ce39156",
+          "uid" : "a0292f5ec6c6abd4",
           "parentUid" : "b0216fac57185d33e44d3499a190d27f",
           "status" : "passed",
           "time" : {
@@ -125,7 +117,7 @@
           "parameters" : [ "{ConsignmentID=UAT08000104, InvalidShipperReference=bnmgfdfg, ICCIDNumber=1.11189E+18, BilledTo=GAMM02, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewReceiverName=Automation, NewSenderName=Not exist, NumberOfParcel=1, SenderName=Sportmans , NewBusinessName=RAM Business Office, CreateNewSender=AutomationVida, NewBusinessGroupName=RAM Hand to Hand Couriers, ValueForCarrige=123, IMEINumber=9.87546E+14, NewEmailAddress=Nasreen.Khan@winjit.com, Individual Your Name=NTL100, DeliveryAddress=27 Wrench Road, Isando, Kempton Park, South Africa, Individual First Name=Nasreen9, InvalidSenderName=re, Individual Last Name=TestLast10, Description=Automation testing, UpdateEmailAddress=Nasreen.Khan@ram.co.za}" ]
         }, {
           "name" : "consignmentInboundSave",
-          "uid" : "7f2e73c59eeed949",
+          "uid" : "a958fa0dc557606d",
           "parentUid" : "b0216fac57185d33e44d3499a190d27f",
           "status" : "passed",
           "time" : {
@@ -135,10 +127,78 @@
           },
           "flaky" : false,
           "parameters" : [ "{ConsignmentID=UAT07000103, InvalidShipperReference=Ddsd23, NewSenderContactFirstName=Nasreen, BilledTo=GAMM02, RcvNewContactFirstName=FNAutomation9, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewSenderName=Not exist, NumberOfParcel=2, RcvNewContactEmailAddress=Nasreen.Khan@gmail.com, RetailChainName=Retail, RcvNewContactLastName=LNAutomation9, SpecialInstruction=Automation test, ValueForCarrige=107, NewEmailAddress=Nasreen.Khan@winjit.com, RcvNewContactPrimaryTelNumber=9876543210, RetailStoreName=RetailChainDest, NewSenderContactLastName=Khan}" ]
+        }, {
+          "name" : "clickOnConsignment",
+          "uid" : "8186f64701e0f3cf",
+          "parentUid" : "b0216fac57185d33e44d3499a190d27f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616140720460,
+            "stop" : 1616140870727,
+            "duration" : 150267
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "clickOnAccordian",
+          "uid" : "99cabfcdb24fdf23",
+          "parentUid" : "b0216fac57185d33e44d3499a190d27f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616140870745,
+            "stop" : 1616141012056,
+            "duration" : 141311
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "consignmentInboundEmailAndSave",
+          "uid" : "cd656a7fcb4078a2",
+          "parentUid" : "b0216fac57185d33e44d3499a190d27f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616141012981,
+            "stop" : 1616141133504,
+            "duration" : 120523
+          },
+          "flaky" : true,
+          "parameters" : [ "{ConsignmentID=UAT08000106, InvalidShipperReference=bnmgfdfg, ICCIDNumber=1.11189E+18, BilledTo=GAMM02, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewReceiverName=Automation, NewSenderName=Not exist, NumberOfParcel=1, SenderName=Sportmans , NewBusinessName=RAM Business Office, CreateNewSender=AutomationVida, NewBusinessGroupName=RAM Hand to Hand Couriers, ValueForCarrige=123, IMEINumber=9.87546E+14, NewEmailAddress=Nasreen.Khan@winjit.com, Individual Your Name=NTL100, DeliveryAddress=27 Wrench Road, Isando, Kempton Park, South Africa, Individual First Name=Nasreen11, InvalidSenderName=re, Individual Last Name=TestLast12, Description=Automation testing, UpdateEmailAddress=Nasreen.Khan@ram.co.za}" ]
+        }, {
+          "name" : "consignmentInboundSave",
+          "uid" : "a4e0f73e520ea896",
+          "parentUid" : "b0216fac57185d33e44d3499a190d27f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1616141134176,
+            "stop" : 1616141254784,
+            "duration" : 120608
+          },
+          "flaky" : true,
+          "parameters" : [ "{ConsignmentID=UAT07000105, InvalidShipperReference=Ddsd23, NewSenderContactFirstName=Nasreen, BilledTo=GAMM02, RcvNewContactFirstName=FNAutomation11, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewSenderName=Not exist, NumberOfParcel=2, RcvNewContactEmailAddress=Nasreen.Khan@gmail.com, RetailChainName=Retail, RcvNewContactLastName=LNAutomation12, SpecialInstruction=Automation test, ValueForCarrige=107, NewEmailAddress=Nasreen.Khan@winjit.com, RcvNewContactPrimaryTelNumber=9876543210, RetailStoreName=RetailChainDest, NewSenderContactLastName=Khan}" ]
         } ],
         "uid" : "b0216fac57185d33e44d3499a190d27f"
       } ],
       "uid" : "ac34278599bf26082133df557f4e95f4"
+    }, {
+      "name" : "Check login and logout successfully",
+      "children" : [ {
+        "name" : "pages.LoginPageTest",
+        "children" : [ {
+          "name" : "signIn",
+          "uid" : "ea4a5ba2d1d416ab",
+          "parentUid" : "4c1b060f00be0e60fa0b963c97c3fa2c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616140714057,
+            "stop" : 1616140720399,
+            "duration" : 6342
+          },
+          "flaky" : false,
+          "parameters" : [ "{Status=, Message=, Password=Nasreen@123, UserName=Nasreen.khan@ram.co.za}" ]
+        } ],
+        "uid" : "4c1b060f00be0e60fa0b963c97c3fa2c"
+      } ],
+      "uid" : "36d3457fc22ce55a54543de06479a9e0"
     } ],
     "uid" : "49a3e2eb74bf47076b4766dba58f5ab3"
   } ]
