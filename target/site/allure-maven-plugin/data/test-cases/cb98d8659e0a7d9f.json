@@ -1,0 +1,218 @@
+{
+  "uid" : "cb98d8659e0a7d9f",
+  "name" : "clickOnAccordian",
+  "fullName" : "pages.TestPageConsignmentInbound.clickOnAccordian",
+  "historyId" : "141090b560d7cb893990eb6fcf94cff4",
+  "time" : {
+    "start" : 1616157765399,
+    "stop" : 1616157788192,
+    "duration" : 22793
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1616157733246,
+      "stop" : 1616157733248,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1616157665094,
+      "stop" : 1616157693888,
+      "duration" : 28794
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f48b7add2e9d05a",
+      "name" : "clickOnAccordian passed and screenshot taken!",
+      "source" : "2f48b7add2e9d05a.txt",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "7339482a54eeb32e",
+      "name" : "clickOnAccordian",
+      "source" : "7339482a54eeb32e.png",
+      "type" : "image/png",
+      "size" : 5559
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1616158215609,
+      "stop" : 1616158220360,
+      "duration" : 4751
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnAccordian"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Valid Login Scenario"
+  }, {
+    "name" : "suite",
+    "value" : "Test Consignment Inbound"
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1098"
+  }, {
+    "name" : "thread",
+    "value" : "20836@WJLP-1098.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b7792cddd11d730",
+      "status" : "skipped",
+      "statusDetails" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@4272d8cf (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 51ba6cbc54b17361a48c952af7e03b2c",
+      "time" : {
+        "start" : 1616157624093,
+        "stop" : 1616157624095,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "f989b1fee133c83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616153473833,
+        "stop" : 1616153496742,
+        "duration" : 22909
+      }
+    }, {
+      "uid" : "ca73265ccbcf5460",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616152997498,
+        "stop" : 1616153020302,
+        "duration" : 22804
+      }
+    }, {
+      "uid" : "17b739374d14f9d5",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header' (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1616140870745,
+        "stop" : 1616141012056,
+        "duration" : 141311
+      }
+    }, {
+      "uid" : "c6f0577d993d5f6c",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53168}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 62f707d9c32cb7d52fb4e2a113040eeb\n*** Element info: {Using=css selector, value=.v-expansion-panel__container:nth-child(5) .panel-header}",
+      "time" : {
+        "start" : 1616139714121,
+        "stop" : 1616139747175,
+        "duration" : 33054
+      }
+    }, {
+      "uid" : "75551781e520881f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header' (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1616138314414,
+        "stop" : 1616138455758,
+        "duration" : 141344
+      }
+    }, {
+      "uid" : "5d3f3adee215248d",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header' (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1616136136187,
+        "stop" : 1616136261484,
+        "duration" : 125297
+      }
+    }, {
+      "uid" : "a1cd813ed13b4384",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header' (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1616134326879,
+        "stop" : 1616134452306,
+        "duration" : 125427
+      }
+    }, {
+      "uid" : "11e48b5d44f73109",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header' (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1616133351907,
+        "stop" : 1616133477387,
+        "duration" : 125480
+      }
+    }, {
+      "uid" : "1cc35416c6e7b646",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615803227185,
+        "stop" : 1615803234257,
+        "duration" : 7072
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb98d8659e0a7d9f.json",
+  "parameterValues" : [ ]
+}

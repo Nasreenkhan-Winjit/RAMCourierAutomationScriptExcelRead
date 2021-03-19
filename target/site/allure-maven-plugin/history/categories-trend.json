@@ -1,6 +1,7 @@
 [ {
   "data" : {
     "Passed test" : 8,
-    "Test defects" : 6
+    "Test defects" : 6,
+    "Skipped tests" : 2
   }
 } ]

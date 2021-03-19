@@ -71,7 +71,7 @@ public class TestPageConsignmentInbound extends TestBase {
                 System.out.println("Logistic Type Field value is Present");
             }
 
-            Thread.sleep(4000);
+            Thread.sleep(8000);
           //<editor-fold desc="Second Stepper">
 
             pageConsignment.clickOnSecondStepper();
@@ -121,7 +121,7 @@ public class TestPageConsignmentInbound extends TestBase {
             pageConsignment.enterNewPrimaryNumber(testDataSet.get("PrimaryNumber"));
             pageConsignment.enterNewEmailAddress(testDataSet.get("NewEmailAddress"));
             pageConsignment.clickOnNewSubmitButton();
-            Thread.sleep(12000);
+            Thread.sleep(20000);
             pageConsignment.clickOnStepReciever();
             pageConsignment.clickOnReceiverResetButton();
             Thread.sleep(2000);

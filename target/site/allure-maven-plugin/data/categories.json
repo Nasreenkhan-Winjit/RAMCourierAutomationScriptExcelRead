@@ -6,7 +6,7 @@
     "children" : [ {
       "children" : [ {
         "name" : "doStarted",
-        "uid" : "87236370718a2c50",
+        "uid" : "d9be3190b0b0350b",
         "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
         "status" : "passed",
         "time" : {
@@ -18,7 +18,7 @@
         "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Automation, SenderName=GAMMATEK, NumberOfParcel=1, ConsignmentID=UAT42092198, InvalidSenderName=New, ValidSenderName=SCOIN}" ]
       }, {
         "name" : "consignmentInboundEmailAndSave",
-        "uid" : "a0292f5ec6c6abd4",
+        "uid" : "49398d31b8438750",
         "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
         "status" : "passed",
         "time" : {
@@ -30,7 +30,7 @@
         "parameters" : [ "{ConsignmentID=UAT08000104, InvalidShipperReference=bnmgfdfg, ICCIDNumber=1.11189E+18, BilledTo=GAMM02, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewReceiverName=Automation, NewSenderName=Not exist, NumberOfParcel=1, SenderName=Sportmans , NewBusinessName=RAM Business Office, CreateNewSender=AutomationVida, NewBusinessGroupName=RAM Hand to Hand Couriers, ValueForCarrige=123, IMEINumber=9.87546E+14, NewEmailAddress=Nasreen.Khan@winjit.com, Individual Your Name=NTL100, DeliveryAddress=27 Wrench Road, Isando, Kempton Park, South Africa, Individual First Name=Nasreen9, InvalidSenderName=re, Individual Last Name=TestLast10, Description=Automation testing, UpdateEmailAddress=Nasreen.Khan@ram.co.za}" ]
       }, {
         "name" : "consignmentInboundSave",
-        "uid" : "a958fa0dc557606d",
+        "uid" : "f7bff3c632bbe656",
         "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
         "status" : "passed",
         "time" : {
@@ -42,7 +42,7 @@
         "parameters" : [ "{ConsignmentID=UAT07000103, InvalidShipperReference=Ddsd23, NewSenderContactFirstName=Nasreen, BilledTo=GAMM02, RcvNewContactFirstName=FNAutomation9, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewSenderName=Not exist, NumberOfParcel=2, RcvNewContactEmailAddress=Nasreen.Khan@gmail.com, RetailChainName=Retail, RcvNewContactLastName=LNAutomation9, SpecialInstruction=Automation test, ValueForCarrige=107, NewEmailAddress=Nasreen.Khan@winjit.com, RcvNewContactPrimaryTelNumber=9876543210, RetailStoreName=RetailChainDest, NewSenderContactLastName=Khan}" ]
       }, {
         "name" : "doStarted",
-        "uid" : "f3ed6353def59bb2",
+        "uid" : "b41b265c9310047",
         "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
         "status" : "passed",
         "time" : {
@@ -54,7 +54,7 @@
         "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Automation, SenderName=GAMMATEK, NumberOfParcel=1, ConsignmentID=UAT42092202, InvalidSenderName=New, ValidSenderName=SCOIN}" ]
       }, {
         "name" : "clickOnConsignment",
-        "uid" : "36097760b3d1fa59",
+        "uid" : "d78f4a60b7311ec7",
         "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
         "status" : "passed",
         "time" : {
@@ -66,7 +66,7 @@
         "parameters" : [ ]
       }, {
         "name" : "clickOnAccordian",
-        "uid" : "31d1558d0bdc447c",
+        "uid" : "a3fcea0e2f71f0e0",
         "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
         "status" : "passed",
         "time" : {
@@ -78,7 +78,7 @@
         "parameters" : [ ]
       }, {
         "name" : "doStarted",
-        "uid" : "3b09889a80fcf6ca",
+        "uid" : "561c18b0af72491e",
         "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
         "status" : "passed",
         "time" : {
@@ -90,13 +90,13 @@
         "parameters" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Automation, SenderName=GAMMATEK, NumberOfParcel=1, ConsignmentID=UAT42092203, InvalidSenderName=New, ValidSenderName=SCOIN}" ]
       }, {
         "name" : "signIn",
-        "uid" : "ea4a5ba2d1d416ab",
+        "uid" : "1ac0d834bf0e9eb4",
         "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
         "status" : "passed",
         "time" : {
-          "start" : 1616140714057,
-          "stop" : 1616140720399,
-          "duration" : 6342
+          "start" : 1616157699160,
+          "stop" : 1616157732737,
+          "duration" : 33577
         },
         "flaky" : false,
         "parameters" : [ "{Status=, Message=, Password=Nasreen@123, UserName=Nasreen.khan@ram.co.za}" ]
@@ -110,7 +110,7 @@
       "name" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (7171392f49ca2fe03d74db72fcdae80d)] -> xpath: //input[@id='SearchAutocomplete_Sender']] (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.support.events.EventFiringWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7171392f49ca2fe03d74db72fcdae80d",
       "children" : [ {
         "name" : "doStarted",
-        "uid" : "647ec2d852d40549",
+        "uid" : "5f98ae9cda2c131c",
         "parentUid" : "ac7ece9b60fc995c508bcab1ef349358",
         "status" : "broken",
         "time" : {
@@ -126,7 +126,7 @@
       "name" : "element click intercepted: Element <div class=\"v-menu v-menu--inline\">...</div> is not clickable at point (1063, 28). Other element would receive the click: <div class=\"v-overlay v-overlay--active\" style=\"z-index: 201;\"></div>\n  (Session info: headless chrome=89.0.4389.90)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4fac41a26d96408ad66db42786186454",
       "children" : [ {
         "name" : "verifyValueStepperIsNotPresentOnSelectionOfDoc",
-        "uid" : "3a7a5cafcaba0db3",
+        "uid" : "141d94bf6c416649",
         "parentUid" : "a759707a0b9038a17da21c1c3548fe94",
         "status" : "broken",
         "time" : {
@@ -139,42 +139,10 @@
       } ],
       "uid" : "a759707a0b9038a17da21c1c3548fe94"
     }, {
-      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: //div[@class='flex xs1 md1']' (tried for 60 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "clickOnConsignment",
-        "uid" : "8186f64701e0f3cf",
-        "parentUid" : "3af139e6e60e95552c9e8487676d03d9",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616140720460,
-          "stop" : 1616140870727,
-          "duration" : 150267
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3af139e6e60e95552c9e8487676d03d9"
-    }, {
-      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header' (tried for 60 second(s) with 500 milliseconds interval)",
-      "children" : [ {
-        "name" : "clickOnAccordian",
-        "uid" : "99cabfcdb24fdf23",
-        "parentUid" : "06425c1be1211511521ae2d92072f65e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1616140870745,
-          "stop" : 1616141012056,
-          "duration" : 141311
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "06425c1be1211511521ae2d92072f65e"
-    }, {
       "name" : "Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: //input[@id='ConsignmentID']' (tried for 60 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "consignmentInboundEmailAndSave",
-        "uid" : "cd656a7fcb4078a2",
+        "uid" : "fc5b5e239a160e7c",
         "parentUid" : "567bf1733948f83f498b05ae2017a01c",
         "status" : "broken",
         "time" : {
@@ -186,7 +154,7 @@
         "parameters" : [ "{ConsignmentID=UAT08000106, InvalidShipperReference=bnmgfdfg, ICCIDNumber=1.11189E+18, BilledTo=GAMM02, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewReceiverName=Automation, NewSenderName=Not exist, NumberOfParcel=1, SenderName=Sportmans , NewBusinessName=RAM Business Office, CreateNewSender=AutomationVida, NewBusinessGroupName=RAM Hand to Hand Couriers, ValueForCarrige=123, IMEINumber=9.87546E+14, NewEmailAddress=Nasreen.Khan@winjit.com, Individual Your Name=NTL100, DeliveryAddress=27 Wrench Road, Isando, Kempton Park, South Africa, Individual First Name=Nasreen11, InvalidSenderName=re, Individual Last Name=TestLast12, Description=Automation testing, UpdateEmailAddress=Nasreen.Khan@ram.co.za}" ]
       }, {
         "name" : "consignmentInboundSave",
-        "uid" : "a4e0f73e520ea896",
+        "uid" : "792d924c404d31a6",
         "parentUid" : "567bf1733948f83f498b05ae2017a01c",
         "status" : "broken",
         "time" : {
@@ -198,7 +166,71 @@
         "parameters" : [ "{ConsignmentID=UAT07000105, InvalidShipperReference=Ddsd23, NewSenderContactFirstName=Nasreen, BilledTo=GAMM02, RcvNewContactFirstName=FNAutomation11, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewSenderName=Not exist, NumberOfParcel=2, RcvNewContactEmailAddress=Nasreen.Khan@gmail.com, RetailChainName=Retail, RcvNewContactLastName=LNAutomation12, SpecialInstruction=Automation test, ValueForCarrige=107, NewEmailAddress=Nasreen.Khan@winjit.com, RcvNewContactPrimaryTelNumber=9876543210, RetailStoreName=RetailChainDest, NewSenderContactLastName=Khan}" ]
       } ],
       "uid" : "567bf1733948f83f498b05ae2017a01c"
+    }, {
+      "name" : "element click intercepted: Element <div class=\"v-stepper__step v-stepper__step--inactive\" id=\"stepReceiver\">...</div> is not clickable at point (657, 365). Other element would receive the click: <div data-v-517c2ba2=\"\" class=\"contener_mixte\">...</div>\n  (Session info: headless chrome=89.0.4389.90)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57343}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a17cb8e0199ae9ab39e73cf3a71b688a",
+      "children" : [ {
+        "name" : "consignmentInboundEmailAndSave",
+        "uid" : "717037bf688262e5",
+        "parentUid" : "048bbe54ca10821bbc155e2c5007b855",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616153021081,
+          "stop" : 1616153142714,
+          "duration" : 121633
+        },
+        "flaky" : false,
+        "parameters" : [ "{ConsignmentID=UAT08000107, InvalidShipperReference=bnmgfdfg, ICCIDNumber=1.11189E+18, BilledTo=GAMM02, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewReceiverName=Automation, NewSenderName=Not exist, NumberOfParcel=1, SenderName=Sportmans , NewBusinessName=RAM Business Office, CreateNewSender=AutomationVida, NewBusinessGroupName=RAM Hand to Hand Couriers, ValueForCarrige=123, IMEINumber=9.87546E+14, NewEmailAddress=Nasreen.Khan@winjit.com, Individual Your Name=NTL100, DeliveryAddress=27 Wrench Road, Isando, Kempton Park, South Africa, Individual First Name=Nasreen12, InvalidSenderName=re, Individual Last Name=TestLast13, Description=Automation testing, UpdateEmailAddress=Nasreen.Khan@ram.co.za}" ]
+      } ],
+      "uid" : "048bbe54ca10821bbc155e2c5007b855"
+    }, {
+      "name" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@4272d8cf (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 51ba6cbc54b17361a48c952af7e03b2c",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "b240504cc6f6523d",
+        "parentUid" : "422d3b185b6a88e15bddaf7e9fef88cc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1616157618056,
+          "stop" : 1616157618059,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "422d3b185b6a88e15bddaf7e9fef88cc"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Skipped tests",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@4272d8cf (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 51ba6cbc54b17361a48c952af7e03b2c",
+      "children" : [ {
+        "name" : "consignmentInboundEmailAndSave",
+        "uid" : "d521173111f290d1",
+        "parentUid" : "41f7852b66a7e8ebe61fc888520d814e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616157624842,
+          "stop" : 1616157624844,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "consignmentInboundSave",
+        "uid" : "c4cf69564cee98cb",
+        "parentUid" : "41f7852b66a7e8ebe61fc888520d814e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1616157625161,
+          "stop" : 1616157625163,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41f7852b66a7e8ebe61fc888520d814e"
+    } ],
+    "uid" : "c125badd1841297a9701a15a8082ec24"
   } ]
 }

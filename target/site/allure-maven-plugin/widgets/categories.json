@@ -1,5 +1,5 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
     "uid" : "bdbf199525818fae7a8651db9eafe741",
     "name" : "Test defects",
@@ -21,6 +21,17 @@
       "passed" : 8,
       "unknown" : 0,
       "total" : 8
+    }
+  }, {
+    "uid" : "c125badd1841297a9701a15a8082ec24",
+    "name" : "Skipped tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
     }
   } ]
 }
