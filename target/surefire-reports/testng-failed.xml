@@ -4,27 +4,13 @@
   <listeners>
     <listener class-name="utilities.listener.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Check login and logout successfully(failed)" verbose="0">
-    <classes>
-      <class name="pages.LoginPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearBrowser"/>
-          <include name="signIn"/>
-          <include name="waitForLoad"/>
-        </methods>
-      </class> <!-- pages.LoginPageTest -->
-    </classes>
-  </test> <!-- Check login and logout successfully(failed) -->
   <test thread-count="5" name="Test Consignment Inbound(failed)" verbose="0">
     <classes>
       <class name="pages.TestPageConsignmentInbound">
         <methods>
-          <include name="clickOnConsignment"/>
-          <include name="consignmentInboundEmailAndSave"/>
-          <include name="consignmentInboundSave"/>
+          <include name="consignmentInboundEmailAndSave" invocation-numbers="0"/>
+          <include name="consignmentInboundSave" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="clickOnAccordian"/>
           <include name="tearBrowser"/>
           <include name="waitForLoad"/>
         </methods>

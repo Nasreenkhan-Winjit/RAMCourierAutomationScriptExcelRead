@@ -1,0 +1,135 @@
+{
+  "uid" : "6137f7431fe550a8",
+  "name" : "clickOnConsignment",
+  "fullName" : "pages.TestPageConsignmentInbound.clickOnConsignment",
+  "historyId" : "4a37eea8993d92372e0c8d7e3bb1178b",
+  "time" : {
+    "start" : 1616153442170,
+    "stop" : 1616153473821,
+    "duration" : 31651
+  },
+  "description" : "Verify valid user are allowed to access",
+  "descriptionHtml" : "<p>Verify valid user are allowed to access</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1616153441106,
+      "stop" : 1616153441107,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1616153361656,
+      "stop" : 1616153414263,
+      "duration" : 52607
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify valid user are allowed to access",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "719cebb073aee7ab",
+      "name" : "clickOnConsignment passed and screenshot taken!",
+      "source" : "719cebb073aee7ab.txt",
+      "type" : "text/plain",
+      "size" : 47
+    }, {
+      "uid" : "9c4e0f72286c51a7",
+      "name" : "clickOnConsignment",
+      "source" : "9c4e0f72286c51a7.png",
+      "type" : "image/png",
+      "size" : 758228
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1616153562990,
+      "stop" : 1616153566807,
+      "duration" : 3817
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnConsignment"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Valid Login Scenario"
+  }, {
+    "name" : "suite",
+    "value" : "Test Consignment Inbound"
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1098"
+  }, {
+    "name" : "thread",
+    "value" : "20748@WJLP-1098.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6137f7431fe550a8.json",
+  "parameterValues" : [ ]
+}

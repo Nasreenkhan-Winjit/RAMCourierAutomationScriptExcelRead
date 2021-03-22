@@ -8,11 +8,9 @@
     <classes>
       <class name="pages.TestPageConsignmentInbound">
         <methods>
-          <include name="clickOnConsignment"/>
           <include name="consignmentInboundEmailAndSave" invocation-numbers="0"/>
           <include name="consignmentInboundSave" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="clickOnAccordian"/>
           <include name="tearBrowser"/>
           <include name="waitForLoad"/>
         </methods>

@@ -1,0 +1,421 @@
+{
+  "uid" : "fb4116a1502046d2",
+  "name" : "signIn",
+  "fullName" : "pages.LoginPageTest.signIn",
+  "historyId" : "b4e9fa40f11ba0d1a361e1d3687d0716",
+  "time" : {
+    "start" : 1616394168839,
+    "stop" : 1616394192319,
+    "duration" : 23480
+  },
+  "description" : "Verify valid user are allowed to access",
+  "descriptionHtml" : "<p>Verify valid user are allowed to access</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1616394165971,
+      "stop" : 1616394165975,
+      "duration" : 4
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1616394147689,
+      "stop" : 1616394165922,
+      "duration" : 18233
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify valid user are allowed to access",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter UserName: \"Nasreen.khan@ram.co.za\"",
+      "time" : {
+        "start" : 1616394188989,
+        "stop" : 1616394189841,
+        "duration" : 852
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter webelement [[[[ChromeDriver: chrome on WINDOWS (18705006603b93d77aaca393ff9247b3)] -> xpath: //form[1]]] -> xpath: //child::input[@type='email' or @type='text']] value [[[[ChromeDriver: chrome on WINDOWS (18705006603b93d77aaca393ff9247b3)] -> xpath: //form[1]]] -> xpath: //child::input[@type='email' or @type='text']]",
+        "time" : {
+          "start" : 1616394189115,
+          "stop" : 1616394189841,
+          "duration" : 726
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "webElement",
+          "value" : "[[[[ChromeDriver: chrome on WINDOWS (18705006603b93d77aaca393ff9247b3)] -> xpath: //form[1]]] -> xpath: //child::input[@type='email' or @type='text']]"
+        }, {
+          "name" : "inputTxt",
+          "value" : "Nasreen.khan@ram.co.za"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userName",
+        "value" : "Nasreen.khan@ram.co.za"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter Password: \"Nasreen@123\"",
+      "time" : {
+        "start" : 1616394189842,
+        "stop" : 1616394190343,
+        "duration" : 501
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter webelement [[[[ChromeDriver: chrome on WINDOWS (18705006603b93d77aaca393ff9247b3)] -> xpath: //form[1]]] -> xpath: //child::input[@type='password']] value [[[[ChromeDriver: chrome on WINDOWS (18705006603b93d77aaca393ff9247b3)] -> xpath: //form[1]]] -> xpath: //child::input[@type='password']]",
+        "time" : {
+          "start" : 1616394189908,
+          "stop" : 1616394190343,
+          "duration" : 435
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "webElement",
+          "value" : "[[[[ChromeDriver: chrome on WINDOWS (18705006603b93d77aaca393ff9247b3)] -> xpath: //form[1]]] -> xpath: //child::input[@type='password']]"
+        }, {
+          "name" : "inputTxt",
+          "value" : "Nasreen@123"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "Nasreen@123"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click Login button",
+      "time" : {
+        "start" : 1616394190344,
+        "stop" : 1616394190477,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f5008912a1c08514",
+      "name" : "signIn passed and screenshot taken!",
+      "source" : "f5008912a1c08514.txt",
+      "type" : "text/plain",
+      "size" : 35
+    }, {
+      "uid" : "fe45081366bb6b08",
+      "name" : "signIn",
+      "source" : "fe45081366bb6b08.png",
+      "type" : "image/png",
+      "size" : 1075649
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1616394654044,
+      "stop" : 1616394657928,
+      "duration" : 3884
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "signIn"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Valid Login Scenario"
+  }, {
+    "name" : "suite",
+    "value" : "Check login and logout successfully"
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.LoginPageTest"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1098"
+  }, {
+    "name" : "thread",
+    "value" : "7352@WJLP-1098.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Status=, Message=, Password=Nasreen@123, UserName=Nasreen.khan@ram.co.za}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "37fd159325a6053c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616393408200,
+        "stop" : 1616393431951,
+        "duration" : 23751
+      }
+    }, {
+      "uid" : "f05949018c2d43d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616393039299,
+        "stop" : 1616393060740,
+        "duration" : 21441
+      }
+    }, {
+      "uid" : "b0d4984541191fbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616392521204,
+        "stop" : 1616392543095,
+        "duration" : 21891
+      }
+    }, {
+      "uid" : "f9729b3e53bb6779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616391981357,
+        "stop" : 1616392004200,
+        "duration" : 22843
+      }
+    }, {
+      "uid" : "3293dffff64a43ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616391720526,
+        "stop" : 1616391744094,
+        "duration" : 23568
+      }
+    }, {
+      "uid" : "8dcc7821cbf7f2af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616157699160,
+        "stop" : 1616157732737,
+        "duration" : 33577
+      }
+    }, {
+      "uid" : "aa5fcc84ac923451",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616153417553,
+        "stop" : 1616153440395,
+        "duration" : 22842
+      }
+    }, {
+      "uid" : "ac65171cafb18600",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616152940473,
+        "stop" : 1616152964413,
+        "duration" : 23940
+      }
+    }, {
+      "uid" : "e57c04dd309ed710",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616140714057,
+        "stop" : 1616140720399,
+        "duration" : 6342
+      }
+    }, {
+      "uid" : "61deced651a846f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616140503402,
+        "stop" : 1616140529760,
+        "duration" : 26358
+      }
+    }, {
+      "uid" : "b504fc210d533094",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616139588687,
+        "stop" : 1616139596302,
+        "duration" : 7615
+      }
+    }, {
+      "uid" : "7c60c9a67c25f03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616139316997,
+        "stop" : 1616139329168,
+        "duration" : 12171
+      }
+    }, {
+      "uid" : "fd765395b8e9db9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616138860056,
+        "stop" : 1616138873579,
+        "duration" : 13523
+      }
+    }, {
+      "uid" : "c8a9958d8c1820b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616138158025,
+        "stop" : 1616138163485,
+        "duration" : 5460
+      }
+    }, {
+      "uid" : "93a33c165a3a1ca0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616137778558,
+        "stop" : 1616137791034,
+        "duration" : 12476
+      }
+    }, {
+      "uid" : "fb7492c9106222a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616135980391,
+        "stop" : 1616135985445,
+        "duration" : 5054
+      }
+    }, {
+      "uid" : "dfee9f5fcd254fbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616135736393,
+        "stop" : 1616135779303,
+        "duration" : 42910
+      }
+    }, {
+      "uid" : "582eded0d4ec80d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616134168905,
+        "stop" : 1616134175859,
+        "duration" : 6954
+      }
+    }, {
+      "uid" : "51ef22260f224b62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616133914399,
+        "stop" : 1616133937898,
+        "duration" : 23499
+      }
+    }, {
+      "uid" : "64e0bfc2e486859e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616133194889,
+        "stop" : 1616133201123,
+        "duration" : 6234
+      }
+    }, {
+      "uid" : "3957f907d25a2a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616132828082,
+        "stop" : 1616132829971,
+        "duration" : 1889
+      }
+    }, {
+      "uid" : "5f0805e77f517c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615803186299,
+        "stop" : 1615803195896,
+        "duration" : 9597
+      }
+    }, {
+      "uid" : "53ba8efff99078a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615802943106,
+        "stop" : 1615802948997,
+        "duration" : 5891
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Passed test",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fb4116a1502046d2.json",
+  "parameterValues" : [ "{Status=, Message=, Password=Nasreen@123, UserName=Nasreen.khan@ram.co.za}" ]
+}

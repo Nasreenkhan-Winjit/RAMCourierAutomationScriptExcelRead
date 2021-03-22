@@ -19,7 +19,9 @@ public class LoginPageTest extends TestBase {
     @Test(dataProviderClass = DataProviderList.class, dataProvider = "ValidLogin")
     public void signIn(Map<String, String> testDataSet) throws InterruptedException {
         login = new Login(eventFiringWebDriver);
+        Thread.sleep(20000);
         waitForPageLoad();
+
         login.enterUserName(testDataSet.get("UserName"));
 //        login.loginClick();
         login.enterPassword(testDataSet.get("Password"));

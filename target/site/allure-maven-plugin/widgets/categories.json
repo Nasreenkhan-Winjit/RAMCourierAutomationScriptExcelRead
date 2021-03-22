@@ -5,11 +5,11 @@
     "name" : "Test defects",
     "statistic" : {
       "failed" : 0,
-      "broken" : 6,
+      "broken" : 7,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     }
   }, {
     "uid" : "81b1a73de11cbf9edd37b9ae15430a89",
@@ -18,9 +18,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 8
+      "total" : 11
     }
   }, {
     "uid" : "c125badd1841297a9701a15a8082ec24",
