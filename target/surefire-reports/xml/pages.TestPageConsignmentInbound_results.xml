@@ -4,29 +4,29 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="457.629">
+           time="505.818">
     <properties></properties>
 
 
 
             <testcase
+                name="clickOnAccordian"
+                time="21.898"
+                classname="pages.TestPageConsignmentInbound">
+            </testcase>
+            <testcase
                 name="clickOnConsignment"
-                time="30.930"
+                time="30.513"
                 classname="pages.TestPageConsignmentInbound">
             </testcase>
             <testcase
                 name="consignmentInboundEmailAndSave"
-                time="235.196"
+                time="266.527"
                 classname="pages.TestPageConsignmentInbound">
             </testcase>
             <testcase
                 name="consignmentInboundSave"
-                time="169.507"
-                classname="pages.TestPageConsignmentInbound">
-            </testcase>
-            <testcase
-                name="clickOnAccordian"
-                time="21.996"
+                time="186.880"
                 classname="pages.TestPageConsignmentInbound">
             </testcase>
 </testsuite>

@@ -5,22 +5,22 @@
     "name" : "Valid Login Scenario",
     "statistic" : {
       "failed" : 0,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 3,
-      "passed" : 14,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 22
+      "total" : 27
     }
   }, {
     "uid" : "49a3e2eb74bf47076b4766dba58f5ab3",
     "name" : "Valid Login Scenario (0)",
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 4,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 4
+      "total" : 23
     }
   } ]
 }

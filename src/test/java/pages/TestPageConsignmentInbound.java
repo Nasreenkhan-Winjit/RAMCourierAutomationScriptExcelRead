@@ -51,6 +51,7 @@ public class TestPageConsignmentInbound extends TestBase {
 //    @Test()
         public void consignmentInboundEmailAndSave(Map<String, String> testDataSet) throws InterruptedException {
             pageConsignment = new PageConsinment(eventFiringWebDriver);
+            Thread.sleep(15000);
 
             pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"), Keys.ENTER);
 
@@ -121,7 +122,7 @@ public class TestPageConsignmentInbound extends TestBase {
             pageConsignment.enterNewPrimaryNumber(testDataSet.get("PrimaryNumber"));
             pageConsignment.enterNewEmailAddress(testDataSet.get("NewEmailAddress"));
             pageConsignment.clickOnNewSubmitButton();
-            Thread.sleep(20000);
+            Thread.sleep(30000);
             pageConsignment.clickOnStepReciever();
             pageConsignment.clickOnReceiverResetButton();
             Thread.sleep(2000);
@@ -131,7 +132,7 @@ public class TestPageConsignmentInbound extends TestBase {
             pageConsignment.clickOnNewReceiverType();
             pageConsignment.selectCorporateBusinessFromMenuAtNewRcv();
             pageConsignment.enterNewBusinessGroup(testDataSet.get("NewBusinessGroupName"));
-            Thread.sleep(5000);
+            Thread.sleep(15000);
             pageConsignment.enterBusinessName(testDataSet.get("NewBusinessName"));
             Thread.sleep(20000);
             pageConsignment.clickOnNewReceiverContactStepper();
@@ -229,6 +230,7 @@ public class TestPageConsignmentInbound extends TestBase {
 //    @Test()
     public void consignmentInboundSave(Map<String, String> testDataSet) throws InterruptedException {
         pageConsignment = new PageConsinment(eventFiringWebDriver);
+        Thread.sleep(15000);
         pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"), Keys.ENTER);
 
         Thread.sleep(15000);

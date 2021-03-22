@@ -75,6 +75,11 @@ public class PageConsinment extends BasePage {
     @FindBy(how =How.XPATH, using = "//div[@class='v-list__tile__content']/div[contains(text(),'Documentation')]")
     private WebElement elementMenuCommudityDocument;
 
+@CacheLookup
+    // Select Document and verify
+    @FindBy(how =How.XPATH, using = "//div[@class='v-list__tile__content']/div[contains(text(),'Fragrances')]")
+    private WebElement elementMenuCommudityFragrances;
+
     @CacheLookup
     // Popup Continue
     @FindBy(how =How.XPATH,using = "//button[@id='CommodityContinue']")
@@ -659,7 +664,7 @@ public class PageConsinment extends BasePage {
      public void EnterHubIDAndSelectFromList(String txt) throws InterruptedException {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterHub));
         elementEnterHub.sendKeys(txt);
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectISAHubFromList));
         elementSelectISAHubFromList.click();
     }
@@ -668,7 +673,7 @@ public class PageConsinment extends BasePage {
      public void EnterDepartmentAndSelectFromList(String txt) throws InterruptedException {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterDepartment));
         elementEnterDepartment.sendKeys(txt);
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectITDepartmentFrom));
         elementSelectITDepartmentFrom.click();
 
@@ -1794,6 +1799,17 @@ public class PageConsinment extends BasePage {
         webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuCommudityDocument));
         elementMenuCommudityDocument.click();
     }
+
+//    @Step("Click On commodity select Document")
+//    public void clickoncommudity(){
+//        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementcommudity));
+//        elementcommudity.click();
+//
+//        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuCommudityDocument));
+//        elementMenuCommudityDocument.click();
+//    }
+
+
     @Step("Click On Commudity Continue Popup")
     public void clickOnCommudityContinuePopup(){
         webDriverWait.until(ExpectedConditions.visibilityOf(elementPopCommudityContinue));

@@ -60,7 +60,7 @@ public class TestPageConsinment extends TestBase {
     @Test
     public void verifyValueStepperIsNotPresentOnSelectionOfDoc() throws InterruptedException {
         pageConsignment = new PageConsinment(eventFiringWebDriver);
-        Thread.sleep(8000);
+        Thread.sleep(15000);
         pageConsignment.clickOnSettingsIcon();
         Thread.sleep(5000);
        pageConsignment.clickOnPrinterSetupButton();
@@ -76,7 +76,7 @@ public class TestPageConsinment extends TestBase {
         Thread.sleep(9000);
         pageConsignment.enterTxtConsignmentID("UAT00010001", Keys.ENTER);
         Thread.sleep(15000);
-        pageConsignment.enterTxtBilledTo("CELW01");
+        pageConsignment.enterTxtBilledTo("GAMM03");
         Thread.sleep(8000);
         pageConsignment.selectMenuBilledTo();
         Thread.sleep(8000);
