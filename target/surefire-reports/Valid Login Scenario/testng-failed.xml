@@ -10,7 +10,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearBrowser"/>
-          <include name="verifyValueStepperIsNotPresentOnSelectionOfDoc"/>
+          <include name="doStarted" invocation-numbers="0"/>
           <include name="waitForLoad"/>
         </methods>
       </class> <!-- pages.TestPageConsinment -->

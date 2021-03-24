@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a71df072ccf0467e",
+      "uid" : "e9c4207e0bc02e1e",
       "status" : "passed",
       "time" : {
         "start" : 1615803075653,
@@ -28,12 +28,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9c96a9bd1bf244a5",
+      "uid" : "b3db40706c4e6463",
       "status" : "passed",
       "time" : {
-        "start" : 1616418405696,
-        "stop" : 1616418428530,
-        "duration" : 22834
+        "start" : 1616506156970,
+        "stop" : 1616506180543,
+        "duration" : 23573
+      }
+    } ]
+  },
+  "186f1551fb432f23a52edf2611bb85b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6746b8e7b13984d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616505902383,
+        "stop" : 1616506037401,
+        "duration" : 135018
       }
     } ]
   },
@@ -47,7 +66,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d28cfe8d8fa38adf",
+      "uid" : "c21ad2245f7ad081",
       "status" : "passed",
       "time" : {
         "start" : 1616416771962,
@@ -66,7 +85,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "24e91d99e1e5c0ee",
+      "uid" : "b9f92bc1f397ae6b",
       "status" : "passed",
       "time" : {
         "start" : 1616418294150,
@@ -85,7 +104,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "11cee53b5af32dcc",
+      "uid" : "dfbc4c4d71563a42",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (4e63c00736f6d3df846de086e3b6dcf7)] -> xpath: //input[@id='SearchAutocomplete_Sender']] (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.support.events.EventFiringWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:50181}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4e63c00736f6d3df846de086e3b6dcf7",
       "time" : {
@@ -105,7 +124,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4ab928e34a3259ba",
+      "uid" : "8733191571dc570f",
       "status" : "passed",
       "time" : {
         "start" : 1616411894083,
@@ -124,7 +143,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "417a8fe0920af07c",
+      "uid" : "8b1fff80109c9de1",
       "status" : "passed",
       "time" : {
         "start" : 1616409047825,
@@ -143,7 +162,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "30382c810dde8263",
+      "uid" : "51752058f43b4665",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (85481b7e941068c8db631622023158ac)] -> xpath: //span[contains(text(),'RAM Business Office')]] (tried for 60 second(s) with 500 milliseconds interval)",
       "time" : {
@@ -163,7 +182,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "436535f12a218a12",
+      "uid" : "983bc901770ba8e7",
       "status" : "passed",
       "time" : {
         "start" : 1616409817272,
@@ -182,7 +201,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "891ddff3a4f35a8f",
+      "uid" : "704d4d6b61bcf65e",
       "status" : "skipped",
       "statusDetails" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@4272d8cf (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 51ba6cbc54b17361a48c952af7e03b2c",
       "time" : {
@@ -202,7 +221,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ae524509cce818ff",
+      "uid" : "5b23686f08b6ae3f",
       "status" : "passed",
       "time" : {
         "start" : 1616412144532,
@@ -221,7 +240,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b5560d961a45ffbc",
+      "uid" : "b80ac8d17896e141",
       "status" : "passed",
       "time" : {
         "start" : 1616413449372,
@@ -240,7 +259,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "27e2fa4025d50af8",
+      "uid" : "92314470c1242dc4",
       "status" : "passed",
       "time" : {
         "start" : 1616417220227,
@@ -259,7 +278,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f81a07bfd4f59d58",
+      "uid" : "f3e3c282d74845fb",
       "status" : "passed",
       "time" : {
         "start" : 1616394248198,
@@ -278,7 +297,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "87537d61c9d1cce5",
+      "uid" : "e3ea58434a5f1b08",
       "status" : "passed",
       "time" : {
         "start" : 1616418751044,
@@ -297,7 +316,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f8849d4771c5313b",
+      "uid" : "87dd27c561552c62",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: //input[@id='ConsignmentID']' (tried for 60 second(s) with 500 milliseconds interval)",
       "time" : {
@@ -317,7 +336,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f5905e45cb87e85f",
+      "uid" : "28e0af0d5ba1789b",
       "status" : "passed",
       "time" : {
         "start" : 1615803467901,
@@ -336,7 +355,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d9b4a7fe6edf12a0",
+      "uid" : "d3a97e3994ce2d70",
       "status" : "passed",
       "time" : {
         "start" : 1616391875217,
@@ -355,7 +374,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6e9718ee7c60a431",
+      "uid" : "43083e8a44ea1b7",
       "status" : "passed",
       "time" : {
         "start" : 1616415787580,
@@ -374,7 +393,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ef0ae38bfef97735",
+      "uid" : "7c4c4ede6740f00",
       "status" : "skipped",
       "time" : {
         "start" : 1616157623850,
@@ -393,7 +412,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5163d1448614593d",
+      "uid" : "4b77bfda76b516c0",
       "status" : "passed",
       "time" : {
         "start" : 1616394484094,
@@ -412,7 +431,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e46bb7e3cb9986e1",
+      "uid" : "47d71d590153ed8e",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (21f10c5ea4f6977a69aa86fc9de94c4f)] -> xpath: //input[@id='SearchAutocomplete_Sender']] (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.support.events.EventFiringWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 21f10c5ea4f6977a69aa86fc9de94c4f",
       "time" : {
@@ -432,7 +451,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "48497327462eebf5",
+      "uid" : "6e336192db6db65d",
       "status" : "skipped",
       "statusDetails" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@4272d8cf (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 51ba6cbc54b17361a48c952af7e03b2c",
       "time" : {
@@ -452,7 +471,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "be6d1b63d1d3e764",
+      "uid" : "52f7f393444cd888",
       "status" : "passed",
       "time" : {
         "start" : 1616139465074,
@@ -471,12 +490,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f7f5f9989ef219eb",
+      "uid" : "82ab8409ff721d5d",
       "status" : "passed",
       "time" : {
         "start" : 1616413931794,
         "stop" : 1616414117608,
         "duration" : 185814
+      }
+    } ]
+  },
+  "93786a69aca7b79bc6dd8f1fa3b61685" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ded644484dcb923d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616506221271,
+        "stop" : 1616506351740,
+        "duration" : 130469
       }
     } ]
   },
@@ -490,7 +528,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "830c28236cadea72",
+      "uid" : "2041d0ec60da3c87",
       "status" : "passed",
       "time" : {
         "start" : 1616404839900,
@@ -509,7 +547,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "75769541c87d522b",
+      "uid" : "f6171b7bbed0c1e6",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: //input[@id='ConsignmentID']' (tried for 60 second(s) with 500 milliseconds interval)",
       "time" : {
@@ -529,7 +567,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "90aeca1066179980",
+      "uid" : "7747083af5119d57",
       "status" : "passed",
       "time" : {
         "start" : 1616414488455,
@@ -548,7 +586,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "675882c258a8c727",
+      "uid" : "9ad5871c1c29fe2d",
       "status" : "passed",
       "time" : {
         "start" : 1616416952123,
@@ -567,7 +605,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "31b6950720162369",
+      "uid" : "3cf722ffe09c328a",
       "status" : "passed",
       "time" : {
         "start" : 1616418428580,
@@ -586,7 +624,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1ef76cf2ca96c86c",
+      "uid" : "13678ea9d3807870",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@4272d8cf (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 51ba6cbc54b17361a48c952af7e03b2c",
       "time" : {
@@ -606,7 +644,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8a95a35742d0ac24",
+      "uid" : "febbef28e91601f0",
       "status" : "passed",
       "time" : {
         "start" : 1616418483317,
@@ -625,7 +663,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c26f982100ff863f",
+      "uid" : "96c4d387a93d1b3b",
       "status" : "passed",
       "time" : {
         "start" : 1616411710275,
@@ -644,32 +682,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "561148f0838963ad",
+      "uid" : "70a0181674f3bc2d",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (7171392f49ca2fe03d74db72fcdae80d)] -> xpath: //input[@id='SearchAutocomplete_Sender']] (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.support.events.EventFiringWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7171392f49ca2fe03d74db72fcdae80d",
       "time" : {
         "start" : 1616138024849,
         "stop" : 1616138123824,
         "duration" : 98975
-      }
-    } ]
-  },
-  "40d2551de1ebcc20eea07b256b1a70d9" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6c8f608d7ca52e51",
-      "status" : "passed",
-      "time" : {
-        "start" : 1616415608253,
-        "stop" : 1616415691807,
-        "duration" : 83554
       }
     } ]
   },
@@ -683,12 +702,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e304b94e92435933",
+      "uid" : "ea65b5d5bc287c1",
       "status" : "passed",
       "time" : {
         "start" : 1615803234846,
         "stop" : 1615803467653,
         "duration" : 232807
+      }
+    } ]
+  },
+  "40d2551de1ebcc20eea07b256b1a70d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55c42736a92ff47a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616415608253,
+        "stop" : 1616415691807,
+        "duration" : 83554
       }
     } ]
   },
@@ -702,7 +740,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6be40b189836d428",
+      "uid" : "773f36ae0633837c",
       "status" : "broken",
       "statusDetails" : "element click intercepted: Element <div class=\"v-stepper__step v-stepper__step--inactive\" id=\"stepReceiver\">...</div> is not clickable at point (657, 365). Other element would receive the click: <div data-v-517c2ba2=\"\" class=\"contener_mixte\">...</div>\n  (Session info: headless chrome=89.0.4389.90)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57343}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a17cb8e0199ae9ab39e73cf3a71b688a",
       "time" : {
@@ -722,7 +760,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2dd3298df7def441",
+      "uid" : "9af984e7368948be",
       "status" : "passed",
       "time" : {
         "start" : 1616157789175,
@@ -741,12 +779,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "717c4e37e3183f01",
+      "uid" : "bc57fb92ee5576fb",
       "status" : "passed",
       "time" : {
-        "start" : 1616418148780,
-        "stop" : 1616418180250,
-        "duration" : 31470
+        "start" : 1616506182088,
+        "stop" : 1616506213576,
+        "duration" : 31488
       }
     } ]
   },
@@ -760,7 +798,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9dfcfa31facbc834",
+      "uid" : "f39195b01c2db307",
       "status" : "passed",
       "time" : {
         "start" : 1616404602951,
@@ -779,7 +817,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bea8ad34153c5a8d",
+      "uid" : "7afd695342ee1985",
       "status" : "passed",
       "time" : {
         "start" : 1616140586437,
@@ -798,7 +836,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9ae4b8f013c22c16",
+      "uid" : "ee2b795fce611ab6",
       "status" : "broken",
       "statusDetails" : "element click intercepted: Element <div class=\"v-stepper__step v-stepper__step--inactive\" id=\"stepReceiver\">...</div> is not clickable at point (657, 365). Other element would receive the click: <input id=\"CustomerContactFirstName\" currentstepper=\"contactStepper\" parentgroup=\"NewCustomer\" type=\"text\" placeholder=\"Enter Contact First Name\">\n  (Session info: headless chrome=89.0.4389.90)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 29219894622ee67bf3d936446b2269f0",
       "time" : {
@@ -818,7 +856,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "86acf9b49d049671",
+      "uid" : "a7050577ad377bea",
       "status" : "passed",
       "time" : {
         "start" : 1616408798682,
@@ -837,7 +875,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6898bffbe313f8f",
+      "uid" : "dd905748eefa33b8",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (21f10c5ea4f6977a69aa86fc9de94c4f)] -> css selector:   #SearchAutocomplete_Sender] (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.support.events.EventFiringWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 21f10c5ea4f6977a69aa86fc9de94c4f",
       "time" : {
@@ -857,12 +895,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b954fd1476cd26c1",
+      "uid" : "eadded7c749b106",
       "status" : "passed",
       "time" : {
-        "start" : 1616418180271,
-        "stop" : 1616418187043,
-        "duration" : 6772
+        "start" : 1616506213594,
+        "stop" : 1616506220361,
+        "duration" : 6767
       }
     } ]
   },
@@ -876,7 +914,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6fc586977dcb2708",
+      "uid" : "9511d6a08d6bc1ae",
       "status" : "passed",
       "time" : {
         "start" : 1616418460115,
@@ -895,7 +933,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c8fd1b53a11ebc75",
+      "uid" : "ed24e0da52aac711",
       "status" : "passed",
       "time" : {
         "start" : 1616158041739,
@@ -914,7 +952,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e9e8a44bbdfca7d8",
+      "uid" : "ed7dae87726e60ad",
       "status" : "passed",
       "time" : {
         "start" : 1616416047982,
@@ -933,7 +971,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aed98dc871ffe732",
+      "uid" : "3ff6b5a21d27c868",
       "status" : "passed",
       "time" : {
         "start" : 1616413678054,
@@ -952,12 +990,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a324e28383f0589a",
+      "uid" : "19d7abe5758ca245",
       "status" : "passed",
       "time" : {
-        "start" : 1616418187054,
-        "stop" : 1616418293365,
-        "duration" : 106311
+        "start" : 1616496925205,
+        "stop" : 1616497019232,
+        "duration" : 94027
       }
     } ]
   }

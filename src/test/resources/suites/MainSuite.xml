@@ -3,6 +3,6 @@
 <suite name="CCS Functional and Regression Testing">
    <suite-files>
        <suite-file path="ConsignmentOutbound.xml"/>
-       <suite-file path="ConsignmentInbound.xml"/>
+<!--       <suite-file path="ConsignmentInbound.xml"/>-->
    </suite-files>
 </suite> <!-- Default Suite -->

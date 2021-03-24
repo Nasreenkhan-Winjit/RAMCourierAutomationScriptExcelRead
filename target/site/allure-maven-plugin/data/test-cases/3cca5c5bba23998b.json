@@ -1,0 +1,81 @@
+{
+  "uid" : "3cca5c5bba23998b",
+  "name" : "clickOnAccordian",
+  "fullName" : "pages.TestPageConsignmentInbound.clickOnAccordian",
+  "historyId" : "141090b560d7cb893990eb6fcf94cff4",
+  "time" : {
+    "start" : 1616406968841,
+    "stop" : 1616407011367,
+    "duration" : 42526
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f0b4d57de0f042d",
+      "name" : "clickOnAccordian passed and screenshot taken!",
+      "source" : "2f0b4d57de0f042d.txt",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "e520e859daa1b1f1",
+      "name" : "clickOnAccordian",
+      "source" : "e520e859daa1b1f1.png",
+      "type" : "image/png",
+      "size" : 17781
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnAccordian"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Valid Login Scenario (0)"
+  }, {
+    "name" : "suite",
+    "value" : "Test Consignment Inbound"
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1098"
+  }, {
+    "name" : "thread",
+    "value" : "5692@WJLP-1098.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3cca5c5bba23998b.json",
+  "parameterValues" : [ ]
+}
