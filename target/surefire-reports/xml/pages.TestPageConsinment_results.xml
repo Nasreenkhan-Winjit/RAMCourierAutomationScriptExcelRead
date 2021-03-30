@@ -4,29 +4,29 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="227.371">
+           time="310.787">
     <properties></properties>
 
 
 
             <testcase
-                name="clickOnAccordian"
-                time="5.953"
-                classname="pages.TestPageConsinment">
-            </testcase>
-            <testcase
-                name="verifyValueStepperIsNotPresentOnSelectionOfDoc"
-                time="105.862"
-                classname="pages.TestPageConsinment">
-            </testcase>
-            <testcase
                 name="clickOnConsignment"
-                time="30.981"
+                time="30.557"
                 classname="pages.TestPageConsinment">
             </testcase>
             <testcase
                 name="doStarted"
-                time="84.575"
+                time="115.810"
+                classname="pages.TestPageConsinment">
+            </testcase>
+            <testcase
+                name="clickOnAccordian"
+                time="5.456"
+                classname="pages.TestPageConsinment">
+            </testcase>
+            <testcase
+                name="verifyValueStepperIsNotPresentOnSelectionOfDoc"
+                time="158.964"
                 classname="pages.TestPageConsinment">
             </testcase>
 </testsuite>

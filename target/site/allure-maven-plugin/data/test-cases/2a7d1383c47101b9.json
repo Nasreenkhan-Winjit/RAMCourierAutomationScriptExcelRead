@@ -1,0 +1,107 @@
+{
+  "uid" : "2a7d1383c47101b9",
+  "name" : "clickOnAccordian",
+  "fullName" : "pages.TestPageConsinment.clickOnAccordian",
+  "historyId" : "41989b3b500585b78969cb261713c781",
+  "time" : {
+    "start" : 1616478197046,
+    "stop" : 1616478203080,
+    "duration" : 6034
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1616478164836,
+      "stop" : 1616478164837,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1616478105003,
+      "stop" : 1616478133802,
+      "duration" : 28799
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1616478309916,
+      "stop" : 1616478314819,
+      "duration" : 4903
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnAccordian"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Valid Login Scenario"
+  }, {
+    "name" : "suite",
+    "value" : "Test Consignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1098"
+  }, {
+    "name" : "thread",
+    "value" : "22464@WJLP-1098.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a7d1383c47101b9.json",
+  "parameterValues" : [ ]
+}

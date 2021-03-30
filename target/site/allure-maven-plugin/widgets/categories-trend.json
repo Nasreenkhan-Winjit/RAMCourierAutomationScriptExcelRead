@@ -1,7 +1,8 @@
 [ {
   "data" : {
-    "Passed test" : 28,
-    "Test defects" : 10,
-    "Skipped tests" : 2
+    "Passed test" : 30,
+    "Product defects" : 1,
+    "Test defects" : 15,
+    "Skipped tests" : 4
   }
 } ]

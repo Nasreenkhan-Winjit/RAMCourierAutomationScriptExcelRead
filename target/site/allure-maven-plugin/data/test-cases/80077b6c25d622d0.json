@@ -1,0 +1,285 @@
+{
+  "uid" : "80077b6c25d622d0",
+  "name" : "verifyValueStepperIsNotPresentOnSelectionOfDoc",
+  "fullName" : "pages.TestPageConsinment.verifyValueStepperIsNotPresentOnSelectionOfDoc",
+  "historyId" : "a05678d47615955a02d89c2808b75458",
+  "time" : {
+    "start" : 1616404322016,
+    "stop" : 1616404412770,
+    "duration" : 90754
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1616404283003,
+      "stop" : 1616404283004,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1616404207623,
+      "stop" : 1616404242401,
+      "duration" : 34778
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Click on Settings icon and select printer ",
+      "time" : {
+        "start" : 1616404330068,
+        "stop" : 1616404333332,
+        "duration" : 3264
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on PrinterSetup button",
+      "time" : {
+        "start" : 1616404338332,
+        "stop" : 1616404338758,
+        "duration" : 426
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter txt in Company name",
+      "time" : {
+        "start" : 1616404338758,
+        "stop" : 1616404340176,
+        "duration" : 1418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "RAM Solutions"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Hub/Office Name and select from list",
+      "time" : {
+        "start" : 1616404340177,
+        "stop" : 1616404346041,
+        "duration" : 5864
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "ISA"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Department Name and select from list",
+      "time" : {
+        "start" : 1616404346042,
+        "stop" : 1616404351796,
+        "duration" : 5754
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "IT"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter txt in printer ID in printer search field ",
+      "time" : {
+        "start" : 1616404351797,
+        "stop" : 1616404361103,
+        "duration" : 9306
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "35"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter txt consignment : \"UAT00010001\"",
+      "time" : {
+        "start" : 1616404370179,
+        "stop" : 1616404371517,
+        "duration" : 1338
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "UAT00010001"
+      }, {
+        "name" : "keys",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Commodity Select Jwellary",
+      "time" : {
+        "start" : 1616404403648,
+        "stop" : 1616404404694,
+        "duration" : 1046
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On commodity select Document",
+      "time" : {
+        "start" : 1616404404694,
+        "stop" : 1616404405431,
+        "duration" : 737
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Commudity Continue Popup",
+      "time" : {
+        "start" : 1616404405432,
+        "stop" : 1616404405769,
+        "duration" : 337
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1616404497409,
+      "stop" : 1616404507219,
+      "duration" : 9810
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyValueStepperIsNotPresentOnSelectionOfDoc"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Valid Login Scenario"
+  }, {
+    "name" : "suite",
+    "value" : "Test Consignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1098"
+  }, {
+    "name" : "thread",
+    "value" : "20772@WJLP-1098.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80077b6c25d622d0.json",
+  "parameterValues" : [ ]
+}

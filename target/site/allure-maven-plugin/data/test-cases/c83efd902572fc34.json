@@ -1,0 +1,1092 @@
+{
+  "uid" : "c83efd902572fc34",
+  "name" : "consignmentInboundEmailAndSave",
+  "fullName" : "pages.TestPageConsignmentInbound.consignmentInboundEmailAndSave",
+  "historyId" : "d05e160c6d79b71f67560b5ff997a0f3",
+  "time" : {
+    "start" : 1616415787580,
+    "stop" : 1616416047722,
+    "duration" : 260142
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1616415733038,
+      "stop" : 1616415733038,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1616415695704,
+      "stop" : 1616415709877,
+      "duration" : 14173
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter txt consignment : \"UAT08000116\"",
+      "time" : {
+        "start" : 1616415802597,
+        "stop" : 1616415803764,
+        "duration" : 1167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "UAT08000116"
+      }, {
+        "name" : "keys",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click on Logistic Type and verify If there is any value for that field",
+      "time" : {
+        "start" : 1616415827833,
+        "stop" : 1616415827883,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Logistic Type and select Inbound",
+      "time" : {
+        "start" : 1616415827883,
+        "stop" : 1616415830483,
+        "duration" : 2600
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Second Stepper",
+      "time" : {
+        "start" : 1616415842483,
+        "stop" : 1616415842704,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Sender Name",
+      "time" : {
+        "start" : 1616415844705,
+        "stop" : 1616415845299,
+        "duration" : 594
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Not exist"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Advanced search button",
+      "time" : {
+        "start" : 1616415845299,
+        "stop" : 1616415847615,
+        "duration" : 2316
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify the Advanced Search window is displayed",
+      "time" : {
+        "start" : 1616415847615,
+        "stop" : 1616415847718,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter  characters in customer sender name",
+      "time" : {
+        "start" : 1616415847718,
+        "stop" : 1616415848330,
+        "duration" : 612
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "re"
+      }, {
+        "name" : "keys",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter  characters in customer sender name",
+      "time" : {
+        "start" : 1616415848330,
+        "stop" : 1616415848962,
+        "duration" : 632
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Sportmans "
+      }, {
+        "name" : "keys",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "CLick on search button",
+      "time" : {
+        "start" : 1616415848963,
+        "stop" : 1616415849173,
+        "duration" : 210
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Sender Name",
+      "time" : {
+        "start" : 1616415849173,
+        "stop" : 1616415851095,
+        "duration" : 1922
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Sportmans "
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Select from Menu Sender Name ",
+      "time" : {
+        "start" : 1616415854095,
+        "stop" : 1616415854280,
+        "duration" : 185
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "CLick on reset button",
+      "time" : {
+        "start" : 1616415857281,
+        "stop" : 1616415857775,
+        "duration" : 494
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "CLick on create new Button",
+      "time" : {
+        "start" : 1616415863776,
+        "stop" : 1616415867306,
+        "duration" : 3530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Not Exist1"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "CLick on Sender type field",
+      "time" : {
+        "start" : 1616415867307,
+        "stop" : 1616415869420,
+        "duration" : 2113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on New Sender Stepper and verify the validation is displayed for Individual's First and Last Name field",
+      "time" : {
+        "start" : 1616415869421,
+        "stop" : 1616415869869,
+        "duration" : 448
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter the the individuals first name and last name",
+      "time" : {
+        "start" : 1616415869870,
+        "stop" : 1616415870677,
+        "duration" : 807
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Nasreen23"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter the the individuals last name",
+      "time" : {
+        "start" : 1616415870678,
+        "stop" : 1616415871496,
+        "duration" : 818
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "TestLast24"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter the the individuals your refrence",
+      "time" : {
+        "start" : 1616415871497,
+        "stop" : 1616415872132,
+        "duration" : 635
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "NTL100"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on New Sender Stepper and verify the validation is displayed for Individual's First and Last Name field",
+      "time" : {
+        "start" : 1616415872132,
+        "stop" : 1616415872357,
+        "duration" : 225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Select Home ass Destination group",
+      "time" : {
+        "start" : 1616415872357,
+        "stop" : 1616415874284,
+        "duration" : 1927
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Select Destination type home",
+      "time" : {
+        "start" : 1616415876284,
+        "stop" : 1616415877451,
+        "duration" : 1167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Delivery address and select from list",
+      "time" : {
+        "start" : 1616415877452,
+        "stop" : 1616415889314,
+        "duration" : 11862
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "27 Wrench Road, Isando, Kempton Park, South Africa"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "CLick on New sender contact stepper",
+      "time" : {
+        "start" : 1616415894316,
+        "stop" : 1616415894592,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "CLick on New sender number type and enter the number",
+      "time" : {
+        "start" : 1616415894592,
+        "stop" : 1616415896360,
+        "duration" : 1768
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter new primary number",
+      "time" : {
+        "start" : 1616415896360,
+        "stop" : 1616415897264,
+        "duration" : 904
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "9848655555"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter new email address",
+      "time" : {
+        "start" : 1616415897265,
+        "stop" : 1616415898552,
+        "duration" : 1287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Nasreen.Khan@winjit.com"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "CLick on New sender number type and enter the number",
+      "time" : {
+        "start" : 1616415898553,
+        "stop" : 1616415898785,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Step Receiver",
+      "time" : {
+        "start" : 1616415928785,
+        "stop" : 1616415929091,
+        "duration" : 306
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : " Click on Receiver reset button",
+      "time" : {
+        "start" : 1616415929091,
+        "stop" : 1616415930092,
+        "duration" : 1001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter text Receiver Name",
+      "time" : {
+        "start" : 1616415932094,
+        "stop" : 1616415932601,
+        "duration" : 507
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Automation"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "CLick on create new Button",
+      "time" : {
+        "start" : 1616415932601,
+        "stop" : 1616415935509,
+        "duration" : 2908
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "CLick on New Receiver type field",
+      "time" : {
+        "start" : 1616415935509,
+        "stop" : 1616415936384,
+        "duration" : 875
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Select corporate business from menu ",
+      "time" : {
+        "start" : 1616415936384,
+        "stop" : 1616415937506,
+        "duration" : 1122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Business group name ",
+      "time" : {
+        "start" : 1616415937506,
+        "stop" : 1616415942620,
+        "duration" : 5114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "RAM Hand to Hand Couriers"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Existing  Business  Name ",
+      "time" : {
+        "start" : 1616415957621,
+        "stop" : 1616415962890,
+        "duration" : 5269
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "RAM Business Office"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on New Receiver Contact  ",
+      "time" : {
+        "start" : 1616415982890,
+        "stop" : 1616415983190,
+        "duration" : 300
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Contact Details Type",
+      "time" : {
+        "start" : 1616415983190,
+        "stop" : 1616415984991,
+        "duration" : 1801
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Number type and select mobile",
+      "time" : {
+        "start" : 1616415984992,
+        "stop" : 1616415986232,
+        "duration" : 1240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter new primary number",
+      "time" : {
+        "start" : 1616415986232,
+        "stop" : 1616415987290,
+        "duration" : 1058
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "9848655555"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter new email address",
+      "time" : {
+        "start" : 1616415987290,
+        "stop" : 1616415988808,
+        "duration" : 1518
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Nasreen.Khan@winjit.com"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "CLick on New sender number type and enter the number",
+      "time" : {
+        "start" : 1616415988809,
+        "stop" : 1616415989067,
+        "duration" : 258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Stepper Step Value",
+      "time" : {
+        "start" : 1616416009067,
+        "stop" : 1616416009359,
+        "duration" : 292
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Text Step Value",
+      "time" : {
+        "start" : 1616416009360,
+        "stop" : 1616416010402,
+        "duration" : 1042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "212"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Stepper Requirment",
+      "time" : {
+        "start" : 1616416010402,
+        "stop" : 1616416010628,
+        "duration" : 226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify IMEI Field is Present",
+      "time" : {
+        "start" : 1616416010629,
+        "stop" : 1616416010681,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter IMEI Number ",
+      "time" : {
+        "start" : 1616416010681,
+        "stop" : 1616416011969,
+        "duration" : 1288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "987545555555555"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Goods Description   ",
+      "time" : {
+        "start" : 1616416011970,
+        "stop" : 1616416012694,
+        "duration" : 724
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Automation testing"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Text for Shipper Reference",
+      "time" : {
+        "start" : 1616416012694,
+        "stop" : 1616416013480,
+        "duration" : 786
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "bnmgfdfg"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Text for Shipper Reference",
+      "time" : {
+        "start" : 1616416013480,
+        "stop" : 1616416014111,
+        "duration" : 631
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "1Da5g"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on POD field and select from list ",
+      "time" : {
+        "start" : 1616416019112,
+        "stop" : 1616416020181,
+        "duration" : 1069
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tab",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On stepper Services",
+      "time" : {
+        "start" : 1616416025182,
+        "stop" : 1616416025561,
+        "duration" : 379
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify the Rica is not present",
+      "time" : {
+        "start" : 1616416025562,
+        "stop" : 1616416025733,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Service Type and select Next Day 17H00",
+      "time" : {
+        "start" : 1616416025733,
+        "stop" : 1616416027359,
+        "duration" : 1626
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On stepper Parcel",
+      "time" : {
+        "start" : 1616416027360,
+        "stop" : 1616416027690,
+        "duration" : 330
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter text Number of parcel",
+      "time" : {
+        "start" : 1616416027690,
+        "stop" : 1616416028689,
+        "duration" : 999
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "1"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : " Click on Email and save button",
+      "time" : {
+        "start" : 1616416028690,
+        "stop" : 1616416029044,
+        "duration" : 354
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : " Click on Email and save button",
+      "time" : {
+        "start" : 1616416031045,
+        "stop" : 1616416032345,
+        "duration" : 1300
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "Nasreen.Khan@ram.co.za"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "24fd33df40749cd9",
+      "name" : "consignmentInboundEmailAndSave passed and screenshot taken!",
+      "source" : "24fd33df40749cd9.txt",
+      "type" : "text/plain",
+      "size" : 59
+    }, {
+      "uid" : "2ab1c2777c6ae5ad",
+      "name" : "consignmentInboundEmailAndSave",
+      "source" : "2ab1c2777c6ae5ad.png",
+      "type" : "image/png",
+      "size" : 51889
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 58,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1616416231501,
+      "stop" : 1616416235331,
+      "duration" : 3830
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "testMethod",
+    "value" : "consignmentInboundEmailAndSave"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Valid Login Scenario (0)"
+  }, {
+    "name" : "suite",
+    "value" : "Test Consignment Inbound"
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1098"
+  }, {
+    "name" : "thread",
+    "value" : "21844@WJLP-1098.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{ConsignmentID=UAT08000116, InvalidShipperReference=bnmgfdfg, ICCIDNumber=1.11189E+18, BilledTo=GAMM02, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewReceiverName=Automation, NewSenderName=Not exist, NumberOfParcel=1, SenderName=Sportmans , NewBusinessName=RAM Business Office, CreateNewSender=AutomationVida, NewBusinessGroupName=RAM Hand to Hand Couriers, ValueForCarrige=123, IMEINumber=9.87546E+14, NewEmailAddress=Nasreen.Khan@winjit.com, Individual Your Name=NTL100, DeliveryAddress=27 Wrench Road, Isando, Kempton Park, South Africa, Individual First Name=Nasreen23, InvalidSenderName=re, Individual Last Name=TestLast24, Description=Automation testing, UpdateEmailAddress=Nasreen.Khan@ram.co.za}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Passed test",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c83efd902572fc34.json",
+  "parameterValues" : [ "{ConsignmentID=UAT08000116, InvalidShipperReference=bnmgfdfg, ICCIDNumber=1.11189E+18, BilledTo=GAMM02, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewReceiverName=Automation, NewSenderName=Not exist, NumberOfParcel=1, SenderName=Sportmans , NewBusinessName=RAM Business Office, CreateNewSender=AutomationVida, NewBusinessGroupName=RAM Hand to Hand Couriers, ValueForCarrige=123, IMEINumber=9.87546E+14, NewEmailAddress=Nasreen.Khan@winjit.com, Individual Your Name=NTL100, DeliveryAddress=27 Wrench Road, Isando, Kempton Park, South Africa, Individual First Name=Nasreen23, InvalidSenderName=re, Individual Last Name=TestLast24, Description=Automation testing, UpdateEmailAddress=Nasreen.Khan@ram.co.za}" ]
+}

@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Valid Login Scenario (0)]" guice-stage="DEVELOPMENT" verbose="0">
+<suite name="Failed suite [Valid Login Scenario]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="utilities.listener.TestListener"/>
   </listeners>
+  <test thread-count="5" name="Check login and logout successfully(failed)" verbose="0">
+    <classes>
+      <class name="pages.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearBrowser"/>
+          <include name="signIn"/>
+          <include name="waitForLoad"/>
+        </methods>
+      </class> <!-- pages.LoginPageTest -->
+    </classes>
+  </test> <!-- Check login and logout successfully(failed) -->
   <test thread-count="5" name="Test Consignment Inbound(failed)" verbose="0">
     <classes>
       <class name="pages.TestPageConsignmentInbound">
         <methods>
-          <include name="consignmentInboundEmailAndSave" invocation-numbers="0"/>
-          <include name="consignmentInboundSave" invocation-numbers="0"/>
+          <include name="clickOnConsignment"/>
+          <include name="consignmentInboundEmailAndSave"/>
+          <include name="consignmentInboundSave"/>
           <include name="setUp"/>
+          <include name="clickOnAccordian"/>
           <include name="tearBrowser"/>
           <include name="waitForLoad"/>
         </methods>
       </class> <!-- pages.TestPageConsignmentInbound -->
     </classes>
   </test> <!-- Test Consignment Inbound(failed) -->
-</suite> <!-- Failed suite [Valid Login Scenario (0)] -->
+</suite> <!-- Failed suite [Valid Login Scenario] -->

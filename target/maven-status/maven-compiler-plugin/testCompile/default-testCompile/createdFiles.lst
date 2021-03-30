@@ -13,3 +13,4 @@ utilities\filereading\files\excel\FilloExcelWrite.class
 utilities\filereading\files\excel\FilloExcelRead.class
 utilities\filereading\EnumFileType.class
 pages\TestPageConsignmentInbound.class
+pages\TestPageLoginSecurity.class

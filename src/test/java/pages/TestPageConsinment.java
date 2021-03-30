@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 import pages.commonmodule.Loader;
 
+import java.security.Key;
 import java.util.*;
 
 public class TestPageConsinment extends TestBase {
@@ -67,8 +68,11 @@ public class TestPageConsinment extends TestBase {
 
 
        pageConsignment.enterTxtOnCompanyName("RAM Solutions");
+        Thread.sleep(5000);
        pageConsignment.EnterHubIDAndSelectFromList("ISA");
+        Thread.sleep(5000);
        pageConsignment.EnterDepartmentAndSelectFromList("IT");
+        Thread.sleep(5000);
        pageConsignment.enterTxtPrinterID("35");
 
 //        Thread.sleep(5000);
@@ -85,13 +89,24 @@ public class TestPageConsinment extends TestBase {
         pageConsignment.isCommoditySelected();
         pageConsignment.clickoncommudity();
         pageConsignment.clickOnCommudityContinuePopup();
-//        Thread.sleep(5000);
-//        pageConsignment.clickOnCommudityJwellery();
-//        pageConsignment.clickOnCommudityContinuePopup();
+        Thread.sleep(5000);
+        pageConsignment.clickoncommudityAndSelectFragnaces();
+        pageConsignment.clickOnCommudityContinuePopupOnJewellary();
+        Thread.sleep(5000);
+        pageConsignment.clickoncommudityAndSelectJewellery();
+        Thread.sleep(3000);
+        pageConsignment.clickoncommudityAndSelectCellularEquipment();
+        Thread.sleep(3000);
+        pageConsignment.clickOnCommodityAndSelectElectronics();
+        Thread.sleep(3000);
+        pageConsignment.clickOnCommodityAndSelectComputerEquipment();
+        Thread.sleep(3000);
+        pageConsignment.clickOnCommodityAndSelectFirearms();
+        Thread.sleep(3000);
+        pageConsignment.clickOnCommodityAndSelectMedicine();
+        Thread.sleep(2000);
+        pageConsignment.clickOnCommodityAndSelectFlowers();
         Thread.sleep(7000);
-//        waitForLoad();
-//        webDriver.navigate().refresh();
-
     }
 
     @Test(dataProviderClass = DataProviderList.class, dataProvider = "consignment")
@@ -104,7 +119,7 @@ public class TestPageConsinment extends TestBase {
 //    @Test(priority = 0)
 //    public void doStarted() throws InterruptedException {
 
-//        pageConsignment = new PageConsinment(eventFiringWebDriver);
+        pageConsignment = new PageConsinment(eventFiringWebDriver);
 ////        Thread.sleep(8000);
 //        pageConsignment.clickOnConsignmentDropdown();
 //        Thread.sleep(8000);
@@ -215,7 +230,7 @@ public class TestPageConsinment extends TestBase {
 //            Thread.sleep(6000);
         }
 
-        Thread.sleep(6000);
+        Thread.sleep(9000);
 
         pageConsignment.clickOnStepReciever();
 
@@ -284,7 +299,19 @@ public class TestPageConsinment extends TestBase {
         pageConsignment.entertxtShipperReference(testDataSet.get("ValidShipperReference"));
 //        Thread.sleep(10000);
         pageConsignment.clickOnDropdownProofOfDelivery(Keys.TAB);
-//
+        Thread.sleep(2000);
+        pageConsignment.clickOnPODKYCCode4AndSelectReason2(Keys.TAB);
+        Thread.sleep(2000);
+        pageConsignment.clickOnPODKYCCode5AndSelectReason3(Keys.TAB);
+        Thread.sleep(2000);
+        pageConsignment.clickOnPODKYCCode9AndSelectReason4(Keys.TAB);
+        Thread.sleep(2000);
+
+        pageConsignment.clickOnSITAndSelectDONOTDeliver();
+        pageConsignment.clickOnNonDeliverDaysFieldAndSelectDay();
+
+
+
 //        Thread.sleep(9000);
         /*//<editor-fold desc="Not applicable in Fifth stepper">
         pageConsignment.ClickonDropDownStandardInstructionType();
@@ -299,7 +326,20 @@ public class TestPageConsinment extends TestBase {
 //
         //<editor-fold desc="6th stepper">
         pageConsignment.clickonstepServices();
-//        pageConsignment.selectServiceType();
+        pageConsignment.selectServiceTypeAndSelectNextDay();
+        Thread.sleep(2000);
+        pageConsignment.selectServiceTypeAndSelectOption2();
+        Thread.sleep(2000);
+        pageConsignment.selectServiceTypeAndSelectOption3();
+        Thread.sleep(2000);
+        pageConsignment.selectServiceTypeAndSelectOption4();
+        Thread.sleep(2000);
+        pageConsignment.selectServiceTypeAndSelectOption5();
+        Thread.sleep(2000);
+        pageConsignment.selectServiceTypeAndSelectOption6();
+        Thread.sleep(1000);
+
+
 
         //For RICA
         if (pageConsignment.verifyRicaIsNotPresent()) {
@@ -315,18 +355,18 @@ public class TestPageConsinment extends TestBase {
                 pageConsignment.clickonStepParcel();
 //        Thread.sleep(6000);
 
-                pageConsignment.entertxtNumberOfParcel(testDataSet.get("NumberOfParcel"));
-                Thread.sleep(5000);
-
-                pageConsignment.clickOnPackageType01();
-
-                pageConsignment.clickOnSecurityPack(testDataSet.get("SecurityPack"));
-
-                pageConsignment.entertxtweight("0.1");
-
-                pageConsignment.enterParcelReferenceTxt("NA");
-
-                pageConsignment.clickOnFinaliseConsignment();
+//                pageConsignment.entertxtNumberOfParcel(testDataSet.get("NumberOfParcel"));
+//                Thread.sleep(5000);
+//
+//                pageConsignment.clickOnPackageType01();
+//
+//                pageConsignment.clickOnSecurityPack(testDataSet.get("SecurityPack"));
+//
+//                pageConsignment.entertxtweight("0.1");
+//
+//                pageConsignment.enterParcelReferenceTxt("NA");
+//
+//                pageConsignment.clickOnFinaliseConsignment();
 
             }
 //    if(pageConsignment.verifyRICA()){
@@ -349,7 +389,7 @@ public class TestPageConsinment extends TestBase {
             //Step Seven and finalize the consignment
 //        Thread.sleep(6000);
         } else {
-            pageConsignment.selectServiceTypeAndSelectNextDay();
+//            pageConsignment.selectServiceTypeAndSelectNextDay();
             pageConsignment.clickonStepParcel();
         }
 

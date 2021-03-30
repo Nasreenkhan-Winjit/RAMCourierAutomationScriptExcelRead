@@ -96,12 +96,12 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.1.0</version>
-            <scope>test</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.testng</groupId>-->
+<!--            <artifactId>testng</artifactId>-->
+<!--            <version>7.1.0</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
 
         <!-- https://mvnrepository.com/artifact/com.codoid.products/fillo -->
         <dependency>
@@ -179,6 +179,12 @@
             <groupId>net.sourceforge.csvjdbc</groupId>
             <artifactId>csvjdbc</artifactId>
             <version>1.0.36</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.1.0</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>

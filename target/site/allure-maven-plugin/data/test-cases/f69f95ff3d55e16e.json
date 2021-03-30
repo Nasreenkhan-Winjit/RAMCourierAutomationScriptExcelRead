@@ -1,0 +1,1067 @@
+{
+  "uid" : "f69f95ff3d55e16e",
+  "name" : "doStarted",
+  "fullName" : "pages.TestPageConsinment.doStarted",
+  "historyId" : "186f1551fb432f23a52edf2611bb85b6",
+  "time" : {
+    "start" : 1616505902383,
+    "stop" : 1616506037401,
+    "duration" : 135018
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1616505862118,
+      "stop" : 1616505862118,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1616505806376,
+      "stop" : 1616505833767,
+      "duration" : 27391
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter txt consignment : \"UAT42092217\"",
+      "time" : {
+        "start" : 1616505902468,
+        "stop" : 1616505913616,
+        "duration" : 11148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "UAT42092217"
+      }, {
+        "name" : "keys",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click on Logistic Type and verify If there is any value for that field",
+      "time" : {
+        "start" : 1616505938107,
+        "stop" : 1616505938146,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Logistic Type and select Outbond",
+      "time" : {
+        "start" : 1616505938147,
+        "stop" : 1616505940619,
+        "duration" : 2472
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Second Stepper",
+      "time" : {
+        "start" : 1616505948620,
+        "stop" : 1616505948843,
+        "duration" : 223
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Field Sender value reset is present",
+      "time" : {
+        "start" : 1616505950844,
+        "stop" : 1616505950883,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify the message displayed with following text",
+      "time" : {
+        "start" : 1616505950883,
+        "stop" : 1616505950909,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify the message displayed with following text",
+      "time" : {
+        "start" : 1616505950909,
+        "stop" : 1616505950977,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Sender Name",
+      "time" : {
+        "start" : 1616505950978,
+        "stop" : 1616505951571,
+        "duration" : 593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "GAMMATEK"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Advanced search button",
+      "time" : {
+        "start" : 1616505951571,
+        "stop" : 1616505955774,
+        "duration" : 4203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify the Advanced Search window is displayed",
+      "time" : {
+        "start" : 1616505955775,
+        "stop" : 1616505955919,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter  characters in customer sender name",
+      "time" : {
+        "start" : 1616505955920,
+        "stop" : 1616505956387,
+        "duration" : 467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "New"
+      }, {
+        "name" : "keys",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter  characters in customer sender name",
+      "time" : {
+        "start" : 1616505956387,
+        "stop" : 1616505956892,
+        "duration" : 505
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "SCOIN"
+      }, {
+        "name" : "keys",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "CLick on search button",
+      "time" : {
+        "start" : 1616505956893,
+        "stop" : 1616505957121,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Select from Menu Sender Name ",
+      "time" : {
+        "start" : 1616505957122,
+        "stop" : 1616505958905,
+        "duration" : 1783
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On button New Contact",
+      "time" : {
+        "start" : 1616505961906,
+        "stop" : 1616505962302,
+        "duration" : 396
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On button Cancel button",
+      "time" : {
+        "start" : 1616505965302,
+        "stop" : 1616505965520,
+        "duration" : 218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Step Receiver",
+      "time" : {
+        "start" : 1616505971522,
+        "stop" : 1616505971790,
+        "duration" : 268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Field receiver value",
+      "time" : {
+        "start" : 1616505971791,
+        "stop" : 1616505971829,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Stepper Step Value",
+      "time" : {
+        "start" : 1616505971829,
+        "stop" : 1616505972223,
+        "duration" : 394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify the receiver field is restricted and displayed with following message",
+      "time" : {
+        "start" : 1616505972223,
+        "stop" : 1616505972257,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify the receiver field displayed with following message",
+      "time" : {
+        "start" : 1616505972257,
+        "stop" : 1616505972292,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Stepper Step Value",
+      "time" : {
+        "start" : 1616505976291,
+        "stop" : 1616505976522,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Text Step Value",
+      "time" : {
+        "start" : 1616505976523,
+        "stop" : 1616505977095,
+        "duration" : 572
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "456"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Stepper Requirment",
+      "time" : {
+        "start" : 1616505977096,
+        "stop" : 1616505977350,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Text for Shipper Reference",
+      "time" : {
+        "start" : 1616505977351,
+        "stop" : 1616505978628,
+        "duration" : 1277
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "wwww"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter Text for Shipper Reference",
+      "time" : {
+        "start" : 1616505978628,
+        "stop" : 1616505979236,
+        "duration" : 608
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "eeeeeee"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on POD field and select from list ",
+      "time" : {
+        "start" : 1616505979237,
+        "stop" : 1616505981033,
+        "duration" : 1796
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tab",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on POD field and select KYC Code  4 and select reason from list as Marketing Material ",
+      "time" : {
+        "start" : 1616505983034,
+        "stop" : 1616505985092,
+        "duration" : 2058
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tab",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on POD field and select KYC Code  5 and select reason from list as Document ",
+      "time" : {
+        "start" : 1616505987092,
+        "stop" : 1616505989008,
+        "duration" : 1916
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tab",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on POD field and select KYC Code  9 and select reason from list as others ",
+      "time" : {
+        "start" : 1616505991009,
+        "stop" : 1616505992915,
+        "duration" : 1906
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "tab",
+        "value" : ""
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : " Click on Standard INstruction Type and Select Do not deliver on date ",
+      "time" : {
+        "start" : 1616505994916,
+        "stop" : 1616505996063,
+        "duration" : 1147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : " Select Do nott deliverr days ",
+      "time" : {
+        "start" : 1616505996063,
+        "stop" : 1616505997170,
+        "duration" : 1107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On stepper Services",
+      "time" : {
+        "start" : 1616505997171,
+        "stop" : 1616505997528,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Service Type and select Next Day 17H00",
+      "time" : {
+        "start" : 1616505997529,
+        "stop" : 1616505999152,
+        "duration" : 1623
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Service Type and select Service type2",
+      "time" : {
+        "start" : 1616506001153,
+        "stop" : 1616506002192,
+        "duration" : 1039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Service Type and select Service type3",
+      "time" : {
+        "start" : 1616506004193,
+        "stop" : 1616506005230,
+        "duration" : 1037
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Service Type and select Service type4",
+      "time" : {
+        "start" : 1616506007231,
+        "stop" : 1616506008221,
+        "duration" : 990
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Service Type and select Service type5",
+      "time" : {
+        "start" : 1616506010223,
+        "stop" : 1616506011230,
+        "duration" : 1007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Service Type and select Service type6",
+      "time" : {
+        "start" : 1616506013231,
+        "stop" : 1616506014170,
+        "duration" : 939
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify the Rica is not present",
+      "time" : {
+        "start" : 1616506015171,
+        "stop" : 1616506015308,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Rica is selected or not",
+      "time" : {
+        "start" : 1616506015308,
+        "stop" : 1616506015349,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click on Service Type and select Express Road",
+      "time" : {
+        "start" : 1616506015349,
+        "stop" : 1616506016284,
+        "duration" : 935
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click on Rica if not select",
+      "time" : {
+        "start" : 1616506018285,
+        "stop" : 1616506018564,
+        "duration" : 279
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Idnetity type and select SA ID ",
+      "time" : {
+        "start" : 1616506020564,
+        "stop" : 1616506021198,
+        "duration" : 634
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter text in SA ID field",
+      "time" : {
+        "start" : 1616506021198,
+        "stop" : 1616506022184,
+        "duration" : 986
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "1234567891234"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify FridgeLine Window field is available",
+      "time" : {
+        "start" : 1616506022184,
+        "stop" : 1616506022209,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On stepper Parcel",
+      "time" : {
+        "start" : 1616506022209,
+        "stop" : 1616506022537,
+        "duration" : 328
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter text Number of parcel",
+      "time" : {
+        "start" : 1616506022538,
+        "stop" : 1616506024078,
+        "duration" : 1540
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "1"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify the parcel header is displayed",
+      "time" : {
+        "start" : 1616506024078,
+        "stop" : 1616506024175,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Finalise Button and close the POPUP",
+      "time" : {
+        "start" : 1616506024178,
+        "stop" : 1616506024622,
+        "duration" : 444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "verify the Security pack error is displayed",
+      "time" : {
+        "start" : 1616506024622,
+        "stop" : 1616506024866,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click on Security Pack",
+      "time" : {
+        "start" : 1616506024867,
+        "stop" : 1616506025805,
+        "duration" : 938
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "SP12345678"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "verify the Security pack error is displayed",
+      "time" : {
+        "start" : 1616506025806,
+        "stop" : 1616506025942,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Enter text weight ",
+      "time" : {
+        "start" : 1616506025943,
+        "stop" : 1616506026458,
+        "duration" : 515
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "0.1"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Click On Finalise Button and close the POPUP",
+      "time" : {
+        "start" : 1616506026458,
+        "stop" : 1616506026895,
+        "duration" : 437
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "96dedde70211ff3b",
+      "name" : "doStarted passed and screenshot taken!",
+      "source" : "96dedde70211ff3b.txt",
+      "type" : "text/plain",
+      "size" : 38
+    }, {
+      "uid" : "8bd507b4e0f2abd5",
+      "name" : "doStarted",
+      "source" : "8bd507b4e0f2abd5.png",
+      "type" : "image/png",
+      "size" : 66832
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 55,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1616506037457,
+      "stop" : 1616506042962,
+      "duration" : 5505
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "testMethod",
+    "value" : "doStarted"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Valid Login Scenario"
+  }, {
+    "name" : "suite",
+    "value" : "Test Consignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1098"
+  }, {
+    "name" : "thread",
+    "value" : "8824@WJLP-1098.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Automation, SenderName=GAMMATEK, NumberOfParcel=1, ConsignmentID=UAT42092217, InvalidSenderName=New, ValidSenderName=SCOIN}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7e9efe02fdb1afc1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: //div[@class='v-menu__content theme--light menuable__content__active ']//div[contains(text(),'Don’t Deliver On')]' (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1616505262971,
+        "stop" : 1616505471917,
+        "duration" : 208946
+      }
+    }, {
+      "uid" : "8c5014b9f29c1f9b",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f5d9c0d27359a1486f6bd116a1fb52ba",
+      "time" : {
+        "start" : 1616503478152,
+        "stop" : 1616503590907,
+        "duration" : 112755
+      }
+    }, {
+      "uid" : "bffe1c8201878642",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1616502211904,
+        "stop" : 1616502313003,
+        "duration" : 101099
+      }
+    }, {
+      "uid" : "c79477b731951d1e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: AjaxElementLocator 'By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'KYC Code 4 -Sign Waybill  + KYC (Verification + ID + POR + T&C')]//div[contains(text(),'KYC Code 1-Sign Waybill')]' (tried for 60 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1616498825107,
+        "stop" : 1616499028314,
+        "duration" : 203207
+      }
+    }, {
+      "uid" : "fdbb16abbc647748",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1616498651493,
+        "stop" : 1616498651524,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "477a349388b97fb8",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1098', ip: '192.168.65.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51515}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cff959d8899d9f38ba43509167bbe854\n*** Element info: {Using=xpath, value=//input[@id='ServiceType']/..}",
+      "time" : {
+        "start" : 1616497020438,
+        "stop" : 1616497112619,
+        "duration" : 92181
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f69f95ff3d55e16e.json",
+  "parameterValues" : [ "{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReference=eeeeeee, InvalidShipperReference=wwww, ReceiverName2=Automation, SenderName=GAMMATEK, NumberOfParcel=1, ConsignmentID=UAT42092217, InvalidSenderName=New, ValidSenderName=SCOIN}" ]
+}

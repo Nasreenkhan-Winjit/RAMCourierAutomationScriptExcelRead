@@ -2,6 +2,7 @@ package pages;
 
 import com.google.inject.internal.cglib.proxy.$LazyLoader;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -11,6 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import pages.commonmodule.Login;
+import org.testng.Assert;
 
 public class PageDashBoard extends BasePage{
 
@@ -53,6 +55,7 @@ public class PageDashBoard extends BasePage{
     }
 
 
+
     public void clickOnNavBar() throws InterruptedException {
 
 //        webDriverWait.until(ExpectedConditions.invisibilityOf(elementSpinner));
@@ -67,6 +70,33 @@ public class PageDashBoard extends BasePage{
 
 
     }
+    public void consignURL() throws InterruptedException {
+
+
+        ((JavascriptExecutor)driver).executeScript("window.open('https://uat.app.ram.co.za/apps/consign')");
+        System.out.println("Page title is : " + driver.getTitle());
+        Assert.assertTrue(driver.getTitle().contains("Sign In To Ram Portal"));
+
+    }
+    public void manageMyAccountURL() throws InterruptedException {
+
+
+        ((JavascriptExecutor)driver).executeScript("window.open('https://uat.app.ram.co.za/apps/mma')");
+        System.out.println("Page title is : " + driver.getTitle());
+//        assertTrue(driver.getTitle().contains("Title of Page"));
+        Assert.assertTrue(driver.getTitle().contains("Sign In To Ram Portal"));
+
+    }
+
+    public void permissionURL() throws InterruptedException {
+
+
+        ((JavascriptExecutor)driver).executeScript("window.open('https://uat.app.ram.co.za/apps/permission/rolemanagement')");
+        System.out.println("Page title is : " + driver.getTitle());
+        Assert.assertTrue(driver.getTitle().contains("Sign In To Ram Portal"));
+    }
+
+
 
 
     public void clickOnConsignViaAccordion() throws InterruptedException {

@@ -75,15 +75,72 @@ public class PageConsinment extends BasePage {
     @FindBy(how =How.XPATH, using = "//div[@class='v-list__tile__content']/div[contains(text(),'Documentation')]")
     private WebElement elementMenuCommudityDocument;
 
-@CacheLookup
+    @CacheLookup
     // Select Document and verify
     @FindBy(how =How.XPATH, using = "//div[@class='v-list__tile__content']/div[contains(text(),'Fragrances')]")
-    private WebElement elementMenuCommudityFragrances;
+    private WebElement elementMenuCommodityFragrances;
+
+    @CacheLookup
+    // Select Document and verify
+    @FindBy(how =How.XPATH, using = "//div[@class='v-list__tile__content']/div[contains(text(),'Jewellery')]")
+    private WebElement elementMenuCommodityJewellery;
+
+
+    @CacheLookup
+    // Select Cellular Equipment and verify
+    @FindBy(how =How.XPATH, using = "//div[@class='v-list__tile__content']/div[contains(text(),'Cellular Equipment')]")
+    private WebElement elementMenuCommodityCellularEquipment;
+
+    @CacheLookup
+    // Select  Electronics and verify
+    @FindBy(how =How.XPATH, using = "//div[@class='v-list__tile__content']/div[contains(text(),'Electronics')]")
+    private WebElement elementMenuCommodityElectronics;
+
+    @CacheLookup
+    // Select  Computer Equipment and verify
+    @FindBy(how =How.XPATH, using = "//div[@class='v-list__tile__content']/div[contains(text(),'Computer Equipment')]")
+    private WebElement elementMenuCommodityComputerEquipment;
+
+
+
+    @CacheLookup
+    // Select Firearm and verify
+    @FindBy(how =How.XPATH, using = "//div[@class='v-list__tile__content']/div[contains(text(),'Firearms')]")
+    private WebElement elementMenuCommodityFirearms;
+
+
+    @CacheLookup
+    // Select Medicine and verify
+    @FindBy(how =How.XPATH, using = "//div[@class='v-list__tile__content']/div[contains(text(),'Medicine')]")
+    private WebElement elementMenuCommodityMedicine;
+
+
+    @CacheLookup
+    // Select Flowers and verify
+    @FindBy(how =How.XPATH, using = "//div[@class='v-list__tile__content']/div[contains(text(),'Flowers')]")
+    private WebElement elementMenuCommodityFlowers;
+
+
+
+    @CacheLookup
+    // Popup Continue
+    @FindBy(how =How.XPATH,using = "//button[@id='CommodityContinue']//div")
+    private WebElement elementClickOnButtonContinueOnFirearm;
 
     @CacheLookup
     // Popup Continue
     @FindBy(how =How.XPATH,using = "//button[@id='CommodityContinue']")
     private WebElement elementPopCommudityContinue;
+    @CacheLookup
+    // Popup Continue
+    @FindBy(how =How.XPATH,using = "//button[@id='CommodityContinue']//div")
+    private WebElement elementPopCommudityContinueOnJewellery;
+
+
+    @CacheLookup
+    // Popup Continue
+    @FindBy(how =How.XPATH,using = "//button[@id='CommodityContinue']//div")
+    private WebElement elementClickONContinueButton;
 
     @CacheLookup
     // Select Jwellery and Verify 2nd
@@ -220,6 +277,41 @@ public class PageConsinment extends BasePage {
     private WebElement elemnetMenuProofOfDelivery;
 
     @CacheLookup
+    @FindBy(how=How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'KYC Code 4 -Sign Waybill  + KYC (Verification + ID + POR + T&C')]")
+    private WebElement elementSelectKYCCode4;
+
+    @CacheLookup
+    @FindBy(how=How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'KYC Code 5-Corporate: Sign Waybill + KYC (ID)')]")
+    private WebElement elementSelectKYCCode5;
+
+
+    @CacheLookup
+    @FindBy(how=How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'KYC Code 9-Knock and Drop')]")
+    private WebElement elementSelectKYCCode9;
+
+    @CacheLookup
+    @FindBy(how=How.XPATH, using = "//input[@id='ReasonForChange']//..")
+    private WebElement elementMenuPODChangeReason;
+
+    @CacheLookup
+    @FindBy(how=How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Samples')]")
+    private WebElement elementSelectPODChangeReason1;
+
+    @CacheLookup
+    @FindBy(how=How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Marketing Material')]")
+    private WebElement elementSelectPODChangeReason2;
+
+    @CacheLookup
+    @FindBy(how=How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Documents')]")
+    private WebElement elementSelectPODChangeReason3;
+
+    @CacheLookup
+    @FindBy(how=How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Other')]")
+    private WebElement elementSelectPODChangeReason4;
+
+
+
+    @CacheLookup
     @FindBy(how=How.XPATH, using = "//div[@name='instruction-combobox']//div[@class='v-select__selections']")
     private WebElement elementStandardInstructionType;
 
@@ -277,8 +369,22 @@ public class PageConsinment extends BasePage {
     @FindBy(how = How.XPATH, using = "//div[contains(text(),'Maximum of 36 Hours')]")
     private WebElement elementSelectFridgelineHrs;
 
-    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][2]")
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][1]")
     private WebElement elementSelectNextDayOption;
+
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][2]")
+    private WebElement elementSelectServiceType2;
+
+   @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][3]")
+    private WebElement elementSelectServiceType3;
+
+   @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][4]")
+    private WebElement elementSelectServiceType4;
+
+   @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][5]")
+    private WebElement elementSelectServiceType5;
+ @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][6]")
+    private WebElement elementSelectServiceType6;
 
 
     //Step Seven
@@ -565,6 +671,7 @@ public class PageConsinment extends BasePage {
   @FindBy(how= How.XPATH, using = "//button[@id='AddAnotherInstruction']//div")
     private WebElement clickOnAddAnotherInstruction;
 
+//  @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active ']//div[contains(text(),'Don’t Deliver On')]")
   @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Don’t Deliver On')]")
     private WebElement clickOnDontDeleiverOn;
 
@@ -673,7 +780,7 @@ public class PageConsinment extends BasePage {
      public void EnterDepartmentAndSelectFromList(String txt) throws InterruptedException {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterDepartment));
         elementEnterDepartment.sendKeys(txt);
-        Thread.sleep(10000);
+        Thread.sleep(20000);
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectITDepartmentFrom));
         elementSelectITDepartmentFrom.click();
 
@@ -1501,13 +1608,73 @@ public class PageConsinment extends BasePage {
     }
 
     @Step("Click on POD field and select from list ")
-    public void clickOnDropdownProofOfDelivery(Keys tab) {
+    public void clickOnDropdownProofOfDeliveryInbound(Keys tab) {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementProofOfDelivery));
         elementProofOfDelivery.click();
 
         webDriverWait.until(ExpectedConditions.visibilityOf(elemnetMenuProofOfDelivery));
         elemnetMenuProofOfDelivery.click();
     }
+        @Step("Click on POD field and select from list ")
+    public void clickOnDropdownProofOfDelivery(Keys tab) {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementProofOfDelivery));
+        elementProofOfDelivery.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elemnetMenuProofOfDelivery));
+        elemnetMenuProofOfDelivery.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuPODChangeReason));
+        elementMenuPODChangeReason.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectPODChangeReason1));
+        elementSelectPODChangeReason1.click();
+            }
+    @Step("Click on POD field and select KYC Code  4 and select reason from list as Marketing Material ")
+    public void clickOnPODKYCCode4AndSelectReason2(Keys tab) {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementProofOfDelivery));
+        elementProofOfDelivery.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectKYCCode4));
+        elementSelectKYCCode4.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuPODChangeReason));
+        elementMenuPODChangeReason.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectPODChangeReason2));
+        elementSelectPODChangeReason2.click();
+            }
+     @Step("Click on POD field and select KYC Code  5 and select reason from list as Document ")
+    public void clickOnPODKYCCode5AndSelectReason3(Keys tab) {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementProofOfDelivery));
+        elementProofOfDelivery.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectKYCCode5));
+         elementSelectKYCCode5.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuPODChangeReason));
+        elementMenuPODChangeReason.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectPODChangeReason3));
+         elementSelectPODChangeReason3.click();
+            }
+
+    @Step("Click on POD field and select KYC Code  9 and select reason from list as others ")
+    public void clickOnPODKYCCode9AndSelectReason4(Keys tab) {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementProofOfDelivery));
+        elementProofOfDelivery.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectKYCCode9));
+        elementSelectKYCCode9.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuPODChangeReason));
+        elementMenuPODChangeReason.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectPODChangeReason4));
+        elementSelectPODChangeReason4.click();
+            }
+
+
+
     @Step("Select Standard Instruction type from dropdown")
     public void ClickonDropDownStandardInstructionType() {
 
@@ -1560,6 +1727,52 @@ public class PageConsinment extends BasePage {
         webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectNextDayOption));
         elementSelectNextDayOption.click();
     }
+    @Step("Click On Service Type and select Service type2")
+    public void selectServiceTypeAndSelectOption2(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnServiceTypeField));
+        elementClickOnServiceTypeField.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectServiceType2));
+        elementSelectServiceType2.click();
+    }
+
+    @Step("Click On Service Type and select Service type3")
+    public void selectServiceTypeAndSelectOption3(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnServiceTypeField));
+        elementClickOnServiceTypeField.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectServiceType3));
+        elementSelectServiceType3.click();
+    }
+
+    @Step("Click On Service Type and select Service type4")
+    public void selectServiceTypeAndSelectOption4(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnServiceTypeField));
+        elementClickOnServiceTypeField.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectServiceType4));
+        elementSelectServiceType4.click();
+    }
+
+    @Step("Click On Service Type and select Service type5")
+    public void selectServiceTypeAndSelectOption5(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnServiceTypeField));
+        elementClickOnServiceTypeField.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectServiceType5));
+        elementSelectServiceType5.click();
+    }
+
+    @Step("Click On Service Type and select Service type6")
+    public void selectServiceTypeAndSelectOption6(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnServiceTypeField));
+        elementClickOnServiceTypeField.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectServiceType6));
+        elementSelectServiceType6.click();
+    }
+
+
 
     @Step("click on Rica if not select")
     public void selectRICAOnSurcharge(){
@@ -1800,14 +2013,89 @@ public class PageConsinment extends BasePage {
         elementMenuCommudityDocument.click();
     }
 
-//    @Step("Click On commodity select Document")
-//    public void clickoncommudity(){
-//        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementcommudity));
-//        elementcommudity.click();
-//
-//        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuCommudityDocument));
-//        elementMenuCommudityDocument.click();
-//    }
+    @Step("Click On commodity select Document")
+    public void clickoncommudityAndSelectFragnaces(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementcommudity));
+        elementcommudity.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuCommodityFragrances));
+        elementMenuCommodityFragrances.click();
+    }
+    @Step("Click On commodity select Jewwllery")
+    public void clickoncommudityAndSelectJewellery(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementcommudity));
+        elementcommudity.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuCommodityJewellery));
+        elementMenuCommodityJewellery.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementClickONContinueButton));
+        elementClickONContinueButton.click();
+
+
+    }
+
+    @Step("Click On commodity select Cellular Equipment")
+    public void clickoncommudityAndSelectCellularEquipment(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementcommudity));
+        elementcommudity.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuCommodityCellularEquipment));
+        elementMenuCommodityCellularEquipment.click();
+    }
+    @Step("Click On commodity select Electronics")
+    public void clickOnCommodityAndSelectElectronics(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementcommudity));
+        elementcommudity.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuCommodityElectronics));
+        elementMenuCommodityElectronics.click();
+    }
+
+
+    @Step("Click On commodity select Computer Equipment")
+    public void clickOnCommodityAndSelectComputerEquipment(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementcommudity));
+        elementcommudity.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuCommodityComputerEquipment));
+        elementMenuCommodityComputerEquipment.click();
+    }
+
+    @Step("Click On commodity select Firearms")
+    public void clickOnCommodityAndSelectFirearms(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementcommudity));
+        elementcommudity.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuCommodityFirearms));
+        elementMenuCommodityFirearms.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementClickOnButtonContinueOnFirearm));
+        elementClickOnButtonContinueOnFirearm.click();
+
+    }
+
+    @Step("Click On commodity select Medicine")
+    public void clickOnCommodityAndSelectMedicine(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementcommudity));
+        elementcommudity.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuCommodityMedicine));
+        elementMenuCommodityMedicine.click();
+
+    }
+
+    @Step("Click On commodity select Flowers")
+    public void clickOnCommodityAndSelectFlowers(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementcommudity));
+        elementcommudity.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuCommodityFlowers));
+        elementMenuCommodityFlowers.click();
+
+    }
+
+
 
 
     @Step("Click On Commudity Continue Popup")
@@ -1815,7 +2103,13 @@ public class PageConsinment extends BasePage {
         webDriverWait.until(ExpectedConditions.visibilityOf(elementPopCommudityContinue));
         elementPopCommudityContinue.click();
     }
-    @Step("Select Jwellary Commudity ")
+
+    @Step("Click On Commudity Continue Popup toget jewellary")
+    public void clickOnCommudityContinuePopupOnJewellary(){
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementPopCommudityContinueOnJewellery));
+        elementPopCommudityContinueOnJewellery.click();
+    }
+    @Step("Select Jwellary Commodity ")
     public void clickOnCommudityJwellery(){
         webDriverWait.until(ExpectedConditions.visibilityOf(elementCommudityJwelleryStep));
         elementCommudityJwelleryStep.click();

@@ -167,7 +167,7 @@ public class TestPageConsignmentInbound extends TestBase {
 
             pageConsignment.entertxtShipperReference(testDataSet.get("ValidShipperReference"));
             Thread.sleep(5000);
-            pageConsignment.clickOnDropdownProofOfDelivery(Keys.TAB);
+            pageConsignment.clickOnDropdownProofOfDeliveryInbound(Keys.TAB);
             Thread.sleep(5000);
             pageConsignment.clickonstepServices();
 
@@ -311,7 +311,7 @@ public class TestPageConsignmentInbound extends TestBase {
 
         pageConsignment.entertxtShipperReference(testDataSet.get("ValidShipperReference"));
         Thread.sleep(5000);
-        pageConsignment.clickOnDropdownProofOfDelivery(Keys.TAB);
+        pageConsignment.clickOnDropdownProofOfDeliveryInbound(Keys.TAB);
         Thread.sleep(5000);
 
         pageConsignment.clickOnStandardInstructionTypeAndSelectFD();

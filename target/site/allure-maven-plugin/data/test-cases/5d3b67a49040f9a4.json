@@ -1,0 +1,129 @@
+{
+  "uid" : "5d3b67a49040f9a4",
+  "name" : "clickOnAccordian",
+  "fullName" : "pages.TestPageConsignmentInbound.clickOnAccordian",
+  "historyId" : "141090b560d7cb893990eb6fcf94cff4",
+  "time" : {
+    "start" : 1616157765399,
+    "stop" : 1616157788192,
+    "duration" : 22793
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1616157733246,
+      "stop" : 1616157733248,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1616157665094,
+      "stop" : 1616157693888,
+      "duration" : 28794
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "65d5e566b53cfe6e",
+      "name" : "clickOnAccordian passed and screenshot taken!",
+      "source" : "65d5e566b53cfe6e.txt",
+      "type" : "text/plain",
+      "size" : 45
+    }, {
+      "uid" : "963d5c16c3b2f",
+      "name" : "clickOnAccordian",
+      "source" : "963d5c16c3b2f.png",
+      "type" : "image/png",
+      "size" : 5559
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1616158215609,
+      "stop" : 1616158220360,
+      "duration" : 4751
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnAccordian"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Valid Login Scenario"
+  }, {
+    "name" : "suite",
+    "value" : "Test Consignment Inbound"
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.TestPageConsignmentInbound"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1098"
+  }, {
+    "name" : "thread",
+    "value" : "20836@WJLP-1098.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d3b67a49040f9a4.json",
+  "parameterValues" : [ ]
+}

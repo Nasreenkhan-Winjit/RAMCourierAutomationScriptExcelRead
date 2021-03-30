@@ -29,15 +29,18 @@ public class Login extends BasePage {
         super(webDriver);
     }
 
+
     @Step("Enter UserName: \"{0}\"")
     public WebElement enterUserName(String userName) {
         WebElement elementUserName = loginForm.findElement(By.xpath("//child::input[@type='email' or @type='text']"));
+        System.out.println("Page title is : " + driver.getTitle());
         return clearAndInputText(elementUserName, userName);
     }
 
     @Step("Enter Password: \"{0}\"")
     public WebElement enterPassword(String password) {
         WebElement elementPassword = loginForm.findElement(By.xpath("//child::input[@type='password']"));
+        System.out.println("Page title is : " + driver.getTitle());
         return clearAndInputText(elementPassword, password);
     }
 
