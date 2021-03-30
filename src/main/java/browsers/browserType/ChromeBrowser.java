@@ -21,9 +21,9 @@ public class ChromeBrowser extends DriverManagerWeb {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.setPageLoadStrategy(PageLoadStrategy.NONE);
         //Browser code
-        chromeOptions.addArguments("--start-maximized");
-        webDriver = new ChromeDriver(chromeOptions);
-        capabilities = ((RemoteWebDriver) webDriver).getCapabilities();
+//        chromeOptions.addArguments("--start-maximized");
+//        webDriver = new ChromeDriver(chromeOptions);
+//        capabilities = ((RemoteWebDriver) webDriver).getCapabilities();
         //NOt required
 //      chromeOptions.addArguments("start-maximized");
 //      chromeOptions.addArguments("--headless");
@@ -33,17 +33,17 @@ public class ChromeBrowser extends DriverManagerWeb {
 
 
         //headless code
-//        chromeOptions.addArguments("--window-size=1349,728.5");
-//        chromeOptions.addArguments("--disable-extensions");
-//        chromeOptions.addArguments("--proxy-server='direct://");
-//        chromeOptions.addArguments("--proxy-bypass-list=*");
-//        chromeOptions.addArguments("--headless");
-//        chromeOptions.addArguments("--disable-gpu");
-//        chromeOptions.addArguments("--disable-dev-shm-usage");
-//        chromeOptions.addArguments("--no-sandbox");
-//        chromeOptions.addArguments("--ignore-certificate-errors");
-//        webDriver = new ChromeDriver(chromeOptions);
-//        capabilities = ((RemoteWebDriver) webDriver).getCapabilities();
+        chromeOptions.addArguments("--window-size=1349,728.5");
+        chromeOptions.addArguments("--disable-extensions");
+        chromeOptions.addArguments("--proxy-server='direct://");
+        chromeOptions.addArguments("--proxy-bypass-list=*");
+        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--disable-gpu");
+        chromeOptions.addArguments("--disable-dev-shm-usage");
+        chromeOptions.addArguments("--no-sandbox");
+        chromeOptions.addArguments("--ignore-certificate-errors");
+        webDriver = new ChromeDriver(chromeOptions);
+        capabilities = ((RemoteWebDriver) webDriver).getCapabilities();
 
 
 
