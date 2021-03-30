@@ -17,7 +17,7 @@
 <!--                    <include name="doStartPrinterSetup"></include>-->
                     <include name="clickOnConsignment"></include>
                     <include name="clickOnAccordian"></include>
-<!--                    <include name="verifyValueStepperIsNotPresentOnSelectionOfDoc"></include>-->
+                    <include name="verifyValueStepperIsNotPresentOnSelectionOfDoc"></include>
                     <include name="doStarted"></include>
                 </methods>
             </class>

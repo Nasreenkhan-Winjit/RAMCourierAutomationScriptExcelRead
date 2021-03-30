@@ -230,7 +230,7 @@ public class TestPageConsignmentInbound extends TestBase {
 //    @Test()
     public void consignmentInboundSave(Map<String, String> testDataSet) throws InterruptedException {
         pageConsignment = new PageConsinment(eventFiringWebDriver);
-        Thread.sleep(15000);
+        Thread.sleep(30000);
         pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"), Keys.ENTER);
 
         Thread.sleep(15000);

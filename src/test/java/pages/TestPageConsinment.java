@@ -294,7 +294,7 @@ public class TestPageConsinment extends TestBase {
         pageConsignment.clickOnStepRequirement();
 //        Thread.sleep(4000);
         pageConsignment.entertxtShipperReference(testDataSet.get("InvalidShipperReference"));
-//        Thread.sleep(5000);
+        Thread.sleep(5000);
 //
         pageConsignment.entertxtShipperReference(testDataSet.get("ValidShipperReference"));
 //        Thread.sleep(10000);
