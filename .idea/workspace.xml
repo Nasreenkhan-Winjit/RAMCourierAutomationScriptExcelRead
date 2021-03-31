@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b918235-46b0-4872-abd2-0e65a336e031" name="Default Changelist" comment="Changed Consignment ID">
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-03-30" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFiles/excel/Login/ConsignmentDetails.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFiles/excel/Login/ConsignmentDetails.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogDetails/.log" beforeDir="false" afterPath="$PROJECT_DIR$/LogDetails/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/environment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c9ru10yZbWN5LcfQWIdPbooOfj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GSRD_Automation/SeleniumTestJavaArtifact/pom.xml" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.SeleniumTestJava [test...]">
+    <configuration name="SeleniumTestJava [test...]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+                <option value="io.qameta.allure:allure-maven:report" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNG" type="TestNG">
+      <module name="SeleniumTestJava" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestSuites/MainSuite.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestSuites/MainSuite.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.SeleniumTestJava [test...]" />
+      <item itemvalue="TestNG.TestNG" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b918235-46b0-4872-abd2-0e65a336e031" name="Default Changelist" comment="" />
+      <created>1589951874891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589951874891</updated>
+      <workItem from="1589951899332" duration="17813000" />
+      <workItem from="1590040712641" duration="53425000" />
+      <workItem from="1592316788569" duration="3873000" />
+      <workItem from="1592391583110" duration="864000" />
+      <workItem from="1592459645609" duration="1135000" />
+      <workItem from="1592908515587" duration="2907000" />
+      <workItem from="1592998356791" duration="1834000" />
+      <workItem from="1593165798605" duration="7774000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1592318731166</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592318731166</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1592364729147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592364729147</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Data in Excel">
+      <created>1593685640599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593685640599</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Made ID changes for navigation">
+      <created>1597232562894</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597232562894</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Handled spinner and Billet To">
+      <created>1598606230978</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598606230979</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Handled spinner and Billet To updated ID">
+      <created>1598612108058</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598612108058</updated>
+    </task>
+    <task id="LOCAL-00007" summary="POM path changed">
+      <created>1598862266563</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598862266563</updated>
+    </task>
+    <task id="LOCAL-00008" summary="POM path changed to new to old">
+      <created>1598862937805</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598862937805</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changed Navbar ID">
+      <created>1598865155630</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598865155630</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added Headless config">
+      <created>1598936638793</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598936638793</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added Availble accordian">
+      <created>1598937550974</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598937550974</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Resolved chrome headless resolution">
+      <created>1598958291054</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598958291054</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Test page Consignment detail changed">
+      <created>1598963951526</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598963951526</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated script based on logistic type">
+      <created>1613989802534</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613989802534</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated Rica conditions">
+      <created>1614326183911</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1614326183911</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated Rica1 conditions">
+      <created>1614329937686</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1614329937686</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added Consignment Inbound script">
+      <created>1616069058035</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1616069058035</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added Consignment Inbound script">
+      <created>1616150783181</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1616150783181</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added Consignment Inbound script">
+      <created>1616158941949</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616158941949</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fixed Consignment Inbound script">
+      <created>1616395071070</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1616395071070</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fixed loader timings in script">
+      <created>1616421909885</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1616421909885</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Merge master">
+      <created>1617103381168</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1617103381168</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Changed Consignment ID">
+      <created>1617108432775</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1617108432776</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="test" />
+    <MESSAGE value="Added Data in Excel" />
+    <MESSAGE value="Made ID changes for navigation" />
+    <MESSAGE value="Handled spinner and Billet To" />
+    <MESSAGE value="Handled spinner and Billet To updated ID" />
+    <MESSAGE value="POM path changed" />
+    <MESSAGE value="POM path changed to new to old" />
+    <MESSAGE value="Changed Navbar ID" />
+    <MESSAGE value="Added Headless config" />
+    <MESSAGE value="Added Availble accordian" />
+    <MESSAGE value="Resolved chrome headless resolution" />
+    <MESSAGE value="Test page Consignment detail changed" />
+    <MESSAGE value="Updated script based on logistic type" />
+    <MESSAGE value="Updated Rica conditions" />
+    <MESSAGE value="Updated Rica1 conditions" />
+    <MESSAGE value="Added Consignment Inbound script" />
+    <MESSAGE value="Fixed Consignment Inbound script" />
+    <MESSAGE value="Fixed loader timings in script" />
+    <MESSAGE value="Merge master" />
+    <MESSAGE value="Changed Consignment ID" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Consignment ID" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="154" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616672908320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1614239483347" />
+    <state x="154" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1616672908320" />
+    <state x="301" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1613989417185">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="301" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1613989417185" />
+    <state x="521" y="135" key="FileChooserDialogImpl" timestamp="1617082116086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615889059012" />
+    <state x="521" y="135" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1617082116086" />
+    <state width="1493" height="135" key="GridCell.Tab.0.bottom" timestamp="1617126003097">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616506111708" />
+    <state width="1493" height="135" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617126003097" />
+    <state width="1493" height="135" key="GridCell.Tab.0.center" timestamp="1617126003097">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616506111707" />
+    <state width="1493" height="135" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617126003097" />
+    <state width="1493" height="135" key="GridCell.Tab.0.left" timestamp="1617126003097">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616506111707" />
+    <state width="1493" height="135" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617126003097" />
+    <state width="1493" height="135" key="GridCell.Tab.0.right" timestamp="1617126003097">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616506111707" />
+    <state width="1493" height="135" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617126003097" />
+    <state width="1493" height="99" key="GridCell.Tab.1.bottom" timestamp="1616759616263">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="334" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615210728313" />
+    <state width="1493" height="99" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616759616263" />
+    <state width="1493" height="99" key="GridCell.Tab.1.center" timestamp="1616759616263">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="334" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1615210728313" />
+    <state width="1493" height="99" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1616759616263" />
+    <state width="1493" height="99" key="GridCell.Tab.1.left" timestamp="1616759616262">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="334" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1615210728312" />
+    <state width="1493" height="99" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1616759616262" />
+    <state width="1493" height="99" key="GridCell.Tab.1.right" timestamp="1616759616263">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="334" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615210728313" />
+    <state width="1493" height="99" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1616759616263" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1617165350118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1617165350118" />
+    <state x="183" y="0" key="SettingsEditor" timestamp="1616662206496">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615963113911" />
+    <state x="183" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616662206496" />
+    <state x="309" y="110" key="Vcs.Push.Dialog.v2" timestamp="1617108447740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1616422228159" />
+    <state x="309" y="110" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617108447740" />
+    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1614596836629">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1614596836629" />
+    <state x="421" y="300" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616759600735">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="374" y="265" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1616132632446" />
+    <state x="421" y="300" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1616759600735" />
+    <state x="381" y="183" key="run.anything.popup" timestamp="1616672945952">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1615465191757" />
+    <state x="381" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1616672945952" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1615208567803">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1615208567803" />
+  </component>
+</project>
