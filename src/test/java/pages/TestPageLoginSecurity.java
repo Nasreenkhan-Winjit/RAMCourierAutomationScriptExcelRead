@@ -48,7 +48,7 @@ public class TestPageLoginSecurity extends TestBase{
 
         pageDashBoard.manageMyAccountURL();
         Thread.sleep(20000);
-        Thread.sleep(5000);
+//        Thread.sleep(5000);
         pageDashBoard.permissionURL();
 
 

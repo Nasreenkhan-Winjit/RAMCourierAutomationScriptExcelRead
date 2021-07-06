@@ -1,0 +1,722 @@
+2021-05-20/08:43:55.676  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-20/08:43:55.748  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2021-05-20/08:43:56.463  INFO: wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-20/08:43:56.505  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-05-20/08:44:04.236  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2021-05-20/08:44:05.582  INFO: listener.WebEventListener - After Navigated to URL: https://app.ram.co.za/
+2021-05-20/08:44:36.101  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-05-20/08:44:36.131  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2021-05-20/08:44:36.213  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:44:36.289  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:44:36.331  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:44:36.448  INFO: listener.WebEventListener - Entered Value :surekha.jadhav@ram.co.za
+2021-05-20/08:44:36.451  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-05-20/08:44:36.460  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2021-05-20/08:44:36.516  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:44:36.580  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:44:36.614  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:44:36.720  INFO: listener.WebEventListener - Entered Value :Surekha@123123
+2021-05-20/08:44:36.721  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-05-20/08:44:36.733  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2021-05-20/08:44:36.764  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2021-05-20/08:44:36.829  INFO: listener.WebEventListener - after click on
+2021-05-20/08:44:37.139 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-05-20/08:44:38.737 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-05-20/08:45:09.048  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-05-20/08:45:09.225  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='flex xs1 md1']]
+2021-05-20/08:45:09.400  INFO: listener.WebEventListener - after click on
+2021-05-20/08:45:09.406 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-05-20/08:45:10.245 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-05-20/08:45:31.266  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header
+2021-05-20/08:45:31.307  INFO: listener.WebEventListener - beforeClickOn css selector: .v-expansion-panel__container:nth-child(5) .panel-header]
+2021-05-20/08:45:31.420  INFO: listener.WebEventListener - after click on
+2021-05-20/08:45:31.420  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]
+2021-05-20/08:45:31.693  INFO: listener.WebEventListener - After Switch to Window
+2021-05-20/08:45:31.707 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-05-20/08:45:34.240 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-05-20/08:46:04.654  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ConsignmentID']
+2021-05-20/08:46:04.747  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:46:04.814  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:46:04.838  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:46:04.883  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:46:04.902  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:46:05.216  INFO: listener.WebEventListener - Entered Value :RW30001002
+2021-05-20/08:46:20.224  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2021-05-20/08:46:20.298  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:46:20.354  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:46:20.355  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2021-05-20/08:46:20.386  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:46:20.428  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:46:20.428  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2021-05-20/08:46:20.458  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:46:20.568  INFO: listener.WebEventListener - Entered Value :ITAU02
+2021-05-20/08:46:20.568  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2021-05-20/08:46:20.577  INFO: listener.WebEventListener - beforeClickOn css selector: #BilledTo]
+2021-05-20/08:46:20.621  INFO: listener.WebEventListener - after click on
+2021-05-20/08:46:20.621  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:20.661  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:20.927  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:21.207  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:21.501  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:21.781  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:22.059  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:22.340  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:22.605  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:22.870  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:23.136  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:23.403  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:23.686  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:23.967  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:24.231  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:24.498  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:24.763  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:25.059  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:25.341  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:25.622  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:25.902  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:26.183  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:26.464  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:26.742  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:27.006  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:27.274  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:27.540  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:27.806  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:28.071  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:28.336  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:28.602  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:28.882  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:29.146  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:29.426  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:29.691  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:29.955  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:30.220  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:30.487  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:30.767  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:31.046  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:31.355  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:31.638  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:31.695  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
+2021-05-20/08:46:31.794  INFO: listener.WebEventListener - after click on
+2021-05-20/08:46:36.801  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/../div
+2021-05-20/08:46:36.815  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-05-20/08:46:36.840  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-05-20/08:46:36.856  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-05-20/08:46:36.864  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='LogisticType']/..]
+2021-05-20/08:46:36.920  INFO: listener.WebEventListener - after click on
+2021-05-20/08:46:38.925  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[text()='Inbound - Domestic']
+2021-05-20/08:46:38.960  INFO: listener.WebEventListener - beforeClickOn xpath: //div[text()='Inbound - Domestic']]
+2021-05-20/08:46:39.088  INFO: listener.WebEventListener - after click on
+2021-05-20/08:46:47.096  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@id='stepSender']
+2021-05-20/08:46:47.148  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@id='stepSender']]
+2021-05-20/08:46:47.229  INFO: listener.WebEventListener - after click on
+2021-05-20/08:46:49.240  INFO: listener.WebEventListener - Before Finding element: By.cssSelector:   #SearchAutocomplete_Sender
+2021-05-20/08:46:49.282  INFO: listener.WebEventListener - Before Finding element: By.cssSelector:   #SearchAutocomplete_Sender
+2021-05-20/08:46:49.297  INFO: listener.WebEventListener - Before Finding element: By.cssSelector:   #SearchAutocomplete_Sender
+2021-05-20/08:46:49.330  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:46:49.513  INFO: listener.WebEventListener - Entered Value :Testtest
+2021-05-20/08:46:49.514  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:49.526  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:49.786  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:50.063  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:50.343  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:50.638  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:50.906  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:51.170  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:51.450  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:51.731  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:51.996  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:52.264  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:52.542  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:52.810  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:53.074  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:53.340  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:53.619  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:53.897  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:54.162  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:54.188  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:54.204  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:46:54.213  INFO: listener.WebEventListener - beforeClickOn xpath: //button[@id='CreateNew_Sender']//div]
+2021-05-20/08:46:54.505  INFO: listener.WebEventListener - after click on
+2021-05-20/08:46:54.506  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewSenderType']//..
+2021-05-20/08:46:54.619  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewSenderType']//..
+2021-05-20/08:46:54.716  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewSenderType']//..
+2021-05-20/08:46:54.734  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='NewSenderType']//..]
+2021-05-20/08:46:55.154  INFO: listener.WebEventListener - after click on
+2021-05-20/08:46:55.154  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Retail')]
+2021-05-20/08:46:55.745  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Retail')]
+2021-05-20/08:46:55.767  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Retail')]
+2021-05-20/08:46:55.783  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Retail')]
+2021-05-20/08:46:55.791  INFO: listener.WebEventListener - beforeClickOn xpath: //div[contains(text(),'Retail')]]
+2021-05-20/08:46:55.911  INFO: listener.WebEventListener - after click on
+2021-05-20/08:46:55.911  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Retail_ChainName']
+2021-05-20/08:46:56.024  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Retail_ChainName']
+2021-05-20/08:46:56.091  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Retail_ChainName']
+2021-05-20/08:46:56.156  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:46:56.639  INFO: listener.WebEventListener - Entered Value :ACKERMANS
+2021-05-20/08:46:59.644  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:59.688  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:59.704  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:46:59.713  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
+2021-05-20/08:46:59.782  INFO: listener.WebEventListener - after click on
+2021-05-20/08:47:03.795  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Retail_StoreName']
+2021-05-20/08:47:03.844  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Retail_StoreName']
+2021-05-20/08:47:03.860  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Retail_StoreName']
+2021-05-20/08:47:03.895  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:47:05.033  INFO: listener.WebEventListener - Entered Value :ACKERMANS - THE GALLERIA - AMANZIMTOTI
+2021-05-20/08:47:08.045  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:08.090  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:08.374  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:08.638  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:08.903  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:09.166  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:09.432  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:09.697  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:09.961  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:10.226  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:10.492  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:10.757  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:11.019  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:11.285  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:11.553  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:11.818  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:12.096  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:12.362  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:12.626  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:12.891  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:13.157  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:13.421  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:13.701  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:13.965  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:14.230  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:14.493  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:14.775  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:15.053  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:15.262  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:15.279  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:47:15.287  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
+2021-05-20/08:47:15.400  INFO: listener.WebEventListener - after click on
+2021-05-20/08:47:30.411  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'New Sender Contact')]
+2021-05-20/08:47:30.468  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'New Sender Contact')]
+2021-05-20/08:47:30.484  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'New Sender Contact')]
+2021-05-20/08:47:30.493  INFO: listener.WebEventListener - beforeClickOn xpath: //div[contains(text(),'New Sender Contact')]]
+2021-05-20/08:47:30.567  INFO: listener.WebEventListener - after click on
+2021-05-20/08:47:30.568  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewContactType']//..
+2021-05-20/08:47:31.146  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewContactType']//..
+2021-05-20/08:47:31.176  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewContactType']//..
+2021-05-20/08:47:31.204  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewContactType']//..
+2021-05-20/08:47:31.219  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='NewContactType']//..]
+2021-05-20/08:47:31.285  INFO: listener.WebEventListener - after click on
+2021-05-20/08:47:31.285  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Specific Contact Person')]
+2021-05-20/08:47:31.849  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Specific Contact Person')]
+2021-05-20/08:47:31.917  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Specific Contact Person')]
+2021-05-20/08:47:31.946  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Specific Contact Person')]
+2021-05-20/08:47:31.960  INFO: listener.WebEventListener - beforeClickOn xpath: //div[contains(text(),'Specific Contact Person')]]
+2021-05-20/08:47:32.034  INFO: listener.WebEventListener - after click on
+2021-05-20/08:47:32.035  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='CustomerContactFirstName']
+2021-05-20/08:47:32.103  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='CustomerContactFirstName']
+2021-05-20/08:47:32.155  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='CustomerContactFirstName']
+2021-05-20/08:47:32.207  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:47:32.520  INFO: listener.WebEventListener - Entered Value :Nasreen
+2021-05-20/08:47:32.520  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='CustomerContactLastName']
+2021-05-20/08:47:32.554  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='CustomerContactLastName']
+2021-05-20/08:47:32.573  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='CustomerContactLastName']
+2021-05-20/08:47:32.609  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:47:32.784  INFO: listener.WebEventListener - Entered Value :Khan
+2021-05-20/08:47:32.785  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewPrimaryNumberType']//..
+2021-05-20/08:47:32.821  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewPrimaryNumberType']//..
+2021-05-20/08:47:32.839  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewPrimaryNumberType']//..
+2021-05-20/08:47:32.848  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='NewPrimaryNumberType']//..]
+2021-05-20/08:47:32.895  INFO: listener.WebEventListener - after click on
+2021-05-20/08:47:32.895  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]
+2021-05-20/08:47:32.916  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]
+2021-05-20/08:47:33.194  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]
+2021-05-20/08:47:33.474  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]
+2021-05-20/08:47:33.531  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]
+2021-05-20/08:47:33.549  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]
+2021-05-20/08:47:33.558  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]]
+2021-05-20/08:47:33.606  INFO: listener.WebEventListener - after click on
+2021-05-20/08:47:33.607  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewPrimaryContact']
+2021-05-20/08:47:33.641  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewPrimaryContact']
+2021-05-20/08:47:33.658  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewPrimaryContact']
+2021-05-20/08:47:33.697  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:47:34.103  INFO: listener.WebEventListener - Entered Value :984 865 5555
+2021-05-20/08:47:34.103  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewEmailAddress']
+2021-05-20/08:47:34.138  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewEmailAddress']
+2021-05-20/08:47:34.155  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewEmailAddress']
+2021-05-20/08:47:34.195  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:47:34.757  INFO: listener.WebEventListener - Entered Value :Nasreen.Khan@winjit.com
+2021-05-20/08:47:34.757  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='NewSubmitCustomer']
+2021-05-20/08:47:34.782  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='NewSubmitCustomer']
+2021-05-20/08:47:34.799  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='NewSubmitCustomer']
+2021-05-20/08:47:34.806  INFO: listener.WebEventListener - beforeClickOn xpath: //button[@id='NewSubmitCustomer']]
+2021-05-20/08:47:34.869  INFO: listener.WebEventListener - after click on
+2021-05-20/08:48:04.871  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@id='stepReceiver']
+2021-05-20/08:48:04.907  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@id='stepReceiver']]
+2021-05-20/08:48:04.983  INFO: listener.WebEventListener - after click on
+2021-05-20/08:48:09.007  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='SearchAutocomplete_Receiver']
+2021-05-20/08:48:09.106  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:48:09.181  INFO: listener.WebEventListener - Entered Value :Ram
+2021-05-20/08:48:09.181  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='SearchAutocomplete_Receiver']]
+2021-05-20/08:48:09.225  INFO: listener.WebEventListener - after click on
+2021-05-20/08:48:09.225  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:09.238  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:09.507  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:09.775  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:10.042  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:10.324  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:10.589  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:10.852  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:11.133  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:11.412  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:11.692  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:11.971  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:12.251  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:12.519  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:12.553  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:12.571  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:48:12.580  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
+2021-05-20/08:48:12.638  INFO: listener.WebEventListener - after click on
+2021-05-20/08:48:32.643  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@id='stepValue']
+2021-05-20/08:48:32.678  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@id='stepValue']]
+2021-05-20/08:48:32.758  INFO: listener.WebEventListener - after click on
+2021-05-20/08:48:32.759  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-text-field__slot']//input[@id='ValueForCarriage']
+2021-05-20/08:48:33.377  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:48:33.605  INFO: listener.WebEventListener - Entered Value :107
+2021-05-20/08:48:33.606  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #stepRequirements
+2021-05-20/08:48:33.664  INFO: listener.WebEventListener - beforeClickOn css selector: #stepRequirements]
+2021-05-20/08:48:33.734  INFO: listener.WebEventListener - after click on
+2021-05-20/08:48:33.734  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Field1_D_8c180d28-cfd8-443d-80a3-0ac4ab3c827f']
+2021-05-20/08:48:33.757  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:33.774  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:34.049  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:34.332  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:34.596  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:34.861  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:35.129  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:35.409  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:35.673  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:35.952  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:36.234  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:36.502  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:36.782  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:37.046  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:37.309  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:37.572  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:37.836  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:38.099  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:38.366  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:38.645  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:38.910  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:39.174  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:39.440  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:39.705  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:39.969  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:40.236  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:40.502  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:40.769  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:41.036  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:41.302  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:41.566  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:41.830  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:42.095  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:42.360  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:42.627  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:42.892  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:43.159  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:43.425  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:43.689  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:43.954  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:44.220  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:44.486  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:44.768  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:45.048  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:45.315  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:45.581  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:45.846  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:46.111  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:46.375  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:46.642  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:46.920  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:47.201  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:47.468  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:47.734  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:47.999  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:48.263  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:48.543  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:48.808  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:49.087  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:49.352  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:49.616  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:49.880  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:50.145  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:50.412  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:48:50.683  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:49:31.029  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-20/08:49:31.032  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2021-05-20/08:49:31.687  INFO: wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-20/08:49:31.720  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-05-20/08:49:35.863  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2021-05-20/08:49:36.308  INFO: listener.WebEventListener - After Navigated to URL: https://app.ram.co.za/
+2021-05-20/08:50:05.696  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-05-20/08:50:05.722  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2021-05-20/08:50:05.807  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:50:05.884  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:50:05.927  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:50:06.059  INFO: listener.WebEventListener - Entered Value :surekha.jadhav@ram.co.za
+2021-05-20/08:50:06.064  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-05-20/08:50:06.073  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2021-05-20/08:50:06.135  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:50:06.202  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:50:06.234  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:50:06.348  INFO: listener.WebEventListener - Entered Value :Surekha@123123
+2021-05-20/08:50:06.349  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-05-20/08:50:06.367  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2021-05-20/08:50:06.392  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2021-05-20/08:50:06.451  INFO: listener.WebEventListener - after click on
+2021-05-20/08:50:38.450  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-05-20/08:50:38.631  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='flex xs1 md1']]
+2021-05-20/08:50:38.786  INFO: listener.WebEventListener - after click on
+2021-05-20/08:51:00.588  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header
+2021-05-20/08:51:00.651  INFO: listener.WebEventListener - beforeClickOn css selector: .v-expansion-panel__container:nth-child(5) .panel-header]
+2021-05-20/08:51:00.762  INFO: listener.WebEventListener - after click on
+2021-05-20/08:51:00.763  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]
+2021-05-20/08:51:01.067  INFO: listener.WebEventListener - After Switch to Window
+2021-05-20/08:51:34.051  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ConsignmentID']
+2021-05-20/08:51:34.122  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:51:34.199  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:51:34.221  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:51:34.265  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:51:34.291  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:51:34.696  INFO: listener.WebEventListener - Entered Value :RW30001002
+2021-05-20/08:51:54.698  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2021-05-20/08:51:54.742  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:51:54.803  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:51:54.803  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2021-05-20/08:51:54.832  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:51:54.871  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:51:54.871  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2021-05-20/08:51:54.898  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:51:55.026  INFO: listener.WebEventListener - Entered Value :ITAU02
+2021-05-20/08:51:55.026  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #BilledTo
+2021-05-20/08:51:55.036  INFO: listener.WebEventListener - beforeClickOn css selector: #BilledTo]
+2021-05-20/08:51:55.080  INFO: listener.WebEventListener - after click on
+2021-05-20/08:51:55.080  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:51:55.121  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:51:55.392  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:51:55.657  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:51:55.936  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:51:56.231  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:51:56.530  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:51:56.795  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:51:57.062  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:51:57.342  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:51:57.627  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:51:57.742  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
+2021-05-20/08:51:57.850  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:05.852  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/../div
+2021-05-20/08:52:05.894  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-05-20/08:52:05.927  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-05-20/08:52:05.942  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='LogisticType']/..
+2021-05-20/08:52:05.950  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='LogisticType']/..]
+2021-05-20/08:52:05.994  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:08.009  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[text()='Inbound - Domestic']
+2021-05-20/08:52:08.046  INFO: listener.WebEventListener - beforeClickOn xpath: //div[text()='Inbound - Domestic']]
+2021-05-20/08:52:08.153  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:16.170  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@id='stepSender']
+2021-05-20/08:52:16.216  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@id='stepSender']]
+2021-05-20/08:52:16.269  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:18.283  INFO: listener.WebEventListener - Before Finding element: By.cssSelector:   #SearchAutocomplete_Sender
+2021-05-20/08:52:18.329  INFO: listener.WebEventListener - Before Finding element: By.cssSelector:   #SearchAutocomplete_Sender
+2021-05-20/08:52:18.348  INFO: listener.WebEventListener - Before Finding element: By.cssSelector:   #SearchAutocomplete_Sender
+2021-05-20/08:52:18.381  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:52:18.611  INFO: listener.WebEventListener - Entered Value :Testtest
+2021-05-20/08:52:18.612  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:18.629  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:18.904  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:19.169  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:19.438  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:19.718  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:19.995  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:20.259  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:20.525  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:20.793  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:21.059  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:21.323  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:21.603  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:21.881  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:21.907  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:21.925  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='CreateNew_Sender']//div
+2021-05-20/08:52:21.934  INFO: listener.WebEventListener - beforeClickOn xpath: //button[@id='CreateNew_Sender']//div]
+2021-05-20/08:52:22.179  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:22.180  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewSenderType']//..
+2021-05-20/08:52:22.297  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewSenderType']//..
+2021-05-20/08:52:22.334  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewSenderType']//..
+2021-05-20/08:52:22.342  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='NewSenderType']//..]
+2021-05-20/08:52:22.431  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:22.432  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Retail')]
+2021-05-20/08:52:23.020  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Retail')]
+2021-05-20/08:52:23.073  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Retail')]
+2021-05-20/08:52:23.093  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Retail')]
+2021-05-20/08:52:23.105  INFO: listener.WebEventListener - beforeClickOn xpath: //div[contains(text(),'Retail')]]
+2021-05-20/08:52:23.252  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:23.253  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Retail_ChainName']
+2021-05-20/08:52:23.342  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Retail_ChainName']
+2021-05-20/08:52:23.370  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Retail_ChainName']
+2021-05-20/08:52:23.418  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:52:23.840  INFO: listener.WebEventListener - Entered Value :ACKERMANS
+2021-05-20/08:52:26.843  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:26.892  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:26.909  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:26.919  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
+2021-05-20/08:52:26.982  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:30.987  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Retail_StoreName']
+2021-05-20/08:52:31.034  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Retail_StoreName']
+2021-05-20/08:52:31.049  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Retail_StoreName']
+2021-05-20/08:52:31.081  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:52:32.128  INFO: listener.WebEventListener - Entered Value :ACKERMANS - THE GALLERIA - AMANZIMTOTI
+2021-05-20/08:52:35.129  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:35.147  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:35.425  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:35.707  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:35.975  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:36.241  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:36.506  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:36.773  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:37.037  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:37.305  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:37.572  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:37.850  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:38.115  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:38.379  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:38.644  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:38.909  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:39.191  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:39.472  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:39.754  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:40.021  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:40.287  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:40.552  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:40.816  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:41.079  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:41.343  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:41.539  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:41.555  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:52:41.564  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
+2021-05-20/08:52:41.697  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:56.712  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'New Sender Contact')]
+2021-05-20/08:52:56.736  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'New Sender Contact')]
+2021-05-20/08:52:56.755  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'New Sender Contact')]
+2021-05-20/08:52:56.764  INFO: listener.WebEventListener - beforeClickOn xpath: //div[contains(text(),'New Sender Contact')]]
+2021-05-20/08:52:56.840  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:56.841  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewContactType']//..
+2021-05-20/08:52:57.436  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewContactType']//..
+2021-05-20/08:52:57.477  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewContactType']//..
+2021-05-20/08:52:57.501  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewContactType']//..
+2021-05-20/08:52:57.511  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='NewContactType']//..]
+2021-05-20/08:52:57.576  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:57.576  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Specific Contact Person')]
+2021-05-20/08:52:58.137  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Specific Contact Person')]
+2021-05-20/08:52:58.192  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Specific Contact Person')]
+2021-05-20/08:52:58.209  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Specific Contact Person')]
+2021-05-20/08:52:58.218  INFO: listener.WebEventListener - beforeClickOn xpath: //div[contains(text(),'Specific Contact Person')]]
+2021-05-20/08:52:58.275  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:58.276  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='CustomerContactFirstName']
+2021-05-20/08:52:58.325  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='CustomerContactFirstName']
+2021-05-20/08:52:58.353  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='CustomerContactFirstName']
+2021-05-20/08:52:58.403  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:52:58.745  INFO: listener.WebEventListener - Entered Value :Nasreen
+2021-05-20/08:52:58.748  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='CustomerContactLastName']
+2021-05-20/08:52:58.789  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='CustomerContactLastName']
+2021-05-20/08:52:58.809  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='CustomerContactLastName']
+2021-05-20/08:52:58.854  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:52:59.026  INFO: listener.WebEventListener - Entered Value :Khan
+2021-05-20/08:52:59.027  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewPrimaryNumberType']//..
+2021-05-20/08:52:59.059  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewPrimaryNumberType']//..
+2021-05-20/08:52:59.082  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewPrimaryNumberType']//..
+2021-05-20/08:52:59.089  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='NewPrimaryNumberType']//..]
+2021-05-20/08:52:59.281  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:59.282  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]
+2021-05-20/08:52:59.317  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]
+2021-05-20/08:52:59.592  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]
+2021-05-20/08:52:59.636  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]
+2021-05-20/08:52:59.653  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]
+2021-05-20/08:52:59.663  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[contains(text(),'Mobile')]]
+2021-05-20/08:52:59.713  INFO: listener.WebEventListener - after click on
+2021-05-20/08:52:59.714  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewPrimaryContact']
+2021-05-20/08:52:59.753  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewPrimaryContact']
+2021-05-20/08:52:59.770  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewPrimaryContact']
+2021-05-20/08:52:59.804  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:53:00.123  INFO: listener.WebEventListener - Entered Value :984 865 5555
+2021-05-20/08:53:00.124  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewEmailAddress']
+2021-05-20/08:53:00.151  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewEmailAddress']
+2021-05-20/08:53:00.169  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NewEmailAddress']
+2021-05-20/08:53:00.204  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:53:00.747  INFO: listener.WebEventListener - Entered Value :Nasreen.Khan@winjit.com
+2021-05-20/08:53:00.747  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='NewSubmitCustomer']
+2021-05-20/08:53:00.777  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='NewSubmitCustomer']
+2021-05-20/08:53:00.792  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='NewSubmitCustomer']
+2021-05-20/08:53:00.799  INFO: listener.WebEventListener - beforeClickOn xpath: //button[@id='NewSubmitCustomer']]
+2021-05-20/08:53:00.862  INFO: listener.WebEventListener - after click on
+2021-05-20/08:53:30.871  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@id='stepReceiver']
+2021-05-20/08:53:30.926  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@id='stepReceiver']]
+2021-05-20/08:53:30.991  INFO: listener.WebEventListener - after click on
+2021-05-20/08:53:35.011  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='SearchAutocomplete_Receiver']
+2021-05-20/08:53:35.097  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:53:35.174  INFO: listener.WebEventListener - Entered Value :Ram
+2021-05-20/08:53:35.174  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='SearchAutocomplete_Receiver']]
+2021-05-20/08:53:35.233  INFO: listener.WebEventListener - after click on
+2021-05-20/08:53:35.233  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:35.247  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:35.511  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:35.780  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:36.041  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:36.304  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:36.571  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:36.836  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:37.098  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:37.363  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:37.625  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:37.906  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:38.171  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:38.456  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:38.738  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:38.810  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:38.845  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]
+2021-05-20/08:53:38.857  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]]
+2021-05-20/08:53:38.914  INFO: listener.WebEventListener - after click on
+2021-05-20/08:53:58.925  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@id='stepValue']
+2021-05-20/08:53:58.980  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@id='stepValue']]
+2021-05-20/08:53:59.064  INFO: listener.WebEventListener - after click on
+2021-05-20/08:53:59.064  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-text-field__slot']//input[@id='ValueForCarriage']
+2021-05-20/08:53:59.674  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:53:59.916  INFO: listener.WebEventListener - Entered Value :107
+2021-05-20/08:53:59.917  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: #stepRequirements
+2021-05-20/08:53:59.955  INFO: listener.WebEventListener - beforeClickOn css selector: #stepRequirements]
+2021-05-20/08:54:00.045  INFO: listener.WebEventListener - after click on
+2021-05-20/08:54:00.045  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='Field1_D_8c180d28-cfd8-443d-80a3-0ac4ab3c827f']
+2021-05-20/08:54:00.069  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:54:00.623  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:54:00.670  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:54:00.704  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter IMEI']
+2021-05-20/08:54:00.756  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:54:00.982  INFO: listener.WebEventListener - Entered Value :987545555555555
+2021-05-20/08:54:00.983  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter Description']
+2021-05-20/08:54:01.011  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter Description']
+2021-05-20/08:54:01.025  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Enter Description']
+2021-05-20/08:54:01.055  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:54:01.292  INFO: listener.WebEventListener - Entered Value :Description test
+2021-05-20/08:54:01.293  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ShipperReference']
+2021-05-20/08:54:01.419  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:54:01.559  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:54:01.580  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:54:01.630  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:54:01.649  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:54:01.720  INFO: listener.WebEventListener - Entered Value :Ddsd23
+2021-05-20/08:54:01.752  INFO: listener.WebEventListener - Default Value :Ddsd23
+2021-05-20/08:54:01.838  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:54:01.855  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:54:01.891  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/08:54:01.907  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:54:01.962  INFO: listener.WebEventListener - Entered Value :1Da5g
+2021-05-20/08:54:06.968  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ProofOfDelivery']//..
+2021-05-20/08:54:07.002  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='ProofOfDelivery']//..]
+2021-05-20/08:54:07.060  INFO: listener.WebEventListener - after click on
+2021-05-20/08:54:07.060  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'KYC Code 1-Sign Waybill')]
+2021-05-20/08:54:07.640  INFO: listener.WebEventListener - beforeClickOn xpath: //div[contains(text(),'KYC Code 1-Sign Waybill')]]
+2021-05-20/08:54:07.702  INFO: listener.WebEventListener - after click on
+2021-05-20/08:54:12.705  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Select Standard Instruction Type']//..
+2021-05-20/08:54:12.757  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Select Standard Instruction Type']//..
+2021-05-20/08:54:12.771  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@placeholder='Select Standard Instruction Type']//..
+2021-05-20/08:54:12.779  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@placeholder='Select Standard Instruction Type']//..]
+2021-05-20/08:54:12.818  INFO: listener.WebEventListener - after click on
+2021-05-20/08:54:12.818  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Future Delivery Date')]
+2021-05-20/08:54:12.850  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Future Delivery Date')]
+2021-05-20/08:54:13.112  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Future Delivery Date')]
+2021-05-20/08:54:13.378  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Future Delivery Date')]
+2021-05-20/08:54:13.403  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Future Delivery Date')]
+2021-05-20/08:54:13.419  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Future Delivery Date')]
+2021-05-20/08:54:13.427  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Future Delivery Date')]]
+2021-05-20/08:54:13.496  INFO: listener.WebEventListener - after click on
+2021-05-20/08:54:13.496  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='FutureDate']//..
+2021-05-20/08:54:13.536  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='FutureDate']//..
+2021-05-20/08:54:13.554  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='FutureDate']//..
+2021-05-20/08:54:13.561  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='FutureDate']//..]
+2021-05-20/08:54:13.621  INFO: listener.WebEventListener - after click on
+2021-05-20/08:54:13.622  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][2]
+2021-05-20/08:54:13.678  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][2]
+2021-05-20/08:54:13.707  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][2]
+2021-05-20/08:54:13.717  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][2]]
+2021-05-20/08:54:13.776  INFO: listener.WebEventListener - after click on
+2021-05-20/08:54:13.777  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='SpecialInstruction']
+2021-05-20/08:54:13.809  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='SpecialInstruction']
+2021-05-20/08:54:13.827  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='SpecialInstruction']
+2021-05-20/08:54:13.838  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='SpecialInstruction']]
+2021-05-20/08:54:13.901  INFO: listener.WebEventListener - after click on
+2021-05-20/08:54:13.902  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='SpecialInstruction']
+2021-05-20/08:54:13.989  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:54:14.363  INFO: listener.WebEventListener - Entered Value :Automation test
+2021-05-20/08:54:14.364  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@id='stepServices']
+2021-05-20/08:54:14.389  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@id='stepServices']
+2021-05-20/08:54:14.405  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@id='stepServices']
+2021-05-20/08:54:14.413  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@id='stepServices']]
+2021-05-20/08:54:14.485  INFO: listener.WebEventListener - after click on
+2021-05-20/08:54:14.485  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='RICA']
+2021-05-20/08:54:14.544  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ServiceType']/..
+2021-05-20/08:54:15.096  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ServiceType']/..
+2021-05-20/08:54:15.122  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ServiceType']/..
+2021-05-20/08:54:15.212  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='ServiceType']/..
+2021-05-20/08:54:15.266  INFO: listener.WebEventListener - beforeClickOn xpath: //input[@id='ServiceType']/..]
+2021-05-20/08:54:15.336  INFO: listener.WebEventListener - after click on
+2021-05-20/08:54:15.337  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][1]
+2021-05-20/08:54:15.355  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][1]
+2021-05-20/08:54:15.626  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][1]
+2021-05-20/08:54:15.905  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][1]
+2021-05-20/08:54:15.966  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][1]
+2021-05-20/08:54:15.978  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][1]]
+2021-05-20/08:54:16.035  INFO: listener.WebEventListener - after click on
+2021-05-20/08:54:16.035  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@id='stepParcels']
+2021-05-20/08:54:16.067  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@id='stepParcels']
+2021-05-20/08:54:16.086  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@id='stepParcels']
+2021-05-20/08:54:16.095  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@id='stepParcels']]
+2021-05-20/08:54:16.175  INFO: listener.WebEventListener - after click on
+2021-05-20/08:54:16.175  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NumberOfParcels']
+2021-05-20/08:54:16.755  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NumberOfParcels']
+2021-05-20/08:54:16.780  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NumberOfParcels']
+2021-05-20/08:54:16.806  INFO: listener.WebEventListener - Before Finding element: By.xpath: //input[@id='NumberOfParcels']
+2021-05-20/08:54:16.859  INFO: listener.WebEventListener - Default Value :
+2021-05-20/08:54:16.965  INFO: listener.WebEventListener - Entered Value :2
+2021-05-20/08:54:16.966  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='FinaliseConsignment']//div
+2021-05-20/08:54:16.998  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='FinaliseConsignment']//div
+2021-05-20/08:54:17.014  INFO: listener.WebEventListener - Before Finding element: By.xpath: //button[@id='FinaliseConsignment']//div
+2021-05-20/08:54:17.022  INFO: listener.WebEventListener - beforeClickOn xpath: //button[@id='FinaliseConsignment']//div]
+2021-05-20/08:54:17.103  INFO: listener.WebEventListener - after click on
+2021-05-20/11:41:44.612  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-20/11:41:44.627  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2021-05-20/11:41:45.508  INFO: wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-20/11:41:45.551  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-05-20/11:41:49.718  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2021-05-20/11:41:50.389  INFO: listener.WebEventListener - After Navigated to URL: https://app.ram.co.za/
+2021-05-20/11:42:56.068  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-05-20/11:42:56.093  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2021-05-20/11:42:56.217  INFO: listener.WebEventListener - Default Value :
+2021-05-20/11:42:56.360  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/11:42:56.410  INFO: listener.WebEventListener - Default Value :
+2021-05-20/11:42:56.638  INFO: listener.WebEventListener - Entered Value :surekha.jadhav@ram.co.za
+2021-05-20/11:42:56.642  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-05-20/11:42:56.654  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2021-05-20/11:42:56.734  INFO: listener.WebEventListener - Default Value :
+2021-05-20/11:42:56.792  INFO: listener.WebEventListener - Entered Value :
+2021-05-20/11:42:56.820  INFO: listener.WebEventListener - Default Value :
+2021-05-20/11:42:56.935  INFO: listener.WebEventListener - Entered Value :Surekha@123123
+2021-05-20/11:42:56.936  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-05-20/11:42:56.946  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2021-05-20/11:42:56.966  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2021-05-20/11:42:57.016  INFO: listener.WebEventListener - after click on
+2021-05-20/11:42:57.370 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-05-20/11:42:58.855 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-05-20/11:43:29.193  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-05-20/11:43:29.434  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='flex xs1 md1']]
+2021-05-20/11:43:29.615  INFO: listener.WebEventListener - after click on
+2021-05-20/11:43:29.620 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-05-20/11:43:30.345 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-05-20/11:43:51.362  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header

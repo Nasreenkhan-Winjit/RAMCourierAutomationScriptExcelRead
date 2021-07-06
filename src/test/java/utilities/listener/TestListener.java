@@ -45,11 +45,14 @@ public class TestListener extends TestBase implements ITestListener {
     @Override
     public void onFinish(ITestContext iTestContext) {
         System.out.println("I am in onFinish method " + iTestContext.getName());
+
+
     }
 
     @Override
     public void onTestStart(ITestResult iTestResult) {
         System.out.println("I am in onTestStart method " + getTestMethodName(iTestResult) + " start");
+
     }
 
     @Override
@@ -77,5 +80,6 @@ public class TestListener extends TestBase implements ITestListener {
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult iTestResult) {
         System.out.println("Test failed but it is in defined success ratio " + getTestMethodName(iTestResult));
+        new ScreenShots().embedScreenshotBYTES(getTestMethodName(iTestResult));
     }
 }

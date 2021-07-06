@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 import pages.commonmodule.Loader;
 
+import java.io.IOException;
 import java.security.Key;
 import java.util.*;
 
@@ -15,6 +16,8 @@ public class TestPageConsinment extends TestBase {
 
     PageDashBoard pageDashBoard;
     PageConsinment pageConsignment;
+    PageEditConsignment pageEditConsignment;
+
     Loader loader;
 
     @Severity(SeverityLevel.CRITICAL)
@@ -62,6 +65,8 @@ public class TestPageConsinment extends TestBase {
     public void verifyValueStepperIsNotPresentOnSelectionOfDoc() throws InterruptedException {
         pageConsignment = new PageConsinment(eventFiringWebDriver);
         Thread.sleep(15000);
+//        pageConsignment.clickOnConsignmentDropdown();
+//        Thread.sleep(5000);
         pageConsignment.clickOnSettingsIcon();
         Thread.sleep(5000);
        pageConsignment.clickOnPrinterSetupButton();
@@ -76,8 +81,13 @@ public class TestPageConsinment extends TestBase {
        pageConsignment.enterTxtPrinterID("35");
 
 //        Thread.sleep(5000);
-//        pageConsignment.clickOnConsignmentDropdown();
-        Thread.sleep(9000);
+
+
+        //latest uncommented
+
+
+
+
         pageConsignment.enterTxtConsignmentID("UAT00010001", Keys.ENTER);
         Thread.sleep(15000);
         pageConsignment.enterTxtBilledTo("GAMM03");
@@ -106,7 +116,8 @@ public class TestPageConsinment extends TestBase {
         pageConsignment.clickOnCommodityAndSelectMedicine();
         Thread.sleep(2000);
         pageConsignment.clickOnCommodityAndSelectFlowers();
-        Thread.sleep(7000);
+        Thread.sleep(5000);
+        webDriver.navigate().refresh();
     }
 
     @Test(dataProviderClass = DataProviderList.class, dataProvider = "consignment")
@@ -122,7 +133,7 @@ public class TestPageConsinment extends TestBase {
         pageConsignment = new PageConsinment(eventFiringWebDriver);
 ////        Thread.sleep(8000);
 //        pageConsignment.clickOnConsignmentDropdown();
-//        Thread.sleep(8000);
+        Thread.sleep(15000);
         pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"), Keys.ENTER);
 //        pageConsignment.enterTxtConsignmentID("UAT92095901", Keys.ENTER);
         Thread.sleep(15000);
@@ -203,7 +214,7 @@ public class TestPageConsinment extends TestBase {
         }
 //        (pageConsignment.verifySenderFieldNotRestricted())
         if (pageConsignment.verifySenderFieldNotRestricted()) {
-            
+
             pageConsignment.clickOnSenderName(testDataSet.get("SenderName"));
 
             pageConsignment.clickOnAdvancedSearchButton();
@@ -311,7 +322,6 @@ public class TestPageConsinment extends TestBase {
         pageConsignment.clickOnNonDeliverDaysFieldAndSelectDay();
 
 
-
 //        Thread.sleep(9000);
         /*//<editor-fold desc="Not applicable in Fifth stepper">
         pageConsignment.ClickonDropDownStandardInstructionType();
@@ -340,7 +350,6 @@ public class TestPageConsinment extends TestBase {
         Thread.sleep(1000);
 
 
-
         //For RICA
         if (pageConsignment.verifyRicaIsNotPresent()) {
 //            pageConsignment.selectServiceTypeAndSelectNextDay();
@@ -351,6 +360,7 @@ public class TestPageConsinment extends TestBase {
                 pageConsignment.selectServiceTypeAndSelectNextDay();
                 pageConsignment.clickOnSAID();
                 pageConsignment.enterTxtInSAIDField("1234567891234");
+                pageConsignment.selectSaturdayOnConsign();
 
                 pageConsignment.clickonStepParcel();
 //        Thread.sleep(6000);
@@ -377,6 +387,7 @@ public class TestPageConsinment extends TestBase {
                 Thread.sleep(2000);
                 pageConsignment.clickOnSAID();
                 pageConsignment.enterTxtInSAIDField("1234567891234");
+                pageConsignment.selectSaturdayOnConsign();
 
                 if (!pageConsignment.verifyFridgelineWindow()) {
 
@@ -418,13 +429,17 @@ public class TestPageConsinment extends TestBase {
 //        Thread.sleep(8000);
 //
         pageConsignment.clickOnFinaliseConsignment();
-
-        Thread.sleep(10000);
-
-
+        Thread.sleep(30000);
+//        webDriver.navigate().refresh();
 
 
+//        pageConsignment.selectEditConsignmentTab();
 
+
+
+//        Thread.sleep(420000);
+
+    }
 
         /*//<editor-fold desc="Stepper Seven">
         Thread.sleep(6000);
@@ -446,18 +461,95 @@ public class TestPageConsinment extends TestBase {
 //        Thread.sleep(8000);
 //
         pageConsignment.clickOnFinaliseConsignment();
-        //</editor-fold>*/
-        //</editor-fold>
-        //</editor-fold>
+
 //        Thread.sleep(8000);
 
 
 //        waitForLoad();
 //        webDriver.navigate().refresh();
 
-//
-    }
 
 
 }
+ }
+
+         }
+
+         */
+
+
+    @Test(dataProviderClass = DataProviderList.class, dataProvider =  "EditConsignmentUAT")
+    public void clickOnRMSPortalAndVerifyConsignmentISCreated(Map<String,String> testDataSet) throws InterruptedException, IOException {
+        ArrayList<String> tabsCount = new ArrayList<>(eventFiringWebDriver.getWindowHandles());
+        eventFiringWebDriver.switchTo().window(tabsCount.get(0));
+        Thread.sleep(10000);
+        pageDashBoard.clickOnRMSPortal();
+//
+//       eventFiringWebDriver.switchTo().window(tabsCount.get(3));
+
+        Thread.sleep(15000);
+//eventFiringWebDriver.switchTo().parentFrame();
+//        eventFiringWebDriver.switchTo().frame("frameIndex");
+        pageDashBoard.clickOnSearchAndReport();
+        Thread.sleep(15000);
+        pageDashBoard.enterConsignmentIDTxtRMS(testDataSet.get("ConsignmentID"));
+        Thread.sleep(15000);
+//        eventFiringWebDriver.switchTo().window(tabsCount.get(1));
+
+    }
+
+        @Test(dataProviderClass = DataProviderList.class, dataProvider =  "EditConsignmentUAT")
+
+       public void compareDataInEditConsignment(Map<String,String> testDataSet) throws InterruptedException {
+            pageConsignment = new PageConsinment(eventFiringWebDriver);
+            Thread.sleep(20000);
+            pageConsignment.selectEditConsignmentTab();
+            Thread.sleep(20000);
+//
+
+
+            pageConsignment.enterTxtEditConsignmentID(testDataSet.get("ConsignmentID"), Keys.ENTER);
+            Thread.sleep(20000);
+            pageConsignment.clickOnSecondStepper();
+            Thread.sleep(8000);
+            pageConsignment.clickOnStepReciever();
+            Thread.sleep(8000);
+            pageConsignment.clickOnStepValue();
+            pageConsignment.verifyValueInEdit();
+            Thread.sleep(8000);
+            pageConsignment.clickOnStepRequirement();
+            Thread.sleep(8000);
+            pageConsignment.verifyShipperReferenceInEditConsignment();
+            pageConsignment.verifyValueInPODField();
+            Thread.sleep(8000);
+            pageConsignment.clickonstepServices();
+            if(pageConsignment.verifyRicaIsPresentInEdit()){
+
+                System.out.println("Rica is selected ");
+
+
+            }
+
+            Thread.sleep(8000);
+            pageConsignment.clickonStepParcel();
+            pageConsignment.enterTextOnParcelRefField(" EditParcelRef01");
+            Thread.sleep(4000);
+            pageConsignment.clickOnSaveBtnInEditConsign();
+
+            Thread.sleep(10000);
+
+
+
+
+
+
+
+
+
+        }
+    }
+
+
+
+
 

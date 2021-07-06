@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "fe4d95c12e534531b8e7bd33717318fb",
+    "name" : "Valid Login Scenario",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 18
+    }
+  }, {
+    "uid" : "49a3e2eb74bf47076b4766dba58f5ab3",
+    "name" : "Valid Login Scenario (0)",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 14
+    }
+  }, {
+    "uid" : "0d51e190887c4308123bef0459ec14a5",
+    "name" : " Verify create consignment on RMS ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
+}

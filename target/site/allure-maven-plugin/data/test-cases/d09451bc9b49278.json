@@ -1,0 +1,518 @@
+{
+  "uid" : "d09451bc9b49278",
+  "name" : "verifyValueStepperIsNotPresentOnSelectionOfDoc",
+  "fullName" : "pages.TestPageConsinment.verifyValueStepperIsNotPresentOnSelectionOfDoc",
+  "historyId" : "a05678d47615955a02d89c2808b75458",
+  "time" : {
+    "start" : 1625555848249,
+    "stop" : 1625555997596,
+    "duration" : 149347
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1625555810545,
+      "stop" : 1625555810545,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1625555767672,
+      "stop" : 1625555786428,
+      "duration" : 18756
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Click on Settings icon and select printer ",
+      "time" : {
+        "start" : 1625555863287,
+        "stop" : 1625555864341,
+        "duration" : 1054
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on PrinterSetup button",
+      "time" : {
+        "start" : 1625555869347,
+        "stop" : 1625555869577,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter txt in Company name",
+      "time" : {
+        "start" : 1625555869577,
+        "stop" : 1625555870624,
+        "duration" : 1047
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "RAM Solutions"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter Hub/Office Name and select from list",
+      "time" : {
+        "start" : 1625555875634,
+        "stop" : 1625555886159,
+        "duration" : 10525
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "ISA"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter Department Name and select from list",
+      "time" : {
+        "start" : 1625555891164,
+        "stop" : 1625555911592,
+        "duration" : 20428
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "IT"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter txt in printer ID in printer search field ",
+      "time" : {
+        "start" : 1625555916598,
+        "stop" : 1625555925496,
+        "duration" : 8898
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "35"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter txt consignment : \"UAT00010001\"",
+      "time" : {
+        "start" : 1625555925501,
+        "stop" : 1625555926205,
+        "duration" : 704
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "txt",
+        "value" : "UAT00010001"
+      }, {
+        "name" : "keys",
+        "value" : ""
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click On Commodity Select Jwellary",
+      "time" : {
+        "start" : 1625555958025,
+        "stop" : 1625555958895,
+        "duration" : 870
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click On commodity select Document",
+      "time" : {
+        "start" : 1625555958895,
+        "stop" : 1625555959222,
+        "duration" : 327
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click On Commudity Continue Popup",
+      "time" : {
+        "start" : 1625555959222,
+        "stop" : 1625555959398,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click On commodity select Document",
+      "time" : {
+        "start" : 1625555964402,
+        "stop" : 1625555965221,
+        "duration" : 819
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click On Commudity Continue Popup toget jewellary",
+      "time" : {
+        "start" : 1625555965221,
+        "stop" : 1625555965363,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click On commodity select Jewwllery",
+      "time" : {
+        "start" : 1625555970380,
+        "stop" : 1625555971267,
+        "duration" : 887
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click On commodity select Cellular Equipment",
+      "time" : {
+        "start" : 1625555974278,
+        "stop" : 1625555975057,
+        "duration" : 779
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click On commodity select Electronics",
+      "time" : {
+        "start" : 1625555978072,
+        "stop" : 1625555978829,
+        "duration" : 757
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click On commodity select Computer Equipment",
+      "time" : {
+        "start" : 1625555981845,
+        "stop" : 1625555982108,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click On commodity select Firearms",
+      "time" : {
+        "start" : 1625555985118,
+        "stop" : 1625555985998,
+        "duration" : 880
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click On commodity select Medicine",
+      "time" : {
+        "start" : 1625555989014,
+        "stop" : 1625555989736,
+        "duration" : 722
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click On commodity select Flowers",
+      "time" : {
+        "start" : 1625555991746,
+        "stop" : 1625555992468,
+        "duration" : 722
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8d8a42387a08bec",
+      "name" : "verifyValueStepperIsNotPresentOnSelectionOfDoc passed and screenshot taken!",
+      "source" : "8d8a42387a08bec.txt",
+      "type" : "text/plain",
+      "size" : 75
+    }, {
+      "uid" : "45fea8fa718539ed",
+      "name" : "verifyValueStepperIsNotPresentOnSelectionOfDoc",
+      "source" : "45fea8fa718539ed.png",
+      "type" : "image/png",
+      "size" : 62693
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1625556155653,
+      "stop" : 1625556159357,
+      "duration" : 3704
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyValueStepperIsNotPresentOnSelectionOfDoc"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Valid Login Scenario"
+  }, {
+    "name" : "suite",
+    "value" : "Test Consignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.TestPageConsinment"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1270"
+  }, {
+    "name" : "thread",
+    "value" : "18364@WJLP-1270.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f912edb621742859",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625553007844,
+        "stop" : 1625553157112,
+        "duration" : 149268
+      }
+    }, {
+      "uid" : "b137fae6a8c18a80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625551167317,
+        "stop" : 1625551316633,
+        "duration" : 149316
+      }
+    }, {
+      "uid" : "e1562485751db71f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625548883347,
+        "stop" : 1625549031332,
+        "duration" : 147985
+      }
+    }, {
+      "uid" : "e52feb6c38e77aec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625546202884,
+        "stop" : 1625546352222,
+        "duration" : 149338
+      }
+    }, {
+      "uid" : "acf92bd1c0a8a493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625483698742,
+        "stop" : 1625483847934,
+        "duration" : 149192
+      }
+    }, {
+      "uid" : "8b4476a30e1ab211",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625480378755,
+        "stop" : 1625480528238,
+        "duration" : 149483
+      }
+    }, {
+      "uid" : "d0ce46506f58aadc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625478305697,
+        "stop" : 1625478454552,
+        "duration" : 148855
+      }
+    }, {
+      "uid" : "39619db21e168102",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625474300465,
+        "stop" : 1625474449817,
+        "duration" : 149352
+      }
+    }, {
+      "uid" : "2ba907dc285fa1e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625471180183,
+        "stop" : 1625471329842,
+        "duration" : 149659
+      }
+    }, {
+      "uid" : "18b89c21d78b9caa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625215513378,
+        "stop" : 1625215661577,
+        "duration" : 148199
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Passed test",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d09451bc9b49278.json",
+  "parameterValues" : [ ]
+}

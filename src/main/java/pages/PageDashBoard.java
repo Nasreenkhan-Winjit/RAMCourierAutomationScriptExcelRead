@@ -1,18 +1,16 @@
 package pages;
 
-import com.google.inject.internal.cglib.proxy.$LazyLoader;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.aventstack.extentreports.gherkin.model.ScenarioOutline;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import pages.commonmodule.Login;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
+
+import java.io.IOException;
+import java.util.ArrayList;
 
 public class PageDashBoard extends BasePage{
 
@@ -48,11 +46,104 @@ public class PageDashBoard extends BasePage{
     @FindBy(how = How.XPATH, using = "//*[@id=\"inspire\"]/div[43][not(contains(@style,'display: none'))]")
     private WebElement elementApplauncher;
 
+    @FindBy(how = How.XPATH, using = "//ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RAM CSD Portal ')]")
+    private WebElement elementCLickOnRAMCSDPortal;
+
+    @FindBy(how = How.XPATH, using = "//td[contains(text(),'RAM - CUSTOMER SERVICE PORTAL')]")
+    private WebElement elementCLickOnCustomerServicePortal;
+
+
+    @FindBy(how = How.XPATH, using = "//ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Ops Monitor')]")
+    private WebElement elementCLickOnAppOpsMonitor;
+
+    @FindBy(how = How.XPATH, using = "//p[contains(text(),'You do not have any permissions for this system.')]")
+    private WebElement elementCLickOnOpsMonitorPage;
+
+    @FindBy(how = How.XPATH, using = "//ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RMS Portal ')]")
+    private WebElement elementCLickOnRMSPortal;
+
+
+    @FindBy(how = How.XPATH, using = "//div[contains(text(),'Continue')]")
+    private WebElement elementCLickOnContinuePopUp;
+
+    @FindBy(how = How.XPATH, using = "//tbody//td[@id='controlLogonDetails']")
+    private WebElement elementCLickOnRMSTitle;
+
+    @FindBy(how = How.XPATH, using = "//ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RAM Rates Manager ')]")
+    private WebElement elementCLickOnRAMRatesManager;
+
+    @FindBy(how = How.XPATH, using = "//ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RAM Billing ')]")
+    private WebElement elementCLickOnRAMBilling;
+
+//    @FindBy(how = How.XPATH, using = "//body/form[@id='aspnetForm']/div[@id='mainwrapper']/div[2]/a[1]")
+    @FindBy(how = How.XPATH, using = "//td[text()[normalize-space()='RAM Billing System']]")
+    private WebElement elementCLickOnRAMBillingInvoice;
+
+
+    @FindBy(how = How.XPATH, using = "//textarea[@id='textConsignmentID']")
+    private WebElement elementTextConsignmentRMS;
+
+    @FindBy(how = How.XPATH, using = "//input[@id='buttonTrackingSearch']")
+    private WebElement elementClickOnSearchButton;
+
+
+    @FindBy(how = How.XPATH, using = "//input[@id='textConsignmentID']")
+    private WebElement elementEnterConsignmentIDRMS;
+
+
+    @FindBy(how = How.XPATH, using = "//input[@id='btnEdit']")
+    private WebElement elementClickOnBtnConsignmentIDRMSEdit;
+
+    @FindBy(how = How.XPATH, using = "//input[@id='txtConsignmentID']")
+    private WebElement elementConsignmentIDFieldOnRMSEdit;
+
+    @FindBy(how = How.XPATH, using = "//input[@id='txtSenderID']")
+    private WebElement elementSenderIDFieldOnRMSEdit;
+
+    @FindBy(how = How.XPATH, using = "//input[@id='txtReceiverName']")
+    private WebElement elementReceiverNameFieldOnRMSEdit;
+
+
+    @FindBy(how = How.XPATH, using = "//input[@id='txtShipperRef']")
+    private WebElement elementShipperRefFieldOnRMSEdit;
+
+
+    @FindBy(how = How.XPATH, using = "//textarea[@id='txtGoodsDescription']")
+    private WebElement elementGoodsDescriptionFieldOnRMSEdit;
+
+
+    @FindBy(how = How.XPATH, using = "//input[@id='radioServiceND']")
+    private WebElement elementCheckBoxND17h00IsSelectedOnRMSEdit;
+
+    @FindBy(how = How.XPATH, using = "//input[@id='txtNoOfParcels']")
+    private WebElement elementVerifyNoOfParcelOnRMSEdit;
+
+
+    @FindBy(how = How.XPATH, using = "//input[@id='checkSurchargeS']")
+    private WebElement elementVerifySaturdayOnRMSEdit;
+
+
+
+
+
+//    @FindBy(how = How.XPATH, using = "//*[normalize-space(text())='SEARCH/REPORTS']")
+    @FindBy(how = How.CSS, using="span#titleSearchReports")
+//    @FindBy(how = How.XPATH, using = "//tbody//span[@id='titleSearchReports' and contains(text(),'SEARCH/REPORTS')]")
+//    @FindBy(how = How.XPATH, using = "//body[1]/form[1]/div[3]/div[1]/table[5]/tbody[1]/tr[1]/td[2]")
+
+//    @FindBy(how = How.XPATH, using = "//a[contains(text(),'Search')]")
+//    private List<WebElement> SelectSEARCHREPORTS;
+    private WebElement SelectSEARCHREPORTS;
+
+
 
 
     public PageDashBoard(WebDriver webDriver) {
         super(webDriver);
     }
+
+
+
 
 
 
@@ -64,10 +155,9 @@ public class PageDashBoard extends BasePage{
 
         System.out.println(elementNavBar);
         actions.moveToElement(elementNavBar).build().perform();
+
 //        ((JavascriptExecutor)driver).executeScript("arguments[0].click();",elementNavBar);
         elementNavBar.click();
-
-
 
     }
     public void consignURL() throws InterruptedException {
@@ -78,6 +168,7 @@ public class PageDashBoard extends BasePage{
         Assert.assertTrue(driver.getTitle().contains("Sign In To Ram Portal"));
 
     }
+
     public void manageMyAccountURL() throws InterruptedException {
 
 
@@ -97,6 +188,147 @@ public class PageDashBoard extends BasePage{
     }
 
 
+
+    public void clickOnRamCSDPortal() throws InterruptedException {
+
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementAvailableAccordion));
+
+        elementAvailableAccordion.click();
+//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", elementConsignAccordion);
+
+        scrollToElement(elementCLickOnRAMCSDPortal);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", elementCLickOnRAMCSDPortal);
+        System.out.println("Page title is : " + driver.getTitle());
+
+    }
+
+
+        public void clickOnCustomerServicePortal() throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCLickOnCustomerServicePortal));
+            elementCLickOnCustomerServicePortal.click();
+            System.out.println("Page title is : " + driver.getTitle());
+            Assert.assertTrue(driver.getTitle().contains("RAMCSDPortal"));
+            Thread.sleep(10000);
+
+
+}
+
+    public void clickOnRamOpsMonitor() throws InterruptedException {
+
+
+//        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementAvailableAccordion));
+//
+//        elementAvailableAccordion.click();
+//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", elementConsignAccordion);
+        driver.switchTo().activeElement();
+
+
+        scrollToElement(elementCLickOnAppOpsMonitor);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", elementCLickOnAppOpsMonitor);
+        System.out.println("Page title is : " + driver.getTitle());
+
+    }
+
+    public void clickOnOpsMonitorPage(){
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCLickOnOpsMonitorPage));
+        elementCLickOnOpsMonitorPage.click();
+
+        System.out.println("Page title is : " + driver.getTitle());
+        Assert.assertTrue(driver.getTitle().contains("Signin - RAM Operations Monitor"));
+    }
+
+    public void clickOnRMSTitle(){
+        driver.switchTo().activeElement();
+
+//        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCLickOnRMSTitle));
+////        elementCLickOnRMSTitle.click();
+//        elementCLickOnRMSTitle.getTagName();
+
+        System.out.println("Page title is : " + driver.getTitle());
+        Assert.assertTrue(driver.getTitle().contains("RAM MANAGEMENT SYSTEM"));
+    }
+
+
+
+    public void clickOnRMSPortal(){
+        driver.switchTo().activeElement();
+
+
+        scrollToElement(elementCLickOnRMSPortal);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", elementCLickOnRMSPortal);
+        System.out.println("Page title is : " + driver.getTitle());
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCLickOnContinuePopUp));
+        elementCLickOnContinuePopUp.click();
+
+    }
+
+    public void clickOnRAMBilling(){
+        driver.switchTo().activeElement();
+//        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementAvailableAccordion));
+//
+//        elementAvailableAccordion.click();
+
+        scrollToElement(elementCLickOnRAMBilling);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", elementCLickOnRAMBilling);
+        System.out.println("Page title is : " + driver.getTitle());
+
+
+    }
+
+
+
+
+
+
+    public void clickOnRAMBillingPageTitle(){
+
+        driver.switchTo().activeElement();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCLickOnRAMBillingInvoice));
+        elementCLickOnRAMBillingInvoice.click();
+
+        System.out.println("Page title is : " + driver.getTitle());
+        Assert.assertTrue(driver.getTitle().contains("RAM Billing - Default"));
+    }
+
+    public void clickOnProdRAMBillingPageTitle(){
+
+        driver.switchTo().activeElement();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCLickOnRAMBillingInvoice));
+        elementCLickOnRAMBillingInvoice.click();
+
+        System.out.println("Page title is : " + driver.getTitle());
+        Assert.assertTrue(driver.getTitle().contains("RAM Billing - Logon"));
+    }
+
+
+
+    public void clickOnRAMRatesManager(){
+        driver.switchTo().activeElement();
+
+
+        scrollToElement(elementCLickOnRAMRatesManager);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", elementCLickOnRAMRatesManager);
+
+        System.out.println("Page title is : " + driver.getTitle());
+
+
+    }
+    public void clickOnRAMRatesManagerPageTitle(){
+        driver.switchTo().activeElement();
+
+//        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCLickOnRMSTitle));
+////        elementCLickOnRMSTitle.click();
+//        elementCLickOnRMSTitle.getTagName();
+
+        System.out.println("Page title is : " + driver.getTitle());
+        Assert.assertTrue(driver.getTitle().contains("RATES EDITING MODULE"));
+
+    }
 
 
     public void clickOnConsignViaAccordion() throws InterruptedException {
@@ -118,9 +350,245 @@ public class PageDashBoard extends BasePage{
     }
 
     public void clickOnSearchboxTypeConsign() {
+
         webDriverWait.until(ExpectedConditions.visibilityOf(elementConsignSearch));
         elementConsignSearch.click();
 
+    }
+
+
+
+    public void clickOnSearchAndReport() throws InterruptedException {
+//        webDriverWait.until(ExpectedConditions.elementToBeClickable(SelectSEARCHREPORTS));
+
+        Thread.sleep(50000);
+        ArrayList<String> tab = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(tab.get(1));
+
+//        driver.switchTo().frame(0);
+//        System.out.println("Frame1 "+ driver.getPageSource());
+        driver.switchTo().frame(1);
+        System.out.println("Frame2 "+ driver.getPageSource());
+//        driver.switchTo().frame(2);
+//        System.out.println("Frame3 "+ driver.getPageSource());
+
+//        List<WebElement> elements = driver.findElements(By.id("tableMain"));
+//        if(elements.size()!=0){
+//
+//        }
+//        else{
+//            System.out.println("No Such element ");
+//        }
+////        webDriverWait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.id("tableMain"))));
+
+//    driver.findElement(By.id("tableMain"));
+//        actions.moveToElement(SelectSEARCHREPORTS).build().perform();
+//        System.out.println("element Search is "+ SelectSEARCHREPORTS.isEnabled());
+
+//        ((JavascriptExecutor) driver).executeScript("arguments[0].click()" ,SelectSEARCHREPORTS );
+
+//        SelectSEARCHREPORTS.click();
+
+//        System.out.println("element Search is "+ SelectSEARCHREPORTS.isEnabled());
+//        WebElement frame = driver.findElement(By.xpath("//frame[@name= 'frameIndex']"));
+//        WebElement frame = driver.findElement(By.xpath("//frameset[1]/frameset/frame"));
+//        driver.switchTo().frame("frameIndex");
+
+
+
+
+
+//        FluentWait fluentWait = new FluentWait(webDriverWait);
+//
+//        fluentWait.withTimeout(30, TimeUnit.SECONDS);
+//        fluentWait.pollingEvery(200, TimeUnit.MILLISECONDS);
+
+
+        WebElement er = driver.findElement(By.cssSelector("span#titleSearchReports"));
+//        WebElement er = driver.findElement(By.cssSelector("div:nth-child(1) table:nth-child(8) tbody:nth-child(1) tr:nth-child(1) > td.nav-title-mid"));
+//        WebElement er = driver.findElement(By.xpath("//div[@id='menu-div-inner']/table[5]//td[@class='nav-title-mid']"));
+//        WebElement er = driver.findElement(By.xpath("//body[@onload='body_onload();']/form[@id='Form1']/div[@id='menu-div-outer']/div[@id='menu-div-inner']/table[5]/tbody[1]/tr[1]"));
+
+//        new WebDriverWait(driver, 60).until(ExpectedConditions.elementToBeClickable(er));
+//        actions.moveToElement(er).build().perform();
+        er.click();
+        Thread.sleep(5000);
+
+        WebElement search = driver.findElement(By.xpath("//a[contains(text(),'Search')]"));
+        search.click();
+
+//        actions.moveToElement(SelectSEARCHREPORTS).build().perform();
+//        SelectSEARCHREPORTS.click();
+//        System.out.println("the size of row :" + table.getSize());
+//         return table.getTagName();
+
+        //        System.out.println("Number of Rows" + table.size());
+
+        driver.switchTo().defaultContent();
+    }
+    public void enterConsignmentIDTxtRMS(String txt ) throws InterruptedException, IOException {
+        Thread.sleep(40000);
+        driver.switchTo().frame(2);
+//        System.out.println("Frame3 "+ driver.getPageSource());
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementTextConsignmentRMS));
+        elementTextConsignmentRMS.sendKeys(txt);
+
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnSearchButton));
+        elementClickOnSearchButton.click();
+        Thread.sleep(40000);
+
+//        elementClickOnSearchButton.getScreenshotAs(OutputType.BYTES);
+
+
+//        elementClickOnSearchButton.getScreenshotAs(OutputType.FILE);
+//        elementClickOnSearchButton.getScreenshotAs(OutputType.FILE);
+
+//        Allure.addAttachment(filename, new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+
+
 
     }
+
+
+
+    public void clickONConsignmentTab() throws InterruptedException {
+//
+        Thread.sleep(9000);
+        ArrayList<String> tab = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(tab.get(1));
+
+//        driver.switchTo().frame(0);
+//        System.out.println("Frame1 "+ driver.getPageSource());
+        driver.switchTo().frame(1);
+        System.out.println("Frame2 "+ driver.getPageSource());
+
+        WebElement Consignment = driver.findElement(By.cssSelector("span#titleConsignments"));
+        Consignment.click();
+        Thread.sleep(5000);
+
+        WebElement search = driver.findElement(By.xpath("//body[1]/form[1]/div[3]/div[1]/table[8]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[6]/td[2]/a[1]"));
+        search.click();
+        Thread.sleep(15000);
+        driver.switchTo().defaultContent();
+    }
+
+
+    public String enterConsignmentIDOnRMSEdit(String txt) throws InterruptedException {
+
+        driver.switchTo().frame(2);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterConsignmentIDRMS));
+        elementEnterConsignmentIDRMS.sendKeys(txt);
+        Thread.sleep(5000);
+
+        return txt;
+    }
+
+    public void enterConsignmentIDOnRMSEditBtn() throws InterruptedException {
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnBtnConsignmentIDRMSEdit));
+        elementClickOnBtnConsignmentIDRMSEdit.click();
+
+    }
+
+    public String verifyConsignmentIDTextField(){
+
+        SoftAssert softAssert = new SoftAssert();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementConsignmentIDFieldOnRMSEdit));
+//        elementConsignmentIDFieldOnRMSEdit.click();
+//
+        elementConsignmentIDFieldOnRMSEdit.getAttribute("value");
+        System.out.println("The Created Consignment ID:  " + elementConsignmentIDFieldOnRMSEdit.getAttribute("value"));
+
+        String ExpectedConsignmentID = "";
+
+
+//        softAssert.assertEquals(elementConsignmentIDFieldOnRMSEdit.getAttribute("value"), );
+        return ExpectedConsignmentID;
+    }
+
+
+    public String verifySenderAddressField(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSenderIDFieldOnRMSEdit));
+        elementSenderIDFieldOnRMSEdit.getAttribute("value");
+
+        System.out.println("Sender Address is: " +elementSenderIDFieldOnRMSEdit.getAttribute("value")) ;
+        String ExpectedSenderAddress = "";
+
+        return ExpectedSenderAddress;
+    }
+
+    public String verifyReceiverAddress(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementReceiverNameFieldOnRMSEdit));
+        elementReceiverNameFieldOnRMSEdit.getAttribute("value");
+
+        System.out.println("Receiver Address is:  " +elementReceiverNameFieldOnRMSEdit.getAttribute("value"));
+
+        String ExpectedReceiverAddress = "";
+
+        return ExpectedReceiverAddress;
+
+    }
+
+    public String verifyShipperRefFieldData(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementShipperRefFieldOnRMSEdit));
+        elementShipperRefFieldOnRMSEdit.getAttribute("value");
+
+        System.out.println("Shipper Reference is:  "+ elementShipperRefFieldOnRMSEdit.getAttribute("value"));
+        String ShipperReference = "";
+        return ShipperReference;
+
+
+    }
+
+    public String verifyGoodsDescriptionFieldData(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementGoodsDescriptionFieldOnRMSEdit));
+        elementGoodsDescriptionFieldOnRMSEdit.getAttribute("value");
+
+        System.out.println("Goods Description :   " + elementGoodsDescriptionFieldOnRMSEdit.getAttribute("value"));
+
+        String GoodDescription = "";
+        return GoodDescription;
+
+    }
+    public boolean verifyServiceND17H00IsSelected(){
+    elementCheckBoxND17h00IsSelectedOnRMSEdit.isSelected();
+    WebElement RadioBtnND17H00= driver.findElement(By.xpath("//input[@id='radioServiceND']"));
+    System.out.println("Service ND 17H00 is selected:  " + RadioBtnND17H00.isSelected());
+    Assert.assertEquals(true, RadioBtnND17H00.isSelected());
+
+    return true;
+
 }
+
+    public boolean verifySaturdayIsSelected(){
+    elementVerifySaturdayOnRMSEdit.isSelected();
+    WebElement saturday = driver.findElement(By.xpath("//input[@id='checkSurchargeS']"));
+    System.out.println("Saturday is selected:  " + saturday.isSelected());
+    Assert.assertEquals(true, saturday.isSelected());
+
+    return true;
+
+}
+
+
+        public String verifyNoOfParcelField(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementVerifyNoOfParcelOnRMSEdit));
+        elementVerifyNoOfParcelOnRMSEdit.getAttribute("value");
+
+        System.out.println("No of parcel is:  " + elementVerifyNoOfParcelOnRMSEdit.getAttribute("value"));
+
+        String ParcelCount = "";
+        return ParcelCount;
+
+
+
+
+    }
+
+
+
+    }
+

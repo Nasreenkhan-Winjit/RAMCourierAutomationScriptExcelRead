@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test RMS portal for create consignment"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="266.775">
+    <properties></properties>
+
+
+
+            <testcase
+                name="clickOnConsignment"
+                time="25.408"
+                classname="pages.TestPageRMSUAT">
+            </testcase>
+            <testcase
+                name="verifyDataOnRMSEditConsignment"
+                time="0.712"
+                classname="pages.TestPageRMSUAT">
+            </testcase>
+            <testcase
+                name="clickOnRMSPortalAndVerifyConsignmentISCreated"
+                time="240.655"
+                classname="pages.TestPageRMSUAT">
+            </testcase>
+</testsuite>

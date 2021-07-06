@@ -84,11 +84,11 @@ public class TestPageConsignmentInbound extends TestBase {
             pageConsignment.enterSenderCustomerName(testDataSet.get("SenderName"), Keys.TAB);
 
             pageConsignment.clickOnSearchButton();
-
-            pageConsignment.clickOnSenderName(testDataSet.get("SenderName"));
-            Thread.sleep(3000);
+// changed due to data inconsistency "GAMMATEK POLOKWANE"
+//            pageConsignment.clickOnSenderName(testDataSet.get("SenderName"));
+//            Thread.sleep(5000);
             pageConsignment.SelectMenuSenderName();
-            Thread.sleep(3000);
+            Thread.sleep(5000);
 
             pageConsignment.clickOnResetButton();
             Thread.sleep(3000);
@@ -96,9 +96,10 @@ public class TestPageConsignmentInbound extends TestBase {
 
             Thread.sleep(3000);
             pageConsignment.clickOnCreateNewSenderButton("Not Exist1");
+            Thread.sleep(3000);
 
             pageConsignment.clickOnSenderTypeFieldAndSelectIndividual();
-
+            Thread.sleep(3000);
             pageConsignment.clickOnNewSenderStepperInCreateNewSender();
 
             System.out.println("Validation message displayed" );
@@ -127,7 +128,7 @@ public class TestPageConsignmentInbound extends TestBase {
             pageConsignment.clickOnReceiverResetButton();
             Thread.sleep(2000);
             pageConsignment.entertxtRecieverName(testDataSet.get("NewReceiverName"));
-
+//latest comment due to issue
             pageConsignment.clickOnCreateNewSenderButtonInRcvStepper();
             pageConsignment.clickOnNewReceiverType();
             pageConsignment.selectCorporateBusinessFromMenuAtNewRcv();

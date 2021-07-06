@@ -11,10 +11,170 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b918235-46b0-4872-abd2-0e65a336e031" name="Default Changelist" comment="Changed Consignment ID">
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-03-30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/bin/allure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/bin/allure.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure-cucumber.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure-junit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/config/allure.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-commandline-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-generator-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure-plugin-api-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure1-model-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-api-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-jackson-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/allure2-model-pojo-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-collections4-4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-lang3-3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/commons-text-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/config/jetty-logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/config/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/flexmark-0.34.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/flexmark-util-0.34.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/freemarker-2.3.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/httpclient-4.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/httpcore-4.4.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-dataformat-xml-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-dataformat-yaml-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jackson-module-jaxb-annotations-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jaxb-api-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jaxb-utils-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jcommander-1.72.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-http-9.4.11.v20180605.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-io-9.4.11.v20180605.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-server-9.4.11.v20180605.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/jetty-util-9.4.11.v20180605.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/opencsv-4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/properties-2.0.RC5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/snakeyaml-1.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/stax2-api-3.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/tika-core-1.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/lib/woodstox-core-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/plugin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/behaviors-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/static/custom-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/custom-logo-plugin/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/jira-plugin-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/allure-jira-commons-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/converter-jackson-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/okhttp-3.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/okio-1.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/jira-plugin/lib/retrofit-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/junit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/junit-xml-plugin/junit-xml-plugin-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/plugin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/packages-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/screen-diff-plugin/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/trx-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/trx-plugin/trx-plugin-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/lib/xmlwise-1.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xctest-plugin/xctest-plugin-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/allure-jira-commons-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/converter-jackson-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/okhttp-3.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/okio-1.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/lib/retrofit-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xray-plugin/xray-plugin-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xunit-xml-plugin/allure-plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.allure/allure-2.8.1/plugins/xunit-xml-plugin/xunit-xml-plugin-2.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-03-31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-04-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-04-16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-04-20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-04-21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-04-22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-04-23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-04-26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-04-27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-05-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-05-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-05-11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-05-13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-05-17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-05-18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-05-19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-05-20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-05-24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-05-25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-05-26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-05-31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-06-29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-07-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-07-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageConsignmentInboundProd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageConsignmentOutboundPROD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageEditConsignmentUAT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageRMSUAT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageSingleSignOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageSingleSignOnProd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/suites/ConsignmentInboundProd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/suites/ConsignmentProd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/suites/EditConsignmentUAT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/suites/RMSTestOnUAT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/suites/SingleSignOnTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/suites/SingleSignOnTestProd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataFiles/excel/Login/ConsignmentDetails.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFiles/excel/Login/ConsignmentDetails.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFiles/excel/Login/LoginDetails.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFiles/excel/Login/LoginDetails.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LogDetails/.log" beforeDir="false" afterPath="$PROJECT_DIR$/LogDetails/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/browsers/browserType/ChromeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/browsers/browserType/ChromeBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageConsinment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageConsinment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageCosignFunctionalityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageEditConsignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageDashBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageDashBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DataProviderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DataProviderList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestPageConsignmentInbound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageConsignmentInbound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestPageConsinment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageConsinment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestPageLoginSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageLoginSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/listener/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/listener/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/environment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/ConsignmentOutbound.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/ConsignmentOutbound.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/MainSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/MainSuite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +213,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GSRD_Automation/SeleniumTestJavaArtifact/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../RIB Selenium/RIB-POC Automtion/SeleniumTestJavaArtifact/SeleniumTestJavaArtifact/pom.xml" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -93,8 +253,9 @@
       <method v="2" />
     </configuration>
     <configuration name="TestNG" type="TestNG">
-      <module name="SeleniumTestJava" />
       <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestSuites/MainSuite.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -367,91 +528,81 @@
     <option name="LAST_COMMIT_MESSAGE" value="Changed Consignment ID" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="154" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616672908320">
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1624267438584">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1614239483347" />
-    <state x="154" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1616672908320" />
-    <state x="301" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1613989417185">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="301" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1613989417185" />
-    <state x="521" y="135" key="FileChooserDialogImpl" timestamp="1617082116086">
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1624267438584" />
+    <state x="154" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623489878815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615889059012" />
-    <state x="521" y="135" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1617082116086" />
-    <state width="1493" height="135" key="GridCell.Tab.0.bottom" timestamp="1617126003097">
+    <state x="154" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1623489878815" />
+    <state x="483" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620796754091">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616506111708" />
-    <state width="1493" height="135" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617126003097" />
-    <state width="1493" height="135" key="GridCell.Tab.0.center" timestamp="1617126003097">
+    <state x="483" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1620796754091" />
+    <state x="521" y="135" key="FileChooserDialogImpl" timestamp="1622642093718">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616506111707" />
-    <state width="1493" height="135" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617126003097" />
-    <state width="1493" height="135" key="GridCell.Tab.0.left" timestamp="1617126003097">
+    <state x="521" y="135" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622642093718" />
+    <state width="1493" height="154" key="GridCell.Tab.0.bottom" timestamp="1625555755150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616506111707" />
-    <state width="1493" height="135" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617126003097" />
-    <state width="1493" height="135" key="GridCell.Tab.0.right" timestamp="1617126003097">
+    <state width="1493" height="154" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625555755150" />
+    <state width="1493" height="154" key="GridCell.Tab.0.center" timestamp="1625555755150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616506111707" />
-    <state width="1493" height="135" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617126003097" />
-    <state width="1493" height="99" key="GridCell.Tab.1.bottom" timestamp="1616759616263">
+    <state width="1493" height="154" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625555755150" />
+    <state width="1493" height="154" key="GridCell.Tab.0.left" timestamp="1625555755150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="334" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615210728313" />
-    <state width="1493" height="99" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616759616263" />
-    <state width="1493" height="99" key="GridCell.Tab.1.center" timestamp="1616759616263">
+    <state width="1493" height="154" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625555755150" />
+    <state width="1493" height="154" key="GridCell.Tab.0.right" timestamp="1625555755150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="334" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1615210728313" />
-    <state width="1493" height="99" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1616759616263" />
-    <state width="1493" height="99" key="GridCell.Tab.1.left" timestamp="1616759616262">
+    <state width="1493" height="154" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625555755150" />
+    <state width="1493" height="315" key="GridCell.Tab.1.bottom" timestamp="1622722879112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="334" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1615210728312" />
-    <state width="1493" height="99" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1616759616262" />
-    <state width="1493" height="99" key="GridCell.Tab.1.right" timestamp="1616759616263">
+    <state width="1493" height="315" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622722879112" />
+    <state width="1493" height="315" key="GridCell.Tab.1.center" timestamp="1622722879112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="334" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615210728313" />
-    <state width="1493" height="99" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1616759616263" />
+    <state width="1493" height="315" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622722879112" />
+    <state width="1493" height="315" key="GridCell.Tab.1.left" timestamp="1622722879112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="315" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622722879112" />
+    <state width="1493" height="315" key="GridCell.Tab.1.right" timestamp="1622722879112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="315" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622722879112" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1617165350118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1617165350118" />
-    <state x="183" y="0" key="SettingsEditor" timestamp="1616662206496">
+    <state x="183" y="0" key="SettingsEditor" timestamp="1622642157850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615963113911" />
-    <state x="183" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616662206496" />
+    <state x="183" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622642157850" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1621427321359">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1621427321359" />
     <state x="309" y="110" key="Vcs.Push.Dialog.v2" timestamp="1617108447740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1616422228159" />
     <state x="309" y="110" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617108447740" />
-    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1614596836629">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1614596836629" />
-    <state x="421" y="300" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616759600735">
+    <state x="381" y="183" key="run.anything.popup" timestamp="1623047704645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="374" y="265" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1616132632446" />
-    <state x="421" y="300" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1616759600735" />
-    <state x="381" y="183" key="run.anything.popup" timestamp="1616672945952">
+    <state x="381" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1623047704645" />
+    <state x="389" y="55" width="756" height="768" key="search.everywhere.popup" timestamp="1624260802166">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1615465191757" />
-    <state x="381" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1616672945952" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1615208567803">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="389" y="55" width="756" height="768" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1624260802166" />
+    <state x="491" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1618917065311">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1615208567803" />
+    <state x="491" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1618917065311" />
   </component>
 </project>

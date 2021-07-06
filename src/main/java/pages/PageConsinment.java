@@ -6,13 +6,16 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.SourceType;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import pages.commonmodule.Loader;
 import pages.commonmodule.Login;
 
@@ -24,6 +27,7 @@ public class PageConsinment extends BasePage {
     //    Actions actions;
     private Loader loader ;
     private WebDriver webDriver;
+    private RemoteWebDriver remoteWebDriver;
 
     public PageConsinment(WebDriver webDriver) {
         super(webDriver);
@@ -412,6 +416,34 @@ public class PageConsinment extends BasePage {
     @FindBy(how=How.XPATH,using ="//input[@id='ParcelWeight001']")
     private WebElement elementweight;
 
+    @FindBy(how=How.XPATH,using ="//input[@id='ParcelLength001']")
+    private WebElement elementParcelLength;
+
+    @FindBy(how=How.XPATH,using ="//input[@id='ParcelBreadth001']")
+    private WebElement elementParcelBreadth;
+
+    @FindBy(how=How.XPATH,using ="//input[@id='ParcelHeight001']")
+    private WebElement elementParcelHeight;
+
+   @FindBy(how=How.XPATH,using ="//input[@id='ParcelPackageType001']//..")
+    private WebElement elementSelectParcelPackageType;
+
+
+   @FindBy(how=How.XPATH,using ="//input[@id='ParcelPackageType002']//..")
+    private WebElement elementSelectParcelPackageType2;
+
+   @FindBy(how=How.XPATH,using ="//input[@id='ParcelPackageType003']//..")
+    private WebElement elementSelectParcelPackageType3;
+
+   @FindBy(how=How.XPATH,using ="//div[contains(text(),'Custom')]")
+    private WebElement elementSelectCustomParcelPackageType;
+
+
+
+
+
+
+
     @FindBy(how=How.XPATH, using = "//div[@class='v-input v-text-field v-select v-input--is-focused theme--light primary--text']//div[@class='v-select__selections']")
     private WebElement elementPackageType;
 
@@ -434,8 +466,9 @@ public class PageConsinment extends BasePage {
     @FindBy(how= How.XPATH, using = "//a[contains(text(),'Consignment')]")
     private WebElement elementConsignmentDropDown;
 
-    @FindBy(how = How.XPATH,using = "//div[contains(text(),'Create Consignment')]")
-    private WebElement elementClickOnCreateConsignmentFromDD;
+//    @FindBy(how = How.XPATH,using = "//div[contains(text(),'Create Consignment')]")
+    @FindBy(how = How.XPATH,using = "//label[text()='Consign']/..//div[@class='v-toolbar__items hidden-sm-and-down']//a[normalize-space(.)]")
+    private List<WebElement> elementClickOnCreateConsignment;
 
 
 
@@ -539,12 +572,20 @@ public class PageConsinment extends BasePage {
   @FindBy(how= How.XPATH, using = "//div[contains(text(),'RAM Hand to Hand Couriers')]")
     private WebElement elementSelectBusinessGroupName;
 
+@FindBy(how= How.XPATH, using = "//div[contains(text(),'STANLEY STUDIO')]")
+    private WebElement elementSelectBusinessGroupNameprod;
+
   @FindBy(how= How.XPATH, using = "//input[@id='Business_Name']")
     private WebElement elementEnterBusinessName;
 
 //  @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[contains(text(),'RAM Business Office')]")
   @FindBy(how= How.XPATH, using = "//span[contains(text(),'RAM Business Office')]")
     private WebElement elementSelectBusinessName;
+
+  @FindBy(how= How.XPATH, using = "//span[contains(text(),'STUDIO 88 - MUSINA SHOPPING CENTRE')]")
+    private WebElement elementSelectBusinessNameProd;
+
+
 
   @FindBy(how= How.XPATH, using = "//div[contains(text(),'New Receiver Contact')]")
     private WebElement elementClickOnNewReceiverContact;
@@ -733,11 +774,69 @@ public class PageConsinment extends BasePage {
     @FindBy(how = How.XPATH, using = "//input[@id='Department']")
     private WebElement elementEnterDepartment;
 
-    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]")
+//    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]")
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//span[contains(text(),'IT')]")
     private WebElement elementSelectITDepartmentFrom;
 
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]")
+    private WebElement elementSelectReceiverFromMenuProd;
+
+    @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[@role= 'listitem'][1]")
+    private WebElement elementSelectPackageTypeGroceryShop;
+
+    @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[@role= 'listitem'][2]")
+    private WebElement elementSelectPackageTypeClothShop;
 
 
+    @FindBy(how = How.XPATH, using= "//div[@class='v-toolbar__items hidden-sm-and-down']/a[3]")
+    private WebElement elementSelectEditCOnsignmentTab;
+
+
+    @FindBy(how = How.XPATH, using= "//input[@id='ParcelRef001']")
+    private WebElement elementFieldParcelReferenceEditConsignment;
+
+    @FindBy(how = How.XPATH, using= "//button[@id='SaveConsignment']")
+    private WebElement elementClickOnSaveButtonInEditConsignment;
+
+    @FindBy(how = How.XPATH, using= "//button[@id='S']")
+    private WebElement elementSelectSaturdaySurchargeOnCreateConsign;
+
+
+
+
+
+
+
+    @Step("Click on Edit consignment tab ")
+    public void selectEditConsignmentTab(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectEditCOnsignmentTab));
+        elementSelectEditCOnsignmentTab.click();
+
+    }
+
+
+
+
+
+    @Step("Click on Parcel package type 2 ")
+    public void selectParcelPackageType2(){
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectParcelPackageType2));
+        elementSelectParcelPackageType2.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectPackageTypeGroceryShop));
+        elementSelectPackageTypeGroceryShop.click();
+    }
+
+    @Step("Click on Parcel package type 2 ")
+    public void selectParcelPackageType3(){
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectParcelPackageType3));
+        elementSelectParcelPackageType3.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectPackageTypeClothShop));
+        elementSelectPackageTypeClothShop.click();
+    }
 
 
 
@@ -1091,6 +1190,15 @@ public class PageConsinment extends BasePage {
         elementSelectBusinessName.click();
 
     }
+    @Step("Enter Existing  Business  Name ")
+    public void enterBusinessNameProd(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterBusinessName));
+        elementEnterBusinessName.sendKeys(txt);
+        Thread.sleep(3000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectBusinessNameProd));
+        elementSelectBusinessNameProd.click();
+
+    }
 
         @Step("Enter Business group name ")
     public void enterNewBusinessGroup(String txt) throws InterruptedException {
@@ -1099,6 +1207,14 @@ public class PageConsinment extends BasePage {
             Thread.sleep(3000);
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectBusinessGroupName));
         elementSelectBusinessGroupName.click();
+    }
+    @Step("Enter Business group name ")
+    public void enterNewBusinessGroupProd(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterBusinessGroupName));
+        elementEnterBusinessGroupName.sendKeys(txt);
+            Thread.sleep(3000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectBusinessGroupNameprod));
+        elementSelectBusinessGroupNameprod.click();
     }
 
     @Step("Select corporate business from menu ")
@@ -1296,12 +1412,23 @@ public class PageConsinment extends BasePage {
 
     //    public void enterTxtConsignmentID(String txt,Keys keys) {
     @Step("Click on consignment DropDown")
-    public void clickOnConsignmentDropdown(){
+    public void clickOnConsignmentDropdown() {
         loader.waitForLoaderToDispose();
 //        elementConsignmentDropDown.click();
-        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnCreateConsignmentFromDD));
-        elementClickOnCreateConsignmentFromDD.click();
+//        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnCreateConsignment));
+//        elementClickOnCreateConsignment.click();
 
+
+        for (WebElement consignmentTab : elementClickOnCreateConsignment) {
+            String a = consignmentTab.getText();
+//                    replaceAll("\\Warrow_drop_down", "");
+            if (a.trim().equalsIgnoreCase("Create Consignment")) {
+
+
+                consignmentTab.click();
+
+            }
+        }
     }
 
     @Step("Enter txt consignment : \"{0}\"")
@@ -1312,6 +1439,27 @@ public class PageConsinment extends BasePage {
         elementtxtConsignmentID.sendKeys(Keys.DELETE);
     elementtxtConsignmentID.sendKeys(txt,keys);
 //        actions.sendKeys();
+    }
+
+@Step("Enter txt consignment : \"{0}\"")
+    public void enterTxtEditConsignmentID(String txt, Keys keys) throws InterruptedException {
+//        loader.waitForLoaderToDispose();
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementtxtConsignmentID));
+        elementtxtConsignmentID.sendKeys(Keys.CONTROL +"a");
+        elementtxtConsignmentID.sendKeys(Keys.DELETE);
+    elementtxtConsignmentID.sendKeys(txt,keys);
+//        actions.sendKeys();
+
+    Thread.sleep(20000);
+    String ExpectedText = "UAT42092228";
+    System.out.println("The Consignment ID is : "+ elementtxtConsignmentID.getAttribute("value"));
+    Assert.assertEquals(elementtxtConsignmentID.getAttribute("value"),elementtxtConsignmentID.getAttribute("value") );
+
+//    System.out.println("The ConsignmentID is: " +elementtxtConsignmentID.getText() );
+
+//    Assert.assertTrue(driver.getTitle().contains("RATES EDITING MODULE"));
+
+
     }
 
 
@@ -1543,7 +1691,17 @@ public class PageConsinment extends BasePage {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementRecieverName));
         elementRecieverName.sendKeys(txt);
         elementRecieverName.click();
+
+
     }
+
+    @Step("Enter text Receiver Name")
+    public void entertxtRecieverNameProd() {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectReceiverFromMenuProd));
+        elementSelectReceiverFromMenuProd.click();
+    }
+
+
     @Step("Enter text Receiver Name")
     public void entertxtRecieverNameRestricted() {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementRecieverName));
@@ -1579,12 +1737,22 @@ public class PageConsinment extends BasePage {
     public void clickOnStepValue() {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementStepValue));
         elementStepValue.click();
+        elementStepValue.getAttribute("value");
+        System.out.println("Value is:  "+ elementStepValue.getAttribute("value"));
 
     }
     @Step("Enter Text Step Value")
     public void entertxtStepValue(String txt) {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementtxtValueForCarriage));
         elementtxtValueForCarriage.sendKeys(txt);
+    }
+
+    @Step("Enter Text Step Value")
+    public void verifyValueInEdit() {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementtxtValueForCarriage));
+        elementtxtValueForCarriage.getText();
+
+        Assert.assertEquals(elementtxtValueForCarriage.getText(), elementtxtValueForCarriage.getText());
     }
 
     @Step("Check on Check box of Full Liability")
@@ -1597,18 +1765,39 @@ public class PageConsinment extends BasePage {
     public void clickOnStepRequirement(){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementRequirements));
         elementRequirements.click();
+        elementRequirements.getAttribute("value");
+        System.out.println("The requirement value :"+ elementRequirements.getAttribute("value"));
+
     }
 
     @Step("Enter Text for Shipper Reference")
     public void entertxtShipperReference(String txt){
         webDriverWait.until(ExpectedConditions.visibilityOf(elementtxtShipperReference));
         elementtxtShipperReference.sendKeys(txt,Keys.ENTER);
-        elementtxtShipperReference.clear();
+//        elementtxtShipperReference.sendKeys(Keys.CONTROL+"a");
+//        elementtxtShipperReference.sendKeys(Keys.DELETE);
         elementtxtShipperReference.sendKeys(txt);
+    }
+    @Step("Enter Text for Shipper Reference")
+    public void verifyShipperReferenceInEditConsignment(){
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementtxtShipperReference));
+        elementtxtShipperReference.getAttribute("value");
+        System.out.println("Shipper Refrence is : "+ elementtxtShipperReference.getAttribute("value"));
+    Assert.assertEquals(elementtxtShipperReference.getText(), elementtxtShipperReference.getText());
+
     }
 
     @Step("Click on POD field and select from list ")
     public void clickOnDropdownProofOfDeliveryInbound(Keys tab) {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementProofOfDelivery));
+        elementProofOfDelivery.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elemnetMenuProofOfDelivery));
+        elemnetMenuProofOfDelivery.click();
+    }
+
+    @Step("Click on POD field and select from list ")
+    public void clickOnDropdownProofOfDeliveryProd(Keys tab) {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementProofOfDelivery));
         elementProofOfDelivery.click();
 
@@ -1924,10 +2113,43 @@ public class PageConsinment extends BasePage {
 
     }
 
+    @Step("Select Custom as parcel package type ")
+    public void selectPackageParcelTypeAsCustom(){
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectParcelPackageType));
+        elementSelectParcelPackageType.click();
+
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectCustomParcelPackageType));
+        elementSelectCustomParcelPackageType.click();
+
+
+
+    }
+
     @Step("Enter text weight ")
     public void entertxtweight(String txt){
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementweight));
         elementweight.sendKeys(txt);
+
+    }
+    @Step("Enter text weight ")
+    public void entertxtLength(String txt){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementParcelLength));
+        elementParcelLength.sendKeys(txt);
+
+    }
+
+
+    @Step("Enter text weight ")
+    public void entertxtBreadth(String txt){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementParcelBreadth));
+        elementParcelBreadth.sendKeys(txt);
+
+    }
+
+    @Step("Enter text weight ")
+    public void entertxtHeight(String txt){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementParcelHeight));
+        elementParcelHeight.sendKeys(txt);
 
     }
 
@@ -2125,6 +2347,73 @@ public class PageConsinment extends BasePage {
 //        elementpopUpContinueJwellery.click();
 
     }
+
+    @Step("Verify dropdown value in POD field")
+    public void verifyValueInPODField(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementProofOfDelivery));
+            elementProofOfDelivery.getText();
+            Assert.assertEquals(elementProofOfDelivery.getText(), elementProofOfDelivery.getText());
+
+
+    }
+
+//            webDriverWait.until(ExpectedConditions.elementToBeClickable(elementProofOfDelivery));
+//            elementProofOfDelivery.click();
+//
+//            String[] pod = {"KYC Code 9-Knock and Drop","KYC Code 2-Sign Waybill + KYC (Verification + ID)","KYC Code 5-Corporate: Sign Waybill + KYC (ID)"};
+//            WebElement podDropDown = driver.findElement(By.xpath("//input[@id='ProofOfDelivery']//.."));
+//
+//
+////            Select div = new Select(podDropDown);
+////        WebDriverWait driver = new WebDriverWait(podDropDown);
+//
+//        List<WebElement> podReq = podDropDown.getText();
+//
+//        for (WebElement por: options){
+//            boolean match = false;
+//            for(int i =0; i<pod.length;i++){
+//                if (por.getText().equals(pod[i])){
+//                    match = true;
+//
+//                }
+//            }
+////            Assert.assertTrue(match, por.getText());
+//        }
+//
+//    }
+        @Step("Verify the Rica is not present")
+        public boolean verifyRicaIsPresentInEdit() {
+            try {
+                WebElement Rica = webDriver.findElement(By.xpath("//button[@id='RICA']"));
+                System.out.println("Rica is Selected " + Rica.isDisplayed());
+                return Rica.isDisplayed();
+
+            } catch (Exception e) {
+                return false;
+            }
+        }
+
+        @Step("Enter text in Parcel reference field")
+    public void enterTextOnParcelRefField(String txt){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementFieldParcelReferenceEditConsignment));
+            elementFieldParcelReferenceEditConsignment.sendKeys(Keys.CONTROL + "a");
+            elementFieldParcelReferenceEditConsignment.sendKeys(Keys.DELETE);
+            elementFieldParcelReferenceEditConsignment.sendKeys(txt);
+        }
+
+        @Step("Click On save button in edit consignment page")
+    public void clickOnSaveBtnInEditConsign(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnSaveButtonInEditConsignment));
+            elementClickOnSaveButtonInEditConsignment.click();
+        }
+
+        @Step("Click On save button in edit consignment page")
+    public void selectSaturdayOnConsign(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectSaturdaySurchargeOnCreateConsign));
+            elementSelectSaturdaySurchargeOnCreateConsign.click();
+        }
+
+
 
 }
 

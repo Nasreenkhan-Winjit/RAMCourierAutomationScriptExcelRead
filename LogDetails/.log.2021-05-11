@@ -1,0 +1,75 @@
+2021-05-11/12:08:49.516  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-05-11/12:08:49.566  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2021-05-11/12:08:52.405  INFO: wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-05-11/12:08:52.447  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-05-11/12:09:00.900  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2021-05-11/12:09:02.051  INFO: listener.WebEventListener - After Navigated to URL: https://app.ram.co.za/
+2021-05-11/12:09:41.459  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-05-11/12:09:41.632  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2021-05-11/12:09:41.821  INFO: listener.WebEventListener - Default Value :
+2021-05-11/12:09:41.931  INFO: listener.WebEventListener - Entered Value :
+2021-05-11/12:09:42.012  INFO: listener.WebEventListener - Default Value :
+2021-05-11/12:09:42.465  INFO: listener.WebEventListener - Entered Value :surekha.jadhav@ram.co.za
+2021-05-11/12:09:42.475  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-05-11/12:09:42.491  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2021-05-11/12:09:42.594  INFO: listener.WebEventListener - Default Value :
+2021-05-11/12:09:42.724  INFO: listener.WebEventListener - Entered Value :
+2021-05-11/12:09:42.766  INFO: listener.WebEventListener - Default Value :
+2021-05-11/12:09:43.253  INFO: listener.WebEventListener - Entered Value :Surekha@123123
+2021-05-11/12:09:43.254  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-05-11/12:09:43.268  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2021-05-11/12:09:43.301  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2021-05-11/12:09:43.418  INFO: listener.WebEventListener - after click on
+2021-05-11/12:10:17.157  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-05-11/12:10:17.354  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='flex xs1 md1']]
+2021-05-11/12:10:17.543  INFO: listener.WebEventListener - after click on
+2021-05-11/12:10:28.722  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header
+2021-05-11/12:10:28.760  INFO: listener.WebEventListener - beforeClickOn css selector: .v-expansion-panel__container:nth-child(5) .panel-header]
+2021-05-11/12:10:28.905  INFO: listener.WebEventListener - after click on
+2021-05-11/12:10:28.906  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RAM CSD Portal ')]
+2021-05-11/12:10:28.961  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RAM CSD Portal ')]
+2021-05-11/12:10:29.584  INFO: listener.WebEventListener - After Switch to Window
+2021-05-11/12:10:34.593  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[contains(text(),'RAM - CUSTOMER SERVICE PORTAL')]
+2021-05-11/12:10:34.634  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[contains(text(),'RAM - CUSTOMER SERVICE PORTAL')]
+2021-05-11/12:10:34.907  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[contains(text(),'RAM - CUSTOMER SERVICE PORTAL')]
+2021-05-11/12:10:35.184  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[contains(text(),'RAM - CUSTOMER SERVICE PORTAL')]
+2021-05-11/12:10:35.449  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[contains(text(),'RAM - CUSTOMER SERVICE PORTAL')]
+2021-05-11/12:10:35.730  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[contains(text(),'RAM - CUSTOMER SERVICE PORTAL')]
+2021-05-11/12:10:36.027  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[contains(text(),'RAM - CUSTOMER SERVICE PORTAL')]
+2021-05-11/12:10:36.321  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[contains(text(),'RAM - CUSTOMER SERVICE PORTAL')]
+2021-05-11/12:10:36.608  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[contains(text(),'RAM - CUSTOMER SERVICE PORTAL')]
+2021-05-11/12:10:36.644  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[contains(text(),'RAM - CUSTOMER SERVICE PORTAL')]
+2021-05-11/12:10:36.664  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[contains(text(),'RAM - CUSTOMER SERVICE PORTAL')]
+2021-05-11/12:10:36.672  INFO: listener.WebEventListener - beforeClickOn xpath: //td[contains(text(),'RAM - CUSTOMER SERVICE PORTAL')]]
+2021-05-11/12:10:36.750  INFO: listener.WebEventListener - after click on
+2021-05-11/12:10:56.793  INFO: listener.WebEventListener - After Switch to Window
+2021-05-11/12:11:02.272  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Ops Monitor')]
+2021-05-11/12:11:02.293  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Ops Monitor')]
+2021-05-11/12:11:03.043  INFO: listener.WebEventListener - After Switch to Window
+2021-05-11/12:11:08.052  INFO: listener.WebEventListener - Before Finding element: By.xpath: //p[contains(text(),'You do not have any permissions for this system.')]
+2021-05-11/12:11:08.176  INFO: listener.WebEventListener - Before Finding element: By.xpath: //p[contains(text(),'You do not have any permissions for this system.')]
+2021-05-11/12:11:08.189  INFO: listener.WebEventListener - Before Finding element: By.xpath: //p[contains(text(),'You do not have any permissions for this system.')]
+2021-05-11/12:11:08.197  INFO: listener.WebEventListener - beforeClickOn xpath: //p[contains(text(),'You do not have any permissions for this system.')]]
+2021-05-11/12:11:08.245  INFO: listener.WebEventListener - after click on
+2021-05-11/12:11:13.285  INFO: listener.WebEventListener - After Switch to Window
+2021-05-11/12:11:24.255  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RMS Portal ')]
+2021-05-11/12:11:24.273  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RMS Portal ')]
+2021-05-11/12:11:24.427  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Continue')]
+2021-05-11/12:11:24.571  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Continue')]
+2021-05-11/12:11:24.607  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[contains(text(),'Continue')]
+2021-05-11/12:11:24.622  INFO: listener.WebEventListener - beforeClickOn xpath: //div[contains(text(),'Continue')]]
+2021-05-11/12:11:25.359  INFO: listener.WebEventListener - after click on
+2021-05-11/12:11:25.375  INFO: listener.WebEventListener - After Switch to Window
+2021-05-11/12:11:35.495  INFO: listener.WebEventListener - After Switch to Window
+2021-05-11/12:11:47.358  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RAM Rates Manager ')]
+2021-05-11/12:11:47.404  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RAM Rates Manager ')]
+2021-05-11/12:11:47.940  INFO: listener.WebEventListener - After Switch to Window
+2021-05-11/12:11:58.024  INFO: listener.WebEventListener - After Switch to Window
+2021-05-11/12:12:09.592  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RAM Billing ')]
+2021-05-11/12:12:09.626  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RAM Billing ')]
+2021-05-11/12:12:10.036  INFO: listener.WebEventListener - After Switch to Window
+2021-05-11/12:12:15.076  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[text()[normalize-space()='RAM Billing System']]
+2021-05-11/12:12:15.108  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[text()[normalize-space()='RAM Billing System']]
+2021-05-11/12:12:15.123  INFO: listener.WebEventListener - Before Finding element: By.xpath: //td[text()[normalize-space()='RAM Billing System']]
+2021-05-11/12:12:15.131  INFO: listener.WebEventListener - beforeClickOn xpath: //td[text()[normalize-space()='RAM Billing System']]]
+2021-05-11/12:12:15.169  INFO: listener.WebEventListener - after click on

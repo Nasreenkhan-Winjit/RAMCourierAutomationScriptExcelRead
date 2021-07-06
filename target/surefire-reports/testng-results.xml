@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="17" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-06T12:58:05 IST" name="Valid Login Scenario (0)" finished-at="2021-07-06T13:06:43 IST" duration-ms="518167">
+    <groups>
+    </groups>
+    <test started-at="2021-07-06T12:58:05 IST" name="Check login and logout successfully" finished-at="2021-07-06T12:58:27 IST" duration-ms="21817">
+      <class name="pages.LoginPageTest">
+        <test-method is-config="true" signature="waitForLoad()[pri:0, instance:pages.LoginPageTest@62db0521]" started-at="2021-07-06T12:58:05 IST" name="waitForLoad" finished-at="2021-07-06T12:58:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForLoad -->
+        <test-method signature="signIn(java.util.Map)[pri:0, instance:pages.LoginPageTest@62db0521]" started-at="2021-07-06T12:58:05 IST" name="signIn" data-provider="ValidLogin" finished-at="2021-07-06T12:58:26 IST" duration-ms="20981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, Message=, Password=Surekha@123123, UserName=surekha.jadhav@ram.co.za}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+      </class> <!-- pages.LoginPageTest -->
+    </test> <!-- Check login and logout successfully -->
+    <test started-at="2021-07-06T12:58:27 IST" name="Test Consignment Inbound" finished-at="2021-07-06T13:06:43 IST" duration-ms="496324">
+      <class name="pages.TestPageConsignmentInbound">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.TestPageConsignmentInbound@285f38f6]" started-at="2021-07-06T12:57:49 IST" name="setUp" finished-at="2021-07-06T12:58:05 IST" duration-ms="16229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="waitForLoad()[pri:0, instance:pages.TestPageConsignmentInbound@285f38f6]" started-at="2021-07-06T12:58:27 IST" name="waitForLoad" finished-at="2021-07-06T12:58:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForLoad -->
+        <test-method signature="clickOnConsignment()[pri:0, instance:pages.TestPageConsignmentInbound@285f38f6]" started-at="2021-07-06T12:58:27 IST" name="clickOnConsignment" finished-at="2021-07-06T12:58:57 IST" duration-ms="30410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnConsignment -->
+        <test-method signature="clickOnAccordian()[pri:0, instance:pages.TestPageConsignmentInbound@285f38f6]" started-at="2021-07-06T12:58:58 IST" name="clickOnAccordian" finished-at="2021-07-06T12:59:19 IST" duration-ms="21477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAccordian -->
+        <test-method signature="consignmentInboundEmailAndSave(java.util.Map)[pri:0, instance:pages.TestPageConsignmentInbound@285f38f6]" started-at="2021-07-06T12:59:21 IST" name="consignmentInboundEmailAndSave" data-provider="consignmentInbound" finished-at="2021-07-06T13:03:33 IST" duration-ms="251808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ConsignmentID=UAT08000132, InvalidShipperReference=bnmgfdfg, ICCIDNumber=1.11189E+18, BilledTo=GAMM02, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewReceiverName=Automation, NewSenderName=Not exist, NumberOfParcel=1, SenderName=Sportmans , NewBusinessName=RAM Business Office, CreateNewSender=AutomationVida, NewBusinessGroupName=RAM Hand to Hand Couriers, ValueForCarrige=123, IMEINumber=9.87546E+14, NewEmailAddress=Nasreen.Khan@winjit.com, Individual Your Name=NTL100, DeliveryAddress=27 Wrench Road, Isando, Kempton Park, South Africa, Individual First Name=Nasreen400, InvalidSenderName=re, Individual Last Name=TestLast41, Description=Automation testing, UpdateEmailAddress=Nasreen.Khan@ram.co.za}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- consignmentInboundEmailAndSave -->
+        <test-method signature="consignmentInboundSave(java.util.Map)[pri:0, instance:pages.TestPageConsignmentInbound@285f38f6]" started-at="2021-07-06T13:03:33 IST" name="consignmentInboundSave" data-provider="ConsignmentInbound2" finished-at="2021-07-06T13:06:43 IST" duration-ms="189367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ConsignmentID=UAT07000129, InvalidShipperReference=Ddsd23, NewSenderContactFirstName=Nasreen, BilledTo=GAMM02, RcvNewContactFirstName=FNAutomation37, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewSenderName=Not exist, NumberOfParcel=2, RcvNewContactEmailAddress=Nasreen.Khan@gmail.com, RetailChainName=Retail, RcvNewContactLastName=LNAutomation38, SpecialInstruction=Automation test, ValueForCarrige=107, NewEmailAddress=Nasreen.Khan@winjit.com, RcvNewContactPrimaryTelNumber=9876543210, RetailStoreName=RetailChainDest, NewSenderContactLastName=Khan}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- consignmentInboundSave -->
+        <test-method is-config="true" signature="tearBrowser()[pri:0, instance:pages.TestPageConsignmentInbound@285f38f6]" started-at="2021-07-06T13:06:43 IST" name="tearBrowser" finished-at="2021-07-06T13:06:47 IST" duration-ms="3696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearBrowser -->
+      </class> <!-- pages.TestPageConsignmentInbound -->
+    </test> <!-- Test Consignment Inbound -->
+  </suite> <!-- Valid Login Scenario (0) -->
+  <suite started-at="2021-07-06T12:52:55 IST" name=" Verify create consignment on RMS " finished-at="2021-07-06T12:57:45 IST" duration-ms="289808">
+    <groups>
+    </groups>
+    <test started-at="2021-07-06T12:52:55 IST" name="Check login and logout successfully" finished-at="2021-07-06T12:53:17 IST" duration-ms="21808">
+      <class name="pages.LoginPageTest">
+        <test-method is-config="true" signature="waitForLoad()[pri:0, instance:pages.LoginPageTest@249e0271]" started-at="2021-07-06T12:52:55 IST" name="waitForLoad" finished-at="2021-07-06T12:52:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForLoad -->
+        <test-method signature="signIn(java.util.Map)[pri:0, instance:pages.LoginPageTest@249e0271]" started-at="2021-07-06T12:52:55 IST" name="signIn" data-provider="ValidLogin" finished-at="2021-07-06T12:53:16 IST" duration-ms="20949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, Message=, Password=Surekha@123123, UserName=surekha.jadhav@ram.co.za}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+      </class> <!-- pages.LoginPageTest -->
+    </test> <!-- Check login and logout successfully -->
+    <test started-at="2021-07-06T12:53:17 IST" name="Test RMS portal for create consignment" finished-at="2021-07-06T12:57:45 IST" duration-ms="267986">
+      <class name="pages.TestPageRMSUAT">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.TestPageRMSUAT@abff8b7]" started-at="2021-07-06T12:52:39 IST" name="setUp" finished-at="2021-07-06T12:52:55 IST" duration-ms="16147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="waitForLoad()[pri:0, instance:pages.TestPageRMSUAT@abff8b7]" started-at="2021-07-06T12:53:17 IST" name="waitForLoad" finished-at="2021-07-06T12:53:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForLoad -->
+        <test-method signature="clickOnConsignment()[pri:0, instance:pages.TestPageRMSUAT@abff8b7]" started-at="2021-07-06T12:53:17 IST" name="clickOnConsignment" finished-at="2021-07-06T12:53:42 IST" duration-ms="25408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnConsignment -->
+        <test-method signature="clickOnRMSPortalAndVerifyConsignmentISCreated(java.util.Map)[pri:0, instance:pages.TestPageRMSUAT@abff8b7]" started-at="2021-07-06T12:53:43 IST" name="clickOnRMSPortalAndVerifyConsignmentISCreated" data-provider="EditConsignmentUAT" finished-at="2021-07-06T12:57:44 IST" duration-ms="240655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SecurityPack=, ValueForCarrige=, ReceiverName=, BilledTo=, ValidShipperReference=, InvalidShipperReference=, ReceiverName2=, SenderName=, NumberOfParcel=, ConsignmentID=UAT42092253, InvalidSenderName=, ValidSenderName=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnRMSPortalAndVerifyConsignmentISCreated -->
+        <test-method signature="verifyDataOnRMSEditConsignment()[pri:0, instance:pages.TestPageRMSUAT@abff8b7]" started-at="2021-07-06T12:57:44 IST" name="verifyDataOnRMSEditConsignment" finished-at="2021-07-06T12:57:45 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataOnRMSEditConsignment -->
+        <test-method is-config="true" signature="tearBrowser()[pri:0, instance:pages.TestPageRMSUAT@abff8b7]" started-at="2021-07-06T12:57:45 IST" name="tearBrowser" finished-at="2021-07-06T12:57:49 IST" duration-ms="3686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearBrowser -->
+      </class> <!-- pages.TestPageRMSUAT -->
+    </test> <!-- Test RMS portal for create consignment -->
+  </suite> <!--  Verify create consignment on RMS  -->
+  <suite started-at="2021-07-06T13:06:47 IST" name="App.RAM Functional and Regression Testing" finished-at="2021-07-06T13:06:47 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- App.RAM Functional and Regression Testing -->
+  <suite started-at="2021-07-06T12:46:26 IST" name="Valid Login Scenario" finished-at="2021-07-06T12:52:35 IST" duration-ms="369206">
+    <groups>
+    </groups>
+    <test started-at="2021-07-06T12:46:26 IST" name="Check login and logout successfully" finished-at="2021-07-06T12:46:50 IST" duration-ms="24038">
+      <class name="pages.LoginPageTest">
+        <test-method is-config="true" signature="waitForLoad()[pri:0, instance:pages.LoginPageTest@3d278b4d]" started-at="2021-07-06T12:46:26 IST" name="waitForLoad" finished-at="2021-07-06T12:46:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForLoad -->
+        <test-method signature="signIn(java.util.Map)[pri:0, instance:pages.LoginPageTest@3d278b4d]" started-at="2021-07-06T12:46:28 IST" name="signIn" data-provider="ValidLogin" finished-at="2021-07-06T12:46:49 IST" duration-ms="21274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, Message=, Password=Surekha@123123, UserName=surekha.jadhav@ram.co.za}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+      </class> <!-- pages.LoginPageTest -->
+    </test> <!-- Check login and logout successfully -->
+    <test started-at="2021-07-06T12:46:50 IST" name="Test Consignment" finished-at="2021-07-06T12:52:35 IST" duration-ms="345092">
+      <class name="pages.TestPageConsinment">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.TestPageConsinment@40e60ece]" started-at="2021-07-06T12:46:07 IST" name="setUp" finished-at="2021-07-06T12:46:26 IST" duration-ms="18792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="waitForLoad()[pri:0, instance:pages.TestPageConsinment@40e60ece]" started-at="2021-07-06T12:46:50 IST" name="waitForLoad" finished-at="2021-07-06T12:46:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitForLoad -->
+        <test-method signature="clickOnConsignment()[pri:0, instance:pages.TestPageConsinment@40e60ece]" started-at="2021-07-06T12:46:50 IST" name="clickOnConsignment" finished-at="2021-07-06T12:47:21 IST" duration-ms="30668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnConsignment -->
+        <test-method signature="clickOnAccordian()[pri:0, instance:pages.TestPageConsinment@40e60ece]" started-at="2021-07-06T12:47:22 IST" name="clickOnAccordian" finished-at="2021-07-06T12:47:27 IST" duration-ms="5470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAccordian -->
+        <test-method signature="verifyValueStepperIsNotPresentOnSelectionOfDoc()[pri:0, instance:pages.TestPageConsinment@40e60ece]" started-at="2021-07-06T12:47:28 IST" name="verifyValueStepperIsNotPresentOnSelectionOfDoc" finished-at="2021-07-06T12:49:57 IST" duration-ms="149248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValueStepperIsNotPresentOnSelectionOfDoc -->
+        <test-method signature="doStarted(java.util.Map)[pri:0, instance:pages.TestPageConsinment@40e60ece]" started-at="2021-07-06T12:49:58 IST" name="doStarted" data-provider="consignment" finished-at="2021-07-06T12:52:35 IST" duration-ms="157345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SecurityPack=SP12345678, ValueForCarrige=456, ReceiverName=A, BilledTo=SAGO44, ValidShipperReference=SRF2, InvalidShipperReference=SRF1, ReceiverName2=Automation, SenderName=GAMMATEK, NumberOfParcel=1, ConsignmentID=UAT42092254, InvalidSenderName=New, ValidSenderName=SCOIN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doStarted -->
+        <test-method is-config="true" signature="tearBrowser()[pri:0, instance:pages.TestPageConsinment@40e60ece]" started-at="2021-07-06T12:52:35 IST" name="tearBrowser" finished-at="2021-07-06T12:52:39 IST" duration-ms="3705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearBrowser -->
+      </class> <!-- pages.TestPageConsinment -->
+    </test> <!-- Test Consignment -->
+  </suite> <!-- Valid Login Scenario -->
+</testng-results>

@@ -1,0 +1,211 @@
+2021-04-16/13:01:09.739  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-04-16/13:01:09.761  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2021-04-16/13:01:12.342  INFO: wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-04-16/13:01:12.373  INFO: wdm.WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2021-04-16/13:01:13.297  INFO: online.Downloader - Downloading https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_win32.zip
+2021-04-16/13:01:20.521  INFO: online.Downloader - Extracting binary from compressed file chromedriver_win32.zip
+2021-04-16/13:01:20.700  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-04-16/13:01:26.687  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2021-04-16/13:01:56.850  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-04-16/13:01:56.873  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2021-04-16/13:01:57.438  INFO: wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-04-16/13:01:57.469  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-04-16/13:02:00.849  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2021-04-16/13:02:01.212  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
+2021-04-16/13:03:04.105  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-04-16/13:03:04.134  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2021-04-16/13:03:04.227  INFO: listener.WebEventListener - Default Value :
+2021-04-16/13:03:04.381  INFO: listener.WebEventListener - Entered Value :
+2021-04-16/13:03:04.427  INFO: listener.WebEventListener - Default Value :
+2021-04-16/13:03:04.582  INFO: listener.WebEventListener - Entered Value :surekha.jadhav@ram.co.za
+2021-04-16/13:03:04.586  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-04-16/13:03:04.596  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2021-04-16/13:03:04.646  INFO: listener.WebEventListener - Default Value :
+2021-04-16/13:03:04.696  INFO: listener.WebEventListener - Entered Value :
+2021-04-16/13:03:04.724  INFO: listener.WebEventListener - Default Value :
+2021-04-16/13:03:04.813  INFO: listener.WebEventListener - Entered Value :Surekha@123123
+2021-04-16/13:03:04.815  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-04-16/13:03:04.824  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2021-04-16/13:03:04.851  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2021-04-16/13:03:04.895  INFO: listener.WebEventListener - after click on
+2021-04-16/13:03:05.204 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-04-16/13:03:07.003 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-04-16/13:03:37.117  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:37.148  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:37.420  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:37.686  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:37.951  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:38.220  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:38.488  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:38.754  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:39.020  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:39.288  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:39.551  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:39.817  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:40.083  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:40.351  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:40.618  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:40.882  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:41.165  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:41.449  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:41.714  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:41.978  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:42.247  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:42.517  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:42.787  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:43.053  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:43.320  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:43.587  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:43.867  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:44.291  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:44.587  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:44.852  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:45.116  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:45.382  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:45.646  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:45.910  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:46.177  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:46.443  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:46.710  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:46.975  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:47.257  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:47.538  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:47.833  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:48.116  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:48.397  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:48.663  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:48.945  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:49.224  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:49.505  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:49.771  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:50.036  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:50.317  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:50.584  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:50.853  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:51.120  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:51.402  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:51.668  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:51.941  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:52.205  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:52.471  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:52.752  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:53.018  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:53.284  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:53.552  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:53.820  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:54.085  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:54.352  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:54.621  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:54.888  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:55.171  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:55.453  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:55.719  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:56.003  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:56.284  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:56.565  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:56.830  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:57.096  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:57.363  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:03:57.644  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:04:07.081  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:04:07.443  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:04:07.725  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:04:07.991  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:04:08.264  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:04:08.536  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:04:08.820  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:04:09.085  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:04:09.353  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:04:09.618  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:04:09.900  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:04:10.173  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:04:22.323 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-04-16/13:04:30.339  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header
+2021-04-16/13:04:42.531 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-04-16/13:12:28.419  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-04-16/13:12:28.423  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2021-04-16/13:12:29.031  INFO: wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-04-16/13:12:29.062  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-04-16/13:12:32.466  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2021-04-16/13:12:34.358  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
+2021-04-16/13:15:51.757  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-04-16/13:15:51.763  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2021-04-16/13:15:52.547  INFO: wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-04-16/13:15:52.607  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-04-16/13:15:56.497  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2021-04-16/13:15:56.869  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
+2021-04-16/13:17:01.970  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:17:52.262  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-04-16/13:17:52.265  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2021-04-16/13:17:52.851  INFO: wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-04-16/13:17:52.916  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-04-16/13:17:56.312  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2021-04-16/13:17:58.358  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
+2021-04-16/13:18:46.662  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-04-16/13:18:46.698  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2021-04-16/13:18:46.802  INFO: listener.WebEventListener - Default Value :
+2021-04-16/13:18:46.911  INFO: listener.WebEventListener - Entered Value :
+2021-04-16/13:18:46.959  INFO: listener.WebEventListener - Default Value :
+2021-04-16/13:18:47.084  INFO: listener.WebEventListener - Entered Value :surekha.jadhav@ram.co.za
+2021-04-16/13:18:47.087  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-04-16/13:18:47.095  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2021-04-16/13:18:47.151  INFO: listener.WebEventListener - Default Value :
+2021-04-16/13:18:47.214  INFO: listener.WebEventListener - Entered Value :
+2021-04-16/13:18:47.242  INFO: listener.WebEventListener - Default Value :
+2021-04-16/13:18:47.328  INFO: listener.WebEventListener - Entered Value :Surekha@123123
+2021-04-16/13:18:47.329  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-04-16/13:18:47.338  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2021-04-16/13:18:47.355  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2021-04-16/13:18:47.406  INFO: listener.WebEventListener - after click on
+2021-04-16/13:19:19.549  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:19:19.721  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='flex xs1 md1']]
+2021-04-16/13:19:19.877  INFO: listener.WebEventListener - after click on
+2021-04-16/13:19:28.669  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header
+2021-04-16/13:19:28.724  INFO: listener.WebEventListener - beforeClickOn css selector: .v-expansion-panel__container:nth-child(5) .panel-header]
+2021-04-16/13:19:28.857  INFO: listener.WebEventListener - after click on
+2021-04-16/13:19:28.857  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RAM CSD Portal ')]
+2021-04-16/13:19:28.893  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RAM CSD Portal ')]
+2021-04-16/13:19:29.481  INFO: listener.WebEventListener - After Switch to Window
+2021-04-16/13:23:00.054  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-04-16/13:23:00.069  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2021-04-16/13:23:00.710  INFO: wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-04-16/13:23:00.742  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-04-16/13:23:04.199  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2021-04-16/13:23:06.625  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/
+2021-04-16/13:23:47.468  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-04-16/13:23:47.515  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2021-04-16/13:23:47.655  INFO: listener.WebEventListener - Default Value :
+2021-04-16/13:23:47.783  INFO: listener.WebEventListener - Entered Value :
+2021-04-16/13:23:47.816  INFO: listener.WebEventListener - Default Value :
+2021-04-16/13:23:47.929  INFO: listener.WebEventListener - Entered Value :surekha.jadhav@ram.co.za
+2021-04-16/13:23:47.933  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-04-16/13:23:47.943  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2021-04-16/13:23:47.993  INFO: listener.WebEventListener - Default Value :
+2021-04-16/13:23:48.047  INFO: listener.WebEventListener - Entered Value :
+2021-04-16/13:23:48.081  INFO: listener.WebEventListener - Default Value :
+2021-04-16/13:23:48.182  INFO: listener.WebEventListener - Entered Value :Surekha@123123
+2021-04-16/13:23:48.183  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2021-04-16/13:23:48.192  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2021-04-16/13:23:48.210  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2021-04-16/13:23:48.256  INFO: listener.WebEventListener - after click on
+2021-04-16/13:23:48.570 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-04-16/13:23:49.965 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-04-16/13:24:20.040  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2021-04-16/13:24:20.224  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='flex xs1 md1']]
+2021-04-16/13:24:20.395  INFO: listener.WebEventListener - after click on
+2021-04-16/13:24:20.399 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-04-16/13:24:21.129 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-04-16/13:24:29.148  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header
+2021-04-16/13:24:29.205  INFO: listener.WebEventListener - beforeClickOn css selector: .v-expansion-panel__container:nth-child(5) .panel-header]
+2021-04-16/13:24:29.347  INFO: listener.WebEventListener - after click on
+2021-04-16/13:24:29.347  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RAM CSD Portal ')]
+2021-04-16/13:24:29.394  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'RAM CSD Portal ')]
+2021-04-16/13:24:29.955  INFO: listener.WebEventListener - After Switch to Window
+2021-04-16/13:24:39.969 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-04-16/13:24:41.379 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2021-04-16/15:33:40.306  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2021-04-16/15:33:40.321  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2021-04-16/15:33:41.011  INFO: wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (since Chrome 90 is installed in your machine)
+2021-04-16/15:33:41.063  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\nasreenk\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe
+2021-04-16/15:33:44.860  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2021-04-16/15:33:45.369  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/

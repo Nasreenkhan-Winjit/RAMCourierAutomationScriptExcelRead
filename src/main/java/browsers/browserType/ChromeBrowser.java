@@ -24,6 +24,7 @@ public class ChromeBrowser extends DriverManagerWeb {
 //        chromeOptions.addArguments("--start-maximized");
 //        webDriver = new ChromeDriver(chromeOptions);
 //        capabilities = ((RemoteWebDriver) webDriver).getCapabilities();
+
         //NOt required
 //      chromeOptions.addArguments("start-maximized");
 //      chromeOptions.addArguments("--headless");

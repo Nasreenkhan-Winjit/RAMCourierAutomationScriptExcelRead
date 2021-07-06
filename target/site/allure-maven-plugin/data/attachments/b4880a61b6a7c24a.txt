@@ -1,0 +1,1 @@
+clickOnRMSPortalAndVerifyConsignmentISCreated passed and screenshot taken!

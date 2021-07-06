@@ -9,7 +9,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.Objects;
 
 public class BasePage {
     protected WebDriver driver;
@@ -55,5 +58,13 @@ public class BasePage {
 
     public void scrollToElement( WebElement webElement) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", webElement);
+    }
+
+    public void waitForPageLoad() {
+        Wait<WebDriver> wait = new WebDriverWait(driver, 60);
+        wait.until(driver -> {
+            System.out.println("Current Window State: " + ((JavascriptExecutor) driver).executeScript("return document.readyState"));
+            return String.valueOf(((JavascriptExecutor) Objects.requireNonNull(driver)).executeScript("return document.readyState")).equals("complete");
+        });
     }
 }

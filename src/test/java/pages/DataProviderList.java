@@ -38,6 +38,33 @@ public class DataProviderList {
         return reader.getDataFromSheet(" ConsignmentInbound2");
     }
 
+    @DataProvider(name = "ConsignmentProd")
+    public Object[][] ConsignmentProd() throws FilloException {
+        FilloExcelRead reader = new FilloExcelRead(filePath + "\\excel\\Login\\ConsignmentDetails.xlsx");
+        return reader.getDataFromSheet(" ConsignmentProd");
+    }
+
+    @DataProvider(name = "ConsignmentInbound1Prod")
+    public Object[][] ConsignmentInbound1Prod() throws FilloException {
+        FilloExcelRead reader = new FilloExcelRead(filePath + "\\excel\\Login\\ConsignmentDetails.xlsx");
+        return reader.getDataFromSheet(" ConsignmentInbound1Prod");
+    }
+    @DataProvider(name = "ConsignmentInbound2Prod")
+    public Object[][] ConsignmentInbound2Prod() throws FilloException {
+        FilloExcelRead reader = new FilloExcelRead(filePath + "\\excel\\Login\\ConsignmentDetails.xlsx");
+        return reader.getDataFromSheet(" ConsignmentInbound2Prod");
+    }
+    @DataProvider(name = "EditConsignmentUAT")
+    public Object[][] EditConsignmentUAT() throws FilloException {
+        FilloExcelRead reader = new FilloExcelRead(filePath + "\\excel\\Login\\ConsignmentDetails.xlsx");
+        return reader.getDataFromSheet(" EditConsignmentUAT");
+    }
+
+//    ConsignmentInbound1Prod
+
+//    ConsignmentInbound2Prod
+
+
 //    @DataProvider(name = "CSVFile")
 //    public Object[][] CSV() throws SQLException {
 //        CSVRead csvRead = new CSVRead();
