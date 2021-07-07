@@ -36,21 +36,26 @@ public class TestPageRMSUAT extends TestBase{
 //     loader.waitForLoaderToDispose();
 
         pageDashBoard = new PageDashBoard(eventFiringWebDriver);
-
+        pageDashBoard.rMSPublicAccessURL();
 //        Thread.sleep(5000);
-        pageDashBoard.clickOnNavBar();
+//        pageDashBoard.clickOnNavBar();
 
 
     }
 
     @Test(dataProviderClass = DataProviderList.class, dataProvider =  "EditConsignmentUAT")
     public void clickOnRMSPortalAndVerifyConsignmentISCreated(Map<String,String> testDataSet) throws InterruptedException, IOException {
+        pageDashBoard = new PageDashBoard(eventFiringWebDriver);
+        pageDashBoard.rMSPublicAccessURL();
+
+
         ArrayList<String> tabsCount = new ArrayList<>(eventFiringWebDriver.getWindowHandles());
-        eventFiringWebDriver.switchTo().window(tabsCount.get(0));
+        eventFiringWebDriver.switchTo().window(tabsCount.get(1));
         Thread.sleep(9000);
-        pageDashBoard.clickOnRMSPortal();
-//
-//       eventFiringWebDriver.switchTo().window(tabsCount.get(3));
+//        pageDashBoard.clickOnRMSPortal();
+
+        pageDashBoard.selectIsandoFromDropdown();
+
 
         Thread.sleep(15000);
 //eventFiringWebDriver.switchTo().parentFrame();

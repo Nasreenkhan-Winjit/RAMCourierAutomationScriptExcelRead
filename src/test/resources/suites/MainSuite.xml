@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="App.RAM Functional and Regression Testing">
    <suite-files>
-       <suite-file path="ConsignmentOutbound.xml"/>
+<!--       <suite-file path="ConsignmentOutbound.xml"/>-->
        <suite-file path="RMSTestOnUAT.xml"/>
 <!--       <suite-file path="EditConsignmentUAT.xml"/>-->
 
-       <suite-file path="ConsignmentInbound.xml"/>
+<!--       <suite-file path="ConsignmentInbound.xml"/>-->
 
 <!--       <suite-file path="TestPageLoginSecurity.xml"/>-->
 <!--       <suite-file path="SingleSignOnTest.xml"/>-->

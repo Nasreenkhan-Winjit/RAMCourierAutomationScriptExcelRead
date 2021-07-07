@@ -6,6 +6,7 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
@@ -122,6 +123,18 @@ public class PageDashBoard extends BasePage{
     @FindBy(how = How.XPATH, using = "//input[@id='checkSurchargeS']")
     private WebElement elementVerifySaturdayOnRMSEdit;
 
+   @FindBy(how = How.XPATH, using = "//input[@id='buttonOK']")
+    private WebElement elementClickONHubSelection;
+
+   @FindBy(how = How.XPATH, using = "//input[@id='textEmployeeID2']")
+    private WebElement elementEnterEmployeeID;
+
+   @FindBy(how = How.XPATH, using = "//input[@id='textPassword2']")
+    private WebElement elementEnterPassword;
+
+@FindBy(how = How.XPATH, using = "//input[@id='buttonLogin2']")
+    private WebElement elementClickOnLoginBtn;
+
 
 
 
@@ -178,6 +191,40 @@ public class PageDashBoard extends BasePage{
         Assert.assertTrue(driver.getTitle().contains("Sign In To Ram Portal"));
 
     }
+
+    public void rMSPublicAccessURL() throws InterruptedException {
+
+
+        ((JavascriptExecutor)driver).executeScript("window.open('https://uat.ram.co.za/RAMTnTv3/')");
+        System.out.println("Page title is : " + driver.getTitle());
+//        assertTrue(driver.getTitle().contains("Title of Page"));
+//        Assert.assertTrue(driver.getTitle().contains("Sign In To Ram Portal"));
+
+    }
+
+
+    public void selectIsandoFromDropdown() throws InterruptedException {
+        driver.switchTo().frame(2);
+       WebElement HubDD = driver.findElement(By.xpath("//select[@id='listHubs']"));
+       HubDD.click();
+       Select Isando = new Select(HubDD);
+       Isando.selectByVisibleText("Isando");
+
+       webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickONHubSelection));
+        elementClickONHubSelection.click();
+        Thread.sleep(3000);
+        driver.switchTo().frame(2);
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementEnterEmployeeID));
+        elementEnterEmployeeID.sendKeys("8507278318189");
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementEnterPassword));
+        elementEnterPassword.sendKeys("al3s3pog");
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnLoginBtn));
+        elementClickOnLoginBtn.click();
+
+    }
+
 
     public void permissionURL() throws InterruptedException {
 
@@ -449,6 +496,8 @@ public class PageDashBoard extends BasePage{
 
 
 
+
+
     }
 
 
@@ -468,7 +517,8 @@ public class PageDashBoard extends BasePage{
         Consignment.click();
         Thread.sleep(5000);
 
-        WebElement search = driver.findElement(By.xpath("//body[1]/form[1]/div[3]/div[1]/table[8]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[6]/td[2]/a[1]"));
+        WebElement search = driver.findElement(By.xpath("//body[1]/form[1]/div[2]/div[1]/table[8]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[6]/td[2]/a[1]"));
+//        WebElement search = driver.findElement(By.xpath("//body[1]/form[1]/div[3]/div[1]/table[8]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[6]/td[2]/a[1]"));
         search.click();
         Thread.sleep(15000);
         driver.switchTo().defaultContent();
