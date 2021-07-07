@@ -10,17 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b918235-46b0-4872-abd2-0e65a336e031" name="Default Changelist" comment="Added RMS test script updated consignmentID">
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-07-06" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataFiles/excel/Login/ConsignmentDetails.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFiles/excel/Login/ConsignmentDetails.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LogDetails/.log" beforeDir="false" afterPath="$PROJECT_DIR$/LogDetails/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageDashBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageDashBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestPageRMSUAT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageRMSUAT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/environment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/MainSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/MainSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/RMSTestOnUAT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/RMSTestOnUAT.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6b918235-46b0-4872-abd2-0e65a336e031" name="Default Changelist" comment="Changes RMS URL- test code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -334,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625568018933</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Changes RMS URL- test code">
+      <created>1625649971237</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1625649971237</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +383,8 @@
     <MESSAGE value="Changed Consignment ID" />
     <MESSAGE value="Added RMS test script" />
     <MESSAGE value="Added RMS test script updated consignmentID" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added RMS test script updated consignmentID" />
+    <MESSAGE value="Changes RMS URL- test code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes RMS URL- test code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1624267438584">
@@ -449,10 +447,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1621427321359" />
-    <state x="309" y="110" key="Vcs.Push.Dialog.v2" timestamp="1625568036947">
+    <state x="309" y="110" key="Vcs.Push.Dialog.v2" timestamp="1625649981688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="309" y="110" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1625568036947" />
+    <state x="309" y="110" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1625649981688" />
     <state x="381" y="183" key="run.anything.popup" timestamp="1623047704645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
