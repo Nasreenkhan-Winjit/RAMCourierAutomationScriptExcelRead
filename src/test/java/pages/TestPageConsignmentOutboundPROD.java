@@ -351,7 +351,7 @@ public class TestPageConsignmentOutboundPROD extends TestBase {
                 pageConsignment.selectServiceTypeAndSelectNextDay();
                 pageConsignment.clickOnSAID();
                 pageConsignment.enterTxtInSAIDField("1234567891234");
-
+                pageConsignment.selectSaturdayOnConsign();
                 pageConsignment.clickonStepParcel();
 //        Thread.sleep(6000);
 
@@ -377,6 +377,7 @@ public class TestPageConsignmentOutboundPROD extends TestBase {
                 Thread.sleep(2000);
                 pageConsignment.clickOnSAID();
                 pageConsignment.enterTxtInSAIDField("1234567891234");
+                pageConsignment.selectSaturdayOnConsign();
 
                 if (!pageConsignment.verifyFridgelineWindow()) {
 

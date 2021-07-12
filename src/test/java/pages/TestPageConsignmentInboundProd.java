@@ -252,10 +252,10 @@ public class TestPageConsignmentInboundProd extends TestBase{
         Thread.sleep(20000);
 
         pageConsignment.enterTxtBilledTo(testDataSet.get("BilledTo"));
-        Thread.sleep(8000);
+        Thread.sleep(9000);
         pageConsignment.selectMenuBilledTo();
 
-        Thread.sleep(8000);
+        Thread.sleep(10000);
         if (pageConsignment.clickOnLogisticTypeFieldAndVerify() == 0) {
 
             pageConsignment.clickOnLogisticTypeAndSelectInbound() ;
@@ -276,7 +276,7 @@ public class TestPageConsignmentInboundProd extends TestBase{
         pageConsignment.enterRetailChainName(testDataSet.get("RetailChainName"));
         Thread.sleep(4000);
         pageConsignment.enterRetailStoreName(testDataSet.get("RetailStoreName"));
-        Thread.sleep(20000);
+        Thread.sleep(30000);
         pageConsignment.clickOnNewSenderContactStepper();
         Thread.sleep(14000);
         pageConsignment.clickOnContactDetailsTypeAndSPC();

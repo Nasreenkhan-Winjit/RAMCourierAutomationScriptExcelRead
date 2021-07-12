@@ -1,0 +1,301 @@
+[ {
+  "uid" : "b3c408add4380574",
+  "name" : "doStarted",
+  "time" : {
+    "start" : 1626069388167,
+    "stop" : 1626069544516,
+    "duration" : 156349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8853e685d9590115",
+  "name" : "clickOnAccordian",
+  "time" : {
+    "start" : 1626077195912,
+    "stop" : 1626077217534,
+    "duration" : 21622
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c91ab4a7c8c5d3ac",
+  "name" : "clickOnConsignment",
+  "time" : {
+    "start" : 1626076865271,
+    "stop" : 1626076895767,
+    "duration" : 30496
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "37c19d776ffb68df",
+  "name" : "doStarted",
+  "time" : {
+    "start" : 1626075246337,
+    "stop" : 1626075398880,
+    "duration" : 152543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94be410177b67e19",
+  "name" : "signIn",
+  "time" : {
+    "start" : 1626077142316,
+    "stop" : 1626077163381,
+    "duration" : 21065
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "457b9b52808ceb17",
+  "name" : "doStartWithPrinterSetup",
+  "time" : {
+    "start" : 1626076520722,
+    "stop" : 1626076675392,
+    "duration" : 154670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e32085877291cb44",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1625811981154,
+    "stop" : 1625811981155,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c2f3daeb6db07fde",
+  "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+  "time" : {
+    "start" : 1626069665675,
+    "stop" : 1626069896602,
+    "duration" : 230927
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8ee58973fb84a63",
+  "name" : "clickOnAccordian",
+  "time" : {
+    "start" : 1626076513086,
+    "stop" : 1626076518693,
+    "duration" : 5607
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98a2818ed478f126",
+  "name" : "signIn",
+  "time" : {
+    "start" : 1626072036077,
+    "stop" : 1626072036080,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "3e6f92a83fbdddcc",
+  "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+  "time" : {
+    "start" : 1625812127266,
+    "stop" : 1625812137266,
+    "duration" : 10000
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "df8f51a7fdd9594e",
+  "name" : "consignmentInboundSave",
+  "time" : {
+    "start" : 1626072036527,
+    "stop" : 1626072036528,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2abe917591c64cdd",
+  "name" : "doStarted",
+  "time" : {
+    "start" : 1625811984122,
+    "stop" : 1625811984125,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "48f4d24f5c73c73c",
+  "name" : "verifyDataOnRMSEditConsignment",
+  "time" : {
+    "start" : 1626077128081,
+    "stop" : 1626077128905,
+    "duration" : 824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0f104988f254576",
+  "name" : "clickOnConsignment",
+  "time" : {
+    "start" : 1626076481713,
+    "stop" : 1626076512214,
+    "duration" : 30501
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "45c07f4127ab4ff5",
+  "name" : "consignmentInboundSave",
+  "time" : {
+    "start" : 1626074284233,
+    "stop" : 1626074528691,
+    "duration" : 244458
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfe02457063a2951",
+  "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+  "time" : {
+    "start" : 1626075464678,
+    "stop" : 1626075695231,
+    "duration" : 230553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "154ace79c0d1d571",
+  "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+  "time" : {
+    "start" : 1625829538274,
+    "stop" : 1625829769162,
+    "duration" : 230888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75d6561f7965290",
+  "name" : "clickOnConsignment",
+  "time" : {
+    "start" : 1626077164341,
+    "stop" : 1626077194885,
+    "duration" : 30544
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4e4ed02281ac6847",
+  "name" : "consignmentInboundEmailAndSave",
+  "time" : {
+    "start" : 1626070353139,
+    "stop" : 1626070632354,
+    "duration" : 279215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6db5df1bd793be7d",
+  "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+  "time" : {
+    "start" : 1626076897062,
+    "stop" : 1626077127948,
+    "duration" : 230886
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d8b11c0b45777d1",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1625810719822,
+    "stop" : 1625810719824,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "aae6bf6b5ec5af5a",
+  "name" : "consignmentInboundSave",
+  "time" : {
+    "start" : 1626077497957,
+    "stop" : 1626077749078,
+    "duration" : 251121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b416c6ccab3886f9",
+  "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+  "time" : {
+    "start" : 1625810722237,
+    "stop" : 1625810722239,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cd0207300fa8c542",
+  "name" : "consignmentInboundEmailAndSave",
+  "time" : {
+    "start" : 1626077219964,
+    "stop" : 1626077497648,
+    "duration" : 277684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "406a945a3290ede8",
+  "name" : "consignmentInboundSave",
+  "time" : {
+    "start" : 1626072831855,
+    "stop" : 1626073011864,
+    "duration" : 180009
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d887aafc87222202",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1626072034129,
+    "stop" : 1626072034131,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c479f94d2e47812a",
+  "name" : "consignmentInboundSave",
+  "time" : {
+    "start" : 1626073202828,
+    "stop" : 1626073450874,
+    "duration" : 248046
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "157deef23593a389",
+  "name" : "doStarted",
+  "time" : {
+    "start" : 1626076676111,
+    "stop" : 1626076831253,
+    "duration" : 155142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "673bbad0f8ba26db",
+  "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+  "time" : {
+    "start" : 1625813510327,
+    "stop" : 1625813700415,
+    "duration" : 190088
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

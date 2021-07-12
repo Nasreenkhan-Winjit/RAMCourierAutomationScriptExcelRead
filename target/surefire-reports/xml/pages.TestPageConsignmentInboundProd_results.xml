@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Consignment Inbound in production environment "
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="581.011">
+    <properties></properties>
+
+
+
+            <testcase
+                name="clickOnAccordian"
+                time="21.630"
+                classname="pages.TestPageConsignmentInboundProd">
+            </testcase>
+            <testcase
+                name="consignmentInboundEmailAndSave"
+                time="277.696"
+                classname="pages.TestPageConsignmentInboundProd">
+            </testcase>
+            <testcase
+                name="clickOnConsignment"
+                time="30.550"
+                classname="pages.TestPageConsignmentInboundProd">
+            </testcase>
+            <testcase
+                name="consignmentInboundSave"
+                time="251.135"
+                classname="pages.TestPageConsignmentInboundProd">
+            </testcase>
+</testsuite>

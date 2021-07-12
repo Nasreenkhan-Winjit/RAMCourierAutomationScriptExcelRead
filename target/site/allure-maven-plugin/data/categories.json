@@ -1,0 +1,296 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: Chrome failed to start: exited normally.\n  (chrome not reachable)\n  (The process started from chrome location C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1270', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00512DB3+2502067]\n\tOrdinal0 [0x004AC5B1+2082225]\n\tOrdinal0 [0x003B2498+1057944]\n\tOrdinal0 [0x003CC84F+1165391]\n\tOrdinal0 [0x003C9C73+1154163]\n\tOrdinal0 [0x003F9A22+1350178]\n\tOrdinal0 [0x003F967A+1349242]\n\tOrdinal0 [0x003F5BEB+1334251]\n\tOrdinal0 [0x003D2174+1188212]\n\tOrdinal0 [0x003D3009+1191945]\n\tGetHandleVerifier [0x0068EC5C+1511084]\n\tGetHandleVerifier [0x00738522+2205554]\n\tGetHandleVerifier [0x00593393+480739]\n\tGetHandleVerifier [0x00592579+477129]\n\tOrdinal0 [0x004B1E5D+2104925]\n\tOrdinal0 [0x004B63F8+2122744]\n\tOrdinal0 [0x004B6537+2123063]\n\tOrdinal0 [0x004BEE53+2158163]\n\tBaseThreadInitThunk [0x7684FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77407A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77407A4E+238]\n",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "8d8b11c0b45777d1",
+        "parentUid" : "cbbf3f2bbefe9f1322789d198661151a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625810719822,
+          "stop" : 1625810719824,
+          "duration" : 2
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cbbf3f2bbefe9f1322789d198661151a"
+    }, {
+      "name" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@6d2db15b (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1270', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63569}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 266c3fb644b715cd0b005be31340ef60",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "e32085877291cb44",
+        "parentUid" : "e6b54b1bab2eafcce5072e2dad03ef49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625811981154,
+          "stop" : 1625811981155,
+          "duration" : 1
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e6b54b1bab2eafcce5072e2dad03ef49"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//select[@id='listHubs']\"}\n  (Session info: chrome=91.0.4472.124)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1270', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57259}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 82a48887635af4f95347cd7426a85e69\n*** Element info: {Using=xpath, value=//select[@id='listHubs']}",
+      "children" : [ {
+        "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+        "uid" : "3e6f92a83fbdddcc",
+        "parentUid" : "1d8963d9dbfcb27587860683226bebb2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625812127266,
+          "stop" : 1625812137266,
+          "duration" : 10000
+        },
+        "flaky" : true,
+        "parameters" : [ "{SecurityPack=, ValueForCarrige=, ReceiverName=, BilledTo=, ValidShipperReference=, InvalidShipperReference=, ReceiverName2=, SenderName=, NumberOfParcel=, ConsignmentID=UAT42092258, InvalidSenderName=, ValidSenderName=}" ]
+      } ],
+      "uid" : "1d8963d9dbfcb27587860683226bebb2"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body[1]/form[1]/div[2]/div[1]/table[8]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[6]/td[2]/a[1]\"}\n  (Session info: chrome=91.0.4472.124)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1270', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:50091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c134c6487319d12e65941478c32cce63\n*** Element info: {Using=xpath, value=//body[1]/form[1]/div[2]/div[1]/table[8]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[6]/td[2]/a[1]}",
+      "children" : [ {
+        "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+        "uid" : "673bbad0f8ba26db",
+        "parentUid" : "8dd2532a96f9c2fd3e69d0275767f0e0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625813510327,
+          "stop" : 1625813700415,
+          "duration" : 190088
+        },
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=, ValueForCarrige=400, BilledTo=ITAU01, ValidShipperReference=A1w11, InvalidShipperReference=1ESDR, ReceiverName2=RAM, SenderName=NotExistSender, NumberOfParcel=3, ConsignmentID=RW20958629, InvalidSenderName=InvalidSenderName, ValidSenderName=Distributor}" ]
+      } ],
+      "uid" : "8dd2532a96f9c2fd3e69d0275767f0e0"
+    }, {
+      "name" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@4407b042 (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1270', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0e35afb9b4ae82aae8e7643b463d7d00",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "d887aafc87222202",
+        "parentUid" : "0388d517a5f74f149c6aacc2045a6665",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626072034129,
+          "stop" : 1626072034131,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0388d517a5f74f149c6aacc2045a6665"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: //div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]' (tried for 60 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "consignmentInboundSave",
+        "uid" : "406a945a3290ede8",
+        "parentUid" : "e1fa85b9f32c05c2a19718136054f430",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626072831855,
+          "stop" : 1626073011864,
+          "duration" : 180009
+        },
+        "flaky" : true,
+        "parameters" : [ "{ConsignmentID=PROD00001004, InvalidShipperReference=Ddsd23, NewSenderContactFirstName=Nasreen, BilledTo=ITAU02, RcvNewContactFirstName=RAM, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewReceiverName=Ramtesttest, NewSenderName=Testtest, NumberOfParcel=2, RcvNewContactEmailAddress=Nasreen.Khan@gmail.com, RetailChainName=ACKERMANS, RcvNewContactLastName=HQ4, SpecialInstruction=Automation test, ValueForCarrige=107, NewEmailAddress=Nasreen.Khan@winjit.com, RcvNewContactPrimaryTelNumber=9876543210, RetailStoreName=ACKERMANS - THE GALLERIA - AMANZIMTOTI, NewSenderContactLastName=Khan}" ]
+      } ],
+      "uid" : "e1fa85b9f32c05c2a19718136054f430"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Skipped tests",
+    "children" : [ {
+      "name" : "unknown error: Chrome failed to start: exited normally.\n  (chrome not reachable)\n  (The process started from chrome location C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1270', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00512DB3+2502067]\n\tOrdinal0 [0x004AC5B1+2082225]\n\tOrdinal0 [0x003B2498+1057944]\n\tOrdinal0 [0x003CC84F+1165391]\n\tOrdinal0 [0x003C9C73+1154163]\n\tOrdinal0 [0x003F9A22+1350178]\n\tOrdinal0 [0x003F967A+1349242]\n\tOrdinal0 [0x003F5BEB+1334251]\n\tOrdinal0 [0x003D2174+1188212]\n\tOrdinal0 [0x003D3009+1191945]\n\tGetHandleVerifier [0x0068EC5C+1511084]\n\tGetHandleVerifier [0x00738522+2205554]\n\tGetHandleVerifier [0x00593393+480739]\n\tGetHandleVerifier [0x00592579+477129]\n\tOrdinal0 [0x004B1E5D+2104925]\n\tOrdinal0 [0x004B63F8+2122744]\n\tOrdinal0 [0x004B6537+2123063]\n\tOrdinal0 [0x004BEE53+2158163]\n\tBaseThreadInitThunk [0x7684FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77407A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77407A4E+238]\n",
+      "children" : [ {
+        "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+        "uid" : "b416c6ccab3886f9",
+        "parentUid" : "77aa6684b796086bf540715c49f230c1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1625810722237,
+          "stop" : 1625810722239,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77aa6684b796086bf540715c49f230c1"
+    }, {
+      "name" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@6d2db15b (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1270', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63569}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 266c3fb644b715cd0b005be31340ef60",
+      "children" : [ {
+        "name" : "doStarted",
+        "uid" : "2abe917591c64cdd",
+        "parentUid" : "f10233399dcc2284f6203e0ac9e165e3",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1625811984122,
+          "stop" : 1625811984125,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f10233399dcc2284f6203e0ac9e165e3"
+    }, {
+      "name" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@4407b042 (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1270', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0e35afb9b4ae82aae8e7643b463d7d00",
+      "children" : [ {
+        "name" : "consignmentInboundSave",
+        "uid" : "df8f51a7fdd9594e",
+        "parentUid" : "cc9fbbeae5ee7cd0bf23c203a96ffb29",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1626072036527,
+          "stop" : 1626072036528,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc9fbbeae5ee7cd0bf23c203a96ffb29"
+    } ],
+    "uid" : "c125badd1841297a9701a15a8082ec24"
+  }, {
+    "name" : "Passed test",
+    "children" : [ {
+      "children" : [ {
+        "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+        "uid" : "154ace79c0d1d571",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625829538274,
+          "stop" : 1625829769162,
+          "duration" : 230888
+        },
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=, ValueForCarrige=400, BilledTo=ITAU01, ValidShipperReference=A1w11, InvalidShipperReference=1ESDR, ReceiverName2=RAM, SenderName=NotExistSender, NumberOfParcel=3, ConsignmentID=PROD00001001, InvalidSenderName=InvalidSenderName, ValidSenderName=Distributor}" ]
+      }, {
+        "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+        "uid" : "c2f3daeb6db07fde",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626069665675,
+          "stop" : 1626069896602,
+          "duration" : 230927
+        },
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=, ValueForCarrige=400, BilledTo=ITAU01, ValidShipperReference=A1w11, InvalidShipperReference=1ESDR, ReceiverName2=RAM, SenderName=NotExistSender, NumberOfParcel=3, ConsignmentID=PROD00001002, InvalidSenderName=InvalidSenderName, ValidSenderName=Distributor}" ]
+      }, {
+        "name" : "consignmentInboundSave",
+        "uid" : "c479f94d2e47812a",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626073202828,
+          "stop" : 1626073450874,
+          "duration" : 248046
+        },
+        "flaky" : false,
+        "parameters" : [ "{ConsignmentID=PROD00001004, InvalidShipperReference=Ddsd23, NewSenderContactFirstName=Nasreen, BilledTo=ITAU02, RcvNewContactFirstName=RAM, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewReceiverName=Ramtesttest, NewSenderName=Testtest, NumberOfParcel=2, RcvNewContactEmailAddress=Nasreen.Khan@gmail.com, RetailChainName=ACKERMANS, RcvNewContactLastName=HQ5, SpecialInstruction=Automation test, ValueForCarrige=107, NewEmailAddress=Nasreen.Khan@winjit.com, RcvNewContactPrimaryTelNumber=9876543210, RetailStoreName=ACKERMANS - THE GALLERIA - AMANZIMTOTI, NewSenderContactLastName=Khan}" ]
+      }, {
+        "name" : "consignmentInboundSave",
+        "uid" : "45c07f4127ab4ff5",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626074284233,
+          "stop" : 1626074528691,
+          "duration" : 244458
+        },
+        "flaky" : false,
+        "parameters" : [ "{ConsignmentID=PROD00001005, InvalidShipperReference=Ddsd23, NewSenderContactFirstName=Nasreen, BilledTo=ITAU02, RcvNewContactFirstName=RAM, ValidShipperReference=1Da5g, PrimaryNumber=9848655555, NewReceiverName=Ramtesttest, NewSenderName=Testtest, NumberOfParcel=2, RcvNewContactEmailAddress=Nasreen.Khan@gmail.com, RetailChainName=ACKERMANS, RcvNewContactLastName=HQ11, SpecialInstruction=Automation test, ValueForCarrige=107, NewEmailAddress=Nasreen.Khan@winjit.com, RcvNewContactPrimaryTelNumber=9876543210, RetailStoreName=ACKERMANS - THE GALLERIA - AMANZIMTOTI, NewSenderContactLastName=Khan}" ]
+      }, {
+        "name" : "doStarted",
+        "uid" : "37c19d776ffb68df",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626075246337,
+          "stop" : 1626075398880,
+          "duration" : 152543
+        },
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=, ValueForCarrige=400, BilledTo=ITAU01, ValidShipperReference=A1w11, InvalidShipperReference=1ESDR, ReceiverName2=RAM, SenderName=NotExistSender, NumberOfParcel=3, ConsignmentID=PROD00021003, InvalidSenderName=InvalidSenderName, ValidSenderName=Distributor}" ]
+      }, {
+        "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+        "uid" : "bfe02457063a2951",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626075464678,
+          "stop" : 1626075695231,
+          "duration" : 230553
+        },
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=, ValueForCarrige=400, BilledTo=ITAU01, ValidShipperReference=A1w11, InvalidShipperReference=1ESDR, ReceiverName2=RAM, SenderName=NotExistSender, NumberOfParcel=3, ConsignmentID=PROD00021003, InvalidSenderName=InvalidSenderName, ValidSenderName=Distributor}" ]
+      }, {
+        "name" : "clickOnConsignment",
+        "uid" : "d0f104988f254576",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626076481713,
+          "stop" : 1626076512214,
+          "duration" : 30501
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickOnAccordian",
+        "uid" : "a8ee58973fb84a63",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626076513086,
+          "stop" : 1626076518693,
+          "duration" : 5607
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "doStarted",
+        "uid" : "157deef23593a389",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626076676111,
+          "stop" : 1626076831253,
+          "duration" : 155142
+        },
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=, ValueForCarrige=400, BilledTo=ITAU01, ValidShipperReference=A1w11, InvalidShipperReference=1ESDR, ReceiverName2=RAM, SenderName=NotExistSender, NumberOfParcel=3, ConsignmentID=PROD00021004, InvalidSenderName=InvalidSenderName, ValidSenderName=Distributor}" ]
+      }, {
+        "name" : "clickOnConsignment",
+        "uid" : "c91ab4a7c8c5d3ac",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626076865271,
+          "stop" : 1626076895767,
+          "duration" : 30496
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickOnRMSPortalAndVerifyConsignmentISCreated",
+        "uid" : "6db5df1bd793be7d",
+        "parentUid" : "5644821434bb5bc31e9f7dfe5983ddf1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626076897062,
+          "stop" : 1626077127948,
+          "duration" : 230886
+        },
+        "flaky" : false,
+        "parameters" : [ "{SecurityPack=, ValueForCarrige=400, BilledTo=ITAU01, ValidShipperReference=A1w11, InvalidShipperReference=1ESDR, ReceiverName2=RAM, SenderName=NotExistSender, NumberOfParcel=3, ConsignmentID=PROD00021004, InvalidSenderName=InvalidSenderName, ValidSenderName=Distributor}" ]
+      } ],
+      "uid" : "5644821434bb5bc31e9f7dfe5983ddf1"
+    } ],
+    "uid" : "81b1a73de11cbf9edd37b9ae15430a89"
+  } ]
+}

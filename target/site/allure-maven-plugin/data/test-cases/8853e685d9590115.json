@@ -1,0 +1,199 @@
+{
+  "uid" : "8853e685d9590115",
+  "name" : "clickOnAccordian",
+  "fullName" : "pages.TestPageConsignmentInboundProd.clickOnAccordian",
+  "historyId" : "11fa83b3c5b021c7845c9311e2f0e68a",
+  "time" : {
+    "start" : 1626077195912,
+    "stop" : 1626077217534,
+    "duration" : 21622
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1626077164334,
+      "stop" : 1626077164335,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1626077132818,
+      "stop" : 1626077142248,
+      "duration" : 9430
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1626077749207,
+      "stop" : 1626077752916,
+      "duration" : 3709
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.TestPageConsignmentInboundProd"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.TestPageConsignmentInboundProd"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnAccordian"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Consignment Inbound Scenario "
+  }, {
+    "name" : "suite",
+    "value" : "Test Consignment Inbound in production environment "
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.TestPageConsignmentInboundProd"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1270"
+  }, {
+    "name" : "thread",
+    "value" : "9536@WJLP-1270.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cce3a0ee39a1eea2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626075762351,
+        "stop" : 1626075785981,
+        "duration" : 23630
+      }
+    }, {
+      "uid" : "55f0e1a173312d45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626074258949,
+        "stop" : 1626074280457,
+        "duration" : 21508
+      }
+    }, {
+      "uid" : "c70ed14c45f426bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626073176935,
+        "stop" : 1626073198383,
+        "duration" : 21448
+      }
+    }, {
+      "uid" : "4d3724ff01300a0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626072806107,
+        "stop" : 1626072831436,
+        "duration" : 25329
+      }
+    }, {
+      "uid" : "77844344f699776",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626072534755,
+        "stop" : 1626072556230,
+        "duration" : 21475
+      }
+    }, {
+      "uid" : "74347791e6afd1b4",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=91.0.4472.124)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1270', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51921}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b8e83f741a268785bcdf8b05c67103b1\n*** Element info: {Using=css selector, value=.v-expansion-panel__container:nth-child(5) .panel-header}",
+      "time" : {
+        "start" : 1626072410606,
+        "stop" : 1626072443869,
+        "duration" : 33263
+      }
+    }, {
+      "uid" : "c4bf5cfc0a99125d",
+      "status" : "skipped",
+      "statusDetails" : "Expected condition failed: waiting for pages.TestBase$$Lambda$375/0x00000001003ba840@4407b042 (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'WJLP-1270', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\\Users\\nasreenk\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0e35afb9b4ae82aae8e7643b463d7d00",
+      "time" : {
+        "start" : 1626072036156,
+        "stop" : 1626072036156,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7842d9c8cc1cb626",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626071439484,
+        "stop" : 1626071460940,
+        "duration" : 21456
+      }
+    }, {
+      "uid" : "6fdef78873946c49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626070884899,
+        "stop" : 1626070906385,
+        "duration" : 21486
+      }
+    }, {
+      "uid" : "3cf45f9a7e70257a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626070325665,
+        "stop" : 1626070347108,
+        "duration" : 21443
+      }
+    }, {
+      "uid" : "2676293829f4fa99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626069965630,
+        "stop" : 1626069989900,
+        "duration" : 24270
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8853e685d9590115.json",
+  "parameterValues" : [ ]
+}

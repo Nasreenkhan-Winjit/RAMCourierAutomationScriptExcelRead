@@ -1,0 +1,112 @@
+{
+  "uid" : "163fb1a9ccafda45",
+  "name" : "clickOnConsignment",
+  "fullName" : "pages.TestPageConsignmentInboundProd.clickOnConsignment",
+  "historyId" : "604550b32aea21da1eb5c4472d5827dd",
+  "time" : {
+    "start" : 1626070294421,
+    "stop" : 1626070324842,
+    "duration" : 30421
+  },
+  "description" : "Verify valid user are allowed to access",
+  "descriptionHtml" : "<p>Verify valid user are allowed to access</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "waitForLoad",
+    "time" : {
+      "start" : 1626070294177,
+      "stop" : 1626070294178,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1626070198424,
+      "stop" : 1626070222406,
+      "duration" : 23982
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearBrowser",
+    "time" : {
+      "start" : 1626070758049,
+      "stop" : 1626070762097,
+      "duration" : 4048
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pages.TestPageConsignmentInboundProd"
+  }, {
+    "name" : "testClass",
+    "value" : "pages.TestPageConsignmentInboundProd"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnConsignment"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Consignment Inbound Scenario "
+  }, {
+    "name" : "suite",
+    "value" : "Test Consignment Inbound in production environment "
+  }, {
+    "name" : "subSuite",
+    "value" : "pages.TestPageConsignmentInboundProd"
+  }, {
+    "name" : "host",
+    "value" : "WJLP-1270"
+  }, {
+    "name" : "thread",
+    "value" : "3580@WJLP-1270.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "163fb1a9ccafda45.json",
+  "parameterValues" : [ ]
+}

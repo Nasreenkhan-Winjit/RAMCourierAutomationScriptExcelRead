@@ -101,6 +101,9 @@ public class PageDashBoard extends BasePage{
     @FindBy(how = How.XPATH, using = "//input[@id='txtSenderID']")
     private WebElement elementSenderIDFieldOnRMSEdit;
 
+    @FindBy(how = How.CSS, using = "input#txtBilledTo")
+    private WebElement elementBilledToFieldOnRMSEditProd;
+
     @FindBy(how = How.XPATH, using = "//input[@id='txtReceiverName']")
     private WebElement elementReceiverNameFieldOnRMSEdit;
 
@@ -524,6 +527,28 @@ public class PageDashBoard extends BasePage{
         driver.switchTo().defaultContent();
     }
 
+    public void clickONConsignmentTabProd() throws InterruptedException {
+//
+        Thread.sleep(9000);
+        ArrayList<String> tab = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(tab.get(1));
+
+//        driver.switchTo().frame(0);
+//        System.out.println("Frame1 "+ driver.getPageSource());
+        driver.switchTo().frame(1);
+        System.out.println("Frame2 "+ driver.getPageSource());
+
+        WebElement Consignment = driver.findElement(By.cssSelector("span#titleConsignments"));
+        Consignment.click();
+        Thread.sleep(5000);
+
+        WebElement search = driver.findElement(By.xpath("//body[1]/form[1]/div[3]/div[1]/table[6]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[5]/td[2]/a[1]"));
+
+        search.click();
+        Thread.sleep(15000);
+        driver.switchTo().defaultContent();
+    }
+
 
     public String enterConsignmentIDOnRMSEdit(String txt) throws InterruptedException {
 
@@ -565,6 +590,15 @@ public class PageDashBoard extends BasePage{
         elementSenderIDFieldOnRMSEdit.getAttribute("value");
 
         System.out.println("Sender Address is: " +elementSenderIDFieldOnRMSEdit.getAttribute("value")) ;
+        String ExpectedSenderAddress = "";
+
+        return ExpectedSenderAddress;
+    }
+    public String verifyBilledToProd(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementBilledToFieldOnRMSEditProd));
+        elementBilledToFieldOnRMSEditProd.getAttribute("value");
+
+        System.out.println("Sender Address is: " +elementBilledToFieldOnRMSEditProd.getAttribute("value")) ;
         String ExpectedSenderAddress = "";
 
         return ExpectedSenderAddress;
