@@ -16,10 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b918235-46b0-4872-abd2-0e65a336e031" name="Default Changelist" comment="Prod changes">
+    <list default="true" id="6b918235-46b0-4872-abd2-0e65a336e031" name="Default Changelist" comment="Prod changes- updated consignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataFiles/excel/Login/ConsignmentDetails.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFiles/excel/Login/ConsignmentDetails.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/MainSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/MainSuite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -381,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626110539287</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Prod changes- updated consignment">
+      <created>1627379577143</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1627379577143</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +428,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added Data in Excel" />
     <MESSAGE value="Made ID changes for navigation" />
     <MESSAGE value="Handled spinner and Billet To" />
     <MESSAGE value="Handled spinner and Billet To updated ID" />
@@ -448,7 +452,8 @@
     <MESSAGE value="Changed RMS URL and updated consignmentID" />
     <MESSAGE value="Review test" />
     <MESSAGE value="Prod changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prod changes" />
+    <MESSAGE value="Prod changes- updated consignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prod changes- updated consignment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1624267438584">
@@ -507,10 +512,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1626067647135" />
-    <state x="309" y="110" key="Vcs.Push.Dialog.v2" timestamp="1626110555169">
+    <state x="309" y="110" key="Vcs.Push.Dialog.v2" timestamp="1627379648609">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="309" y="110" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1626110555169" />
+    <state x="309" y="110" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1627379648609" />
+    <state x="418" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1627380229124">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="418" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1627380229124" />
     <state x="190" y="290" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1626084499651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
