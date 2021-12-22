@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="App.RAM Functional and Regression Testing">
-   <suite-files>
-<!--       <suite-file path="ConsignmentOutbound.xml"/>-->
-<!--       <suite-file path="RMSTestOnUAT.xml"/>-->
-<!--       <suite-file path="EditConsignmentUAT.xml"/>-->
+    <suite-files>
+        <suite-file path="ConsignmentOutbound.xml"/>
+<!--        <suite-file path="RMSTestOnUAT.xml"/>-->
+<!--        <suite-file path="EditConsignmentUAT.xml"/>-->
 
-<!--       <suite-file path="ConsignmentInbound.xml"/>-->
+<!--        <suite-file path="ConsignmentInbound.xml"/>-->
 
-<!--       <suite-file path="TestPageLoginSecurity.xml"/>-->
-<!--       <suite-file path="SingleSignOnTest.xml"/>-->
+<!--        <suite-file path="TestPageLoginSecurity.xml"/>-->
+<!--        <suite-file path="SingleSignOnTest.xml"/>-->
+<!--        <suite-file path="TestPageWeiDimUAT.xml"/>-->
 
-       <suite-file path="ConsignmentProd.xml"/>
-       <suite-file path="RMSTestOnProd.xml"/>
-       <suite-file path="ConsignmentInboundProd.xml"/>
-<!--       <suite-file path="SingleSignOnTestProd.xml"/>-->
+<!--        <suite-file path="ConsignmentProd.xml"/>-->
+<!--        <suite-file path="RMSTestOnProd.xml"/>-->
+<!--        <suite-file path="ConsignmentInboundProd.xml"/>-->
+<!--        <suite-file path="TestPageWeiDimProd.xml"/>-->
+
+<!--        <suite-file path="SingleSignOnTestProd.xml"/>-->
 
 
-   </suite-files>
+    </suite-files>
 </suite> <!-- Default Suite -->

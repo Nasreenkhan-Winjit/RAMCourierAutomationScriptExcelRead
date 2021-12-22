@@ -33,7 +33,8 @@ public class Logout extends BasePage {
     @Step("Hover on UserName")
     public void doHoverOnUserName() {
         avtaarIcon.click();
-//        actions.moveToElement(avtaarIcon).build().perform();
+// Demo test
+        actions.moveToElement(avtaarIcon).build().perform();
     }
 
     @Step("Submenu displayed")
@@ -43,6 +44,7 @@ public class Logout extends BasePage {
 
     @Step("Logout")
     public void doLogout() {
+
         doHoverOnUserName();
         logout.click();
 //        List<WebElement> userSubMenuList = logout.findElements(By.xpath("li/a"));

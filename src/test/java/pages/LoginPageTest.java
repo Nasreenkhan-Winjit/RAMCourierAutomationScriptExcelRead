@@ -18,6 +18,7 @@ public class LoginPageTest extends TestBase {
     @Description("Verify valid user are allowed to access")
     @Test(dataProviderClass = DataProviderList.class, dataProvider = "ValidLogin")
     public void signIn(Map<String, String> testDataSet) throws InterruptedException {
+
         login = new Login(eventFiringWebDriver);
         Thread.sleep(20000);
         waitForPageLoad();
@@ -27,10 +28,30 @@ public class LoginPageTest extends TestBase {
         login.enterPassword(testDataSet.get("Password"));
         login.loginClick();
 
-//        waitForPageLoad();
+        Thread.sleep(20000);
+
 //        logout = new Logout(eventFiringWebDriver);
 //        logout.doLogout();
-
-
+//        Thread.sleep(20000);
     }
+
+//    @Severity(SeverityLevel.BLOCKER)
+//    @Test(dataProviderClass = DataProviderList.class, dataProvider = "ValidLogin")
+//    public void signInWithInvalid(Map<String, String> testDataSet) throws InterruptedException {
+//        login = new Login(eventFiringWebDriver);
+//        Thread.sleep(5000);
+//        waitForPageLoad();
+//
+//        login.enterUserName("Nasreen.khan@test.com");
+//        login.loginClick();
+//        login.enterPassword("Password");
+//        login.loginClick();
+//
+//
+////        logout = new Logout(eventFiringWebDriver);
+//        logout.doLogout();
+////        webDriver.close();
+//        webDriver.quit();
+//
+//    }
 }

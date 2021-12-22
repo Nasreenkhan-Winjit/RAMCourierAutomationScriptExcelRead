@@ -78,7 +78,7 @@ public class TestPageConsinment extends TestBase {
         Thread.sleep(5000);
        pageConsignment.EnterDepartmentAndSelectFromList("IT");
         Thread.sleep(5000);
-       pageConsignment.enterTxtPrinterID("35");
+       pageConsignment.enterTxtPrinterID("230");
 
 //        Thread.sleep(5000);
 
@@ -537,6 +537,7 @@ public class TestPageConsinment extends TestBase {
             pageConsignment.clickOnSaveBtnInEditConsign();
 
             Thread.sleep(10000);
+
 
 
 
