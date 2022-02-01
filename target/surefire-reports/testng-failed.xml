@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Valid Login Scenario]" guice-stage="DEVELOPMENT" verbose="0">
+<suite name="Failed suite [ Verify create consignment on RMS ]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="utilities.listener.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Test Consignment At Production Environment(failed)" verbose="0">
+  <test thread-count="5" name="Test RMS portal for create consignment(failed)" verbose="0">
     <classes>
-      <class name="pages.TestPageConsignmentOutboundPROD">
+      <class name="pages.TestPageRMSProd">
         <methods>
           <include name="setUp"/>
           <include name="tearBrowser"/>
-          <include name="doStartWithPrinterSetup"/>
+          <include name="clickOnRMSPortalAndVerifyConsignmentISCreated" invocation-numbers="0"/>
           <include name="waitForLoad"/>
+          <include name="verifyDataOnRMSEditConsignment"/>
         </methods>
-      </class> <!-- pages.TestPageConsignmentOutboundPROD -->
+      </class> <!-- pages.TestPageRMSProd -->
     </classes>
-  </test> <!-- Test Consignment At Production Environment(failed) -->
-</suite> <!-- Failed suite [Valid Login Scenario] -->
+  </test> <!-- Test RMS portal for create consignment(failed) -->
+</suite> <!-- Failed suite [ Verify create consignment on RMS ] -->

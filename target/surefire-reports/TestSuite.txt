@@ -1,4 +1,61 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,309.814 s - in TestSuite
+Tests run: 14, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1,197.153 s <<< FAILURE! - in TestSuite
+pages.TestPageRMSProd.clickOnRMSPortalAndVerifyConsignmentISCreated  Time elapsed: 65.161 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"span#titleSearchReports"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WJLP-1270', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\nasreenk\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50685}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cb4d8b0e71b06879a987572bd1bf931
+*** Element info: {Using=css selector, value=span#titleSearchReports}
+	at pages.TestPageRMSProd.clickOnRMSPortalAndVerifyConsignmentISCreated(TestPageRMSProd.java:53)
+
+pages.TestPageRMSProd.verifyDataOnRMSEditConsignment  Time elapsed: 120.52 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.cssSelector: input#txtBilledTo' (tried for 60 second(s) with 500 milliseconds interval)
+	at pages.TestPageRMSProd.verifyDataOnRMSEditConsignment(TestPageRMSProd.java:80)
+Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 60 seconds. Unable to locate the element
+	at pages.TestPageRMSProd.verifyDataOnRMSEditConsignment(TestPageRMSProd.java:80)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"input#txtBilledTo"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WJLP-1270', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\nasreenk\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50685}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cb4d8b0e71b06879a987572bd1bf931
+*** Element info: {Using=css selector, value=input#txtBilledTo}
+	at pages.TestPageRMSProd.verifyDataOnRMSEditConsignment(TestPageRMSProd.java:80)
+
+pages.TestPageConsignmentInboundProd.consignmentInboundEmailAndSave  Time elapsed: 268.457 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: AjaxElementLocator 'By.xpath: //button[@id='ReceiverResetSearch']//div' (tried for 60 second(s) with 500 milliseconds interval)
+	at pages.TestPageConsignmentInboundProd.consignmentInboundEmailAndSave(TestPageConsignmentInboundProd.java:129)
+Caused by: org.openqa.selenium.NoSuchElementException: Timed out after 60 seconds. Unable to locate the element
+	at pages.TestPageConsignmentInboundProd.consignmentInboundEmailAndSave(TestPageConsignmentInboundProd.java:129)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='ReceiverResetSearch']//div"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WJLP-1270', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\nasreenk\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0700bbedd0719e088f1f7d1c6280aff0
+*** Element info: {Using=xpath, value=//button[@id='ReceiverResetSearch']//div}
+	at pages.TestPageConsignmentInboundProd.consignmentInboundEmailAndSave(TestPageConsignmentInboundProd.java:129)
+
+pages.TestPageConsignmentInboundProd.consignmentInboundSave  Time elapsed: 161.396 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (0700bbedd0719e088f1f7d1c6280aff0)] -> xpath: //input[@id='LogisticType']/..] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WJLP-1270', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\nasreenk\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0700bbedd0719e088f1f7d1c6280aff0
+	at pages.TestPageConsignmentInboundProd.consignmentInboundSave(TestPageConsignmentInboundProd.java:261)
+

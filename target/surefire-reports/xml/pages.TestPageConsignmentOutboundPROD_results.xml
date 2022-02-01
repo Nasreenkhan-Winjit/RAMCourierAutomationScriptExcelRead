@@ -4,29 +4,29 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="346.192">
+           time="356.591">
     <properties></properties>
 
 
 
             <testcase
-                name="clickOnAccordian"
-                time="5.610"
-                classname="pages.TestPageConsignmentOutboundPROD">
-            </testcase>
-            <testcase
-                name="clickOnConsignment"
-                time="30.760"
-                classname="pages.TestPageConsignmentOutboundPROD">
-            </testcase>
-            <testcase
                 name="doStartWithPrinterSetup"
-                time="154.674"
+                time="154.051"
                 classname="pages.TestPageConsignmentOutboundPROD">
             </testcase>
             <testcase
                 name="doStarted"
-                time="155.148"
+                time="166.155"
+                classname="pages.TestPageConsignmentOutboundPROD">
+            </testcase>
+            <testcase
+                name="clickOnAccordian"
+                time="5.564"
+                classname="pages.TestPageConsignmentOutboundPROD">
+            </testcase>
+            <testcase
+                name="clickOnConsignment"
+                time="30.821"
                 classname="pages.TestPageConsignmentOutboundPROD">
             </testcase>
 </testsuite>

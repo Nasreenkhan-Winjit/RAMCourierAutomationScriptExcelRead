@@ -6,54 +6,35 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:prodorigin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:prodMaster" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:prodorigin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:prodorigin/prodMaster" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b918235-46b0-4872-abd2-0e65a336e031" name="Default Changelist" comment="Prod changes- updated consignment">
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-07-12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-02" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-03" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-06" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-07" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-08" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-09" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-13" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-14" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-23" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-27" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-09-30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-10-01" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-10-05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2021-10-07" afterDir="false" />
+    <list default="true" id="6b918235-46b0-4872-abd2-0e65a336e031" name="Default Changelist" comment="Changed Consignment ID for Prod run">
       <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageWeiDimPROD.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageWeiDimUAT.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/suites/TestPageWeiDimProd.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/suites/TestPageWeiDimUAT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataFiles/excel/Login/ConsignmentDetails.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFiles/excel/Login/ConsignmentDetails.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LogDetails/.log" beforeDir="false" afterPath="$PROJECT_DIR$/LogDetails/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/browsers/browserType/ChromeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/browsers/browserType/ChromeBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageConsinment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageConsinment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageDashBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageDashBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/commonmodule/Logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/commonmodule/Logout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestPageConsinment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageConsinment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/environment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/ConsignmentOutbound.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/ConsignmentOutbound.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/suites/MainSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/MainSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/allure-results/0045f212-1e55-4cc6-ab10-2c9e766d596a-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/allure-results/00d5303d-b389-42b5-87b3-30dae893f740-container.json" beforeDir="false" />
@@ -883,6 +864,7 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-07-12T12-46-27_393.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-07-12T12-59-05_682.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-07-12T13-24-02_909.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2022-01-31T11-47-58_284.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Valid Login Scenario/Check login and logout successfully.html" beforeDir="false" />
@@ -989,6 +971,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="UatMaster" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -1317,7 +1304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625744739957</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Changed Consignment ID for Prod run">
+      <created>1643610094672</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1643610094672</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1344,7 +1338,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="prodMaster" />
+                        <option value="prodorigin/prodMaster" />
                       </list>
                     </value>
                   </entry>
@@ -1359,7 +1353,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="test" />
     <MESSAGE value="Added Data in Excel" />
     <MESSAGE value="Made ID changes for navigation" />
     <MESSAGE value="Handled spinner and Billet To" />
@@ -1384,64 +1377,37 @@
     <MESSAGE value="Changes RMS URL- test code" />
     <MESSAGE value="Changed RMS URL and updated consignmentID" />
     <MESSAGE value="Review test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Review test" />
+    <MESSAGE value="Changed Consignment ID for Prod run" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Consignment ID for Prod run" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="444" y="148" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1632898265811">
+    <state width="1323" height="51" key="GridCell.Tab.0.bottom" timestamp="1643635427608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="444" y="148" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1632898265811" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1632901633257">
+    <state width="1323" height="51" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1643635427608" />
+    <state width="1323" height="51" key="GridCell.Tab.0.center" timestamp="1643635427607">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1632901633257" />
-    <state width="1323" height="37" key="GridCell.Tab.0.bottom" timestamp="1633698305364">
+    <state width="1323" height="51" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1643635427607" />
+    <state width="1323" height="51" key="GridCell.Tab.0.left" timestamp="1643635427607">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="37" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1633698305364" />
-    <state width="1493" height="359" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626076433583" />
-    <state width="1323" height="37" key="GridCell.Tab.0.center" timestamp="1633698305364">
+    <state width="1323" height="51" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1643635427607" />
+    <state width="1323" height="51" key="GridCell.Tab.0.right" timestamp="1643635427608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="37" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1633698305364" />
-    <state width="1493" height="359" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626076433582" />
-    <state width="1323" height="37" key="GridCell.Tab.0.left" timestamp="1633698305364">
+    <state width="1323" height="51" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1643635427608" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1643610303396">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="37" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1633698305364" />
-    <state width="1493" height="359" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626076433582" />
-    <state width="1323" height="37" key="GridCell.Tab.0.right" timestamp="1633698305364">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1643610303396" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1643693467711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="37" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1633698305364" />
-    <state width="1493" height="359" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626076433583" />
-    <state x="183" y="0" key="SettingsEditor" timestamp="1626080894078">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="183" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1626080894078" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1626067647135">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1626067647135" />
-    <state x="309" y="110" key="Vcs.Push.Dialog.v2" timestamp="1625744748477">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="309" y="110" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1625744748477" />
-    <state x="457" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1626083873692">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="457" y="314" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1626083873692" />
-    <state x="209" y="33" key="new project wizard" timestamp="1626081637573">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1626081637573" />
-    <state x="389" y="121" key="refactoring.ChangeSignatureDialog" timestamp="1630316804421">
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1643693467711" />
+    <state x="160" y="191" width="1045" height="281" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1643610292551">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="121" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1630316804421" />
-    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup" timestamp="1632901774953">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1632901774953" />
+    <state x="160" y="191" width="1045" height="281" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1643610292551" />
   </component>
 </project>

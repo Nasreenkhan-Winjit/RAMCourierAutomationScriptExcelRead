@@ -2,7 +2,7 @@
   "values" : [ "Windows 10 64 bit" ],
   "name" : "Platform"
 }, {
-  "values" : [ "91.0.4472.124" ],
+  "values" : [ "97.0.4692.99" ],
   "name" : "Browser\\u0020Version"
 }, {
   "values" : [ "opt" ],
@@ -11,6 +11,6 @@
   "values" : [ "chrome" ],
   "name" : "Browser\\u0020Name"
 }, {
-  "values" : [ "91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288})" ],
+  "values" : [ "97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})" ],
   "name" : "Driver\\u0020Version"
 } ]

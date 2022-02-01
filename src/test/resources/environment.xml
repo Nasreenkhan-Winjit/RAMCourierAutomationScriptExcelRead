@@ -9,7 +9,7 @@
   </parameter>
   <parameter>
     <key>Driver\u0020Version</key>
-    <value>94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204})</value>
+    <value>93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135})</value>
   </parameter>
   <parameter>
     <key>Browser\u0020Name</key>
@@ -17,6 +17,6 @@
   </parameter>
   <parameter>
     <key>Browser\u0020Version</key>
-    <value>94.0.4606.81</value>
+    <value>93.0.4577.82</value>
   </parameter>
 </qa:environment>
