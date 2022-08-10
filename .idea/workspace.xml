@@ -26,8 +26,251 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b918235-46b0-4872-abd2-0e65a336e031" name="Default Changelist" comment="Revert changes and added weigh and dim prod script">
+    <list default="true" id="6b918235-46b0-4872-abd2-0e65a336e031" name="Default Changelist" comment="Prod changes- updated consignment">
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2022-02-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2022-03-16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2022-04-11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2022-04-12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2022-05-06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogDetails/.log.2022-06-23" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31-01-2022_11_49_[Default_Changelist]/ConsignmentDetails.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31-01-2022_11_49_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31-01-2022_11_49__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFiles/excel/Login/ConsignmentDetails.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFiles/excel/Login/ConsignmentDetails.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFiles/excel/Login/LoginDetails.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFiles/excel/Login/LoginDetails.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogDetails/.log" beforeDir="false" afterPath="$PROJECT_DIR$/LogDetails/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PageConsinment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PageConsinment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestPageConsignmentInbound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageConsignmentInbound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestPageConsinment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageConsinment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestPageWeiDimPROD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestPageWeiDimPROD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/environment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/environment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/ConsignmentOutbound.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/ConsignmentOutbound.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/suites/MainSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/suites/MainSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/017b44bd-cf52-42e5-8fb8-dd2b40107278-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/11577bd5-6da1-4446-9495-5f5da708828b-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/15012799-e8b7-45a2-a36f-900590fb413b-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/17b49054-3976-443d-89ab-b80729ba5ebf-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1a8ebfea-dea5-47eb-8d87-15ac42735188-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1c09813e-0203-4d8f-9097-acc01ca11178-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1c8311b1-8c5e-41a7-8509-d216eef07ca2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/216d8fe5-d5ba-4ace-8706-7a3852497318-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/26876d70-ce03-4e98-bb3a-6e0f0ee4269c-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/279cc35d-7715-487f-9015-95d0aa4caa83-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/27e2df6b-8453-410f-bb79-85e6088e0726-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/28090105-12b1-4ab2-8974-94dd9277f60d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2914a1f1-e670-47f7-84c7-d92412f44901-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2f2d86cb-cbd5-4058-90a4-c5e1c2d227c7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/362a0dfe-d054-4961-a746-ec94d77534dd-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4051ffe2-3af1-4c04-9cf7-b98de3bfa803-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/42b36eca-d0dd-4af1-a361-bb28115ec1b7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/510f8b99-94e2-4c33-bd13-c735211b7a5c-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/525ac341-d41a-4e58-8e7b-876ccbb6df6d-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5681c333-c52f-48b2-8e86-6683e1f3f00c-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5aeff0f1-e519-4c9c-8314-efb7002715db-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/631a3925-696a-4ad2-8ae6-071bb06e6b51-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6722706c-9ffc-434a-b4d7-d56e6d115240-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6924f687-0b9f-4733-92fd-29c2b171b624-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6dcc2cdf-cbd0-46df-9714-0c962a2e4825-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/78e7e8e1-c613-4f0b-8920-721c44cbf8a3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/79471e20-4205-4982-aca0-6982847eb07d-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7c544ab8-4c56-4b55-88d8-c6211daad649-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8929c210-c552-426c-b93e-d2e3e7ad46ee-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/8ef60b97-f3b6-4ec7-bf22-33344b450b50-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/911222fa-a44b-4b5b-b696-b6fabf09002e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/93a93675-3896-41ad-a302-4cc2853a849b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9728acba-d31f-484f-aaff-d3e5ac619f38-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9b35ba23-e21f-42de-bad1-b61218783440-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9b4f079e-7ac7-43cf-874b-0fd4d54eaf6d-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9cbbebde-71d1-42b3-a75a-f40ae61f6963-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a6da4f36-ba4d-43d5-9cfb-ebe3d02757a7-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/aefcfd78-345f-4a14-ac2d-722694920ccf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bc0a562e-862d-42d0-946f-c7f007cd7270-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/be5bddb6-4edf-4022-9a58-033767926087-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c2789430-8464-4341-8716-dd4248a5bb22-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c2832e20-6c3e-4a8d-bf8e-1e94f38ed0ea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c3cf9925-f96b-43e1-9d26-81d08eaad99a-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c4e2fc64-f161-46ab-9e05-2d540e979fb9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c4e7ee30-c160-496b-944d-0f93a39d48dc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c58194e2-93c4-4bf6-b627-8ad25df2b931-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c9079e19-985f-4f73-8f45-2865a9e15186-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/da4708f1-2ef2-495e-a32d-5177c3029ecc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/df5720b7-cc3d-43ef-aed5-4ab07c3275a8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e356be1c-cf39-43d0-a464-9143d16683ce-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e62be580-5e51-4493-8947-f4c52a671721-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/eb7b58e9-9e76-4fe5-bd7b-afba6b70ab2d-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ebdadc29-b0b6-4c8e-9188-0fe884ea8afe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/environment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f45c157d-c107-41b3-ac6d-52cf00cb8456-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browsers/BrowserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browsers/DriverManagerWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browsers/EnumBrowserType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browsers/browserType/ChromeBrowser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browsers/browserType/FirefoxBrowser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/browsers/browserType/IEBrowser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/GenericFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/PageConsinment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/PageDashBoard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/PageEditConsignment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/commonmodule/AllBrokenLinks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/commonmodule/Loader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/commonmodule/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/commonmodule/Logout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/4a5193b1a2a594e3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/4c6c9e9de0c50ab8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/4ec911f2bf69ed46.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/52624417b23b5fa8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/782b1f893e43c9c9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/92014a4dd26ce4d5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/99294e3a8127dd36.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/9a1be819c9641bf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/cd94a4bef1475595.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/cfd2b4cbea82e65d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/e2ab29e92f9cbe7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/f5237fb6c4c4921a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/f6520507ed4327c5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/f9da83c1abdc8774.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2022-01-31T12-06-24_043.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2022-01-31T12-07-42_974.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Valid Login Scenario/Check login and logout successfully.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Valid Login Scenario/Check login and logout successfully.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Valid Login Scenario/Test Consignment At Production Environment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Valid Login Scenario/Test Consignment At Production Environment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/reportng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/reportng.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite0_test0_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite0_test1_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test0_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite3_test0_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite3_test1_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.4.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-pages.LoginPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-pages.TestPageConsignmentInboundProd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-pages.TestPageConsignmentOutboundPROD.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-pages.TestPageRMSProd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Valid Login Scenario/Check login and logout successfully.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Valid Login Scenario/Test Consignment At Production Environment.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Valid Login Scenario/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Valid Login Scenario/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Valid Login Scenario/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Valid Login Scenario/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Valid Login Scenario/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Valid Login Scenario/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Valid Login Scenario/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Valid Login Scenario/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Valid Login Scenario/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Valid Login Scenario/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/pages.LoginPageTest_results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/pages.TestPageConsignmentInboundProd_results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/pages.TestPageConsignmentOutboundPROD_results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/pages.TestPageRMSProd_results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/csv/LoginCredentialsOpt.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/excel/Login/LoginDetails.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/environment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DataProviderList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TestPageConsignmentInbound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TestPageConsignmentInboundProd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TestPageConsignmentOutboundPROD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TestPageConsinment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TestPageEditConsignmentUAT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TestPageLoginSecurity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TestPageRMSProd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TestPageRMSUAT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TestPageSingleSignOn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TestPageSingleSignOnProd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/ConsignmentInbound.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/ConsignmentInboundProd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/ConsignmentOutbound.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/ConsignmentProd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/EditConsignmentUAT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/MainSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/RMSTestOnProd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/RMSTestOnUAT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/SingleSignOnTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/SingleSignOnTestProd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/TestPageLoginSecurity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/common/ScreenShots.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/filereading/EnumFileType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/filereading/files/csv/CSVRead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/filereading/files/excel/FilloExcelRead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/filereading/files/excel/FilloExcelWrite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/filereading/files/properties/ReadProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/filereading/files/xml/EnvironmentXml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/filereading/io/FileLocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/listener/TestListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/listener/WebEventListener.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +314,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Users/Public/Downloads" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MMA-Automation/SeleniumTestJavaArtifact/pom.xml" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -459,37 +702,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="Revert changes and added weigh and dim prod script" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="51" key="GridCell.Tab.0.bottom" timestamp="1643635427608">
+    <state width="1323" height="301" key="GridCell.Tab.0.bottom" timestamp="1656422842965">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="51" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1643635427608" />
-    <state width="1323" height="51" key="GridCell.Tab.0.center" timestamp="1643635427607">
+    <state width="1323" height="301" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1656422842965" />
+    <state width="1323" height="301" key="GridCell.Tab.0.center" timestamp="1656422842965">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="51" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1643635427607" />
-    <state width="1323" height="51" key="GridCell.Tab.0.left" timestamp="1643635427607">
+    <state width="1323" height="301" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1656422842965" />
+    <state width="1323" height="301" key="GridCell.Tab.0.left" timestamp="1656422842965">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="51" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1643635427607" />
-    <state width="1323" height="51" key="GridCell.Tab.0.right" timestamp="1643635427608">
+    <state width="1323" height="301" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1656422842965" />
+    <state width="1323" height="301" key="GridCell.Tab.0.right" timestamp="1656422842965">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="51" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1643635427608" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1643694423254">
+    <state width="1323" height="301" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1656422842965" />
+    <state x="160" y="245" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1659530722630">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1643694423254" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1643610303396">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1643610303396" />
-    <state x="107" y="106" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1643693824960">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="107" y="106" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1643693824960" />
-    <state x="160" y="191" width="1045" height="281" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1643694305806">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="160" y="191" width="1045" height="281" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1643694305806" />
+    <state x="160" y="245" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1659530722630" />
   </component>
 </project>

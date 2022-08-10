@@ -20,7 +20,7 @@
         <classes>
             <class name="pages.TestPageConsinment">
                 <methods>
-                    <include name="doStartPrinterSetup"></include>
+<!--                    <include name="doStartPrinterSetup"></include>-->
                     <include name="clickOnConsignment"></include>
                     <include name="clickOnAccordian"></include>
                     <include name="verifyValueStepperIsNotPresentOnSelectionOfDoc"></include>

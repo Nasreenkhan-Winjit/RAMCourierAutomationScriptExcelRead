@@ -125,7 +125,7 @@ public class TestPageConsignmentInbound extends TestBase {
             pageConsignment.clickOnNewSubmitButton();
             Thread.sleep(30000);
             pageConsignment.clickOnStepReciever();
-            pageConsignment.clickOnReceiverResetButton();
+//            pageConsignment.clickOnReceiverResetButton();-------------------Temp change due to Issue of default issue
             Thread.sleep(2000);
             pageConsignment.entertxtRecieverName(testDataSet.get("NewReceiverName"));
 //latest comment due to issue

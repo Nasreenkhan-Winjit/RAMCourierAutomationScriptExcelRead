@@ -63,18 +63,18 @@ public class TestPageWeiDimPROD extends TestBase {
         Thread.sleep(5000);
 
         pageConsignment.enterTxtConsignmentID(("34343434333"), Keys.ENTER);
-        Thread.sleep(5000);
+        Thread.sleep(8000);
 //        pageConsignment.enterTxtConsignmentID(testDataSet.get("             "), Keys.ENTER);
 //        Thread.sleep(5000);
         pageConsignment.enterTxtConsignmentID(("UAT12221212"), Keys.ENTER);
-        Thread.sleep(5000);
+        Thread.sleep(8000);
         pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"), Keys.ENTER);
 
-        Thread.sleep(17000);
+        Thread.sleep(20000);
         pageConsignment.clickOnDoneButton();
         Thread.sleep(2000);
         pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"), Keys.ENTER);
-        Thread.sleep(9000);
+        Thread.sleep(20000);
         pageConsignment.entertxtLength(testDataSet.get("Length"));
 
         pageConsignment.entertxtBreadth(testDataSet.get("Breadth"));
@@ -103,7 +103,7 @@ public class TestPageWeiDimPROD extends TestBase {
 
         pageConsignment.enterTxtConsignmentID("PROD01121001.001", Keys.ENTER);
 
-        Thread.sleep(15000);
+        Thread.sleep(20000);
         pageConsignment.selectPackageType01();
         Thread.sleep(2000);
         pageConsignment.selectFromMenuCustom();
@@ -133,7 +133,7 @@ public class TestPageWeiDimPROD extends TestBase {
 
         pageConsignment.enterTxtConsignmentID("PROD01121002", Keys.ENTER);
 
-        Thread.sleep(15000);
+        Thread.sleep(20000);
         pageConsignment.selectPackageType01();
         Thread.sleep(5000);
         pageConsignment.selectFromMenuCustom();
@@ -213,7 +213,7 @@ public class TestPageWeiDimPROD extends TestBase {
         Thread.sleep(7000);
 
         pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"), Keys.ENTER);
-        Thread.sleep(15000);
+        Thread.sleep(20000);
 
         pageConsignment.selectPackageType01();
         Thread.sleep(5000);
@@ -269,7 +269,7 @@ public class TestPageWeiDimPROD extends TestBase {
         Thread.sleep(7000);
 
         pageConsignment.enterTxtConsignmentID("PROD01121003.001", Keys.ENTER);
-        Thread.sleep(20000);
+        Thread.sleep(25000);
 
         pageConsignment.clickOnPrintButton();
         Thread.sleep(9000);
@@ -295,7 +295,7 @@ public class TestPageWeiDimPROD extends TestBase {
         Thread.sleep(9000);
         pageDashBoard.clickOnRMSPortal();
 
-        Thread.sleep(5000);
+        Thread.sleep(10000);
 
 //        pageDashBoard.clickOnSearchAndReport();
         Thread.sleep(9000);

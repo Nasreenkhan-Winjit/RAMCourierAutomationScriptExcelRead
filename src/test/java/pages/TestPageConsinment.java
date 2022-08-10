@@ -23,13 +23,7 @@ public class TestPageConsinment extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Description("Verify valid user are allowed to access")
 
-    @Test
-    public void doStartPrinterSetup() throws InterruptedException {
-        Thread.sleep(30000);
-        pageConsignment.clickOnSettingsIcon();
 
-
-    }
 
     @Test
     public void clickOnConsignment() throws InterruptedException {
@@ -64,7 +58,7 @@ public class TestPageConsinment extends TestBase {
     @Test
     public void verifyValueStepperIsNotPresentOnSelectionOfDoc() throws InterruptedException {
         pageConsignment = new PageConsinment(eventFiringWebDriver);
-        Thread.sleep(15000);
+        Thread.sleep(20000);
 //        pageConsignment.clickOnConsignmentDropdown();
 //        Thread.sleep(5000);
         pageConsignment.clickOnSettingsIcon();

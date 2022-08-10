@@ -7,11 +7,13 @@ pages\TestPageConsignmentOutboundPROD.class
 pages\TestPageEditConsignmentUAT.class
 pages\TestPageRMSProd.class
 utilities\filereading\files\properties\ReadProperties.class
+pages\TestPageWeiDimPROD.class
 utilities\filereading\files\xml\EnvironmentXml.class
 pages\TestBase.class
 pages\TestPageConsinment.class
 utilities\listener\TestListener.class
 pages\LoginPageTest.class
+pages\TestPageWeiDimUAT.class
 utilities\filereading\files\csv\CSVRead.class
 pages\TestPageConsignmentInboundProd.class
 utilities\filereading\files\excel\FilloExcelWrite.class

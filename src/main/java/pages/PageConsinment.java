@@ -575,7 +575,7 @@ public class PageConsinment extends BasePage {
     @FindBy(how = How.XPATH, using = "//input[@id='Business_GroupName']")
     private WebElement elementEnterBusinessGroupName;
 
-    @FindBy(how = How.XPATH, using = "//div[contains(text(),'RAM Hand to Hand Couriers')]")
+    @FindBy(how = How.XPATH, using = "//div[contains(text(),'Ackermans')]")
     private WebElement elementSelectBusinessGroupName;
 
     @FindBy(how = How.XPATH, using = "//div[contains(text(),'STANLEY STUDIO')]")
@@ -585,7 +585,7 @@ public class PageConsinment extends BasePage {
     private WebElement elementEnterBusinessName;
 
     //  @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[contains(text(),'RAM Business Office')]")
-    @FindBy(how = How.XPATH, using = "//span[contains(text(),'RAM Business Office')]")
+    @FindBy(how = How.XPATH, using = "//span[contains(text(),'ackermans update')]")
     private WebElement elementSelectBusinessName;
 
     @FindBy(how = How.XPATH, using = "//span[contains(text(),'STUDIO 88 - MUSINA SHOPPING CENTRE')]")
