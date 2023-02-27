@@ -22,6 +22,8 @@ import pages.commonmodule.Login;
 import java.security.Key;
 import java.util.List;
 
+import static org.apache.commons.math3.ml.neuralnet.FeatureInitializerFactory.function;
+
 public class PageConsinment extends BasePage {
 
     //    Actions actions;
@@ -230,7 +232,7 @@ public class PageConsinment extends BasePage {
     @CacheLookup
 //    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@class='v-list__tile__content'][1]")
 //    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[contains(text(),'Surekha Jadhav - 2412434324')]")
-    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]")
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][2]")
     private WebElement elementMenuRecieverName;
 
     @CacheLookup
@@ -585,7 +587,7 @@ public class PageConsinment extends BasePage {
     private WebElement elementEnterBusinessName;
 
     //  @FindBy(how= How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active v-autocomplete__content']//div[contains(text(),'RAM Business Office')]")
-    @FindBy(how = How.XPATH, using = "//span[contains(text(),'RAM Business Office')]")
+    @FindBy(how = How.XPATH, using = "//span[contains(text(),'RAM Business')]")
     private WebElement elementSelectBusinessName;
 
     @FindBy(how = How.XPATH, using = "//span[contains(text(),'STUDIO 88 - MUSINA SHOPPING CENTRE')]")
@@ -842,7 +844,8 @@ public class PageConsinment extends BasePage {
     @FindBy(how = How.XPATH, using = "//i[@class='v-icon ti ti-files theme--light']")
     private WebElement elementButtonClickOnActions;
 
-    @FindBy(how = How.XPATH, using = "//i[contains(text(),'check_box')]")
+//    @FindBy(how = How.XPATH, using = "//i[contains(text(),'check_box')]")
+    @FindBy(how = How.XPATH, using = "//body/div[@id='inspire']/div[45]/div[1]/main[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]")
     private WebElement elementClickOnCheckBoxOnPrintLabels;
 
     @FindBy(how = How.XPATH, using = "//div[contains(text(),'Save')]")
@@ -878,6 +881,23 @@ public class PageConsinment extends BasePage {
 
     @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]")
     private WebElement elementSelectnReprintReasonFromDD;
+
+    @FindBy(how = How.XPATH, using = "//input[@id='BilledTo']")
+    private  WebElement elementClickOnBilledToField;
+
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][2]")
+    private  WebElement elementSelectBilledToFECO02;
+
+    @FindBy(how = How.XPATH, using = "//input[@id='SearchAutocomplete_Sender']")
+    private  WebElement elementClickOnSenderField;
+
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]")
+    private  WebElement selectSenderAddressFromMenu;
+
+    @FindBy(how = How.XPATH, using = "//input[@id= 'PrintLabels']")
+    private  WebElement clickOnPrintLabelsCheckBox;
+
+
 
 
     @Step("Click on Reprint Reson dropdown")
@@ -936,7 +956,7 @@ public class PageConsinment extends BasePage {
     }
 
 
-    @Step("Click on Check box on print labels")
+    @Step("Uncheck the print label check to generate the PDF Waybill")
     public void clickOnPrintLabels() {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnCheckBoxOnPrintLabels));
         elementClickOnCheckBoxOnPrintLabels.click();
@@ -1649,12 +1669,15 @@ public class PageConsinment extends BasePage {
 
     @Step("Enter txt consignment : \"{0}\"")
     public void enterTxtConsignmentID(String txt, Keys keys) {
-//        loader.waitForLoaderToDispose();
+
         webDriverWait.until(ExpectedConditions.visibilityOf(elementtxtConsignmentID));
         elementtxtConsignmentID.sendKeys(Keys.CONTROL + "a");
         elementtxtConsignmentID.sendKeys(Keys.DELETE);
         elementtxtConsignmentID.sendKeys(txt, keys);
-//        actions.sendKeys();
+
+
+//        function (UAT)
+//            return UAT + '-' + Math.random().toString(8).slice(2);
     }
 
     @Step("Enter txt consignment : \"{0}\"")
@@ -1995,7 +2018,8 @@ public class PageConsinment extends BasePage {
         elementtxtShipperReference.sendKeys(txt, Keys.ENTER);
 //        elementtxtShipperReference.sendKeys(Keys.CONTROL+"a");
 //        elementtxtShipperReference.sendKeys(Keys.DELETE);
-        elementtxtShipperReference.sendKeys(txt);
+        // Commented for autogen code
+//        elementtxtShipperReference.sendKeys(txt);
     }
 
     @Step("Enter Text for Shipper Reference")
@@ -2346,6 +2370,7 @@ public class PageConsinment extends BasePage {
     @Step("Click on Security Pack")
     public void clickOnSecurityPack(String txt) {
         webDriverWait.until(ExpectedConditions.visibilityOf(elementSecurityPack));
+
         elementSecurityPack.sendKeys(txt, Keys.TAB);
 
     }
@@ -2719,6 +2744,33 @@ public class PageConsinment extends BasePage {
 
         elementClickOnDeleteIconEditConsignmentAppRAM.click();
     }
+
+//// External Profile Outbound Consignment ///////////////////////////////////////////////
+
+
+  @Step("Click On Billed to Field and select FECO02 Billedto")
+  public void clickOnBilledToFieldAndSelect() {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnBilledToField));
+        elementClickOnBilledToField.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectBilledToFECO02));
+        elementSelectBilledToFECO02.click();
+
+    }
+    @Step("Click and Select Sender Address")
+    public  void clickOnSenderFieldAndSelectAddress(String txt){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnSenderField));
+        elementClickOnSenderField.click();
+        elementClickOnSenderField.sendKeys(txt);
+    }
+
+    @Step(" Select Sender Address from menu")
+    public  void clickOnSenderMenuAndSelectAddress(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(selectSenderAddressFromMenu));
+        selectSenderAddressFromMenu.click();
+
+    }
+
 
 
 }

@@ -41,8 +41,12 @@ public class TestPageConsignmentInbound extends TestBase {
 
 //            Thread.sleep(5000);
             pageDashBoard.clickOnConsignViaAccordion();
+            Thread.sleep(5000);
+            pageDashBoard.clickOnPopUpInternalUser();
+
             ArrayList<String> tabsCount = new ArrayList<>(eventFiringWebDriver.getWindowHandles());
             eventFiringWebDriver.switchTo().window(tabsCount.get(1));
+
         }
 
 
@@ -125,7 +129,7 @@ public class TestPageConsignmentInbound extends TestBase {
             pageConsignment.clickOnNewSubmitButton();
             Thread.sleep(30000);
             pageConsignment.clickOnStepReciever();
-            pageConsignment.clickOnReceiverResetButton();
+//            pageConsignment.clickOnReceiverResetButton();
             Thread.sleep(2000);
             pageConsignment.entertxtRecieverName(testDataSet.get("NewReceiverName"));
 //latest comment due to issue
@@ -277,15 +281,20 @@ public class TestPageConsignmentInbound extends TestBase {
 
         pageConsignment.clickOnStepReciever();
         Thread.sleep(4000);
-        pageConsignment.clickOnReceiverNewContactButton();
+//        pageConsignment.entertxtRecieverName(testDataSet.get("ReceiverName2"));
+        pageConsignment.entertxtRecieverName("GAMMATEK");
 
-        pageConsignment.enterRcvNewContactFirstName(testDataSet.get("RcvNewContactFirstName"));
+        pageConsignment.selectMenuRecieverName();
 
-        pageConsignment.enterRcvNewContactLastName(testDataSet.get("RcvNewContactLastName"));
-        pageConsignment.enterRcvNewContactPrimaryTelNumber(testDataSet.get("RcvNewContactPrimaryTelNumber"));
-        pageConsignment.enterRcvNewContactEmailAddress(testDataSet.get("RcvNewContactEmailAddress"));
-
-        pageConsignment.enterRcvSaveButtonAtNewContact();
+//        pageConsignment.clickOnReceiverNewContactButton();
+//
+//        pageConsignment.enterRcvNewContactFirstName(testDataSet.get("RcvNewContactFirstName"));
+//
+//        pageConsignment.enterRcvNewContactLastName(testDataSet.get("RcvNewContactLastName"));
+//        pageConsignment.enterRcvNewContactPrimaryTelNumber(testDataSet.get("RcvNewContactPrimaryTelNumber"));
+//        pageConsignment.enterRcvNewContactEmailAddress(testDataSet.get("RcvNewContactEmailAddress"));
+//
+//        pageConsignment.enterRcvSaveButtonAtNewContact();
         Thread.sleep(30000);
 //        loader.waitForLoaderToDispose();
         pageConsignment.clickOnStepValue();

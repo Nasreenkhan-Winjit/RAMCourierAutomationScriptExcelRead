@@ -1,0 +1,93 @@
+2023-02-20/17:31:13.754  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2023-02-20/17:31:13.774  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2023-02-20/17:31:14.920  INFO: wdm.WebDriverManager - Using chromedriver 109.0.5414.74 (since Chrome 109 is installed in your machine)
+2023-02-20/17:31:14.949  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nasreenk\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
+2023-02-20/17:31:18.310  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2023-02-20/17:31:18.337  INFO: listener.WebEventListener - After Navigated to URL: data:,
+2023-02-20/17:31:47.086  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2023-02-20/17:31:47.144  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2023-02-20/17:31:47.257  INFO: listener.WebEventListener - Default Value :
+2023-02-20/17:31:47.382  INFO: listener.WebEventListener - Entered Value :
+2023-02-20/17:31:47.477  INFO: listener.WebEventListener - Default Value :
+2023-02-20/17:31:47.611  INFO: listener.WebEventListener - Entered Value :Nasreenk@winjit.com
+2023-02-20/17:31:47.615  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2023-02-20/17:31:47.632  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2023-02-20/17:31:47.721  INFO: listener.WebEventListener - Default Value :
+2023-02-20/17:31:47.814  INFO: listener.WebEventListener - Entered Value :
+2023-02-20/17:31:47.878  INFO: listener.WebEventListener - Default Value :
+2023-02-20/17:31:48.004  INFO: listener.WebEventListener - Entered Value :Nasreenk@winjit.com
+2023-02-20/17:31:48.005  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2023-02-20/17:31:48.022  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2023-02-20/17:31:48.049  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2023-02-20/17:31:48.097  INFO: listener.WebEventListener - after click on
+2023-02-20/17:32:08.285 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2023-02-20/17:32:09.078 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2023-02-20/17:32:39.378  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2023-02-20/17:32:39.579  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='flex xs1 md1']]
+2023-02-20/17:32:39.663  INFO: listener.WebEventListener - after click on
+2023-02-20/17:32:39.672 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2023-02-20/17:32:40.418 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2023-02-20/17:33:01.444  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header
+2023-02-20/17:33:01.498  INFO: listener.WebEventListener - beforeClickOn css selector: .v-expansion-panel__container:nth-child(5) .panel-header]
+2023-02-20/17:33:01.567  INFO: listener.WebEventListener - after click on
+2023-02-20/17:33:01.567  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]
+2023-02-20/17:33:06.676  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-input v-text-field v-text-field--box v-text-field--enclosed v-text-field--placeholder v-select theme--light select_label-black ']//div[@class= 'v-menu']//..
+2023-02-20/17:33:06.731  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-input v-text-field v-text-field--box v-text-field--enclosed v-text-field--placeholder v-select theme--light select_label-black ']//div[@class= 'v-menu']//..
+2023-02-20/17:33:06.762  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-input v-text-field v-text-field--box v-text-field--enclosed v-text-field--placeholder v-select theme--light select_label-black ']//div[@class= 'v-menu']//..
+2023-02-20/17:33:06.782  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-input v-text-field v-text-field--box v-text-field--enclosed v-text-field--placeholder v-select theme--light select_label-black ']//div[@class= 'v-menu']//..]
+2023-02-20/17:33:06.832  INFO: listener.WebEventListener - after click on
+2023-02-20/17:33:06.832  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]
+2023-02-20/17:33:06.866  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]
+2023-02-20/17:33:07.140  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]
+2023-02-20/17:33:07.415  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]
+2023-02-20/17:33:07.462  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]
+2023-02-20/17:33:07.515  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]
+2023-02-20/17:33:07.531  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]]
+2023-02-20/17:33:07.624  INFO: listener.WebEventListener - after click on
+2023-02-20/17:33:07.673  INFO: listener.WebEventListener - After Switch to Window
+2023-02-20/17:33:07.681 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2023-02-20/17:33:08.353 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2023-02-20/17:33:08.391 ERROR: allure.AllureLifecycle - Could not add attachment: no test is running
+2023-02-20/17:53:49.972  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2023-02-20/17:53:49.976  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2023-02-20/17:53:50.394  INFO: wdm.WebDriverManager - Using chromedriver 109.0.5414.74 (since Chrome 109 is installed in your machine)
+2023-02-20/17:53:50.419  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nasreenk\.m2\repository\webdriver\chromedriver\win32\109.0.5414.74\chromedriver.exe
+2023-02-20/17:53:52.798  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2023-02-20/17:53:52.815  INFO: listener.WebEventListener - After Navigated to URL: data:,
+2023-02-20/17:54:21.875  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2023-02-20/17:54:21.905  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='email' or @type='text']
+2023-02-20/17:54:22.014  INFO: listener.WebEventListener - Default Value :
+2023-02-20/17:54:22.170  INFO: listener.WebEventListener - Entered Value :
+2023-02-20/17:54:22.251  INFO: listener.WebEventListener - Default Value :
+2023-02-20/17:54:22.402  INFO: listener.WebEventListener - Entered Value :Nasreenk@winjit.com
+2023-02-20/17:54:22.407  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2023-02-20/17:54:22.423  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::input[@type='password']
+2023-02-20/17:54:22.512  INFO: listener.WebEventListener - Default Value :
+2023-02-20/17:54:22.605  INFO: listener.WebEventListener - Entered Value :
+2023-02-20/17:54:22.668  INFO: listener.WebEventListener - Default Value :
+2023-02-20/17:54:22.775  INFO: listener.WebEventListener - Entered Value :Nasreenk@winjit.com
+2023-02-20/17:54:22.776  INFO: listener.WebEventListener - Before Finding element: By.xpath: //form[1]
+2023-02-20/17:54:22.794  INFO: listener.WebEventListener - Before Finding element: By.xpath: //child::*[@type='submit']
+2023-02-20/17:54:22.824  INFO: listener.WebEventListener - beforeClickOn xpath: //form[1]]] 
+2023-02-20/17:54:22.871  INFO: listener.WebEventListener - after click on
+2023-02-20/17:55:14.230  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='flex xs1 md1']
+2023-02-20/17:55:14.441  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='flex xs1 md1']]
+2023-02-20/17:55:14.511  INFO: listener.WebEventListener - after click on
+2023-02-20/17:55:36.275  INFO: listener.WebEventListener - Before Finding element: By.cssSelector: .v-expansion-panel__container:nth-child(5) .panel-header
+2023-02-20/17:55:36.321  INFO: listener.WebEventListener - beforeClickOn css selector: .v-expansion-panel__container:nth-child(5) .panel-header]
+2023-02-20/17:55:36.389  INFO: listener.WebEventListener - after click on
+2023-02-20/17:55:36.390  INFO: listener.WebEventListener - Before Finding element: By.xpath: //ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]
+2023-02-20/17:55:41.511  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-input v-text-field v-text-field--box v-text-field--enclosed v-text-field--placeholder v-select theme--light select_label-black ']//div[@class= 'v-menu']//..
+2023-02-20/17:55:41.568  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-input v-text-field v-text-field--box v-text-field--enclosed v-text-field--placeholder v-select theme--light select_label-black ']//div[@class= 'v-menu']//..
+2023-02-20/17:55:41.590  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-input v-text-field v-text-field--box v-text-field--enclosed v-text-field--placeholder v-select theme--light select_label-black ']//div[@class= 'v-menu']//..
+2023-02-20/17:55:41.611  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-input v-text-field v-text-field--box v-text-field--enclosed v-text-field--placeholder v-select theme--light select_label-black ']//div[@class= 'v-menu']//..]
+2023-02-20/17:55:41.656  INFO: listener.WebEventListener - after click on
+2023-02-20/17:55:41.656  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]
+2023-02-20/17:55:41.685  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]
+2023-02-20/17:55:41.957  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]
+2023-02-20/17:55:42.235  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]
+2023-02-20/17:55:42.293  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]
+2023-02-20/17:55:42.308  INFO: listener.WebEventListener - Before Finding element: By.xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]
+2023-02-20/17:55:42.318  INFO: listener.WebEventListener - beforeClickOn xpath: //div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]]
+2023-02-20/17:55:42.406  INFO: listener.WebEventListener - after click on
+2023-02-20/17:55:42.438  INFO: listener.WebEventListener - After Switch to Window

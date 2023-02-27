@@ -15,7 +15,7 @@
                 <methods>
                     <include name="clickOnConsignment"></include>
                     <include name="clickOnAccordian"></include>
-                    <include name="consignmentInboundEmailAndSave"></include>
+<!--                    <include name="consignmentInboundEmailAndSave"></include>-->
                     <include name="consignmentInboundSave"></include>
                 </methods>
             </class>

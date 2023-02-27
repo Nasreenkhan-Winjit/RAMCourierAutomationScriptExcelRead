@@ -57,6 +57,9 @@ public class TestPageConsinment extends TestBase {
 
         Thread.sleep(5000);
         pageDashBoard.clickOnConsignViaAccordion();
+        Thread.sleep(5000);
+        pageDashBoard.clickOnPopUpInternalUser();
+
         ArrayList<String> tabsCount = new ArrayList<>(eventFiringWebDriver.getWindowHandles());
         eventFiringWebDriver.switchTo().window(tabsCount.get(1));
     }
@@ -88,7 +91,8 @@ public class TestPageConsinment extends TestBase {
 
 
 
-        pageConsignment.enterTxtConsignmentID("UAT00010001", Keys.ENTER);
+//        pageConsignment.enterTxtConsignmentID("UAT09001611", Keys.ENTER);
+        pageConsignment.enterTxtConsignmentID("UAT09001611", Keys.ENTER);
         Thread.sleep(15000);
         pageConsignment.enterTxtBilledTo("GAMM03");
         Thread.sleep(8000);
@@ -457,7 +461,7 @@ public class TestPageConsinment extends TestBase {
 
         pageConsignment.entertxtweight("0.1");
 
-        //pageConsinment.clickOnPackageType();
+//        pageConsinment.clickOnPackageType();
 //        Thread.sleep(8000);
 //
         pageConsignment.clickOnFinaliseConsignment();

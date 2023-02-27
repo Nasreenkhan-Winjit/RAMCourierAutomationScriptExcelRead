@@ -193,6 +193,21 @@ public class PageDashBoard extends BasePage {
     @FindBy(how = How.XPATH, using = "//tbody/tr[3]/td[8]/input[1]")
     private WebElement elementClickOnSaveBtn2ROnRMSWeiDim;
 
+    @FindBy(how = How.XPATH, using = "//div[contains(text(),'INTERNAL USER')]")
+    private  WebElement elementClickOnInternalUser;
+
+    @FindBy(how = How.XPATH, using = "//div[@class='v-input v-text-field v-text-field--box v-text-field--enclosed v-text-field--placeholder v-select theme--light select_label-black ']//div[@class= 'v-menu']//..")
+    private  WebElement elementClickOnCompanyArrowDD;
+
+
+     @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][1]")
+     private  WebElement elementSelectCompanyAssignedMultipleBilledto;
+
+     @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light v-menu__content--fixed menuable__content__active']//div[@role='listitem'][2]")
+     private  WebElement elementSelectCompanyAssignedSingleBilledto;
+
+
+
 
     //    @FindBy(how = How.XPATH, using = "//*[normalize-space(text())='SEARCH/REPORTS']")
     @FindBy(how = How.CSS, using = "span#titleSearchReports")
@@ -438,6 +453,13 @@ public class PageDashBoard extends BasePage {
 
         scrollToElement(elementConsignAccordion);
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", elementConsignAccordion);
+
+    }
+
+
+    public void clickOnPopUpInternalUser(){
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnInternalUser));
+        elementClickOnInternalUser.click();
     }
 
     public void clickOnSearchboxTypeConsign() {
@@ -943,6 +965,23 @@ public class PageDashBoard extends BasePage {
 
 
     }
+
+    //External User Page configuration////////////
+    public void clickOnExternalUserCompanyArrowDD() {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnCompanyArrowDD));
+        elementClickOnCompanyArrowDD.click();
+        }
+
+    public void selectCompanyAssignedMultipleBilledTos() {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectCompanyAssignedMultipleBilledto));
+     elementSelectCompanyAssignedMultipleBilledto.click();
+        }
+
+        public void selectCompanyAssignedSingleBilledTo() {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectCompanyAssignedSingleBilledto));
+            elementSelectCompanyAssignedSingleBilledto.click();
+        }
+
 
 
 }

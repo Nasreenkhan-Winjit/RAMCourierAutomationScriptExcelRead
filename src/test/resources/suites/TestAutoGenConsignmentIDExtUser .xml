@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Valid Login Scenario">
+    <listeners>
+        <listener class-name="utilities.listener.TestListener"/>
+    </listeners>
+    <test name="Check login and logout successfully">
+        <classes>
+            <class name="pages.LoginPageTest"/>
+        </classes>
+    </test>
+    <test name="Test Consignment ExternalUser assigned SingleBilledTos">
+        <classes>
+            <class name="pages.TestAutoGenConsignmentIDExtUser">
+                <methods>
+                    <include name="clickOnConsignment"></include>
+                    <include name="clickOnAccordianAndSelectExternalUserCompany"></include>
+                    <include name="externalUserAutoGenConsignmentIDOutbound"></include>
+                    <include name="externalUserAutoGenConsignmentInbound"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
