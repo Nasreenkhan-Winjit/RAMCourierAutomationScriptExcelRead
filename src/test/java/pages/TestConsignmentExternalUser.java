@@ -47,7 +47,7 @@ public class TestConsignmentExternalUser extends TestBase {
 //    @Test()
     public void externalUserConsignmentOutbound(Map<String, String> testDataSet) throws InterruptedException {
         pageConsignment = new PageConsinment(eventFiringWebDriver);
-        Thread.sleep(15000);
+        Thread.sleep(25000);
 
         pageConsignment.clickOnBilledToFieldAndSelect();
         Thread.sleep(5000);
@@ -159,8 +159,8 @@ public class TestConsignmentExternalUser extends TestBase {
     @Test(dataProviderClass = DataProviderList.class, dataProvider = "ExternalInboundConsignment")
 //    @Test()
     public void externalUserConsignmentInbound(Map<String, String> testDataSet) throws InterruptedException {
-//        pageConsignment = new PageConsinment(eventFiringWebDriver);
-//        Thread.sleep(15000);
+        pageConsignment = new PageConsinment(eventFiringWebDriver);
+        Thread.sleep(15000);
 
         pageConsignment.clickOnBilledToFieldAndSelect();
         Thread.sleep(5000);
@@ -168,14 +168,13 @@ public class TestConsignmentExternalUser extends TestBase {
         if (pageConsignment.clickOnLogisticTypeFieldAndVerify() == 0) {
 
             pageConsignment.clickOnLogisticTypeAndSelectInbound() ;
-            Thread.sleep(4000);
+            Thread.sleep(10000);
 
         } else {
 
             System.out.println("Logistic Type Field value is Present");
         }
 
-        Thread.sleep(4000);
         pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"), Keys.ENTER);
 
         Thread.sleep(15000);
