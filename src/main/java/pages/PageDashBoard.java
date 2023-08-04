@@ -37,6 +37,11 @@ public class PageDashBoard extends BasePage {
     @FindBy(how = How.XPATH, using = "//ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign')]")
     private WebElement elementConsignAccordion;
 
+   @CacheLookup
+    //@FindBy(how = How.XPATH,using = "//ul[contains(@class,'v-expansion-panel')]/li[5]/../..//label[normalize-space(text())='Consign']")
+    @FindBy(how = How.XPATH, using = "//ul[contains(@class,'v-expansion-panel')]/li[5]//u[contains(text(),'Consign (Pilot)')]")
+    private WebElement elementConsign_PilotAccordion;
+
     @FindBy(how = How.XPATH, using = "//div[@class='v-input noTranform v-text-field v-text-field--single-line v-text-field--solo v-text-field--enclosed v-text-field--placeholder v-select v-autocomplete theme--light']//div[@class='v-input__slot']")
     private WebElement elementConsignSearch;
 
@@ -453,6 +458,25 @@ public class PageDashBoard extends BasePage {
 
         scrollToElement(elementConsignAccordion);
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", elementConsignAccordion);
+
+    }
+
+    public void clickOnConsignPilotViaAccordion() throws InterruptedException {
+//        System.out.println("Applauncher before"+ elementApplauncher.isDisplayed());
+//        webDriverWait.until(ExpectedConditions.visibilityOf(elementApplauncher));
+////        elementApplauncher.isDisplayed();
+
+
+        // new change Inbound
+//        System.out.println("Applauncher displayed"+ elementApplauncher.isDisplayed());
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementAvailableAccordion));
+
+        elementAvailableAccordion.click();
+//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", elementConsignAccordion);
+
+        scrollToElement(elementConsign_PilotAccordion);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", elementConsign_PilotAccordion);
 
     }
 

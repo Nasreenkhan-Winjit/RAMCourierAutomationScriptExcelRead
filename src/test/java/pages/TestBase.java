@@ -2,6 +2,7 @@ package pages;
 
 import browsers.BrowserFactory;
 import browsers.DriverManagerWeb;
+import browsers.EnumBrowserType;
 import common.GenericFunction;
 import io.qameta.allure.Step;
 import org.apache.log4j.BasicConfigurator;
@@ -17,6 +18,8 @@ import org.testng.annotations.BeforeSuite;
 import utilities.filereading.files.properties.ReadProperties;
 import utilities.filereading.files.xml.EnvironmentXml;
 import utilities.listener.WebEventListener;
+
+import java.time.Duration;
 import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
@@ -34,8 +37,8 @@ public class TestBase {
         IS_BROWSER_OPENED = true;
 
         BasicConfigurator.configure();
-
-        driverManager = BrowserFactory.getManager(readProperties.getPropertyValue("BROWSER_NAME"));
+        System.out.println(".   " + readProperties.getPropertyValue("BROWSER_NAME"));
+        driverManager = BrowserFactory.getManager(EnumBrowserType.getBrowserEnum(readProperties.getPropertyValue("BROWSER_NAME").toUpperCase()));
         webDriver = driverManager.getWebDriver();
 
         // Initializing EventFiringWebDriver using WebDriver instance
@@ -97,7 +100,9 @@ public class TestBase {
     }
 
     public void waitForPageLoad() {
-        Wait<WebDriver> wait = new WebDriverWait(webDriver, Integer.parseInt(readProperties.getPropertyValue("DEFAULT_ELEMENT_WAIT_TIMEOUT")));
+        Wait<WebDriver> wait = new WebDriverWait(webDriver,Duration.ofSeconds(Integer.parseInt(readProperties.getPropertyValue("DEFAULT_ELEMENT_WAIT_TIMEOUT"))));
+//        Wait<WebDriver> wait = new WebDriverWait(webDriver, Duration.ofSeconds(360));
+//        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(360));
         wait.until(driver -> {
             System.out.println("Current Window State: " + ((JavascriptExecutor) driver).executeScript("return document.readyState"));
             return String.valueOf(((JavascriptExecutor) Objects.requireNonNull(driver)).executeScript("return document.readyState")).equals("complete");

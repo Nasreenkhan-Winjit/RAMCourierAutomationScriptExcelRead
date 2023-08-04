@@ -83,6 +83,12 @@ public class DataProviderList {
         return reader.getDataFromSheet(" AutoGenInboundConsignmentID");
     }
 
+    @DataProvider(name = "firearmConsignment")
+    public Object[][] firearmConsignment() throws FilloException {
+        FilloExcelRead reader = new FilloExcelRead(filePath + "\\excel\\Login\\ConsignmentDetails.xlsx");
+        return reader.getDataFromSheet(" firearmConsignment");
+    }
+
 
 
 

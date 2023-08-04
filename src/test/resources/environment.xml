@@ -5,7 +5,7 @@
   </parameter>
   <parameter>
     <key>Driver\u0020Version</key>
-    <value>110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839})</value>
+    <value>114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})</value>
   </parameter>
   <parameter>
     <key>Browser\u0020Name</key>
@@ -13,7 +13,7 @@
   </parameter>
   <parameter>
     <key>Browser\u0020Version</key>
-    <value>110.0.5481.178</value>
+    <value>115.0.5790.111</value>
   </parameter>
   <parameter>
     <key>Environment</key>

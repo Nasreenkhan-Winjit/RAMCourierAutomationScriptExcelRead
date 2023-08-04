@@ -3,6 +3,7 @@ package pages;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
+import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 import pages.commonmodule.Loader;
@@ -89,64 +90,61 @@ public class TestPageConsignmentInbound extends TestBase {
 
             pageConsignment.clickOnSearchButton();
 // changed due to data inconsistency "GAMMATEK POLOKWANE"
-//            pageConsignment.clickOnSenderName(testDataSet.get("SenderName"));
-//            Thread.sleep(5000);
-            pageConsignment.SelectMenuSenderName();
+            pageConsignment.clickOnSenderName(testDataSet.get("SenderName"));
             Thread.sleep(5000);
+            pageConsignment.SelectMenuSenderName();
+//            Thread.sleep(5000);
 
             pageConsignment.clickOnResetButton();
             Thread.sleep(3000);
 
-
-            Thread.sleep(3000);
             pageConsignment.clickOnCreateNewSenderButton("Not Exist1");
-            Thread.sleep(3000);
-
-            pageConsignment.clickOnSenderTypeFieldAndSelectIndividual();
-            Thread.sleep(3000);
-            pageConsignment.clickOnNewSenderStepperInCreateNewSender();
-
-            System.out.println("Validation message displayed" );
-
-            pageConsignment.enterIndividualsFirstName(testDataSet.get("Individual First Name"));
-            pageConsignment.enterIndividualsLastName(testDataSet.get("Individual Last Name"));
-            pageConsignment.enterIndividualsYourReference(testDataSet.get("Individual Your Name"));
-
-            pageConsignment.clickOnNewSenderStepperInCreateNewSender();
-
-            pageConsignment.selectHomeDestinationGrp();
-            Thread.sleep(2000);
-            pageConsignment.selectDestinationTypeHome();
-
-            pageConsignment.enterSerachDeliverytxtAndSelectFrmList(testDataSet.get("DeliveryAddress"));
-
-            Thread.sleep(5000);
-            pageConsignment.clickOnNewSenderContact();
-            pageConsignment.clickOnNewPrimaryNummberType();
-
-            pageConsignment.enterNewPrimaryNumber(testDataSet.get("PrimaryNumber"));
-            pageConsignment.enterNewEmailAddress(testDataSet.get("NewEmailAddress"));
-            pageConsignment.clickOnNewSubmitButton();
+            Thread.sleep(15000);
+//New Address component code.
+            pageConsignment.clickOnCustomerTypeDDIndividualWork();
             Thread.sleep(30000);
+
+            pageConsignment.enterCustomerFirstName(testDataSet.get("Individual First Name"));
+
+
+            pageConsignment.enterCustomerContactLastName(testDataSet.get("Individual Last Name"));
+
+            pageConsignment.enterCustomerContactPrimNumber(testDataSet.get("PrimaryNumber"));
+
+            pageConsignment.enterCustomerEmailAddress(testDataSet.get("Individual Email Address"));
+            Thread.sleep(3000);
+
+
+            pageConsignment.enterDeliverAddressForWorkPlace(testDataSet.get("DeliveryAddress"));
+
+            Thread.sleep(3000);
+            pageConsignment.enterWorkPlaceName(testDataSet.get("Workplace"));
+            pageConsignment.selectDestinationType();
+
+           pageConsignment.webEleClickOnProceedBtn();
+
+            pageConsignment.staticExplicitWait(50);
+
+
             pageConsignment.clickOnStepReciever();
 //            pageConsignment.clickOnReceiverResetButton();
             Thread.sleep(2000);
             pageConsignment.entertxtRecieverName(testDataSet.get("NewReceiverName"));
-//latest comment due to issue
-            pageConsignment.clickOnCreateNewSenderButtonInRcvStepper();
-            pageConsignment.clickOnNewReceiverType();
-            pageConsignment.selectCorporateBusinessFromMenuAtNewRcv();
-            pageConsignment.enterNewBusinessGroup(testDataSet.get("NewBusinessGroupName"));
-            Thread.sleep(15000);
-            pageConsignment.enterBusinessName(testDataSet.get("NewBusinessName"));
-            Thread.sleep(20000);
-            pageConsignment.clickOnNewReceiverContactStepper();
-            pageConsignment.clickOnContactDetailsType();
-            pageConsignment.selectNewNumberTypeAsMobile();
-            pageConsignment.enterNewPrimaryNumber(testDataSet.get("PrimaryNumber"));
-            pageConsignment.enterNewEmailAddress(testDataSet.get("NewEmailAddress"));
-           pageConsignment.clickOnNewSubmitButton();
-            Thread.sleep(20000);
+//            pageConsignment.clickOnCreateNewSenderButtonInRcvStepper();
+            pageConsignment.staticExplicitWait(10);
+            pageConsignment.selectMenuRecieverName();
+
+//New Address component code.
+
+//            pageConsignment.clickOnCustomerTypeDDCorporateBusiness();
+//            pageConsignment.staticExplicitWait(5);
+//            pageConsignment.webEleEnterBusinessGroupName(testDataSet.get("NewBusinessGroupName"));
+//
+//            pageConsignment.webEleEnterBusinessName(testDataSet.get("NewBusinessName"));
+//
+
+
+            Thread.sleep(2000);
             pageConsignment.clickOnStepValue();
             // Thread.sleep(10000);
 
@@ -260,22 +258,25 @@ public class TestPageConsignmentInbound extends TestBase {
 
         pageConsignment.clickOnSecondStepper();
         Thread.sleep(2000);
-        pageConsignment.clickOnCreateNewSenderButton(testDataSet.get("NewSenderName"));
-        pageConsignment.clickOnNewSenderTypeAndSelectRetail();
-        pageConsignment.enterRetailChainName(testDataSet.get("RetailChainName"));
+        pageConsignment.clickOnCreateNewSender(testDataSet.get("NewSenderName"));
         Thread.sleep(4000);
-        pageConsignment.enterRetailStoreName(testDataSet.get("RetailStoreName"));
-        Thread.sleep(8000);
-        pageConsignment.clickOnNewSenderContactStepper();
 
-        pageConsignment.clickOnContactDetailsTypeAndSPC();
-        pageConsignment.enterNewSenderContactFirstName(testDataSet.get("NewSenderContactFirstName"));
-        pageConsignment.enterNewSenderContactLastName(testDataSet.get("NewSenderContactLastName"));
-        pageConsignment.clickOnNewPrimaryNummberType();
-
-        pageConsignment.enterNewPrimaryNumber(testDataSet.get("PrimaryNumber"));
-        pageConsignment.enterNewEmailAddress(testDataSet.get("NewEmailAddress"));
-        pageConsignment.clickOnNewSubmitButton();
+        pageConsignment.SelectMenuSenderName();
+//        pageConsignment.clickOnNewSenderTypeAndSelectRetail();
+//        pageConsignment.enterRetailChainName(testDataSet.get("RetailChainName"));
+//        Thread.sleep(4000);
+//        pageConsignment.enterRetailStoreName(testDataSet.get("RetailStoreName"));
+//        Thread.sleep(8000);
+//        pageConsignment.clickOnNewSenderContactStepper();
+//
+//        pageConsignment.clickOnContactDetailsTypeAndSPC();
+//        pageConsignment.enterNewSenderContactFirstName(testDataSet.get("NewSenderContactFirstName"));
+//        pageConsignment.enterNewSenderContactLastName(testDataSet.get("NewSenderContactLastName"));
+//        pageConsignment.clickOnNewPrimaryNummberType();
+//
+//        pageConsignment.enterNewPrimaryNumber(testDataSet.get("PrimaryNumber"));
+//        pageConsignment.enterNewEmailAddress(testDataSet.get("NewEmailAddress"));
+//        pageConsignment.clickOnNewSubmitButton();
 
         Thread.sleep(30000);
 

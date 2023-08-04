@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.BasePage;
 
+import java.time.Duration;
 import java.util.Arrays;
 
 public class Loader extends BasePage {
@@ -23,7 +24,7 @@ public class Loader extends BasePage {
     }
 
     public void waitForLoaderToDispose() {
-        WebDriverWait wait = new WebDriverWait(driver, 30);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
         wait.until(ExpectedConditions.visibilityOfElementLocated(convertWebElementToBy(elementLoader)));
         wait.until(ExpectedConditions.invisibilityOfElementLocated(convertWebElementToBy(elementLoader)));
     }

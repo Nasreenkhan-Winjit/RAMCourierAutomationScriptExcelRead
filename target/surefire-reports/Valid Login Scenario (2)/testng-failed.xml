@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Valid Login Scenario (2)]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.listener.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Check login and logout successfully(failed)" verbose="0">
+    <classes>
+      <class name="pages.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearBrowser"/>
+          <include name="signIn"/>
+          <include name="waitForLoad"/>
+        </methods>
+      </class> <!-- pages.LoginPageTest -->
+    </classes>
+  </test> <!-- Check login and logout successfully(failed) -->
+  <test thread-count="5" name="Test Consignment ExternalUser assigned MultipleBilledTos(failed)" verbose="0">
+    <classes>
+      <class name="pages.TestConsignmentExternalUser">
+        <methods>
+          <include name="clickOnAccordianAndSelectExternalUserCompany"/>
+          <include name="setUp"/>
+          <include name="externalUserConsignmentInbound"/>
+          <include name="tearBrowser"/>
+          <include name="externalUserConsignmentOutbound"/>
+          <include name="clickOnConsignment"/>
+          <include name="waitForLoad"/>
+        </methods>
+      </class> <!-- pages.TestConsignmentExternalUser -->
+    </classes>
+  </test> <!-- Test Consignment ExternalUser assigned MultipleBilledTos(failed) -->
+</suite> <!-- Failed suite [Valid Login Scenario (2)] -->

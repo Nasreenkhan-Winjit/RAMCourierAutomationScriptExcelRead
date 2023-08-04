@@ -178,6 +178,8 @@ public class PageConsinment extends BasePage {
 
     @FindBy(how = How.CSS, using = "  #SearchAutocomplete_Sender")
     private WebElement elementCreateNewSenderTxt;
+//@FindBy(how = How.CSS, using = "#CreateNew_Sender")
+//    private WebElement elementCreateNewSenderTxt;
 
     @CacheLookup
 //    @FindBy(how = How.XPATH, using = "//div[contains(text(),'CELL C - COMPANY OWNED STORES, CELL C, 084 174 4000')]")
@@ -232,7 +234,7 @@ public class PageConsinment extends BasePage {
     @CacheLookup
 //    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@class='v-list__tile__content'][1]")
 //    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[contains(text(),'Surekha Jadhav - 2412434324')]")
-    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][2]")
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active v-autocomplete__content']//div[@role='listitem'][1]")
     private WebElement elementMenuRecieverName;
 
     @CacheLookup
@@ -270,6 +272,56 @@ public class PageConsinment extends BasePage {
     @CacheLookup
     @FindBy(how = How.XPATH, using = "//input[@id='ShipperReference']")
     private WebElement elementtxtShipperReference;
+
+   @CacheLookup
+    @FindBy(how = How.XPATH, using = "//label[normalize-space()='Type']//..")
+    private WebElement elementFirearmType01;
+
+    @CacheLookup
+    @FindBy(how = How.CSS, using = "#TypeOfAmmunition0")
+    private WebElement elementTxtTypeOfAmmunition;
+    @CacheLookup
+    @FindBy(how = How.CSS, using = "#BatchNumber0")
+    private WebElement elementTxtBatchNumber0;
+
+    @CacheLookup
+    @FindBy(how = How.CSS, using = "#NumberOfRounds0")
+    private WebElement elementTxtNumberOfRounds0;
+
+    @CacheLookup
+    @FindBy(how = How.CSS, using = "#MakeOfFirearm1")
+    private WebElement elementTxtNMakeOfFirearm1;
+
+    @CacheLookup
+    @FindBy(how = How.CSS, using = "#SerialNumber1")
+    private WebElement elementTxtSerialNumber1;
+
+
+    @CacheLookup
+    @FindBy(how = How.CSS, using = "#Magazines1")
+    private WebElement elementTxtMagazines1;
+
+    @CacheLookup
+    @FindBy(how = How.CSS, using = "div[class='v-input v-text-field v-text-field--placeholder v-select theme--light'] div[class='v-select__slot']")
+    private WebElement elementClickType02;
+
+    @CacheLookup
+    @FindBy(how = How.XPATH, using = "//div[contains(text(),'ADD ANOTHER')]")
+    private WebElement elementTxtADDANOTHER;
+
+
+
+
+   @CacheLookup
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Ammunition')]")
+    private WebElement elementSelectFirearmTypeAmmunition;
+
+   @CacheLookup
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[contains(text(),'Rifle')]")
+    private WebElement elementSelectFirearmTypeRifle;
+
+
+
 
     @CacheLookup
 //    @FindBy(how=How.XPATH, using = "//div[@class='flex xs12 md12']//div[@class='v-select__selections']")
@@ -845,7 +897,8 @@ public class PageConsinment extends BasePage {
     private WebElement elementButtonClickOnActions;
 
 //    @FindBy(how = How.XPATH, using = "//i[contains(text(),'check_box')]")
-    @FindBy(how = How.XPATH, using = "//body/div[@id='inspire']/div[45]/div[1]/main[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]")
+//    @FindBy(how = How.XPATH, using = "//body/div[@id='inspire']/div[45]/div[1]/main[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]")
+    @FindBy(how = How.XPATH, using = "//div[@class='v-input--selection-controls__ripple primary--text']")
     private WebElement elementClickOnCheckBoxOnPrintLabels;
 
     @FindBy(how = How.XPATH, using = "//div[contains(text(),'Save')]")
@@ -898,9 +951,27 @@ public class PageConsinment extends BasePage {
     private  WebElement clickOnPrintLabelsCheckBox;
 
 
+ @FindBy(how = How.CSS, using = "#SenderIdentityField")
+    private  WebElement enterDealerLicenseField;
+
+@FindBy(how = How.CSS, using = "#ReceiverIdentityField")
+    private  WebElement enterReceiverIdentityField;
+
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][2]")
+    private  WebElement clickOnIdentityTypeAndSelectDL;
+
+    @FindBy(how = How.XPATH, using = "//div[@class='v-menu__content theme--light menuable__content__active']//div[@role='listitem'][3]")
+    private  WebElement clickOnIdentityTypeAndSelectGUnsmithLicense;
 
 
-    @Step("Click on Reprint Reson dropdown")
+   @FindBy(how = How.CSS, using = "div[class='v-input v-text-field v-text-field--box v-text-field--enclosed v-select theme--light select_label-red select_input-text-red select_input-text-12px'] div[class='v-select__slot']")
+    private  WebElement webEleSenderIdentityType;
+
+
+
+
+
+    @Step("Click on Reprint Reason dropdown")
     public void clickOnReprintReasonDropDown() throws InterruptedException {
 
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementClickOnReprintBtn));
@@ -934,6 +1005,76 @@ public class PageConsinment extends BasePage {
         Thread.sleep(2000);
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementSelectFromToRowMenuDD));
         elementSelectFromToRowMenuDD.click();
+
+    }
+
+
+    @Step("Element Sender IdentityType verify the value")
+    public int ClickAndVerifyIdentityType() throws InterruptedException {
+//        webDriverWait.until(ExpectedConditions.elementToBeClickable(webEleSenderIdentityType));
+//        webEleSenderIdentityType.click();
+//        Thread.sleep(2000);
+        List<WebElement> identityTypeValue = webDriver.findElements(By.xpath("//input[@id='SenderIdentityType']"));
+        return identityTypeValue.size();
+
+    }
+
+    @Step("Element Sender IdentityType")
+    public void ClickAndSelectSenderIdentityType(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(webEleSenderIdentityType));
+        webEleSenderIdentityType.click();
+        Thread.sleep(2000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(clickOnIdentityTypeAndSelectDL));
+        clickOnIdentityTypeAndSelectDL.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(enterDealerLicenseField));
+        enterDealerLicenseField.sendKeys(txt);
+
+    }
+
+
+    @Step("Element Sender IdentityType")
+    public void enterSenderIdentityType(String txt) throws InterruptedException {
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(enterDealerLicenseField));
+        enterDealerLicenseField.sendKeys(Keys.CONTROL+"a");
+        enterDealerLicenseField.sendKeys(Keys.DELETE);
+        enterDealerLicenseField.sendKeys(txt);
+
+    }
+
+
+    @Step("Element Sender IdentityType")
+    public void ClickAndSelectReceiverIdentityType(String txt) throws InterruptedException {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(webEleSenderIdentityType));
+        webEleSenderIdentityType.click();
+        Thread.sleep(2000);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(clickOnIdentityTypeAndSelectGUnsmithLicense));
+        clickOnIdentityTypeAndSelectGUnsmithLicense.click();
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(enterReceiverIdentityField));
+        enterReceiverIdentityField.sendKeys(Keys.CONTROL+"a");
+        enterReceiverIdentityField.sendKeys(Keys.DELETE);
+        enterReceiverIdentityField.sendKeys(txt);
+
+    }
+    @Step("Element Sender IdentityType")
+    public void enterReceiverIdentityType(String txt) throws InterruptedException {
+
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(enterReceiverIdentityField));
+        enterReceiverIdentityField.sendKeys(Keys.CONTROL+"a");
+        enterReceiverIdentityField.sendKeys(Keys.DELETE);
+        enterReceiverIdentityField.sendKeys(txt);
+
+    }
+
+
+    @Step("Element Sender IdentityType verify the value")
+    public int ClickAndVerifyReceiverIdentityType() throws InterruptedException {
+
+        List<WebElement> ReceiverIdentityType = webDriver.findElements(By.xpath("//input[@id='ReceiverIdentityType']"));
+        return ReceiverIdentityType.size();
 
     }
 
@@ -1568,12 +1709,188 @@ public class PageConsinment extends BasePage {
     public void clickOnCreateNewSenderButton(String txt) {
 
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCreateNewSenderTxt));
-
+//        elementCreateNewSenderTxt.click();
         elementCreateNewSenderTxt.sendKeys(txt);
 
         webDriverWait.until(ExpectedConditions.elementToBeClickable(clickOnCreateNewSenderButton));
         clickOnCreateNewSenderButton.click();
     }
+
+
+    @Step("CLick on create new Button")
+
+    public void clickOnCreateNewSender(String txt) {
+
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementCreateNewSenderTxt));
+//        elementCreateNewSenderTxt.click();
+        elementCreateNewSenderTxt.sendKeys(txt);
+
+
+    }
+
+    @Step(" Select customer type as Individual Work")
+    public void clickOnCustomerTypeDDIndividualWork() throws InterruptedException {
+//       WebElement root1 = driver.findElement(By.id("customerType"));
+//       WebElement shadowRoot1 = getShadowRootElement(root1);
+//       WebElement shadowElement = shadowRoot1.findElement(By.cssSelector("div"));
+//       shadowElement.click();
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        WebElement customerType = (WebElement) jse.executeScript("return document.querySelector(\"#inspire > div.v-dialog__content.v-dialog__content--active > div > div > div > div:nth-child(1) > div > address-component\").shadowRoot.querySelector(\"#customerType\")");
+        customerType.click();
+        Thread.sleep(5000);
+        try {
+            Actions select = new Actions(driver);
+            select.sendKeys(Keys.chord(Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ENTER)).build().perform();
+        } catch (Exception e) {
+            System.out.println("Catch block");
+        }
+    }
+
+
+    @Step(" Select customer type")
+    public  void enterCustomerFirstName(String txt) throws InterruptedException {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        WebElement firstName = (WebElement) jse.executeScript("return document.querySelector(\"#inspire > div.v-dialog__content.v-dialog__content--active > div > div > div > div:nth-child(1) > div > address-component\").shadowRoot.querySelector(\"#firstName\")");
+        firstName.sendKeys(txt);
+    }
+
+    @Step(" Enter Contact Last Name")
+    public  void enterCustomerContactLastName(String txt) throws InterruptedException {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        WebElement lastName = (WebElement) jse.executeScript("return document.querySelector(\"#inspire > div.v-dialog__content.v-dialog__content--active > div > div > div > div:nth-child(1) > div > address-component\").shadowRoot.querySelector(\"#lastName\")");
+        lastName.sendKeys(txt);
+    }
+    @Step(" Enter primary contact number")
+    public  void enterCustomerContactPrimNumber(String txt) throws InterruptedException {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        WebElement primaryContactNum = (WebElement) jse.executeScript("return document.querySelector(\"#inspire > div.v-dialog__content.v-dialog__content--active > div > div > div > div:nth-child(1) > div > address-component\").shadowRoot.querySelector(\"#primaryNum\")");
+        primaryContactNum.sendKeys(txt);
+
+    }
+
+    @Step(" Enter primary contact number")
+    public  void enterCustomerEmailAddress(String txt) throws InterruptedException {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        WebElement emailAddress = (WebElement) jse.executeScript("return document.querySelector(\"#inspire > div.v-dialog__content.v-dialog__content--active > div > div > div > div:nth-child(1) > div > address-component\").shadowRoot.querySelector(\"#email\")");
+        emailAddress.sendKeys(txt);
+//    firstName.sendKeys(Keys.CONTROL + "a");
+//    firstName.sendKeys(Keys.CONTROL + "x");
+//    Thread.sleep(2000);
+    }
+
+
+    @Step(" Enter Delivery Address-WorkPlace")
+    public  void enterDeliverAddressForWorkPlace(String txt) throws InterruptedException {
+
+        SearchContext searchContext = getShadowHost("div#inspire>div:nth-of-type(2)>div *:nth-child(1)> div > address-component");
+        WebElement webEleInputAddressShadowContent = searchContext.findElement(By.cssSelector("form#addressForm input"));
+        webEleInputAddressShadowContent.sendKeys(txt);
+
+        staticExplicitWait(30);
+
+        WebElement webElement = searchContext.findElement(By.cssSelector("form#addressForm ul>li:nth-child(3)"));
+//        WebElement webElement = searchContext.findElement(By.cssSelector("form#addressForm ul>li svg:not[stroke]"));
+//        WebElement webElement = searchContext.findElement(By.cssSelector("form#addressForm button"));
+        webElement.click();
+
+    }
+
+    @Step("Enter Workplace Name")
+    public void enterWorkPlaceName(String txt){
+//        form#addressForm #workplaceName
+
+        SearchContext searchContext = getShadowHost("div#inspire>div:nth-of-type(2)>div *:nth-child(1)> div > address-component");
+        WebElement webEleInputWorkplaceName = searchContext.findElement(By.cssSelector("form#addressForm #workplaceName"));
+//        webEleInputWorkplaceName.sendKeys(Keys.CONTROL + "a");
+//        webEleInputWorkplaceName.sendKeys(Keys.DELETE);
+        webEleInputWorkplaceName.sendKeys(txt);
+    }
+    @Step("Click and select #destinationType ")
+    public void selectDestinationType(){
+//        form#addressForm #workplaceName
+
+        SearchContext searchContext = getShadowHost("div#inspire>div:nth-of-type(2)>div *:nth-child(1)> div > address-component");
+        WebElement webEleClickOnDestinationType = searchContext.findElement(By.cssSelector("form#addressForm #destinationType"));
+        scrollToElement(webEleClickOnDestinationType);
+        webEleClickOnDestinationType.click();
+
+        staticExplicitWait(2);
+        try{
+            Actions selectDestinationType = new Actions(driver);
+            selectDestinationType.sendKeys(Keys.chord(Keys.ARROW_DOWN,Keys.ARROW_DOWN,Keys.ARROW_DOWN,Keys.ENTER)).build().perform();
+        } catch (Exception e){
+            System.out.println("Catch block");
+        }
+        staticExplicitWait(5);
+
+
+//       #destinationName
+        WebElement webEleEnterDestinationName = searchContext.findElement(By.cssSelector("form#addressForm #destinationName"));
+        webEleEnterDestinationName.sendKeys("RAM Headquarter");
+    }
+    @Step("Click on proceed button")
+    public void webEleClickOnProceedBtn(){
+        SearchContext searchContext = getShadowHost("div#inspire>div:nth-of-type(2)>div *:nth-child(1)> div > address-component");
+        WebElement webElementClickOnProceedBtn = searchContext.findElement(By.cssSelector("form#addressForm #input_1"));
+        scrollToElement(webElementClickOnProceedBtn);
+        webElementClickOnProceedBtn.click();
+    }
+
+
+
+    @Step(" Select customer type as Corporate Business")
+    public void clickOnCustomerTypeDDCorporateBusiness() throws InterruptedException {
+
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        WebElement customerType = (WebElement) jse.executeScript("return document.querySelector(\"#inspire > div.v-dialog__content.v-dialog__content--active > div > div > div > div:nth-child(1) > div > address-component\").shadowRoot.querySelector(\"#customerType\")");
+        customerType.click();
+        Thread.sleep(5000);
+        try {
+            Actions select = new Actions(driver);
+            select.sendKeys(Keys.chord(Keys.ARROW_DOWN, Keys.ARROW_DOWN,Keys.ARROW_DOWN,Keys.ARROW_DOWN, Keys.ENTER)).build().perform();
+        } catch (Exception e) {
+            System.out.println("Catch block");
+        }
+    }
+
+    @Step("Enter Business Group Name")
+    public void webEleEnterBusinessGroupName(String txt){
+        SearchContext searchContext = getShadowHost("div#inspire>div:nth-of-type(2)>div *:nth-child(1)> div > address-component");
+        WebElement webEleEnterBusinessGroupName = searchContext.findElement(By.cssSelector("form#customerForm input"));
+        webEleEnterBusinessGroupName.sendKeys(txt);
+        staticExplicitWait(5);
+
+
+        WebElement webElement = searchContext.findElement(By.cssSelector("form#customerForm ul>li:nth-child(1)"));
+        webElement.click();
+
+    }
+
+
+    @Step("Enter Business Name")
+    public void webEleEnterBusinessName(String txt){
+
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        WebElement webEleEnterBusinessGroupName = (WebElement) jse.executeScript("return document.querySelector(\"#inspire > div.v-dialog__content.v-dialog__content--active > div > div > div > div:nth-child(1) > div > address-component\").shadowRoot.querySelector(\"#headlessui-combobox-input-160\")");
+        webEleEnterBusinessGroupName.sendKeys(txt);
+
+
+//        WebElement webEleEnterBusinessGroupName = searchContext.findElement(By.cssSelector("form#customerForm input"));
+//        webEleEnterBusinessGroupName.sendKeys(txt);
+        staticExplicitWait(5);
+
+        SearchContext searchContext = getShadowHost("div#inspire>div:nth-of-type(2)>div *:nth-child(1)> div > address-component");
+        WebElement webElement = searchContext.findElement(By.cssSelector("form#customerForm ul>li:nth-child(1)"));
+        webElement.click();
+
+
+
+        }
+
+
+
+
+
 
     @Step("CLick on create new Button")
     public void clickOnCreateNewSenderButtonInRcvStepper() {
@@ -1593,6 +1910,7 @@ public class PageConsinment extends BasePage {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(clickOnResetButton));
         clickOnResetButton.click();
     }
+
 
     @Step("Enter  characters in customer sender name")
     public void enterSenderCustomerName(String txt, Keys keys) {
@@ -1928,6 +2246,8 @@ public class PageConsinment extends BasePage {
     @Step("Enter text Receiver Name")
     public void entertxtRecieverName(String txt) {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(elementRecieverName));
+        elementRecieverName.sendKeys(Keys.CONTROL+"a");
+        elementRecieverName.sendKeys(Keys.DELETE);
         elementRecieverName.sendKeys(txt);
         elementRecieverName.click();
 
@@ -2021,6 +2341,73 @@ public class PageConsinment extends BasePage {
         // Commented for autogen code
 //        elementtxtShipperReference.sendKeys(txt);
     }
+    @Step("Select firearm type Ammunition")
+    public void selectFirearmTypeAmmunition() {
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementFirearmType01));
+        elementFirearmType01.click();
+
+         webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectFirearmTypeAmmunition));
+        elementSelectFirearmTypeAmmunition.click();
+
+    }
+    @Step("Select firearm type Ammunition")
+    public void selectFirearmTypeRifle() {
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementClickType02));
+        elementClickType02.click();
+
+         webDriverWait.until(ExpectedConditions.visibilityOf(elementSelectFirearmTypeRifle));
+        elementSelectFirearmTypeRifle.click();
+
+    }
+
+
+
+    @Step("Select firearm type Ammunition")
+    public void enterTxtTypeofAmmunition(String txt) {
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementTxtTypeOfAmmunition));
+        elementTxtTypeOfAmmunition.sendKeys(txt);
+            }
+
+    @Step("Select firearm type Ammunition")
+    public void enterTxtNMakeOfFirearm1(String txt) {
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementTxtNMakeOfFirearm1));
+        elementTxtNMakeOfFirearm1.sendKeys(txt);
+            }
+
+            @Step("Select firearm type Ammunition")
+    public void elementTxtSerialNumber1(String txt) {
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementTxtSerialNumber1));
+                elementTxtSerialNumber1.sendKeys(txt);
+            }
+
+    @Step("Select firearm type Ammunition")
+    public void elementTxtMagazines1(String txt) {
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementTxtMagazines1));
+        elementTxtMagazines1.sendKeys(txt);
+            }
+
+    @Step("Select firearm type Ammunition")
+    public void enterTxtBatchNumber0(String txt) {
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementTxtBatchNumber0));
+        elementTxtBatchNumber0.sendKeys(txt);
+            }
+
+    @Step("Select firearm type Ammunition")
+    public void enterTxtNumberOfRounds0(String txt) {
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementTxtNumberOfRounds0));
+        elementTxtNumberOfRounds0.sendKeys(txt);
+            }
+
+            @Step("Select firearm type Ammunition")
+    public void clickOnButtonADDANOTHER() {
+        webDriverWait.until(ExpectedConditions.visibilityOf(elementTxtADDANOTHER));
+                elementTxtADDANOTHER.click();
+            }
+
+
+
+
+
 
     @Step("Enter Text for Shipper Reference")
     public void verifyShipperReferenceInEditConsignment() {
@@ -2551,6 +2938,15 @@ public class PageConsinment extends BasePage {
 
         webDriverWait.until(ExpectedConditions.visibilityOf(elementMenuCommudityDocument));
         elementMenuCommudityDocument.click();
+    }
+
+    @Step("Click On commodity select Document")
+    public void clickOnCommodityField() {
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(elementcommudity));
+        elementcommudity.click();
+
+
+
     }
 
     @Step("Click On commodity select Document")

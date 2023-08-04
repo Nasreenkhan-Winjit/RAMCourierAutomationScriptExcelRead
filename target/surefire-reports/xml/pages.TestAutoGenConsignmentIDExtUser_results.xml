@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Consignment ExternalUser assigned SingleBilledTos"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="249.045">
+    <properties></properties>
+
+
+
+            <testcase
+                name="clickOnAccordianAndSelectExternalUserCompany"
+                time="27.244"
+                classname="pages.TestAutoGenConsignmentIDExtUser">
+            </testcase>
+            <testcase
+                name="clickOnConsignment"
+                time="30.327"
+                classname="pages.TestAutoGenConsignmentIDExtUser">
+            </testcase>
+            <testcase
+                name="externalUserAutoGenConsignmentIDOutbound"
+                time="114.388"
+                classname="pages.TestAutoGenConsignmentIDExtUser">
+            </testcase>
+            <testcase
+                name="externalUserAutoGenConsignmentInbound"
+                time="77.086"
+                classname="pages.TestAutoGenConsignmentIDExtUser">
+            </testcase>
+</testsuite>

@@ -67,7 +67,7 @@ public class TestPageConsinment extends TestBase {
     @Test
     public void verifyValueStepperIsNotPresentOnSelectionOfDoc() throws InterruptedException {
         pageConsignment = new PageConsinment(eventFiringWebDriver);
-        Thread.sleep(15000);
+        Thread.sleep(20000);
 //        pageConsignment.clickOnConsignmentDropdown();
 //        Thread.sleep(5000);
         pageConsignment.clickOnSettingsIcon();
@@ -445,42 +445,6 @@ public class TestPageConsinment extends TestBase {
 
     }
 
-        /*//<editor-fold desc="Stepper Seven">
-        Thread.sleep(6000);
-
-        pageConsignment.clickonStepParcel();
-//        Thread.sleep(6000);
-
-        pageConsignment.entertxtNumberOfParcel(testDataSet.get("NumberOfParcel"));
-        Thread.sleep(8000);
-//
-////        pageConsignment.clickOnDeleteIcon();
-//        Thread.sleep(10000);
-//
-        pageConsignment.clickOnSecurityPack(testDataSet.get("SecurityPack"));
-
-        pageConsignment.entertxtweight("0.1");
-
-//        pageConsinment.clickOnPackageType();
-//        Thread.sleep(8000);
-//
-        pageConsignment.clickOnFinaliseConsignment();
-
-//        Thread.sleep(8000);
-
-
-//        waitForLoad();
-//        webDriver.navigate().refresh();
-
-
-
-}
- }
-
-         }
-
-         */
-
 
     @Test(dataProviderClass = DataProviderList.class, dataProvider =  "EditConsignmentUAT")
     public void clickOnRMSPortalAndVerifyConsignmentISCreated(Map<String,String> testDataSet) throws InterruptedException, IOException {
@@ -509,9 +473,6 @@ public class TestPageConsinment extends TestBase {
             Thread.sleep(20000);
             pageConsignment.selectEditConsignmentTab();
             Thread.sleep(20000);
-//
-
-
             pageConsignment.enterTxtEditConsignmentID(testDataSet.get("ConsignmentID"), Keys.ENTER);
             Thread.sleep(20000);
             pageConsignment.clickOnSecondStepper();
@@ -528,30 +489,324 @@ public class TestPageConsinment extends TestBase {
             Thread.sleep(8000);
             pageConsignment.clickonstepServices();
             if(pageConsignment.verifyRicaIsPresentInEdit()){
-
                 System.out.println("Rica is selected ");
-
-
             }
-
             Thread.sleep(8000);
             pageConsignment.clickonStepParcel();
             pageConsignment.enterTextOnParcelRefField(" EditParcelRef01");
             Thread.sleep(4000);
             pageConsignment.clickOnSaveBtnInEditConsign();
-
             Thread.sleep(10000);
+        }
 
 
+    @Test(dataProviderClass = DataProviderList.class, dataProvider = "firearmConsignment")
+
+        public void firearmConsignment(Map<String, String> testDataSet) throws InterruptedException {
+            pageConsignment = new PageConsinment(eventFiringWebDriver);
+            Thread.sleep(15000);
+            pageConsignment.enterTxtConsignmentID(testDataSet.get("ConsignmentID"), Keys.ENTER);
+            Thread.sleep(15000);
+            pageConsignment.enterTxtBilledTo(testDataSet.get("BilledTo"));
+            pageConsignment.selectMenuBilledTo();
+            Thread.sleep(5000);
+            if (pageConsignment.clickOnLogisticTypeFieldAndVerify() == 0) {
+
+                pageConsignment.clickOnLogisticTypeAndSelectOutbond();
+                Thread.sleep(4000);
+                //<editor-fold desc="Commneted to check">
+
+//            pageConsignment.isCommoditySelected();
+//            pageConsignment.clickoncommudity();
+//
+//
+//            pageConsignment.clickOnCommudityContinuePopup();
+//            Thread.sleep(5000);
+////
+//
+//            pageConsignment.clickOnCommudityJwellery();
+//            Thread.sleep(7000);
+            } else {
+
+                System.out.println("Logistic Type Field value is Present");
+            }
+
+//        if(pageConsignment.isCommodityDisabled()){
+//
+//            pageConsignment.clickOnSecondStepper();
+//            Thread.sleep(2000);
+//        }
+//        else{
+//            pageConsignment.isCommoditySelected();
+//            pageConsignment.clickoncommudity();
+//
+//
+//            pageConsignment.clickOnCommudityContinuePopup();
+//            Thread.sleep(5000);
+////
+//
+//            pageConsignment.clickOnCommudityJwellery();
+//            Thread.sleep(7000);
+
+            Thread.sleep(4000);
+            //<editor-fold desc="Commneted to check">
+
+//
 
 
+            //<editor-fold desc="Second Stepper">
+
+            pageConsignment.clickOnSecondStepper();
+            Thread.sleep(2000);
+
+//        if(pageConsignment.verifySenderFieldText()){
 
 
+            if (pageConsignment.verifySenderAddress() != 0) {
+
+//            pageConsignment.clickOnSecondStepper();
+//            Thread.sleep(2000);
+
+                pageConsignment.clickOnStepReciever();
+            }
+
+            if (pageConsignment.verifySenderFieldRestricted()) {
 
 
+                pageConsignment.clickOnSenderNameRestricted();
 
+                pageConsignment.SelectMenuSenderName();
+
+            }
+//        (pageConsignment.verifySenderFieldNotRestricted())
+            if (pageConsignment.verifySenderFieldNotRestricted()) {
+
+                pageConsignment.clickOnSenderName(testDataSet.get("SenderName"));
+
+                pageConsignment.clickOnAdvancedSearchButton();
+                pageConsignment.verifyAdvancedSearchWindow();
+                pageConsignment.enterSenderCustomerName(testDataSet.get("InvalidSenderName"), Keys.TAB);
+                pageConsignment.enterSenderCustomerName(testDataSet.get("ValidSenderName"), Keys.TAB);
+
+                pageConsignment.clickOnSearchButton();
+//        pageConsignment.clickOnSenderName("Cell");
+                pageConsignment.SelectMenuSenderName();
+                Thread.sleep(3000);
+                //Verify the Reset Button
+//        pageConsignment.validateResetButton();
+//            Thread.sleep(3000);
+//        pageConsignment.clickOnSenderName(testDataSet.get("SenderName"));
+//
+//        pageConsignment.SelectMenuSenderName();
+//        Thread.sleep(4000);
+                pageConsignment.clickOnButtonNewContact();
+                Thread.sleep(3000);
+                pageConsignment.clickOnCancelButton();
+
+//            pageConsignment.clickOnbuttonEditContact();
+//            Thread.sleep(6000);
+            }
+
+            Thread.sleep(9000);
+
+            pageConsignment.clickOnStepReciever();
+
+            if (pageConsignment.verifyReceiverAddress() != 0) {
+                //Click on fourth Stepper
+                pageConsignment.clickOnStepValue();
+            }
+            if (pageConsignment.verifyReceiverFieldIsRestricted()) {
+//            pageConsignment.clickOnStepReciever();
+
+                pageConsignment.entertxtRecieverNameRestricted();
+
+                pageConsignment.selectMenuRecieverName();
+            }
+
+            if (pageConsignment.verifyReceiverFieldNotRestricted()) {
+//            pageConsignment.clickOnStepReciever();
+                pageConsignment.entertxtRecieverName(testDataSet.get("ReceiverName2"));
+//        pageConsignment.entertxtRecieverName("surekha");
+
+                pageConsignment.selectMenuRecieverName();
+
+                pageConsignment.clickOnbuttonNewContactReceiverContact();
+                Thread.sleep(4000);
+
+                pageConsignment.clickonSavebuttonNewContact();
+
+
+            }
+            Thread.sleep(4000);
+//        pageConsignment.entertxtRecieverName(testDataSet.get("ReceiverName"));
+////        pageConsignment.entertxtRecieverName("Surekh");
+//
+//        pageConsignment.clickOnbuttonNewReceiver();
+//
+//        pageConsignment.clickonCancelbuttonNewCustomer();
+
+//        pageConsignment.entertxtRecieverName(testDataSet.get("ReceiverName2"));
+////        pageConsignment.entertxtRecieverName("surekha");
+//
+//        pageConsignment.selectMenuRecieverName();
+
+//
+
+//        pageConsignment.clickOnbuttonNewContactReceiverContact();
+//        Thread.sleep(4000);
+//
+//        pageConsignment.clickonSavebuttonNewContact();
+//        Thread.sleep(3000);
+//
+            pageConsignment.clickOnStepValue();
+            // Thread.sleep(10000);
+
+            pageConsignment.entertxtStepValue(testDataSet.get("ValueForCarrige"));
+            //Thread.sleep(5000);
+//
+//        pageConsignment.clickOnCheckBox();
+//        Thread.sleep(10000);
+//
+            //<editor-fold desc="FifthStepper">
+            pageConsignment.clickOnStepRequirement();
+//        Thread.sleep(4000);
+            pageConsignment.entertxtShipperReference(testDataSet.get("InvalidShipperReference"));
+            Thread.sleep(5000);
+//
+            pageConsignment.entertxtShipperReference(testDataSet.get("ValidShipperReference"));
+//        Thread.sleep(10000);
+            pageConsignment.clickOnDropdownProofOfDelivery(Keys.TAB);
+            Thread.sleep(2000);
+            pageConsignment.clickOnPODKYCCode4AndSelectReason2(Keys.TAB);
+            Thread.sleep(2000);
+            pageConsignment.clickOnPODKYCCode5AndSelectReason3(Keys.TAB);
+            Thread.sleep(2000);
+            pageConsignment.clickOnPODKYCCode9AndSelectReason4(Keys.TAB);
+            Thread.sleep(2000);
+
+            pageConsignment.clickOnSITAndSelectDONOTDeliver();
+            pageConsignment.clickOnNonDeliverDaysFieldAndSelectDay();
+
+
+//        Thread.sleep(9000);
+        /*//<editor-fold desc="Not applicable in Fifth stepper">
+        pageConsignment.ClickonDropDownStandardInstructionType();
+        Thread.sleep(10000);
+//
+        pageConsignment.clickonDropdownNonDeliverablesDays(Keys.TAB);
+       Thread.sleep(11000);
+        //</editor-fold>*/
+//
+//        pageConsignment.clickOnAddAnotherInstruction();
+//       // Thread.sleep(8000);
+//
+            //<editor-fold desc="6th stepper">
+            pageConsignment.clickonstepServices();
+            pageConsignment.selectServiceTypeAndSelectNextDay();
+            Thread.sleep(2000);
+            pageConsignment.selectServiceTypeAndSelectOption2();
+            Thread.sleep(2000);
+            pageConsignment.selectServiceTypeAndSelectOption3();
+            Thread.sleep(2000);
+            pageConsignment.selectServiceTypeAndSelectOption4();
+            Thread.sleep(2000);
+            pageConsignment.selectServiceTypeAndSelectOption5();
+            Thread.sleep(2000);
+            pageConsignment.selectServiceTypeAndSelectOption6();
+            Thread.sleep(1000);
+
+
+            //For RICA
+            if (pageConsignment.verifyRicaIsNotPresent()) {
+//            pageConsignment.selectServiceTypeAndSelectNextDay();
+//            pageConsignment.clickonStepParcel();
+
+                if (!pageConsignment.verifyRICA()) {
+
+                    pageConsignment.selectServiceTypeAndSelectNextDay();
+                    pageConsignment.clickOnSAID();
+                    pageConsignment.enterTxtInSAIDField("1234567891234");
+                    pageConsignment.selectSaturdayOnConsign();
+
+                    pageConsignment.clickonStepParcel();
+//        Thread.sleep(6000);
+
+//                pageConsignment.entertxtNumberOfParcel(testDataSet.get("NumberOfParcel"));
+//                Thread.sleep(5000);
+//
+//                pageConsignment.clickOnPackageType01();
+//
+//                pageConsignment.clickOnSecurityPack(testDataSet.get("SecurityPack"));
+//
+//                pageConsignment.entertxtweight("0.1");
+//
+//                pageConsignment.enterParcelReferenceTxt("NA");
+//
+//                pageConsignment.clickOnFinaliseConsignment();
+
+                }
+//    if(pageConsignment.verifyRICA()){
+                else {
+                    pageConsignment.selectServiceType();
+                    Thread.sleep(2000);
+                    pageConsignment.selectRICAOnSurcharge();
+                    Thread.sleep(2000);
+                    pageConsignment.clickOnSAID();
+                    pageConsignment.enterTxtInSAIDField("1234567891234");
+                    pageConsignment.selectSaturdayOnConsign();
+
+                    if (!pageConsignment.verifyFridgelineWindow()) {
+
+                        pageConsignment.clickOnFridgeLineAndSelectHrs();
+                    } else {
+                        pageConsignment.clickonStepParcel();
+                    }
+
+                }
+                //Step Seven and finalize the consignment
+//        Thread.sleep(6000);
+            } else {
+//            pageConsignment.selectServiceTypeAndSelectNextDay();
+                pageConsignment.clickonStepParcel();
+            }
+
+
+            pageConsignment.entertxtNumberOfParcel(testDataSet.get("NumberOfParcel"));
+//        Thread.sleep(8000);
+            System.out.println("ParcelHeader displayed" + pageConsignment.verifyParcelHeaderIsDisplayed());
+            pageConsignment.clickOnFinaliseConsignment1();
+//        Thread.sleep(5000);
+            if (pageConsignment.verifySecurityPack()) {
+                pageConsignment.clickOnSecurityPack(testDataSet.get("SecurityPack"));
+            }
+            if (pageConsignment.verifyWeightErrorIsDisplayed()) {
+                pageConsignment.entertxtweight("0.1");
+            }
+
+
+////        pageConsignment.clickOnDeleteIcon();
+//        Thread.sleep(10000);
+//
+//        pageConsignment.clickOnSecurityPack(testDataSet.get("SecurityPack"));
+//
+//        pageConsignment.entertxtweight("0.1");
+
+            //pageConsinment.clickOnPackageType();
+//        Thread.sleep(8000);
+//
+            pageConsignment.clickOnFinaliseConsignment();
+            Thread.sleep(30000);
 
         }
+
+
+
+
+
+
+
+
+
     }
 
 

@@ -1,0 +1,6 @@
+2023-03-15/15:11:40.241  INFO: wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+2023-03-15/15:11:40.258  INFO: wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+2023-03-15/15:11:40.692  INFO: wdm.WebDriverManager - Using chromedriver 111.0.5563.64 (since Chrome 111 is installed in your machine)
+2023-03-15/15:11:40.717  INFO: wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Nasreenk\.m2\repository\webdriver\chromedriver\win32\111.0.5563.64\chromedriver.exe
+2023-03-15/15:11:43.859  INFO: listener.WebEventListener - Before Navigated to URL: data:,
+2023-03-15/15:11:44.402  INFO: listener.WebEventListener - After Navigated to URL: https://uat.app.ram.co.za/

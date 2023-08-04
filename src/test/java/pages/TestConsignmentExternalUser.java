@@ -180,9 +180,9 @@ public class TestConsignmentExternalUser extends TestBase {
         Thread.sleep(15000);
 
         pageConsignment.clickOnSecondStepper();
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         pageConsignment.clickOnSenderFieldAndSelectAddress(testDataSet.get("SenderName"));
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         pageConsignment.clickOnSenderMenuAndSelectAddress();
         Thread.sleep(5000);
 

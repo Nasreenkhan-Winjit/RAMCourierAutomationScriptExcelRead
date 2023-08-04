@@ -3,21 +3,27 @@ package browsers;
 import browsers.browserType.ChromeBrowser;
 import browsers.browserType.FirefoxBrowser;
 import browsers.browserType.IEBrowser;
-import org.openqa.selenium.remote.BrowserType;
+import org.testng.SkipException;
 
 public class BrowserFactory {
 
-    public static DriverManagerWeb getManager(String webDriverType)  {
+    public static DriverManagerWeb getManager(EnumBrowserType webDriverType)  {
 
         DriverManagerWeb driverManager;
-        if (webDriverType.trim().toLowerCase().contains(BrowserType.IE)) {
-            driverManager = new IEBrowser();
-        } else if (webDriverType.trim().toLowerCase().contains(BrowserType.FIREFOX)) {
-            driverManager = new FirefoxBrowser();
-        } else if (webDriverType.trim().toLowerCase().contains(BrowserType.CHROME)) {
-            driverManager = new ChromeBrowser();
-        } else {
-            throw new IllegalArgumentException("Invalid web driver : " + webDriverType);
+        switch (webDriverType){
+            case IE: {
+                driverManager = new IEBrowser();
+                break;
+            }
+            case CHROME:{
+                driverManager = new ChromeBrowser();
+                break;
+            }
+            case FIREFOX:{
+                driverManager = new FirefoxBrowser();
+                break;
+            }
+            default:  throw new IllegalArgumentException("Invalid web driver : " + webDriverType.toString());
         }
         return driverManager;
     }
