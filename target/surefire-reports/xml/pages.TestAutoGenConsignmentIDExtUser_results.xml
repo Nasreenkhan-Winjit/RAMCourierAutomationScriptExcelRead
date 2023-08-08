@@ -4,29 +4,29 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="249.045">
+           time="249.607">
     <properties></properties>
 
 
 
             <testcase
-                name="clickOnAccordianAndSelectExternalUserCompany"
-                time="27.244"
-                classname="pages.TestAutoGenConsignmentIDExtUser">
-            </testcase>
-            <testcase
                 name="clickOnConsignment"
-                time="30.327"
+                time="30.258"
                 classname="pages.TestAutoGenConsignmentIDExtUser">
             </testcase>
             <testcase
-                name="externalUserAutoGenConsignmentIDOutbound"
-                time="114.388"
+                name="clickOnAccordianAndSelectExternalUserCompany"
+                time="27.213"
                 classname="pages.TestAutoGenConsignmentIDExtUser">
             </testcase>
             <testcase
                 name="externalUserAutoGenConsignmentInbound"
-                time="77.086"
+                time="77.358"
+                classname="pages.TestAutoGenConsignmentIDExtUser">
+            </testcase>
+            <testcase
+                name="externalUserAutoGenConsignmentIDOutbound"
+                time="114.778"
                 classname="pages.TestAutoGenConsignmentIDExtUser">
             </testcase>
 </testsuite>

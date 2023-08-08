@@ -4,28 +4,13 @@
   <listeners>
     <listener class-name="utilities.listener.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Check login and logout successfully(failed)" verbose="0">
-    <classes>
-      <class name="pages.LoginPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearBrowser"/>
-          <include name="signIn" invocation-numbers="0"/>
-          <include name="waitForLoad"/>
-        </methods>
-      </class> <!-- pages.LoginPageTest -->
-    </classes>
-  </test> <!-- Check login and logout successfully(failed) -->
   <test thread-count="5" name="Test Consignment ExternalUser assigned SingleBilledTos(failed)" verbose="0">
     <classes>
       <class name="pages.TestAutoGenConsignmentIDExtUser">
         <methods>
           <include name="setUp"/>
-          <include name="clickOnConsignment"/>
-          <include name="externalUserAutoGenConsignmentIDOutbound" invocation-numbers="0"/>
           <include name="externalUserAutoGenConsignmentInbound" invocation-numbers="0"/>
           <include name="tearBrowser"/>
-          <include name="clickOnAccordianAndSelectExternalUserCompany"/>
           <include name="waitForLoad"/>
         </methods>
       </class> <!-- pages.TestAutoGenConsignmentIDExtUser -->
