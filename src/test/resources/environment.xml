@@ -1,19 +1,19 @@
 <qa:environment xmlns:qa="urn:model.commons.qatools.yandex.ru">
   <parameter>
-    <key>Platform</key>
-    <value>Windows 10 64 bit</value>
-  </parameter>
-  <parameter>
-    <key>Driver\u0020Version</key>
-    <value>114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})</value>
+    <key>Browser\u0020Version</key>
+    <value>115.0.5790.171</value>
   </parameter>
   <parameter>
     <key>Browser\u0020Name</key>
     <value>chrome</value>
   </parameter>
   <parameter>
-    <key>Browser\u0020Version</key>
-    <value>115.0.5790.111</value>
+    <key>Driver\u0020Version</key>
+    <value>114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})</value>
+  </parameter>
+  <parameter>
+    <key>Platform</key>
+    <value>Windows 10 64 bit</value>
   </parameter>
   <parameter>
     <key>Environment</key>

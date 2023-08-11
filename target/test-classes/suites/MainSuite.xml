@@ -6,14 +6,14 @@
 <!--        <suite-file path="RMSTestOnUAT.xml"/>-->
 <!--        <suite-file path="EditConsignmentUAT.xml"/>-->
 
-<!--        <suite-file path="ConsignmentInbound.xml"/>-->
+        <suite-file path="ConsignmentInbound.xml"/>
 <!--        <suite-file path="TestPageFirearmConsignment.xml"/>-->
 
 <!--        <suite-file path="TestPageLoginSecurity.xml"/>-->
 <!--        <suite-file path="SingleSignOnTest.xml"/>-->
 <!--        <suite-file path="TestPageWeiDimUAT.xml"/>-->
-        <suite-file path="TestConsignmentExternalUser.xml"/>
-        <suite-file path="TestAutoGenConsignmentIDExtUser .xml"/>
+<!--        <suite-file path="TestConsignmentExternalUser.xml"/>-->
+<!--        <suite-file path="TestAutoGenConsignmentIDExtUser .xml"/>-->
 
 
 
