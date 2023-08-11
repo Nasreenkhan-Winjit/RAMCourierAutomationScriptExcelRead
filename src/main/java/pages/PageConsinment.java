@@ -110,7 +110,7 @@ public class PageConsinment extends BasePage {
 
     @CacheLookup
     // Select Firearm and verify
-    @FindBy(how = How.XPATH, using = "//div[@class='v-list__tile__content']/div[contains(text(),'Firearms')]")
+    @FindBy(how = How.XPATH, using = "//div[@class='v-list__tile__content']/div[contains(text(),'Arms and Ammunition')]")
     private WebElement elementMenuCommodityFirearms;
 
 

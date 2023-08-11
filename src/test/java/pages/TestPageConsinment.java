@@ -67,7 +67,7 @@ public class TestPageConsinment extends TestBase {
     @Test
     public void verifyValueStepperIsNotPresentOnSelectionOfDoc() throws InterruptedException {
         pageConsignment = new PageConsinment(eventFiringWebDriver);
-        Thread.sleep(20000);
+        Thread.sleep(30000);
 //        pageConsignment.clickOnConsignmentDropdown();
 //        Thread.sleep(5000);
         pageConsignment.clickOnSettingsIcon();

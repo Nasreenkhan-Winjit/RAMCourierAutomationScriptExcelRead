@@ -4,16 +4,16 @@
   <listeners>
     <listener class-name="utilities.listener.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Test Consignment ExternalUser assigned MultipleBilledTos(failed)" verbose="0">
+  <test thread-count="5" name="Test Consignment(failed)" verbose="0">
     <classes>
-      <class name="pages.TestConsignmentExternalUser">
+      <class name="pages.TestPageConsinment">
         <methods>
           <include name="setUp"/>
-          <include name="externalUserConsignmentInbound" invocation-numbers="0"/>
           <include name="tearBrowser"/>
+          <include name="verifyValueStepperIsNotPresentOnSelectionOfDoc"/>
           <include name="waitForLoad"/>
         </methods>
-      </class> <!-- pages.TestConsignmentExternalUser -->
+      </class> <!-- pages.TestPageConsinment -->
     </classes>
-  </test> <!-- Test Consignment ExternalUser assigned MultipleBilledTos(failed) -->
+  </test> <!-- Test Consignment(failed) -->
 </suite> <!-- Failed suite [Valid Login Scenario] -->
